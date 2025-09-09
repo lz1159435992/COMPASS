@@ -1,0 +1,38 @@
+\section{Background}
+\label{sec:background}
+
+This section provides the necessary background knowledge to understand our hybrid RL+LLM framework for SMT constraint simplification. We cover the fundamental concepts of SMT solving, reinforcement learning, and large language model applications in formal reasoning.
+
+\subsection{SMT Solving Fundamentals}
+
+\textbf{Satisfiability Modulo Theories (SMT)} extends Boolean satisfiability (SAT) solving to handle richer theories such as linear arithmetic, bit-vectors, arrays, and uninterpreted functions~\cite{barrettSMTLIBStandard}. An SMT formula combines propositional logic with constraints from these background theories, enabling reasoning about program properties, verification conditions, and symbolic execution path conditions.
+
+Modern SMT solvers like Z3~\cite{z3} and CVC5~\cite{cvc5} employ a \textbf{DPLL(T)} architecture that integrates a SAT solver with theory-specific decision procedures. The SAT solver handles the Boolean structure while theory solvers reason about domain-specific constraints. When the SAT solver finds a Boolean assignment, theory solvers check its consistency within their respective theories. Conflicts detected by theory solvers are communicated back as learned clauses, guiding future search.
+
+\textbf{Constraint Complexity} in SMT solving arises from several sources: (1) \textit{Theory interactions}, where constraints span multiple theories requiring complex reasoning; (2) \textit{Nonlinear arithmetic}, which lacks complete decision procedures and often requires heuristic approaches; (3) \textit{Quantifier instantiation}, where universal and existential quantifiers create exponential search spaces; and (4) \textit{Bit-vector operations}, particularly modular arithmetic and bit-level manipulations that create discontinuous solution spaces.
+
+The performance bottleneck in symbolic execution typically occurs when path conditions accumulate complex constraints that overwhelm solver capabilities, leading to timeouts or exponential solving times~\cite{DBLP:conf/tacas/BischoffL21}.
+
+\subsection{Reinforcement Learning Basics}
+
+\textbf{Markov Decision Processes (MDPs)} provide the mathematical foundation for sequential decision-making under uncertainty. An MDP is defined by a tuple $(S, A, P, R, \gamma)$ where $S$ is the state space, $A$ is the action space, $P: S \times A \times S \rightarrow [0,1]$ is the transition probability function, $R: S \times A \rightarrow \mathbb{R}$ is the reward function, and $\gamma \in [0,1]$ is the discount factor.
+
+\textbf{Policy Learning} aims to find an optimal policy $\pi^*: S \rightarrow A$ that maximizes expected cumulative reward. Value-based methods learn state-value functions $V^\pi(s)$ or action-value functions $Q^\pi(s,a)$, while policy gradient methods directly optimize parameterized policies. Actor-critic methods combine both approaches, using a critic to estimate value functions and an actor to update the policy.
+
+\textbf{Exploration vs Exploitation} represents a fundamental challenge in RL. Pure exploitation of current knowledge may miss better solutions, while excessive exploration wastes computational resources. Modern algorithms like Soft Actor-Critic (SAC)~\cite{haarnoja2018soft} address this through entropy regularization, encouraging exploration while maintaining sample efficiency.
+
+\textbf{Reward Function Design} critically influences learning effectiveness. Sparse rewards (only at episode termination) can lead to slow learning, while dense rewards (at each step) provide more learning signal but risk reward hacking. Multi-component reward functions balance immediate feedback with long-term objectives, often incorporating domain knowledge to guide learning.
+
+\subsection{Large Language Models in Formal Reasoning}
+
+\textbf{Pre-trained Language Models} have demonstrated surprising capabilities in logical reasoning and code understanding tasks. Models like GPT-4, LLaMA, and CodeBERT are trained on vast corpora including source code, mathematical texts, and formal specifications, enabling them to understand structural patterns in logical formulas and programming constructs.
+
+\textbf{Code Understanding Capabilities} of LLMs extend beyond syntax to semantic relationships. They can identify variable dependencies, understand control flow, and reason about data transformations. This semantic understanding proves valuable for constraint analysis, where variable relationships and logical dependencies determine simplification opportunities.
+
+\textbf{Prompt Engineering for Logical Tasks} involves carefully crafting input prompts to elicit desired reasoning behaviors. Effective prompts for constraint solving typically include: (1) \textit{Context specification}, providing the logical formula and variable domains; (2) \textit{Task description}, clearly stating the objective (e.g., "generate a value for variable x"); (3) \textit{Constraint awareness}, highlighting relevant logical dependencies; and (4) \textit{Historical context}, including previous failed attempts to avoid repetition.
+
+\textbf{Integration with Symbolic Systems} represents an active research area. Approaches range from LLMs generating candidate solutions for symbolic verification~\cite{ye2023satlm} to hybrid systems where LLMs provide heuristic guidance for symbolic search~\cite{pan2023logiclm}. The key challenge lies in ensuring that LLM outputs respect logical constraints and contribute meaningfully to symbolic reasoning processes.
+
+Recent work has shown that LLMs can effectively generate program invariants~\cite{kamath2023finding}, synthesize verification conditions, and even assist in theorem proving tasks. However, their probabilistic nature requires careful integration with deterministic symbolic methods to maintain soundness guarantees.
+
+The combination of RL strategic planning with LLM semantic understanding represents a novel approach that leverages the complementary strengths of both paradigms: RL's ability to learn optimal sequential decisions and LLMs' capacity for semantic reasoning about code and logical structures.

@@ -1,0 +1,7 @@
+2024-10-23 22:36:16 | ERROR | stderr | usage: model_worker.py [-h] [--host HOST] [--port PORT] [--worker-address WORKER_ADDRESS] [--controller-address CONTROLLER_ADDRESS] [--model-path MODEL_PATH] [--revision REVISION]
+2024-10-23 22:36:16 | ERROR | stderr |                        [--device {cpu,cuda,mps,xpu,npu}] [--gpus GPUS] [--num-gpus NUM_GPUS] [--max-gpu-memory MAX_GPU_MEMORY] [--dtype {float32,float16,bfloat16}] [--load-8bit] [--cpu-offloading]
+2024-10-23 22:36:16 | ERROR | stderr |                        [--gptq-ckpt GPTQ_CKPT] [--gptq-wbits {2,3,4,8,16}] [--gptq-groupsize GPTQ_GROUPSIZE] [--gptq-act-order] [--awq-ckpt AWQ_CKPT] [--awq-wbits {4,16}] [--awq-groupsize AWQ_GROUPSIZE]
+2024-10-23 22:36:16 | ERROR | stderr |                        [--enable-exllama] [--exllama-max-seq-len EXLLAMA_MAX_SEQ_LEN] [--exllama-gpu-split EXLLAMA_GPU_SPLIT] [--exllama-cache-8bit] [--enable-xft] [--xft-max-seq-len XFT_MAX_SEQ_LEN]
+2024-10-23 22:36:16 | ERROR | stderr |                        [--xft-dtype {fp16,bf16,int8,bf16_fp16,bf16_int8}] [--model-names MODEL_NAMES] [--conv-template CONV_TEMPLATE] [--embed-in-truncate] [--limit-worker-concurrency LIMIT_WORKER_CONCURRENCY]
+2024-10-23 22:36:16 | ERROR | stderr |                        [--stream-interval STREAM_INTERVAL] [--no-register] [--seed SEED] [--debug DEBUG] [--ssl]
+2024-10-23 22:36:16 | ERROR | stderr | model_worker.py: error: unrecognized arguments: --load-8bit--cpu-offloading

@@ -1,0 +1,7 @@
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{pics/supervenn-mathsat-comparison.pdf}
+\caption{SuperVenn analysis of MathSAT vs MathSAT+\tool. The diagram shows 18 constraints solved exclusively by MathSAT, 89 constraints solved exclusively by MathSAT+\tool, and 11 constraints solved by both. Total improvement: 29 → 100 (+71 constraints, 244.8\% relative).}
+\label{fig:supervenn-mathsat}
+\end{figure}

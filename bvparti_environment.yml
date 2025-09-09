@@ -1,0 +1,22 @@
+name: bvparti_predictor
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - numpy
+  - pip
+  - pip:
+    - z3-solver
+    - loguru
+    - transformers
+    - openai
+    - ollama
+    - pearl-agent
+    - datasets
+    - scikit-learn

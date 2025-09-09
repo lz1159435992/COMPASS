@@ -1,0 +1,286 @@
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[inline]{enumitem}
+\usepackage{color}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx} 
+\usepackage{xspace}
+\usepackage{etoolbox} % for acronym first-use toggles
+% \usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+    citecolor=blue,
+    anchorcolor=black,
+    pdfborder={0 0 0},
+}
+
+\usepackage{graphicx}%
+\usepackage{wrapfig} % enable wrapfigure/wraptable for half-width floats with text
+\usepackage{subcaption}
+\usepackage[normalem]{ulem}
+% \usepackage{tabularray} % Not available in TeX Live 2019
+% Handle newtxmath and amssymb conflict
+\let\Bbbk\relax % Clear any existing definition
+\usepackage{amssymb} % for checkmark and xmark
+\usepackage{pifont} % for ding symbols
+% \newcommand{\checkmark}{\ding{51}} % Already defined
+\newcommand{\xmark}{\ding{55}}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{listings} 
+\usepackage{lstautogobble}
+% 首次：使用 finalizecache 生成缓存（需 -shell-escape）；随后可切换为 frozencache
+% 生成缓存后，改为 frozencache：无需 shell-escape 亦可稳定复编
+\usepackage[frozencache,cachedir=_minted-main]{minted}
+\usemintedstyle{vs}  % Visual Studio style for code highlighting
+\setminted{
+    frame=single,
+    framesep=4pt,
+    framerule=0.4pt,
+    xrightmargin=10pt,
+    breaklines=false,
+    fontsize=\small,
+    baselinestretch=1.0,
+    escapeinside=||,
+    numbers=none,
+    autogobble,
+    fontfamily=tt,
+    samepage=true
+}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{pict2e}
+% Compact global spacing for figures/tables and captions
+% Keep conservative values to avoid collisions with acmart
+\captionsetup{skip=2pt,belowskip=0pt}
+\captionsetup[sub]{skip=2pt}
+\setlength{\abovecaptionskip}{2pt plus 1pt minus 1pt}
+\setlength{\belowcaptionskip}{2pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\dblfloatsep}{6pt plus 2pt minus 2pt}
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{algorithm}
+\usepackage{multirow}
+\usepackage{mathtools}	
+\usepackage{mdframed}
+\usepackage{syntax}
+% \usepackage[skins]{tcolorbox}
+\usepackage{pgfplots}
+\pgfplotsset{
+	compat=1.4,
+	small,
+	legend style={
+		at={(0.99,0.99)},
+		anchor=north east,
+		font=\bfseries,
+	},
+	label style={font=\sffamily\small\bfseries}
+}
+\usepackage[normalem]{ulem}
+\let\UnderScore_
+
+\newcommand\redout{\bgroup\markoverwith
+	{\textcolor{red}{\rule[.45ex]{1.5pt}{1.pt}}}\ULon}
+
+\global\mdfdefinestyle{default}{%
+	usetwoside=false,%
+	linecolor=black,linewidth=1pt,%
+	innerleftmargin=5pt,innerrightmargin=5,%
+%	leftmargin=-120pt,rightmargin=-120pt,%
+	everyline=true
+}
+
+\newcommand\Myperm[2][^n]{\prescript{#1\mkern-2.5mu}{}P_{#2}}
+\newcommand\Mycomb[2][^n]{\prescript{#1\mkern-0.5mu}{}C_{#2}}
+
+
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{problem}{Problem}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section]
+
+\newcommand\mycommfont[1]{\small\ttfamily\textcolor{blue}{#1}}
+%\SetCommentSty{mycommfont}
+
+\makeatletter
+\newenvironment{btHighlight}[1][]
+{\begingroup\tikzset{bt@Highlight@par/.style={#1}}\begin{lrbox}{\@tempboxa}}
+	{\end{lrbox}\bt@HL@box[bt@Highlight@par]{\@tempboxa}\endgroup}
+
+\newcommand\btHL[1][]{%
+	\begin{btHighlight}[#1]\bgroup\aftergroup\bt@HL@endenv%
+	}
+	\def\bt@HL@endenv{%
+	\end{btHighlight}%   
+	\egroup
+}
+\newcommand{\bt@HL@box}[2][]{%
+	\tikz[#1]{%
+		\pgfpathrectangle{\pgfpoint{1pt}{0pt}}{\pgfpoint{\wd #2}{\ht #2}}%
+		\pgfusepath{use as bounding box}%
+		\node[anchor=base west, fill=orange!25,outer sep=.5pt,inner xsep=0.5pt, inner ysep=0.15pt, rounded corners=1pt, minimum height=\ht\strutbox-.1pt,#1]{\raisebox{.01pt}{\strut}\strut\usebox{#2}};
+	}%
+}
+\makeatother
+
+\definecolor{add-line}{rgb}{0.84, 0.89, 0.97}
+\definecolor{add-word}{rgb}{0.5, 0.7, 0.98}
+\definecolor{ForestGreen}{RGB}{63,147,88}
+\definecolor{remove-line}{rgb}{1.0, 0.93, 0.73}
+\definecolor{remove-word}{rgb}{1.0, 0.8, 0.2}
+\definecolor{Gray}{gray}{0.9}
+%\definecolor{git-remove}{rgb}{red!20}
+%\definecolor{git-add}{rgb}{green!20}}
+\definecolor{orange}{rgb}{0.84, 0.89, 0.97}
+
+% inline author comment macro (set to empty to hide in camera-ready)
+\newcommand{\lz}[1]{\textcolor{ForestGreen}{#1}}
+
+\newcommand{\lstbg}[3][0pt]{{\fboxsep#1\colorbox{#2}{\strut #3}}}
+
+\lstdefinestyle{mystyle}{  
+	% backgroundcolor=\color{backcolour},   
+	frame=single, 
+    % basicstyle=\tiny\ttfamily\bfseries,
+	framexleftmargin=0pt,
+	commentstyle=\color{ForestGreen},
+	keywordstyle=\color{blue}\bfseries,
+	numberstyle=\normalsize\color{gray},
+	stringstyle=\color{purple},
+	basicstyle=\normalsize\ttfamily\bfseries,
+	breakatwhitespace=false,         
+	breaklines=false,                 
+	captionpos=b,                    
+	keepspaces=true,     
+	numbers=none,                    
+	numbersep=4pt,               
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,  
+	language=C++,  
+	escapechar=\@,  
+	%moredelim=**[is][{\btHL[fill=light-gray]}]]{#}{#},
+	%moredelim=**[is][{\btHL[fill=chromeyellow]}]]{'}{'},
+	%morecomment=[f][\lstbg{light-yellow}]-,
+    %morecomment=[f][\lstbg{light-gray}]+,
+	moredelim=**[is][{\btHL[fill=red!40]}]{@}{@},%,draw=red,dashed,thick	
+	moredelim=**[is][{\btHL[fill=remove-line]}]{|*}{*|},
+	moredelim=**[is][{\btHL[fill=remove-word]}]{|^}{^|},
+	moredelim=**[is][{\btHL[fill=add-line]}]{||^}{^||},	
+	moredelim=**[is][{\btHL[fill=add-word]}]{||*}{*||}
+    % moredelim=**[is][{\btHL[fill=orange]}]{#}{#}
+} 
+\let\origthelstnumber\thelstnumber
+\makeatletter
+\newcommand*\Suppressnumber{%
+  \lst@AddToHook{OnNewLine}{%
+    \let\thelstnumber\relax%
+     \advance\c@lstnumber-\@ne\relax%
+    }%
+}
+
+\lstdefinestyle{inlinestyle}{
+	language=C++,
+    basicstyle=\small\ttfamily\bfseries,
+}
+
+\newcommand*\Reactivatenumber[1]{%
+  \setcounter{lstnumber}{\numexpr#1-1\relax}
+  \lst@AddToHook{OnNewLine}{%
+   \let\thelstnumber\origthelstnumber%
+   \refstepcounter{lstnumber}%
+  }%
+}
+\makeatother
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\renewcommand*\Call[2]{\textproc{#1}(#2)}
+%\newcommand{\LineComment}[1]{\Statex \hfill /* #1 */}
+\algnewcommand{\LineComment}[1]{\Statex #1}
+%\algnewcommand{\LineComment}[1]{\Statex \hskip\ALG@defaultindent \(\triangleright\) #1}
+\algrenewcommand\algorithmicindent{1.0em}
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.1pt] (char) {#1};}}
+
+\usetikzlibrary{shapes,positioning,arrows.meta, calc, decorations.pathreplacing, matrix}
+\usepackage{colortbl}
+\definecolor{Gray}{gray}{0.85}
+\tikzset{draw half paths/.style 2 args={%
+  decoration={show path construction,
+    lineto code={
+      \draw [#1] (\tikzinputsegmentfirst) -- 
+         ($(\tikzinputsegmentfirst)!0.5!(\tikzinputsegmentlast)$);
+      \draw [#2] ($(\tikzinputsegmentfirst)!0.5!(\tikzinputsegmentlast)$)
+        -- (\tikzinputsegmentlast);
+    }
+  }, decorate
+}}
+\usepackage{tikz-qtree}
+
+
+%======font
+%\usepackage{inconsolata}
+%\usepackage{fontspec}
+%\renewcommand*{\ttdefault}{Inconsolata}
+%\let\OldTexttt\texttt
+%\renewcommand{\texttt}[1]{{{\bfseries\itshape #1}}}
+
+%\DeclareTextFontCommand{\textmtt}{\inconsolata}
+\newcommand{\textmtta}[1]{{\fontfamily{zi4}\selectfont #1}}
+\newcommand{\textmttb}[1]{{\fontfamily{ul9}\selectfont #1}}
+\newcommand{\textmttc}[1]{{\fontfamily{jkptt}\selectfont #1}}
+\newcommand{\textmttd}[1]{{\fontfamily{fvs}\selectfont #1}} %old fvm
+%\newcommand{\textmtte}[1]{{\small\fontfamily{txtt}\selectfont #1}}
+\newcommand{\textmtte}[1]{{\fontsize{9}{11}\fontfamily{txtt}\selectfont #1}}
+\newcommand{\textmttf}[1]{{\fontfamily{ztm}\selectfont #1}}
+\newcommand{\textmttg}[1]{{\fontfamily{cmvtt}\selectfont #1}}
+
+%\renewcommand*\ttdefault{txtt}
+%\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+%\usepackage[T1]{fontenc}
+
+
+\renewcommand{\texttt}[1]{\textmtte{#1}}
+% Note: use \myinline|foo{}| or \myinline{a || b}.
+\newcommand{\myinline}{\lstinline[style=inlineStyle]}
+% \def\myinline{\lstinline[style=inlineStyle]}
+\DeclareTextFontCommand{\mytexttt}{\small\ttfamily\bfseries}
+
+
+%\newcommand*{\textmttaa}{\fontfamily{zi4}\selectfont}
+%
+%\newcommand*{\textmttbb}{\fontfamily{ul9}\selectfont}
+%
+%\newcommand*{\textmttcc}{\fontfamily{jkptt}\selectfont}
+%
+%\DeclareTextFontCommand{\textmtta}{\textmttaa}
+%\DeclareTextFontCommand{\textmttb}{\textmttbb} 
+%\DeclareTextFontCommand{\textmttc}{\textmttcc}
+
+\newcommand{\myparagraph}[1]{\vspace{3pt}
+\noindent
+\textbf{\textit{#1}}\, 
+}

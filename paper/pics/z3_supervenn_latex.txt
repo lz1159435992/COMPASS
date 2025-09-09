@@ -1,0 +1,6 @@
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{pics/supervenn-z3-comparison.pdf}
+\caption{SuperVenn analysis of Z3 vs Z3+\tool. The diagram shows 1 constraints solved exclusively by Z3, 23 constraints solved exclusively by Z3+\tool, and 71 constraints solved by both. Total improvement: 72 → 94 (+22 constraints, 30.6\% relative).}
+\label{fig:supervenn-z3}
+\end{figure}

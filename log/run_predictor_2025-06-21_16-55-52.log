@@ -1,0 +1,30 @@
+2025-06-21 16:55:52.970 | INFO     | __main__:run_predictor:552 - 文件已存在。
+2025-06-21 16:55:53.059 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731
+2025-06-21 16:55:53.159 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731
+2025-06-21 16:55:53.375 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:53.389 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6665859
+2025-06-21 16:55:53.420 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6665859
+2025-06-21 16:55:53.604 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6665859 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:53.624 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6667828
+2025-06-21 16:55:53.667 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6667828
+2025-06-21 16:55:53.846 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6667828 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:53.866 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/link/link35823
+2025-06-21 16:55:53.879 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/link/link35823
+2025-06-21 16:55:54.057 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/link/link35823 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:54.077 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128942
+2025-06-21 16:55:54.121 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128942
+2025-06-21 16:55:54.299 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128942 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:54.318 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135098
+2025-06-21 16:55:54.358 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135098
+2025-06-21 16:55:54.537 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135098 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:54.557 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133661
+2025-06-21 16:55:54.600 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133661
+2025-06-21 16:55:54.778 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133661 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:54.798 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123936
+2025-06-21 16:55:54.893 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123936
+2025-06-21 16:55:55.071 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123936 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:55.091 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97941
+2025-06-21 16:55:55.124 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97941
+2025-06-21 16:55:55.301 | ERROR    | __main__:process_single_file:638 - 处理文件 /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97941 时出错: [Errno 2] No such file or directory: 'models/binary_classifier.pth'
+2025-06-21 16:55:55.321 | INFO     | __main__:run_predictor:562 - 处理文件: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143569
+2025-06-21 16:55:55.359 | INFO     | __main__:process_single_file:598 - 开始执行: /home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143569

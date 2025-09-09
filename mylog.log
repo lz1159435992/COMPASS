@@ -1,0 +1,3 @@
+2025-07-31 23:10:29.245 | INFO     | test_rl.test_cvc5.predict_z3_process.QF_NIA_run_advanced_predictor:process_embeding:85 - Embedding generated: length=8192, type=<class 'list'>
+2025-07-31 23:30:41.051 | INFO     | test_rl.test_cvc5.predict_z3_process.QF_NIA_run_advanced_predictor:__init__:244 - 环境初始化完成: 变量数量=1, LLM主机=http://172.29.7.221:32783
+2025-07-31 23:30:41.053 | INFO     | test_rl.test_cvc5.predict_z3_process.QF_NIA_run_advanced_predictor:__init__:244 - 环境初始化完成: 变量数量=1, LLM主机=http://172.29.7.221:32783

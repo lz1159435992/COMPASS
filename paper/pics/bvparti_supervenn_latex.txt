@@ -1,0 +1,6 @@
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{pics/supervenn-bvparti-comparison.pdf}
+\caption{SuperVenn analysis of BVParti vs BVParti+\tool. The diagram shows 0 constraints solved exclusively by BVParti, 17 constraints solved exclusively by BVParti+\tool, and 2 constraints solved by both. Total improvement: 2 → 19 (+17 constraints, 850.0\% relative).}
+\label{fig:supervenn-bvparti}
+\end{figure}

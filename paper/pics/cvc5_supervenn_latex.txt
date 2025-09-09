@@ -1,0 +1,6 @@
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{pics/supervenn-cvc5-comparison.pdf}
+\caption{SuperVenn analysis of CVC5 vs CVC5+\tool. The diagram shows 185 constraints solved exclusively by CVC5, 317 constraints solved exclusively by CVC5+\tool, and 43 constraints solved by both. Total improvement: 228 → 360 (+132 constraints, 57.9\% relative).}
+\label{fig:supervenn-cvc5}
+\end{figure}

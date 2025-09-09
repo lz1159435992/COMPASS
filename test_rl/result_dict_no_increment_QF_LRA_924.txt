@@ -1,0 +1,27 @@
+{
+    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LRA/check/16641102/bignum_lra1.smt2": [
+        "sat",
+        0.006,
+        999999999,
+        {
+            "VAR3": "1/481608372000000000000",
+            "VAR5": "1/12003000000",
+            "VAR1": "1/100000",
+            "VAR2": "-1/3852866976000000000000000",
+            "VAR6": "1/11558600928000000000000000000",
+            "VAR4": "1/1204020930000000"
+        }
+    ],
+    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LRA/check/16641101/bignum_lra2.smt2": [
+        "unsat",
+        0.006,
+        999999999,
+        null
+    ],
+    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LRA/tropical-matrix/16641754/constraint-556101.smt2": [
+        "unknown",
+        884.517,
+        999999999,
+        null
+    ]
+}

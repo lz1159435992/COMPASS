@@ -1,0 +1,52 @@
+\section{Background and Problem Formulation}
+\label{sec:problem-formulation-and-background}
+\wyc{Usually, sec. 2 discusses background, and the motivation is put in sec. 3. Maybe sec.3 can be problem formulation and motivation example.}
+
+The preceding example illustrates the immense potential of strategic simplification. To systematically automate this expert-like intuition, we must first cast the problem into a formal structure amenable to machine learning (ML). This section provides the necessary background, formally defines the simplification task, and models it as an \MDP{} that provides the foundation for our learning-based approach.
+
+\subsection{Background}
+\label{sec:background}
+
+\subsubsection{The Challenge of SMT Solving}
+\SMT{} extends Boolean satisfiability (SAT) to handle richer theories like arithmetic, bit-vectors, and arrays. SMT solvers, such as Z3~\cite{demoura2008z3} and CVC5~\cite{cvc5}, are crucial in software verification and symbolic execution but face performance bottlenecks with complex, quantifier-heavy formulas. The complexity often arises from a vast search space and intricate variable dependencies, leading to timeouts. Our work aims to simplify formulas before they are passed to the solver, mitigating this challenge.
+
+\subsubsection{Reinforcement Learning for Sequential Decision Making}
+\RL{} is a paradigm for learning optimal behavior in sequential decision-making problems. An RL agent interacts with an environment over a series of time steps, learning a policy—a mapping from states to actions—that maximizes a cumulative reward signal. This approach is naturally suited for our problem, as simplifying an SMT query can be framed as a sequence of concretization actions.
+
+However, applying RL to SMT query simplification presents significant challenges. The state space, representing all possible (partially) simplified queries, is vast and continuous. The action space, comprising all variables and their potential concrete values, is similarly large and complex. Furthermore, the most crucial reward signal—the final solver time—is inherently sparse and delayed, as it is only available after a complete sequence of actions. Relying solely on this signal makes learning prohibitively inefficient. In our setting, the most informative outcome (final solve time/status) often arrives only after an entire sequence of concretizations, amplifying reward sparsity and delay.
+
+To overcome these obstacles, Actor–Critic methods provide a useful framework. They decouple the learning problem into two parts: an actor that learns and executes the policy, and a critic that evaluates the policy by estimating the long-term value of states or actions. By providing dense, learned feedback, the critic guides the actor's learning process, enabling it to learn effectively even when external rewards are sparse. This makes Actor–Critic an effective choice for navigating the complexities of our SMT simplification task.
+
+\subsubsection{Large Language Models for Semantic Reasoning}
+While RL can learn which variable to simplify, deciding what concrete value to use requires semantic understanding. \LLM{} excel at this, analyzing a variable's context to generate a plausible value. Our framework leverages \LLM{} as a generator of candidate values, complementing the RL agent's strategic decision-making.
+
+\subsection{Problem Formalization}
+\label{sec:problem-formalization}
+
+We define the problem of simplifying an SMT query $q$ by strategically replacing some of its symbolic variables $V$ with concrete values—a process called concretization. A concretization action is a pair $a = (v, c)$ for a variable $v \in V$ and a concrete value $c$. 
+
+\begin{problem}[Optimal Query Simplification]
+\label{problem:optimal-simplification}
+Given an SMT query $q$ and a time budget $T_{budget}$, find a sequence of concretization actions $\sigma = \langle a_1, \dots, a_k \rangle$ that transforms $q$ into $q'$ such that:
+\begin{enumerate}
+    \item Efficiency: The solving time of the simplified query is minimized: $T_{solve}(q') \le T_{budget}$.
+    \item Soundness (no false positives): If the simplified query $q'$ is satisfiable, then the original query $q$ is satisfiable (i.e., $q' \Rightarrow q$). Because concretization strengthens constraints, $q$ being satisfiable does not imply any particular concretization remains satisfiable. We rely on solver-in-the-loop verification at each step to avoid incorrect conclusions.
+\end{enumerate}
+\end{problem}
+
+Finding an optimal sequence $\sigma$ is intractable due to the combinatorial search space, making the problem well-suited for a learning-based approach like RL.
+
+\wyc{The actual problem formalization is: given a set of constraints, a method is effective iff the total solving time is less than the baseline solver's solving time.}
+
+To learn an effective simplification strategy, we model Problem~\ref{problem:optimal-simplification} as a finite-horizon \MDP{}~\cite{sutton2018reinforcement}, defined by:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{State ($s_t$)}: A representation of the current SMT query $q_t$ and the history of applied concretizations $H_t$.
+
+    \item \textbf{Action ($a_t$)}: A concretization action $(v_t, c_t)$. Our framework decouples this choice: the RL agent selects the variable $v_t$, and the \LLM{} proposes the value $c_t$.
+
+    \item \textbf{Transition ($P$)}: A deterministic function where applying $a_t$ to $s_t$ yields a new state $s_{t+1}$.
+    
+    \item \textbf{Reward ($R(s_t, a_t)$)}: A multi-component reward function that combines dense, predicted rewards based on estimated complexity reduction with sparse, actual rewards from solver feedback. This hybrid approach balances immediate guidance with long-term objectives.
+\end{itemize}
+
+By solving this \MDP{}, the agent learns a policy $\pi$ that approximates the optimal simplification strategy $\sigma^*$. The goal is to maximize the total expected reward, which incentivizes finding short, effective simplification sequences.

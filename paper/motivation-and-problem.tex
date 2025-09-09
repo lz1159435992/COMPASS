@@ -1,0 +1,196 @@
+\section{Motivation and Problem Formulation}
+\label{sec:motivation-and-problem}
+
+% This section builds on the background in Section~\ref{sec:background} to (i) present a synthetic but representative motivating example that illustrates the solver bottleneck and the core intuition behind strategic simplification, and (ii) formalize the simplification task as an \MDP{} suitable for learning-based methods.
+
+In this section, we first present a synthetic but representative motivating example that illustrates the solver bottleneck and the core intuition behind strategic simplification. Then, we formalize the simplification task as an \MDP{} suitable for learning-based methods.
+
+
+\subsection{Motivating Example}
+\label{sec:motivating-example}
+
+To concretize the challenge of semantically blind heuristics and to illustrate why the expert-like intuition introduced in the introduction is effective, we use a synthetic but representative motivating example that captures the challenging path conditions commonly encountered in program analysis.
+
+\subsubsection{A Challenging SMT Formula}
+
+Figure~\ref{fig:motivating-smt-lib} presents a synthetic SMT formula in SMT-LIB2 format designed to be representative of the challenging path conditions observed in program analysis~\cite{cadar2013symbolic}. The formula consists of six integer variables ($x, y, z, a, b, c$) and four conjunctive constraints expressed as separate \texttt{assert} statements, each containing complex nested expressions with \texttt{let} bindings for intermediate computations.
+\begin{figure*}[t]
+    \centering
+    % \Description{A framed SMT-LIB style listing illustrating nonlinear and modular constraints (C1--C4).}
+    \captionsetup{skip=2pt}
+    \begin{lstlisting}[
+        language=Lisp,
+        basicstyle=\footnotesize\ttfamily,
+        frame=none,
+        backgroundcolor=\color{gray!5},
+        breaklines=true,
+        breakatwhitespace=true,
+        showstringspaces=false,
+        tabsize=2,
+        captionpos=b,
+        aboveskip=5pt,
+        belowskip=5pt,
+        xleftmargin=2pt,
+        xrightmargin=2pt
+    ]
+(assert (let ((?x34 (to_real c))) (let ((?x32 (to_real b))) (let ((?x30 (^ a 2))) (let ((?x28 (^ z 2))) (let ((?x24 (^ y 3))) (let ((?x22 (+ (mod (+ (* x 37) 23) 101) (mod (* (- x 30) (- x 30)) 57)))) (= (+ (- (+ (- (+ (to_real ?x22) ?x24) ?x28) ?x30) ?x32) ?x34) 150.0))))))))
+(assert (let ((?x47 (^ c 2))) (let ((?x32 (to_real b))) (let ((?x45 (- (+ (^ x 4) (^ y 3)) (to_real (* (* 5 z) a))))) (< (- (+ ?x45 ?x32) ?x47) 400.0)))))
+(assert (let ((?x87 (+ (mod (+ (* a 12) 301) 101) (mod (* (- a 15) (- a 30)) 57)))) (let ((?x93 (+ ?x87 (mod (* (* (+ a 15) (- a 30)) (- a 11)) 9)))) (let ((?x78 (to_real (* b c)))) (let ((?x75 (to_real a))) (let ((?x64 (+ (mod (+ (* z 12) 301) 101) (mod (* (- z 15) (- z 30)) 57)))) (let ((?x72 (+ ?x64 (mod (* (* (+ z 15) (- z 30)) (- z 11)) 9)))) (let ((?x52 (^ y 2))) (let ((?x51 (^ x 2))) (let ((?x53 (- ?x51 ?x52))) (> (- (+ (+ ?x53 (to_real ?x72)) ?x75) ?x78) (to_real ?x93))))))))))))
+(assert (let ((?x78 (to_real (* b c)))) (let ((?x75 (to_real a))) (let ((?x101 (+ (mod (+ (* z 37) 23) 101) (mod (* (- z 30) (- z 30)) 57)))) (let ((?x52 (^ y 2))) (let ((?x51 (^ x 2))) (let ((?x53 (- ?x51 ?x52))) (and (distinct (- (+ (+ ?x53 (to_real ?x101)) ?x75) ?x78) 55.0) true))))))))
+    \end{lstlisting}
+    \caption{An illustrative SMT formula with nonlinear integer constraints.\lz{There are differences between the previous SMT example and the actual implemented document; further adjustments will be made subsequently.}}
+    \label{fig:motivating-smt-lib}
+    \end{figure*}
+    % (assert
+    % (let ((?x34 (to_real c)))
+    % (let ((?x32 (to_real b)))
+    % (let ((?x30 (^ a 2)))
+    % (let ((?x28 (^ z 2)))
+    % (let ((?x24 (^ y 3)))
+    % (let ((?x22 (+ (mod (+ (* x 37) 23) 101) (mod (* (- x 30) (- x 30)) 57))))
+    % (= (+ (- (+ (- (+ (to_real ?x22) ?x24) ?x28) ?x30) ?x32) ?x34) 150.0))))))))
+    % (assert
+    % (let ((?x47 (^ c 2)))
+    % (let ((?x32 (to_real b)))
+    % (let ((?x45 (- (+ (^ x 4) (^ y 3)) (to_real (* (* 5 z) a)))))
+    % (< (- (+ ?x45 ?x32) ?x47) 400.0)))))
+    % (assert
+    % (let ((?x87 (+ (mod (+ (* a 12) 301) 101) (mod (* (- a 15) (- a 30)) 57))))
+    % (let ((?x93 (+ ?x87 (mod (* (* (+ a 15) (- a 30)) (- a 11)) 9))))
+    % (let ((?x78 (to_real (* b c))))
+    % (let ((?x75 (to_real a)))
+    % (let ((?x64 (+ (mod (+ (* z 12) 301) 101) (mod (* (- z 15) (- z 30)) 57))))
+    % (let ((?x72 (+ ?x64 (mod (* (* (+ z 15) (- z 30)) (- z 11)) 9))))
+    % (let ((?x52 (^ y 2)))
+    % (let ((?x51 (^ x 2)))
+    % (let ((?x53 (- ?x51 ?x52)))
+    % (> (- (+ (+ ?x53 (to_real ?x72)) ?x75) ?x78) (to_real ?x93))))))))))))
+    % (assert
+    % (let ((?x78 (to_real (* b c))))
+    % (let ((?x75 (to_real a)))
+    % (let ((?x101 (+ (mod (+ (* z 37) 23) 101) (mod (* (- z 30) (- z 30)) 57))))
+    % (let ((?x52 (^ y 2)))
+    % (let ((?x51 (^ x 2)))
+    % (let ((?x53 (- ?x51 ?x52)))
+    % (and (distinct (- (+ (+ ?x53 (to_real ?x101)) ?x75) ?x78) 55.0) true))))))))
+    % (check-sat)
+
+
+%     (define-fun C1 () Bool 
+%     (let ((t1 (+ (* x 37) 23))(t2 (- x 30)))
+%       (= (+ (mod t1 101)(mod (* t2 t2) 57)(* y y y)(- (* z z))(* a a)(- b)c)150)))
+
+%   (define-fun C2 () Bool 
+%     (let ((x2 (* x x))(y2 (* y y)))
+%       (< (+ (* x2 x2)(* y2 y)(- (* 5 z a))b(- (* c c)))400)))
+
+%   (define-fun C3 () Bool 
+%     (let* ((z15 (- z 15))(z30 (- z 30))(z11 (- z 11))
+%            (a15 (- a 15))(a30 (- a 30))(a11 (- a 11)))
+%       (> (+ (- (* x x)(* y y))(mod (+ (* z 12)301)101)
+%             (mod (* z15 z30)57)(mod (* (+ z 15)z30 z11)9)a(- (* b c)))
+%          (+ (mod (+ (* a 12)301)101)(mod (* a15 a30)57)
+%             (mod (* (+ a 15)a30 a11)9)))))
+
+%   (define-fun C4 () Bool  
+%     (let ((x2 (* x x))(y2 (* y y))(z30 (- z 30)))
+%       (not (= (+ (- x2 y2)(mod (+ (* z 37)23)101)
+%                  (mod (* z30 z30)57)a(- (* b c)))55))))
+
+%   (assert (and C1 C2 C3 C4))  
+
+% \begin{figure*}[t]
+%         \centering
+%         \Description{A representative motivating example}
+%         \captionsetup{skip=2pt}
+%         \begin{lstlisting}[
+%             language=Lisp,
+%             basicstyle=\footnotesize\ttfamily,
+%             frame=none,
+%             backgroundcolor=\color{gray!5},
+%             breaklines=true,
+%             breakatwhitespace=true,
+%             showstringspaces=false,
+%             tabsize=2,
+%             captionpos=b,
+%             aboveskip=5pt,
+%             belowskip=5pt,
+%             xleftmargin=2pt,
+%             xrightmargin=2pt
+%         ]
+% C1: (((x * 37 + 23) % 101) + ((x - 30)^2 % 57) + y^3 - z^2 + a^2 - b + c) == 150
+% C2: (x^4 + y^3 - 5 * z * a + b - c^2) < 400
+% C3: ((x^2 - y^2) + ((z * 12 + 301) % 101) + ((z - 15) * (z - 30) % 57) + ((z + 15) * (z - 30) * (z - 11) % 9) + a - b * c) > (((a * 12 + 301) % 101) + ((a - 15) * (a - 30) % 57) + ((a + 15) * (a - 30) * (a - 11) % 9))
+% C4: (((x^2 - y^2) + ((z * 37 + 23) % 101) + ((z - 30)^2 % 57) + a - b * c)) != 55
+%         \end{lstlisting}
+%         \caption{An illustrative SMT formula with nonlinear integer constraints.  Full constraint: C1 \& C2 \& C3 \& C4}
+%         \label{fig:motivating-smt}
+%         \end{figure*}
+
+
+
+% This formula exhibits several sources of complexity that are notoriously difficult for SMT solvers. High-degree nonlinear polynomials (e.g., $x^4$) and nested products such as $(z+15)(z-30)(z-11)$ inflate a vast, nonconvex search space, consistent with the inherent hardness of nonlinear integer programming~\cite{murty2002complexity}. Modular arithmetic (the operator \texttt{\%}) introduces discontinuities that force solvers into large case splits, often yielding exponential blow-up. Moreover, variables are strongly coupled across multiple, interdependent constraints; a change to one variable propagates throughout the formula, undermining local propagation and pruning. As a result, even a state-of-the-art solver like Z3~\cite{demoura2008z3} fails to return a result within a 1200-second timeout according to our study (Section~\ref{sec:evaluation}), exemplifying the solver bottleneck that motivates our approach. 
+This formula exhibits several sources of complexity that are notoriously difficult for SMT solvers. First, the nested \texttt{let} bindings create deep expression trees with high-degree nonlinear polynomials (\eg, \texttt{(\textasciicircum{} x 4)} for $x^4$) and complex products such as \texttt{(* (* (+ z 15) (- z 30)) (- z 11))}, which enlarge the search space into vast, nonconvex regions, reflecting the intrinsic hardness of nonlinear integer programming~\cite{murty2002complexity}.
+Second, modular arithmetic operations (\texttt{mod} function) introduce discontinuities that force solvers to perform extensive case splits, frequently causing exponential blow-up.
+Third, the extensive use of type conversions (\texttt{to\_real}) between integer and real domains adds additional complexity layers.
+Finally, variables are strongly coupled across multiple, interdependent \texttt{assert} statements; a change to one variable propagates throughout the formula, undermining local propagation and pruning. As a result, even a state-of-the-art solver like Z3~\cite{demoura2008z3} fails to return a result within a 1200-second timeout according to our study (Section~\ref{sec:evaluation}), exemplifying the solver bottleneck that motivates our approach. 
+
+\subsubsection{Guided Simplification via Variable Concretization}
+
+% Our strategy is to simplify the formula by first identifying and then concretizing the most influential variable. To select the variable, we employ a heuristic analysis based on three metrics: frequency (F) measures the total number of times a variable appears; complexity (C) counts involvement in high-cost nonlinear operations (e.g., powers, products of variables, modulo); and coupling (P) represents the number of distinct constraints in which the variable participates. A higher total ``Impact Score'' ($I = F+C+P$) indicates a greater potential for simplification. Applying this analysis to our example, variable $\mathbf{z}$ emerges as the most influential with the highest Impact Score of 11 (\ie, $4+3+4=11$), as it is the only variable present in all four constraints and is involved in the most complex operations. This makes it the prime candidate for concretization. Detailed per-variable scores are provided in Appendix~\ref{sec:appendix-motivating-scores}.
+
+We find that an efficient way to solve the formula is to simplify it by first identifying and then concretizing the most influential variable. To select the variable, we employ a heuristic analysis based on three metrics: frequency (F) measures the total number of times a variable appears across all \texttt{assert} statements; complexity (C) counts involvement in high-cost nonlinear operations (\eg, \texttt{\textasciicircum{}} for powers, nested multiplications, \texttt{mod} operations); and coupling (P) represents the number of distinct \texttt{assert} statements in which the variable participates. A higher total ``Impact Score'' ($I = F+C+P$) indicates a greater potential for simplification. Applying this analysis to our example, variable $\mathbf{z}$ emerges as the most influential with the highest Impact Score of 11 (\ie, $4+3+4=11$), as it appears in all four \texttt{assert} statements and is involved in the most complex nested expressions within the \texttt{let} bindings. This makes it the prime candidate for concretization. Detailed per-variable scores are provided in Appendix~\ref{sec:appendix-motivating-scores}.
+
+% Once the target variable $\mathbf{z}$ is identified, the subsequent challenge lies in selecting an effective value for concretization. A human expert typically draws from a repertoire of problem-solving heuristics common in software testing and formal analysis. For this instance, two such heuristics are particularly potent: boundary value analysis, which prioritizes small, simple integers (\eg{}, 0, 1, -1), and identity element substitution, which uses neutral values to simplify algebraic expressions.
+% An expert applying these strategies would first recognize that $\mathbf{z}$'s primary contribution to intractability stems from its role within multiple, nested modulo expressions (in C3 and C4) that introduce severe discontinuities. The strategic goal is thus to select a value that resolves these expressions. While both 0 and 1 are simple boundary values, the multiplicative identity, 1, is the superior heuristic choice here. This choice surgically simplifies the formula: it collapses the complex modulo terms (\eg, $(z+15)(z-30)(z-11) \pmod 9$ becomes a constant $5$) while preserving crucial algebraic structure. Terms like $z^n$ reduce to 1 and $z \times k$ to $k$, in contrast to the additive identity, 0, which would nullify entire clauses and risk over-constraining the problem. With the intractable complexity originating from $z$ eliminated, Z3 finds a satisfying model in under one second on the same machine used in Section~\ref{sec:evaluation}.
+Once the candidate variable $\mathbf{z}$ has been identified, the next challenge is to choose an appropriate value for concretization. An incorrect choice may render the formula unsatisfiable, in which case we cannot determine whether it is genuinely unsatisfiable or merely appears so due to the wrong concretization.
+Human experts typically draw on a set of problem-solving heuristics common to software testing and formal verification. For this formula, two heuristics are particularly effective: (i) identity-element substitution, which replaces variables with neutral (identity) values to simplify algebraic expressions; and (ii) boundary-value analysis, which prioritizes small, simple integers (\eg{}, 0, 1, -1).
+The expert applying these strategies would first recognize that $\mathbf{z}$'s primary contribution to intractability stems from its role within multiple, nested \texttt{mod} expressions in the third and fourth \texttt{assert} statements that introduce severe discontinuities. The strategic goal is thus to select a value that resolves these complex \texttt{let}-bound expressions. While both 0 and 1 are simple boundary values, the multiplicative identity, 1, is the superior heuristic choice here.
+This choice surgically simplifies the formula: it collapses the complex modulo terms (\eg, \texttt{(mod (* (* (+ z 15) (- z 30)) (- z 11)) 9)} becomes a constant $5$ when $z=1$) while preserving crucial algebraic structure in the \texttt{let} bindings. Terms like \texttt{(\textasciicircum{} z n)} reduce to 1 and \texttt{(* z k)} to \texttt{k}, in contrast to the additive identity, 0, which would nullify entire sub-expressions and risk over-constraining the problem. With the intractable complexity originating from $z$ eliminated, Z3 finds a satisfying model in under one second on the same machine used in Section~\ref{sec:evaluation}.
+
+\subsubsection{Limitations of Static Heuristics}
+\wyc{to check.}
+\lz{The introduction to the method has been revised to align with the changes made in the intro.}
+The example demonstrates the advantage of choosing both an appropriate variable and value for formulas with complex \texttt{let} bindings. However, this success depends on an analysis tuned to the formula's nested structure: selecting which heuristic to apply and how to balance their trade-offs is highly context-dependent and lacks a general, automated procedure. Specifically, such heuristics, including the ``Impact Score'' we introduced, are not general: they rely on superficial proxies (\eg, occurrence counts or local operator weights) rather than the semantics of how assignments reshape coupled \texttt{assert} statements. Although the ``Impact Score'' correctly identified~$\mathbf{z}$ as a critical variable by analyzing its presence across multiple \texttt{let} bindings, it gives no guidance for choosing a value. The effectiveness of setting~$\mathbf{z}=1$ arises from its dual effect: it removes \texttt{mod}-induced discontinuities while preserving essential algebraic structure in the nested expressions. Because value selection is constraint-specific and depends on the intricate structure of \texttt{let} bindings, designing a single, static and general heuristic is infeasible.
+
+These limitations indicate that a ``one-size-fits-all'' heuristic is insufficient. Indeed, recent work shows that adaptive, learning-based methods often outperform fixed heuristics on structurally diverse reasoning tasks~\cite{chen2021synthesize,wenConstraintSolvingDeep2020,yangExploringStrategiesGuiding2024,luoBoostingSymbolicExecutionTime2021}. Motivated by these findings, our framework introduces a novel approach that, instead of learning a single monolithic policy, decomposes the simplification task into two complementary roles. We introduce a synergistic approach where \RL{} agent learns a strategic policy to select what variable to simplify, and an \LLM{} performs the tactical, semantic task of proposing how to assign its value. This synergy allows each component to leverage its unique strengths---the RL agent for long-term, feedback-driven planning and the LLM for rich, context-aware reasoning---enabling our system to navigate the complex semantic interdependencies of SMT formulas.
+
+\subsection{Problem Formulation}
+\label{sec:problem-formalization}
+
+This section formalizes our approach. We first define the properties of an ideal simplification, establishing the core objectives of our task. We then model this task as a finite-horizon Markov Decision Process, providing the mathematical foundation for our learning-based solution.
+
+\subsubsection{The Optimal Simplification Problem}
+We define the problem of simplifying an SMT query $q$ by strategically replacing some of its symbolic variables $V$ with concrete values—a process called concretization. A concretization action is a pair $a = (v, c)$ for a variable $v \in V$ and a concrete value $c$.
+
+\begin{problem}[Optimal Query Simplification]
+\label{problem:optimal-simplification}
+Given an SMT query $q$ and a time budget $T_{budget}$, find a sequence of concretization actions $\sigma = \langle a_1, \dots, a_k \rangle$ that transforms $q$ into $q'$ such that:
+\begin{enumerate}
+    % \item Efficiency: The solving time of the simplified query is minimized: $T_{solve}(q') \le T_{budget}$.
+    % \item Soundness (no false positives): If the simplified query $q'$ is satisfiable, then the original query $q$ is satisfiable (\ie, $q' \Rightarrow q$). Because concretization strengthens constraints, $q$ being satisfiable does not imply any particular concretization remains satisfiable. We rely on solver-in-the-loop verification at each step to avoid incorrect conclusions.
+    \item Efficiency: The solving time of the simplified query is minimized: $T_{solve}(q') \le T_{budget} \land T_{solve}(q') \le T_{solve}(q)$, where $T_{solve}(q)$ is the time cost for solving a SMT query $q$.
+    \item Soundness: If the simplified query $q'$ is satisfiable, then the original query $q$ is satisfiable (\ie, $q' \Rightarrow q$). 
+\end{enumerate}
+\end{problem}
+\noindent The two properties capture the core requirements of practical query simplification. 
+\emph{Efficiency} ensures that the method is useful in practice: the simplified query $q'$ must not only respect the time budget $T_{budget}$ but also be easier to solve than the original query $q$. Without this property, simplification could waste computational effort or even make solving harder. 
+\emph{Soundness} guarantees correctness: since concretization strengthens the constraints by fixing variable values, any satisfiable solution to $q'$ must also be a solution to the original query $q$. 
+However, we do not require completeness—there is no guarantee that satisfiability of $q$ implies satisfiability of any concretization $q'$, since an unfortunate choice of concretized values may eliminate valid solutions. This trade-off is fundamental: we gain efficiency and soundness, but accept potential loss of completeness.
+
+\subsubsection{Modeling as a Markov Decision Process}
+Finding an optimal sequence $\sigma$ is intractable due to the combinatorial search space, making the problem well-suited for a learning-based approach. To learn an effective simplification strategy, we instantiate the finite-horizon \MDP{} framework introduced in Section~\ref{sec:background}. Since each simplification attempt consists of a finite sequence of actions with a natural termination condition (when all variables are concretized or the time budget is exhausted), we model the task as a finite-horizon \MDP{}, where each attempt constitutes an \textit{episode}. Following the 5-tuple formulation from Section~\ref{sec:background}, our \MDP{} is defined as:
+
+$$
+\mathcal{M}=\bigl(\mathcal{S},\mathcal{A},P,R,H\bigr),
+$$
+
+with:
+\begin{itemize}[leftmargin=*]
+\item \textbf{State Space ($\mathcal{S}$)}: A state $s_t \in \mathcal{S}$ is a tuple $(q_t, \tau_t)$, where $q_t$ is the current SMT formula and $\tau_t$ is the \textit{history} of concretization actions applied so far. In practice, $s_t$ is represented by a high-dimensional vector encoding of $q_t$ that captures its semantic properties (Section~\ref{sec:feature-encoding}).
+\item \textbf{Action Space ($\mathcal{A}$)}: An action $a_t = (v_t, c_t)$ in the environment is a pair consisting of a variable $v_t$ and a concrete integer value $c_t$. This forms a vast composite discrete action space.
+\item \textbf{Transition Function ($P$)}: State transitions are deterministic. Applying an action $a_t=(v_t, c_t)$ to a state $s_t=(q_t, \tau_t)$ yields a new state $s_{t+1} = (q_{t+1}, \tau_{t+1})$, where $q_{t+1} = \textsc{Substitute}(q_t, v_t, c_t)$ and $\tau_{t+1}$ is the history $\tau_t$ appended with $a_t$.
+\item \textbf{Reward Function ($R$)}: The reward $r_t = R(s_t, a_t)$ is generated by our hybrid reward system (Section~\ref{sec:reward-system}), which combines sparse ground-truth signals, dense predictive guidance, and history-based penalties.
+\item \textbf{Horizon ($H$)}: The maximum length of each episode is a fixed, finite horizon $H$, which we set to the total number of variables in the initial formula, $|\mathcal{V}|$.
+\end{itemize}
+In \tool{}, the \RL{} agent's task is to learn the strategic component of this process. Therefore, the agent learns a policy $\pi: \mathcal{S} \rightarrow \mathcal{V}$ that maps a formula's state to the selection of a high-impact variable. The \LLM{} then provides the tactical component by proposing a value for the selected variable, thus completing the full action $a_t$. By maximizing the expected cumulative reward within the horizon $H$, the \RL{} agent learns to guide the simplification process toward short and effective solution paths.

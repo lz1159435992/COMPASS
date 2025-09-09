@@ -1,0 +1,55 @@
+\section{Problem Formulation}
+\label{sec:formalize}
+
+This section formally defines the problem of SMT query simplification through variable concretization and then formulates it as a \MDP{} amenable to reinforcement learning.
+
+\subsection{SMT Query Simplification}
+
+An SMT query, or formula, $q$ consists of a set of logical assertions over a set of symbolic variables $V = \{v_1, v_2, \dots, v_n\}$. The core challenge in symbolic execution is that the time required by a solver to determine the satisfiability of $q$, denoted as $T_{solve}(q)$, can be prohibitively long.
+
+Our goal is to simplify $q$ by strategically replacing some of its symbolic variables with concrete values. This process is called \textbf{concretization}.
+
+\begin{definition}[Concretization Action]
+A concretization action is a pair $a = (v, c)$, where $v \in V$ is a symbolic variable in the query and $c$ is a concrete value from its domain. Applying this action, denoted as $q' \leftarrow q[v \mapsto c]$, yields a new query where all occurrences of $v$ are replaced by $c$.
+\end{definition}
+
+A sequence of such actions forms a simplification strategy. However, not all strategies are beneficial. An arbitrary concretization might inadvertently change a satisfiable (\texttt{sat}) query to an unsatisfiable (\texttt{unsat}) one, leading the symbolic execution engine to prune a valid program path. This motivates our primary problem definition.
+
+\begin{problem}[Optimal Query Simplification]
+\label{problem:optimal-simplification}
+Given an SMT query $q$ and a time budget $T_{budget}$, find a sequence of concretization actions $\sigma = \langle a_1, \dots, a_k \rangle$ that transforms $q$ into $q'$ such that:
+\begin{enumerate*}[label=(\roman*), itemjoin={{; }}, itemjoin*={{; and }}]
+    \item Efficiency: the solving time of the simplified query is minimized: $T_{solve}(q') \le T_{budget}$
+    \item Soundness: if the original query $q$ was satisfiable, $q'$ must also be satisfiable
+\end{enumerate*}.
+\end{problem}
+
+Finding an optimal sequence $\sigma$ is challenging due to the combinatorial search space of variables and their potential values. This makes the problem well-suited for a learning-based approach.
+
+\subsection{Modeling Simplification as a Markov Decision Process}
+To learn an effective simplification strategy, we model Problem 1 as a finite-horizon \MDP{}. The agent's goal is to learn a policy $\pi$ that sequentially selects concretization actions to maximize expected cumulative reward. We define the components of our \MDP{} as follows:
+
+\begin{itemize}
+    \item \textbf{State ($S$)}: A state $s_t$ at step $t$ is a tuple $s_t = (q_t, H_t)$, where $q_t$ is the current SMT query and $H_t = \{(v_0, c_0), \dots, (v_{t-1}, c_{t-1})\}$ is the history of concretizations already applied. The history is included to prevent trivial cycles. The initial state is $s_0 = (q, \emptyset)$.
+
+    \item \textbf{Action ($A$)}: An action $a_t = (v_t, c_t)$ is a concretization action. Our framework decouples this choice:
+    \begin{itemize}
+        \item The RL agent's policy $\pi(v_t | s_t)$ selects \textit{which} variable $v_t$ to concretize.
+        \item A \LLM{}, conditioned on the code context, proposes a suitable concrete value $c_t$.
+    \end{itemize}
+    The action space for the RL agent is thus the set of currently symbolic variables in $q_t$.
+
+    \item \textbf{Transition ($P$)}: Transitions are deterministic. Applying action $a_t$ to state $s_t$ results in a new state $s_{t+1} = (q_t[v_t \mapsto c_t], H_t \cup \{a_t\})$.
+
+    \item \textbf{Reward ($R$)}: The reward function $R(s_t, a_t)$ is designed to directly reflect the objectives in Problem 1. Let $q_t$ and $q_{t+1}$ be the queries before and after the action. The reward $r_t$ is defined as:
+    \[ r_t = \begin{cases} 
+      +R_{success} & \text{if } T_{solve}(q_t) > T_{budget} \text{ and } T_{solve}(q_{t+1}) \le T_{budget} \\
+      -R_{invalid} & \text{if } \text{is\_sat}(q_t) \text{ and not } \text{is\_sat}(q_{t+1}) \\
+      \frac{T_{solve}(q_t) - T_{solve}(q_{t+1})}{T_{solve}(q_t)} & \text{otherwise}
+   \end{cases}
+	\]
+    where $R_{success}$ is a large positive reward for making an intractable query tractable, and $R_{invalid}$ is a large negative penalty for invalidating a satisfiable formula. The final term rewards the relative reduction in solver time, providing a dense learning signal.
+\end{itemize}
+
+By solving this \MDP{}, the agent learns a policy $\pi$ that approximates the optimal simplification strategy $\sigma^*$ from Problem 1. The total expected reward incentivizes finding short, effective simplification sequences that respect both efficiency and soundness.
+

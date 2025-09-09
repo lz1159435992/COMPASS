@@ -1,0 +1,14 @@
+MathSAT Paper Updates
+==============================
+
+Table 5 Row:
+MathSAT & 150 & 35 & 67 & 23.3 & 44.7 & 757 & 450 \\
+
+Analysis Text:
+
+\textbf{MathSAT Enhancement Analysis}
+
+Our experiments on 150 mathematical reasoning constraints demonstrate significant improvements: from 35 (23.3\%) to 67 (44.7\%) solved constraints, representing a 21.3 percentage point improvement (91.4\% relative improvement). Figure~\ref{fig:supervenn-mathsat} illustrates this enhancement, showing that [X] constraints were solved exclusively by RL+LLM enhancement, demonstrating the method's ability to tackle mathematical reasoning problems where traditional solving approaches struggle, while [Y] constraints were solved by both baseline and enhanced methods, showing preservation of existing solver capabilities.
+
+The MathSAT results are particularly significant because they demonstrate our method's effectiveness on mathematical reasoning and optimization problems. Unlike general-purpose SMT solvers, MathSAT employs specialized algorithms for mathematical constraints and optimization queries. The 91.4\% improvement in success rate validates that RL+LLM enhancement is effective across mathematical reasoning domains and provides fundamental improvements in constraint simplification for optimization problems.
+

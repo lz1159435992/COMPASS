@@ -1,0 +1,39 @@
+\newcommand{\cf}{\hbox{\emph{cf.}}\xspace}
+\newcommand{\etal}{\hbox{et al.}\xspace}
+\newcommand{\eg}{\hbox{\emph{e.g.}}\xspace}
+\newcommand{\ie}{\hbox{\emph{i.e.}}\xspace}
+\newcommand{\st}{\hbox{\emph{s.t.}}\xspace}
+\newcommand{\wrt}{\hbox{\emph{w.r.t.}}\xspace}
+\newcommand{\etc}{\hbox{\emph{etc.}}\xspace}
+\newcommand{\resp}{\hbox{\emph{resp.}}\xspace}
+\newcommand{\defa}{\hbox{\emph{de facto}}\xspace}
+\newcommand{\vice}{\hbox{vice versa}\xspace}
+
+% Acronym helper: first use -> full (ACR); subsequent -> ACR only
+% Requires etoolbox in packages.tex
+\newcommand{\acrfirst}[3]{% #1 toggle, #2 full (with ACR), #3 ACR
+  \iftoggle{#1}{#3}{#2\global\toggletrue{#1}}}
+
+% Define toggles
+\newtoggle{smt} \togglefalse{smt}
+\newtoggle{sat} \togglefalse{sat}
+\newtoggle{rl}  \togglefalse{rl}
+\newtoggle{llm} \togglefalse{llm}
+\newtoggle{smtcomp} \togglefalse{smtcomp}
+\newtoggle{qflia} \togglefalse{qflia}
+\newtoggle{qfnia} \togglefalse{qfnia}
+\newtoggle{mdp} \togglefalse{mdp}
+\newtoggle{sac} \togglefalse{sac}
+\newtoggle{plm} \togglefalse{plm}
+
+% Wrappers
+\newcommand{\SMT}{\acrfirst{smt}{satisfiability modulo theories (SMT)}{SMT}}
+\newcommand{\SAT}{\acrfirst{sat}{boolean satisfiability problem (SAT)}{SAT}}
+\newcommand{\RL}{\acrfirst{rl}{reinforcement learning (RL)}{RL}}
+\newcommand{\LLM}{\acrfirst{llm}{large language model (LLM)}{LLM}}
+\newcommand{\SMTCOMP}{\acrfirst{smtcomp}{SMT competition (SMT-COMP)}{SMT-COMP}}
+\newcommand{\QFLIA}{\acrfirst{qflia}{quantifier-free linear integer arithmetic (QF\_LIA)}{QF\_LIA}}
+\newcommand{\QFNIA}{\acrfirst{qfnia}{quantifier-free nonlinear integer arithmetic (QF\_NIA)}{QF\_NIA}}
+\newcommand{\MDP}{\acrfirst{mdp}{Markov decision process (MDP)}{MDP}}
+\newcommand{\SAC}{\acrfirst{sac}{soft actor-critic (SAC)}{SAC}}
+\newcommand{\PLM}{\acrfirst{plm}{pretrained language model (PLM)}{PLM}}

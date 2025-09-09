@@ -1,0 +1,16 @@
+# Ignore all .log files
+*.log
+
+# Ignore all .npy files
+*.npy
+
+# Ignore log directories
+log/
+logs/
+
+# Ignore common data directories that might contain .npy files
+data/
+datasets/
+models/
+checkpoints/
+saved_models/

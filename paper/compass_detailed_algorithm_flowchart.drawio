@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="xxx" version="22.1.16" type="device">
+  <diagram name="COMPASS Detailed Algorithm Flowchart" id="compass-detailed-flowchart">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="COMPASS Algorithm: Detailed Flowchart (Algorithm 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Start -->
+        <mxCell id="start" value="Start: SimplifyConstraint(Q_init, S)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Initialization -->
+        <mxCell id="init1" value="Q_base ← Normalize(Q_init)&#xa;(Line 2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="init2" value="agent ← InitializeSAC(&#xa;GetActionSpaceSize(Q_base))&#xa;(Line 3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="init3" value="counter_ex ← []&#xa;(Line 4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Outer Loop Start -->
+        <mxCell id="outer-start" value="Outer Loop: While True&#xa;(Line 5)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Trial Reset -->
+        <mxCell id="trial-reset" value="Q ← Q_base; s ← Embed(Q)&#xa;last_perf ← 0&#xa;current_sequence ← []&#xa;(Lines 6-8)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="560" width="240" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Inner Loop Start -->
+        <mxCell id="inner-start" value="Inner Loop: While True&#xa;(Line 9)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- RL Agent Selection -->
+        <mxCell id="rl-select" value="v_t ← agent.SelectVariable(s)&#xa;(Line 10)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- LLM Value Proposal -->
+        <mxCell id="llm-propose" value="c_t ← LlmProposeValue(&#xa;Q, v_t, counter_ex)&#xa;(Line 11)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Concretization -->
+        <mxCell id="concretize" value="Q' ← Concretize(Q, v_t, c_t)&#xa;current_sequence.append((v_t, c_t))&#xa;(Lines 12-13)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="960" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- State Embedding -->
+        <mxCell id="embed" value="s' ← Embed(Q')&#xa;(Line 14)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Solver Call -->
+        <mxCell id="solver" value="(res, t_solve) ← S.solve(&#xa;Q', GetAdaptiveTimeout(s'))&#xa;(Line 15)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="880" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Reward Computation -->
+        <mxCell id="reward" value="(r, current_perf) ←&#xa;ComputeHybridReward(&#xa;res, t_solve, s, s', counter_ex)&#xa;(Line 17)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="960" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Agent Update -->
+        <mxCell id="update" value="agent.Update(s, v_t, r, s')&#xa;(Line 18)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Performance Check -->
+        <mxCell id="perf-check" value="current_perf &lt; last_perf?&#xa;(Line 20)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="880" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Record Failure -->
+        <mxCell id="record-fail" value="AppendToHistory(&#xa;counter_ex, current_sequence)&#xa;break (Line 22-23)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#ff6666;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- SAT Check -->
+        <mxCell id="sat-check" value="res = 'sat'?&#xa;(Line 24)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1100" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Return SAT -->
+        <mxCell id="return-sat" value="Return ⟨'sat', GetModel(S)⟩&#xa;(Line 25)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1220" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Advance State -->
+        <mxCell id="advance" value="s ← s'; Q ← Q'&#xa;last_perf ← current_perf&#xa;(Line 28)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1320" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Return Unknown -->
+        <mxCell id="return-unknown" value="Return ⟨'unknown'⟩&#xa;(Line 30)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1200" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="start" target="init1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="150" as="sourcePoint" />
+            <mxPoint x="700" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="init1" target="init2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="250" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="init2" target="init3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="330" as="sourcePoint" />
+            <mxPoint x="700" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="init3" target="outer-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="outer-start" target="trial-reset">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="530" as="sourcePoint" />
+            <mxPoint x="700" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="trial-reset" target="inner-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="650" as="sourcePoint" />
+            <mxPoint x="700" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="inner-start" target="rl-select">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="720" as="sourcePoint" />
+            <mxPoint x="400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="rl-select" target="llm-propose">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="870" as="sourcePoint" />
+            <mxPoint x="300" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="llm-propose" target="concretize">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="950" as="sourcePoint" />
+            <mxPoint x="300" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="concretize" target="embed">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="990" as="sourcePoint" />
+            <mxPoint x="600" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow11" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="embed" target="solver">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="870" as="sourcePoint" />
+            <mxPoint x="700" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="solver" target="reward">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="950" as="sourcePoint" />
+            <mxPoint x="700" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="reward" target="update">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1000" as="sourcePoint" />
+            <mxPoint x="1000" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="update" target="perf-check">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="870" as="sourcePoint" />
+            <mxPoint x="1100" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow15" value="Yes" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="perf-check" target="record-fail">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="970" as="sourcePoint" />
+            <mxPoint x="1100" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow16" value="No" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="perf-check" target="sat-check">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="920" as="sourcePoint" />
+            <mxPoint x="1100" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow17" value="Yes" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="sat-check" target="return-sat">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1190" as="sourcePoint" />
+            <mxPoint x="1100" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow18" value="No" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="sat-check" target="advance">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1140" as="sourcePoint" />
+            <mxPoint x="1100" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Loop back arrows -->
+        <mxCell id="loop1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#ff0000;dashed=1;" edge="1" parent="1" source="record-fail" target="outer-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="1030" as="sourcePoint" />
+            <mxPoint x="700" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="loop2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#ff0000;dashed=1;" edge="1" parent="1" source="advance" target="inner-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="1350" as="sourcePoint" />
+            <mxPoint x="700" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="Legend:&#xa;• Solid arrows: Sequential flow&#xa;• Dashed red arrows: Loop back&#xa;• Colors: Different algorithm phases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

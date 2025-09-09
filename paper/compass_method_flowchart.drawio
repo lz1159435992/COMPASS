@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="xxx" version="22.1.16" type="device">
+  <diagram name="COMPASS Method Flowchart" id="compass-flowchart">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="COMPASS: Policy Learning and Semantic Synthesis for SMT Constraint Simplification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Input -->
+        <mxCell id="input" value="Input SMT Formula Q_init" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Variable Normalization -->
+        <mxCell id="normalize" value="Variable Normalization&#xa;(Section 4.2)&#xa;&#xa;• Extract structural attributes&#xa;• Sort variables by importance&#xa;• Canonicalize to VAR_1, VAR_2, ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Feature Encoding -->
+        <mxCell id="feature" value="Feature Encoding&#xa;(Section 4.3)&#xa;&#xa;• Pre-trained Language Model&#xa;• Generate semantic embeddings&#xa;• State representation s_t" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="240" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Dual-Agent Policy -->
+        <mxCell id="dual-agent" value="Dual-Agent Policy&#xa;(Section 4.5)&#xa;&#xa;RL Agent: Select variable v_t&#xa;LLM: Propose value c_t" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Multi-Level Reward System -->
+        <mxCell id="reward" value="Multi-Level Hybrid Reward&#xa;(Section 4.4)&#xa;&#xa;• Ground-Truth: Solver outcome&#xa;• Heuristic: Quick checks&#xa;• Estimated: Predictive models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="240" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- COMPASS Algorithm -->
+        <mxCell id="algorithm" value="COMPASS Algorithm&#xa;(Section 4.6)&#xa;&#xa;Outer Loop: New trials&#xa;Inner Loop: Step-by-step&#xa;Performance monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="240" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- SMT Solver -->
+        <mxCell id="solver" value="SMT Solver&#xa;Backend" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Output -->
+        <mxCell id="output" value="Simplified Formula&#xa;or SAT/UNSAT Result" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="input" target="normalize">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="150" as="sourcePoint" />
+            <mxPoint x="600" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="normalize" target="feature">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="feature" target="dual-agent">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="dual-agent" target="solver">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="580" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="solver" target="output">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="670" as="sourcePoint" />
+            <mxPoint x="600" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Feedback arrows -->
+        <mxCell id="feedback1" value="Reward Signal" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#ff0000;dashed=1;" edge="1" parent="1" source="reward" target="dual-agent">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="510" as="sourcePoint" />
+            <mxPoint x="480" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="feedback2" value="Performance&#xa;Monitoring" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#ff0000;dashed=1;" edge="1" parent="1" source="algorithm" target="dual-agent">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="510" as="sourcePoint" />
+            <mxPoint x="720" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="Legend:&#xa;• Solid arrows: Data flow&#xa;• Dashed red arrows: Feedback signals&#xa;• Colors indicate different modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Module Details -->
+        <mxCell id="details" value="Key Components:&#xa;&#xa;1. Variable Normalization: Canonicalizes input&#xa;2. Feature Encoding: Semantic state representation&#xa;3. Dual-Agent Policy: RL + LLM collaboration&#xa;4. Multi-Level Rewards: Ground-truth + Heuristic + Estimated&#xa;5. COMPASS Algorithm: Trial-and-error exploration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="300" height="120" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

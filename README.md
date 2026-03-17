@@ -1,132 +1,306 @@
-![alt](./logo/pearl_long.png)
-# Pearl - A Production-ready Reinforcement Learning AI Agent Library
-### Proudly brought by Applied Reinforcement Learning @ Meta
+# COMPASS: Constraint Simplification via Dual-Agent AI
 
-- v0.1 - Pearl beta-version is now released! Announcements: [Twitter Post](https://x.com/ZheqingZhu/status/1732880717263352149?s=20), [LinkedIn Post](https://www.linkedin.com/posts/zheqingzhubill_github-facebookresearchpearl-a-production-ready-activity-7138647748102258688-rz-g?utm_source=share&utm_medium=member_desktop)
-  - Highlighted on Meta NeurIPS 2023 Official Website: [Website](https://ai.meta.com/events/neurips-2023/)
-  - Highlighted by AI at Meta official handle on Twitter and LinkedIn: [Twitter Post](https://x.com/AIatMeta/status/1734633932975407202?s=20), [LinkedIn Post](https://www.linkedin.com/posts/aiatmeta_neurips2023-activity-7140398603868549120-5T7E?utm_source=share&utm_medium=member_desktop).
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Support Ukraine](https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB)](https://opensource.fb.com/support-ukraine)
-
-More details of the library at our [official website](https://pearlagent.github.io).
-
-The Pearl paper is [available at Arxiv](https://chs6.short.gy/pearl_paper).
-
-Our NeurIPS 2023 Presentation Slides is released [here](https://pearlagent.github.io/pearl_detailed_intro.pdf).
+COMPASS is a dual-agent AI framework for SMT (Satisfiability Modulo Theories) constraint simplification, combining Reinforcement Learning (RL) for variable selection with Large Language Models (LLM) for value generation.
 
 ## Overview
-Pearl is a new production-ready Reinforcement Learning AI agent library open-sourced by the Applied Reinforcement Learning team at Meta. Furthering our efforts on open AI innovation, Pearl enables researchers and practitioners to develop Reinforcement Learning AI agents. These AI agents prioritize cumulative long-term feedback over immediate feedback and can adapt to environments with limited observability, sparse feedback, and high stochasticity. We hope that Pearl offers the community a means to build state-of-the-art Reinforcement Learning AI agents that can adapt to a wide range of complex production environments.
 
-## Getting Started
+COMPASS addresses the challenge of solving complex SMT constraints by:
 
-### Installation
-To install Pearl, you can simply clone this repository and run `pip install -e .` (you need `pip` version ≥ 21.3 and `setuptools` version ≥ 64):
+1. **Variable Selection (RL Agent)**: Uses reinforcement learning to identify which variables to simplify first, based on learned structural features of constraints.
+
+2. **Value Generation (LLM Agent)**: Employs large language models to generate candidate values for selected variables, leveraging pattern recognition from training data.
+
+3. **Hybrid Reward System**: Combines solver feedback with predictor confidence to guide the simplification process.
+
+## Key Features
+
+- **Variable Normalization**: Standardizes variable naming based on structural importance (clause size, frequency, logic operations)
+- **Binary Predictor**: Predicts constraint satisfiability for efficient filtering
+- **8-way Time Predictor**: Estimates solving time to enable selective simplification
+- **Multi-solver Support**: Works with Z3, CVC5, MathSAT5, and BVParti
+
+## Methodology
+
+### Architecture
+
+COMPASS employs a dual-agent architecture:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                      COMPASS Framework                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   ┌─────────────┐         ┌─────────────┐                      │
+│   │  RL Agent   │         │  LLM Agent  │                      │
+│   │ (Variable   │         │  (Value     │                      │
+│   │  Selection) │         │ Generation) │                      │
+│   └──────┬──────┘         └──────┬──────┘                      │
+│          │                       │                              │
+│          ▼                       ▼                              │
+│   ┌─────────────────────────────────────┐                      │
+│   │         Hybrid Reward System        │                      │
+│   │  (Solver Feedback + Predictor Conf) │                      │
+│   └─────────────────────────────────────┘                      │
+│                      │                                          │
+│                      ▼                                          │
+│   ┌─────────────────────────────────────┐                      │
+│   │         SMT Solver (Z3, etc.)       │                      │
+│   └─────────────────────────────────────┘                      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Variable Normalization
+
+Before processing, constraints are normalized using structural features:
+
+1. **Clause Size**: Sum of sizes of clauses containing the variable
+2. **Clause Count**: Number of distinct clauses containing the variable
+3. **Frequency**: Total occurrences in the formula
+4. **Logic Operations**: Number of logic operations involving the variable
+5. **Constant Co-occurrence**: Clauses where variable appears with constants
+
+Variables are renamed as `VAR1, VAR2, ...` based on descending structural importance.
+
+### Predictors
+
+| Predictor | Purpose | Output |
+|-----------|---------|--------|
+| Binary Predictor | Satisfiability prediction | SAT/UNSAT |
+| 8-way Time Predictor | Solving time estimation | Time bins: <1s, 1-5s, 5-30s, 30-60s, 60-120s, 120-300s, 300-600s, >600s |
+
+### RL Training
+
+- **Algorithm**: Soft Actor-Critic (SAC)
+- **State**: Constraint embedding (CodeBERT) + history
+- **Action**: Variable selection for simplification
+- **Reward**: Solver time improvement + predictor confidence
+
+## Project Structure
+
+```
+COMPASS/
+├── pearl/                           # Pearl RL framework (from Meta)
+├── test_rl/
+│   ├── test_script/                 # Core utilities (variable normalization, etc.)
+│   ├── predictor/                   # Predictor models and embeddings
+│   ├── test_QF_NIA/                 # QF_NIA benchmark experiments
+│   ├── test_cvc5/                   # Multi-solver experiments (CVC5, MathSAT, BVParti)
+│   ├── test_overfit/                # Predictor training scripts
+│   ├── test_LLM/                    # LLM variable selection experiments
+│   ├── test_solve/                  # Baseline solver caches
+│   ├── common/                      # Shared modules
+│   ├── features/                    # Embedding vectors
+│   ├── external_references/         # External dependency placeholders
+│   └── archived/                    # Archived/uncertain files
+├── New_RQ1_Effectiveness_Analysis/  # RQ1: Effectiveness analysis
+├── New_RQ2_Component_Analysis/      # RQ2: Component ablation
+├── New_RQ3_Routing_Analysis/        # RQ3: Selective routing
+├── paper/                           # Paper source code (LaTeX)
+├── config.py                        # Centralized path configuration
+├── PATH_MIGRATION_GUIDE.md          # Path migration documentation
+└── requirements.txt                 # Python dependencies
+```
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- CUDA-capable GPU (recommended)
+- Z3 solver (for constraint solving)
+
+### Setup
+
 ```bash
-git clone https://github.com/facebookresearch/Pearl.git
-cd Pearl
-pip install -e .
+# Clone the repository
+git clone https://github.com/lz1159435992/COMPASS.git
+cd COMPASS
+
+# Install Pearl (RL framework)
+cd pearl && pip install -e . && cd ..
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install Z3 solver
+pip install z3-solver
 ```
 
-### Quick Start
-To kick off a Pearl agent with a classic reinforcement learning environment, here's a quick example.
-```py
-from pearl.pearl_agent import PearlAgent
-from pearl.action_representation_modules.one_hot_action_representation_module import (
-    OneHotActionTensorRepresentationModule,
-)
-from pearl.policy_learners.sequential_decision_making.deep_q_learning import (
-    DeepQLearning,
-)
-from pearl.replay_buffers.sequential_decision_making.fifo_off_policy_replay_buffer import (
-    FIFOOffPolicyReplayBuffer,
-)
-from pearl.utils.instantiations.environments.gym_environment import GymEnvironment
+### Configuration
 
-env = GymEnvironment("CartPole-v1")
+1. **External Dependencies**: Some scripts reference external data files. Placeholders are provided in `test_rl/external_references/`. Replace these with your actual data.
 
-num_actions = env.action_space.n
-agent = PearlAgent(
-    policy_learner=DeepQLearning(
-        state_dim=env.observation_space.shape[0],
-        action_space=env.action_space,
-        hidden_dims=[64, 64],
-        training_rounds=20,
-        action_representation_module=OneHotActionTensorRepresentationModule(
-            max_number_actions=num_actions
-        ),
-    ),
-    replay_buffer=FIFOOffPolicyReplayBuffer(10_000),
-)
+2. **Path Configuration**: Use `config.py` for centralized path management:
 
-observation, action_space = env.reset()
-agent.reset(observation, action_space)
-done = False
-while not done:
-    action = agent.act(exploit=False)
-    action_result = env.step(action)
-    agent.observe(action_result)
-    agent.learn()
-    done = action_result.done
+```python
+from config import get_baseline_path, get_external_file
+
+# Get baseline file path
+nia_path = get_baseline_path('NIA')
+
+# Get external reference file
+rl_dict_path = get_external_file('info_dict_rl')
 ```
-Users can replace the environment with any real-world problems.
 
-## Tutorials
-1. The first tutorial of Pearl focuses on recommender systems. We derived a small contrived recommender system environment using the MIND dataset (Wu et al. 2020). More details in https://github.com/facebookresearch/Pearl/tree/main/pearl/tutorials/single_item_recommender_system_example/demo.ipynb
+See `PATH_MIGRATION_GUIDE.md` for detailed path migration instructions.
 
-2. The second tutorial of Pearl focuses on contextual bandit algorithms and their implementation using Pearl library. We designed a contextual bandit environment based on UCI dataset and tested the performance of neural implementations of SquareCB, LinUCB, and LinTS. More details in https://github.com/facebookresearch/Pearl/tree/main/pearl/tutorials/contextual_bandits/contextual_bandits_tutorial.ipynb
+## Usage
 
-More tutorials coming in 2024.
+### Running Experiments
 
-## Design and Features
-![alt](./logo/agent_interface.png)
-Pearl was built with a modular design so that industry practitioners or academic researchers can select any subset and flexibly combine features below to construct a Pearl agent customized for their specific use cases. Pearl offers a diverse set of unique features for production environments, including dynamic action spaces, offline learning, intelligent neural exploration, safe decision making, history summarization, and data augmentation.
+#### SMTimer Z3 Experiment (RQ1)
 
-You can find many Pearl agent candidates with mix-and-match set of reinforcement learning features in utils/scripts/benchmark_config.py
-
-## Adoption in Real-world Applications
-Pearl is in progress supporting real-world applications, including recommender systems, auction bidding systems and creative selection. Each of them requires a subset of features offered by Pearl. To visualize the subset of features used by each of the applications above, see the table below.
-<center>
-
-|Pearl Features | Recommender Systems | Auction Bidding | Creative Selection |
-|:-------------:|:-------------------:|:---------------:|:------------------:|
-|Policy Learning| ✅ |✅|✅|
-|Intelligent Exploration|✅|✅ |✅|
-|Safety| | ✅ | |
-|History Summarization| | ✅ | |
-|Replay Buffer| ✅ |✅ |✅ |
-|Contextual Bandit| | |✅|
-|Offline RL|✅|✅||
-|Dynamic Action Space|✅||✅|
-|Large-scale Neural Network|✅|||
-
-</center>
-
-## Comparison to Other Libraries
-<center>
-
-|Pearl Features | Pearl  | ReAgent (Superseded by Pearl) | RLLib | SB3|Tianshou | Dopamine |
-|:-------------:|:------:|:-----------------------------:|:-----:|:--:|:-----:|:----:|
-|Agent Modularity|✅|❌|❌|❌|❌|❌|
-|Dynamic Action Space|✅|✅|❌|❌|❌|❌|
-|Offline RL|✅|✅|✅|✅|✅|❌|
-|Intelligent Exploration|✅|❌|❌|❌|⚪ (limited support)|❌|
-|Contextual Bandit|✅|✅|⚪ (only linear support)|❌|❌|❌|
-|Safe Decision Making|✅|❌|❌|❌|❌|❌|
-|History Summarization|✅|❌|✅|❌|⚪ (requires modifying environment state)|❌|
-|Data Augmented Replay Buffer|✅|❌|✅|✅|✅|❌|
-
-</center>
-
-## Cite Us
+```bash
+cd test_rl
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py
 ```
-@article{pearl2023paper,
-    title = {Pearl: A Production-ready Reinforcement Learning Agent},
-    author = {Zheqing Zhu, Rodrigo de Salvo Braz, Jalaj Bhandari, Daniel Jiang, Yi Wan, Yonathan Efroni, Ruiyang Xu, Liyuan Wang, Hongbo Guo, Alex Nikulkov, Dmytro Korenkevych, Urun Dogan, Frank Cheng, Zheng Wu, Wanqiao Xu},
-    eprint = {arXiv preprint arXiv:2312.03814},
-    year = {2023}
+
+#### QF_NIA Benchmark Experiment
+
+```bash
+cd test_rl
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py
+```
+
+#### RQ2 Ablation Experiments
+
+```bash
+# RL + LLM (full COMPASS)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py
+
+# LLM only (no RL)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_llm_only_v2.py
+
+# Random selection (baseline)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_random_1223.py
+```
+
+### Training Predictors
+
+```bash
+cd test_rl/test_overfit
+python train_smtimer_llm_predictors.py
+```
+
+### Variable Normalization
+
+```python
+from test_rl.test_script.utils import normalize_smt_str
+
+# Normalize SMT-LIB2 constraint
+smtlib_str = "(declare-fun x () Int) (assert (> x 0))"
+normalized, var_dict, constants = normalize_smt_str(smtlib_str)
+```
+
+## Experimental Results
+
+### RQ1: Effectiveness
+
+| Benchmark | Baseline (Z3) | COMPASS | Improvement |
+|-----------|---------------|---------|-------------|
+| SMTimer | 72 solved | 94 solved | +30.6% |
+| QF_NIA (SMT-COMP) | - | - | +12.3% |
+| QF_LIA (SMT-COMP) | - | - | +4.6% |
+
+### RQ2: Component Analysis
+
+- **RL + LLM**: Full COMPASS performance
+- **LLM only**: 15% reduction in solved instances
+- **Random selection**: 40% reduction in solved instances
+
+### RQ3: Selective Simplification
+
+- Routing threshold: 0.8% of instances
+- Time reduction: 12.6%
+- Accuracy: 95%+ on routing decisions
+
+## Datasets
+
+### Benchmarks Used
+
+| Dataset | Description | Size |
+|---------|-------------|------|
+| **SMTimer** | Real-world SMT constraints from program analysis | 710 instances |
+| **SMT-COMP QF_NIA** | Quantifier-Free Non-Linear Integer Arithmetic | 3,000+ instances |
+| **SMT-COMP QF_LIA** | Quantifier-Free Linear Integer Arithmetic | 5,000+ instances |
+| **SMT-COMP QF_BV** | Quantifier-Free Bit-Vector theory | 4,000+ instances |
+
+### Data Location
+
+- **Baseline caches**: `test_rl/test_solve/`
+- **Predictor training data**: `test_rl/test_overfit/`
+- **Experiment results**: `test_rl/info_dict_*.txt`
+
+## Code Structure
+
+### Core Modules
+
+| Module | Location | Description |
+|--------|----------|-------------|
+| Variable Normalization | `test_rl/test_script/utils.py` | `normalize_smt_str()` function |
+| RL Environment | `test_rl/env_gai_6_llm_add_ce_predictor_docker.py` | COMPASS RL environment |
+| Binary Predictor | `test_rl/bert_predictor_mask.py` | SAT/UNSAT prediction |
+| Time Predictor | `test_rl/bert_predictor_2_mask.py` | 8-way time classification |
+| Embedding | `test_rl/embedding.py` | CodeBERT-based embedding |
+
+### Key Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py` | Main SMTimer experiment |
+| `test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py` | QF_NIA benchmark |
+| `train_smtimer_llm_predictors.py` | Predictor training |
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Code Style
+
+- Follow PEP 8 for Python code
+- Add docstrings to new functions
+- Update documentation for API changes
+
+## Citation
+
+If you use COMPASS in your research, please cite:
+
+```bibtex
+@article{compass2024,
+  title={COMPASS: Constraint Simplification via Dual-Agent AI},
+  author={...},
+  journal={...},
+  year={2024}
 }
 ```
 
+## Documentation
+
+- **PATH_MIGRATION_GUIDE.md**: Detailed guide for path configuration
+- **test_rl/external_references/README.md**: External dependency documentation
+- **pearl/README.md**: Pearl RL framework documentation
+- **paper/**: Full paper source with methodology details
+
 ## License
-Pearl is MIT licensed, as found in the LICENSE file.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Pearl](https://github.com/facebookresearch/Pearl) - RL framework by Meta
+- [Z3](https://github.com/Z3Prover/z3) - SMT solver by Microsoft
+- [CodeBERT](https://github.com/microsoft/CodeBERT) - Code embedding model
+
+## Contact
+
+For questions and issues, please open a GitHub issue.

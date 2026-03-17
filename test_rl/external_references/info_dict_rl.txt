@@ -1,0 +1,14 @@
+{
+    "_comment": "This is a placeholder file. Replace with actual RL training data mapping.",
+    "_original_path": "/home/lz/sibyl_3/src/networks/info_dict_rl.txt",
+    "_description": "Maps SMT file paths to RL-related features for training.",
+    "_format": "JSON dictionary: {smt_file_path: [features]}",
+    "_required_by": [
+        "test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py",
+        "test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_llm_only_v2.py",
+        "test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_random_1223.py"
+    ],
+    "example_entry": {
+        "/path/to/smt/file.smt2": ["feature1", "feature2"]
+    }
+}

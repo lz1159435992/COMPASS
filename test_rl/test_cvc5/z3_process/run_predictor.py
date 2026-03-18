@@ -1,6 +1,13 @@
 import os
 import signal
 import sys
+
+# 添加项目根目录到路径
+script_dir = os.path.dirname(os.path.abspath(__file__))
+test_rl_dir = os.path.dirname(os.path.dirname(os.path.dirname(script_dir)))
+if test_rl_dir not in sys.path:
+    sys.path.insert(0, test_rl_dir)
+
 os.environ['ALL_PROXY'] = ''
 os.environ['all_proxy'] = ''
 import ast
@@ -13,22 +20,19 @@ from z3 import *
 from z3.z3 import parse_smt2_string, Solver
 
 from pearl.policy_learners.sequential_decision_making.soft_actor_critic import SoftActorCritic
-# from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import BootstrapReplayBuffer
 from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import FIFOOffPolicyReplayBuffer
 from pearl.utils.functional_utils.experimentation.set_seed import set_seed
 from pearl.action_representation_modules.identity_action_representation_module import IdentityActionRepresentationModule
 from pearl.history_summarization_modules.lstm_history_summarization_module import LSTMHistorySummarizationModule
 from pearl.history_summarization_modules.stacking_history_summarization_module import StackingHistorySummarizationModule
-# from pearl.utils.functional_utils.train_and_eval.online_learning import online_learning, online_learning_with_break
 from pearl.pearl_agent import PearlAgent
 
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
-from env_gai_6_llm_add_ce_predictor_docker import ConstraintSimplificationEnv_test
+from test_rl.env_gai_6_llm_add_ce_predictor_docker import ConstraintSimplificationEnv_test
 
-# from test_code_bert_4 import CodeEmbedder, CodeEmbedder_normalize
-from bert_embedder_test import CodeEmbedder_normalize
+from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.bert_predictor_2_mask import EnhancedEightClassModel
 from test_rl.bert_predictor_mask import SimpleClassifier
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict, \

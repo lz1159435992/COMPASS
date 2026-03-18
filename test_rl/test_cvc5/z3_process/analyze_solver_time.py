@@ -93,8 +93,8 @@ def extract_solve_times_from_log_texts(texts, file_path=None):
     subprocess_pattern = r'子进程开始处理: (.+)'
     
     # 新增: 第302行和304行的模式
-    line_302_pattern = r'__mp_main__:step:296 - 变量 .+ 的相关断言求解成功：sat，耗时: (\d+\.\d+)秒'
-    line_304_pattern = r'__mp_main__:step:298 - 变量 .+ 的相关断言求解失败: (unsat|timeout)，耗时: (\d+\.\d+)秒'
+    line_302_pattern = r'__mp_main__:step:302 - 变量 .+ 的相关断言求解成功：sat，耗时: (\d+\.\d+)秒'
+    line_304_pattern = r'__mp_main__:step:304 - 变量 .+ 的相关断言求解失败: (unsat|timeout)，耗时: (\d+\.\d+)秒'
     
     # 使用集合跟踪已处理的日志行，避免重复处理
     processed_lines = set()
@@ -419,13 +419,13 @@ def main():
     parser = argparse.ArgumentParser(description='分析info_dict与日志中的求解时间差异')
     parser.add_argument('info_dict_path', nargs='?', 
                         help='info_dict文件路径',
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt')
+                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_mathsat5_0628.txt')
     parser.add_argument('log_dir', nargs='?',
                         help='日志目录路径',
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/log/run_2025-06-27_23-36-55')
+                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/log/run_2025-06-27_23-37-26')
     parser.add_argument('--output', '-o', 
                         help='输出文件路径',
-                        default='solver_time_analysis.json')
+                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/solver_time_analysis.json')
     parser.add_argument('--update', '-u', action='store_true',
                         help='是否更新info_dict中的求解时间')
     parser.add_argument('--no-update', dest='update', action='store_false',

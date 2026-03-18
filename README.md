@@ -346,6 +346,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Pearl](https://github.com/facebookresearch/Pearl) - RL framework by Meta
 - [Z3](https://github.com/Z3Prover/z3) - SMT solver by Microsoft
+- [CVC5](https://cvc5.github.io/) - SMT solver
+- [MathSAT5](https://mathsat.fbk.eu/) - SMT solver
+- [BVParti](https://github.com/sigpl-org/STP-Parti-Bitwuzla-at-SMT-COMP-2025) - Bit-vector partition-based solver
+- [AriParti](https://github.com/ariparti/AriParti) - Arithmetic partition-based solver
 - [CodeBERT](https://github.com/microsoft/CodeBERT) - Code embedding model
 
 ## Contact

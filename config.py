@@ -77,6 +77,94 @@ MODEL_DIRS = {
 }
 
 # =============================================================================
+# External Solver Configuration
+# =============================================================================
+
+# BVParti solver (for QF_BV theory)
+BVPARTI_HOME = os.environ.get('BVPARTI_HOME', '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync')
+
+# AriParti solver (for QF_NIA theory)
+ARIPARTI_HOME = os.environ.get('ARIPARTI_HOME', '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync')
+
+# Solver paths configuration
+SOLVER_PATHS = {
+    'z3': {
+        'name': 'Z3',
+        'command': 'z3',
+        'install': 'pip install z3-solver',
+    },
+    'cvc5': {
+        'name': 'CVC5',
+        'command': 'cvc5',
+        'install': 'sudo apt-get install cvc5',
+    },
+    'mathsat5': {
+        'name': 'MathSAT5',
+        'command': 'mathsat5',
+        'install': 'Download from https://mathsat.fbk.eu/',
+    },
+    'bvparti': {
+        'name': 'BVParti',
+        'base': BVPARTI_HOME,
+        'solver_dir': os.path.join(BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver'),
+        'bvparti_bin': os.path.join(BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'BVPartition-bin'),
+        'partitioner_bin': os.path.join(BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'partitioner-bin'),
+        'bitwuzla_bin': os.path.join(BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'bitwuzla-0.8.0-bin'),
+        'run_script': os.path.join(BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'run_BVParti.py'),
+        'install': 'See SOLVER_INSTALLATION.md',
+    },
+    'ariparti': {
+        'name': 'AriParti',
+        'base': ARIPARTI_HOME,
+        'entry': os.path.join(ARIPARTI_HOME, 'src', 'AriParti.py'),
+        'partitioner': os.path.join(ARIPARTI_HOME, 'bin', 'partitioner'),
+        'install': 'See SOLVER_INSTALLATION.md',
+    },
+}
+
+def get_solver_config(solver_name):
+    """Get configuration for a specific solver.
+    
+    Args:
+        solver_name: Name of solver ('z3', 'cvc5', 'mathsat5', 'bvparti', 'ariparti')
+    
+    Returns:
+        dict: Solver configuration
+    
+    Raises:
+        KeyError: If solver_name is not recognized
+    """
+    return SOLVER_PATHS[solver_name]
+
+def check_solver_available(solver_name):
+    """Check if a solver is available on the system.
+    
+    Args:
+        solver_name: Name of solver
+    
+    Returns:
+        bool: True if solver is available, False otherwise
+    """
+    import shutil
+    
+    config = SOLVER_PATHS.get(solver_name)
+    if not config:
+        return False
+    
+    # For standard solvers, check if command exists
+    if 'command' in config:
+        return shutil.which(config['command']) is not None
+    
+    # For external solvers, check if required files exist
+    if solver_name == 'bvparti':
+        return os.path.exists(config.get('run_script', ''))
+    
+    if solver_name == 'ariparti':
+        return os.path.exists(config.get('entry', ''))
+    
+    return False
+
+# =============================================================================
 # Helper Functions
 # =============================================================================
 

@@ -148,6 +148,35 @@ rl_dict_path = get_external_file('info_dict_rl')
 
 See `PATH_MIGRATION_GUIDE.md` for detailed path migration instructions.
 
+### Solver Installation
+
+COMPASS supports multiple SMT solvers. Standard solvers can be installed via:
+
+```bash
+# Z3 (required)
+pip install z3-solver
+
+# CVC5 (optional)
+sudo apt-get install cvc5
+
+# MathSAT5 (optional)
+# Download from https://mathsat.fbk.eu/
+```
+
+For external solvers (BVParti, AriParti), see `SOLVER_INSTALLATION.md` for detailed installation instructions.
+
+#### Checking Solver Availability
+
+```python
+from config import check_solver_available
+
+# Check if a solver is installed
+if check_solver_available('z3'):
+    print("Z3 is available")
+if check_solver_available('bvparti'):
+    print("BVParti is available")
+```
+
 ## Usage
 
 ### Running Experiments

@@ -1,4 +1,4 @@
-# COMPASS: Constraint Simplification via Dual-Agent AI
+# COMPASS: Reinforcement Learning and LLM-Guided Variable Concretization for Efficient SMT Solving
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -249,11 +249,29 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 
 ### Key Scripts
 
+#### SMTimer Experiments (`test_rl/test_cvc5/`)
+
+| Directory | Solver | Script | Purpose |
+|-----------|--------|--------|---------|
+| `z3_process/` | Z3 | `run_predictor.py` | SMTimer with Z3 (initial experiment) |
+| `cvc5_process/` | CVC5 | `run_predictor.py` | SMTimer with CVC5 |
+| `mathsat5_process/` | MathSAT5 | `run_predictor.py` | SMTimer with MathSAT5 |
+| `bvparti_process/` | BVParti | `run_bvparti_predictor.py` | SMTimer with BVParti |
+
+#### QF_NIA Experiments (`test_rl/test_QF_NIA/`)
+
+| Directory | Solver | Script | Purpose |
+|-----------|--------|--------|---------|
+| `z3_process_QF_NIA/` | Z3 | `run_predictor.py` | QF_NIA with Z3 (initial experiment) |
+| `cvc5_process_QF_NIA/` | CVC5 | `run_predictor.py` | QF_NIA with CVC5 |
+| `mathsat5_process_QF_NIA/` | MathSAT5 | `run_predictor.py` | QF_NIA with MathSAT5 |
+| `ariparti_process_QF_NIA/` | AriParti | `run_predictor.py` | QF_NIA with AriParti |
+
+#### Predictor Training (`test_rl/test_overfit/`)
+
 | Script | Purpose |
 |--------|---------|
-| `test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py` | Main SMTimer experiment |
-| `test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py` | QF_NIA benchmark |
-| `train_smtimer_llm_predictors.py` | Predictor training |
+| `train_smtimer_llm_predictors.py` | Train predictors for SMTimer |
 
 ## Contributing
 

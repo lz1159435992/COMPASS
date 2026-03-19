@@ -222,24 +222,98 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 
 ## Experimental Results
 
+> **Quick View**: Run `python scripts/show_results.py` to display all experimental results in formatted tables.
+
 ### RQ1: Effectiveness
 
-| Benchmark | Baseline (Z3) | COMPASS | Improvement |
-|-----------|---------------|---------|-------------|
-| SMTimer | 72 solved | 94 solved | +30.6% |
-| QF_NIA (SMT-COMP) | - | - | +12.3% |
+**Question**: How effectively does COMPASS improve the solving capability of diverse SMT solver architectures on hard satisfiable constraints?
+
+#### SMTimer Results (hard satisfiable subset)
+
+| Solver | Total | Baseline Solved | COMPASS Solved | Baseline Avg.Time(s) | COMPASS Avg.Time(s) | Retention(%) |
+|--------|-------|-----------------|----------------|----------------------|---------------------|--------------|
+| Z3 | 449 | 120 | 96 | 548.0 | 210.6 | 60.8 |
+| CVC5 | 1073 | 228 | 360 | 641.6 | 69.9 | 18.9 |
+| MathSAT | 1913 | 29 | 100 | 798.5 | 499.5 | 37.9 |
+| BVParti | 33 | 2 | 0 | 693.8 | - | 0.0 |
+
+#### SMT-COMP QF_NIA Results (hard satisfiable subset)
+
+| Solver | Total | Baseline Solved | COMPASS Solved | Baseline Avg.Time(s) | COMPASS Avg.Time(s) | Retention(%) |
+|--------|-------|-----------------|----------------|----------------------|---------------------|--------------|
+| Z3 | 2019 | 193 | 467 | 627.0 | 225.3 | 73.6 |
+| CVC5 | 4849 | 234 | 1419 | 612.7 | 252.9 | 65.0 |
+| MathSAT | 3598 | 345 | 505 | 617.8 | 230.4 | 83.5 |
+| AriParti | 1926 | 137 | 59 | 612.4 | 240.6 | 24.1 |
+
+**Answer**: COMPASS improves effectiveness for several major solver families, with the strongest gain on CVC5, which solves **506.4%** more QF_NIA instances. The benefits are less stable on partitioning-based backends (BVParti, AriParti).
 
 ### RQ2: Component Analysis
 
-- **RL + LLM**: Full COMPASS performance
-- **LLM only**: 15% reduction in solved instances
-- **Random selection**: 40% reduction in solved instances
+**Question**: How do RL-guided variable selection and LLM value proposal contribute to the overall effectiveness?
 
-### RQ3: Selective Simplification
+#### LLM Ablation Study (SMTimer, Z3 backend, Total=449)
 
-- Routing threshold: 0.8% of instances
-- Time reduction: 12.6%
-- Accuracy: 95%+ on routing decisions
+| Model Variant | Solved | Success Rate(%) | Avg.Time(s) | Retention(%) |
+|---------------|--------|-----------------|-------------|--------------|
+| COMPASS (LLaMA 3.1 70B) | 96 | 21.4 | 210.6 | 60.8 |
+| COMPASS (LLaMA 3.3 70B) | 88 | 19.6 | 396.3 | 57.5 |
+| COMPASS (DeepSeek-R1 70B) | 67 | 14.9 | 566.3 | 44.2 |
+
+#### Component Ablation Study (SMTimer, Z3 backend, Total=449)
+
+| Method | Solved | Success Rate(%) | Avg.Time(s) |
+|--------|--------|-----------------|-------------|
+| Random+Random | 73 | 16.3 | 380.7 |
+| LLM only | 30 | 6.7 | 4.1 |
+| Random+LLM | 69 | 15.4 | 330.7 |
+| RL+Random | 89 | 19.8 | 411.7 |
+| **RL+LLM (COMPASS)** | **96** | **21.4** | **210.6** |
+
+**Answer**: Effectiveness is governed primarily by **RL-guided variable selection**. The LLM contributes modestly to coverage but significantly improves efficiency when paired with good variable choices.
+
+### RQ3: Parallel Portfolio Utility
+
+**Question**: Can COMPASS improve practical deployment performance when used as a parallel portfolio component?
+
+#### Parallel Portfolio Results (SMTimer: 43,914 instances)
+
+| Solver | Strategy | SAT Solved | Unknown | Total(h) | Total Red.(%) |
+|--------|----------|------------|---------|----------|---------------|
+| Z3 | Direct | 17,476 | 1,679 | 255.0 | - |
+| Z3 | Parallel | 17,521 | 1,634 | 259.6 | -1.8 |
+| CVC5 | Direct | 17,499 | 958 | 382.2 | - |
+| CVC5 | Parallel | 17,816 | 641 | 275.8 | **27.8** |
+| MathSAT | Direct | 18,449 | 1,995 | 741.4 | - |
+| MathSAT | Parallel | 18,538 | 1,906 | 723.2 | 2.5 |
+
+#### Parallel Portfolio Results (SMT-COMP QF_NIA: 10,043 instances)
+
+| Solver | Strategy | SAT Solved | Unknown | Total(h) | Total Red.(%) |
+|--------|----------|------------|---------|----------|---------------|
+| Z3 | Direct | 6,811 | 2,440 | 881.4 | - |
+| Z3 | Parallel | 7,135 | 2,116 | 778.7 | **11.7** |
+| CVC5 | Direct | 4,736 | 5,029 | 1,747.9 | - |
+| CVC5 | Parallel | 6,000 | 3,765 | 1,398.8 | **20.0** |
+| MathSAT | Direct | 6,127 | 3,567 | 1,291.5 | - |
+| MathSAT | Parallel | 6,344 | 3,350 | 1,200.8 | 7.0 |
+
+**Answer**: COMPASS is effective as a parallel portfolio component, reducing total time by **2.5%-27.8%** in five of six solver-dataset pairs.
+
+### View Results Script
+
+Display all experimental results:
+
+```bash
+# Show all RQ results
+python scripts/show_results.py
+
+# Show specific RQ
+python scripts/show_results.py --rq 1
+
+# Save plots to PDF files
+python scripts/show_results.py --save-plots
+```
 
 ## Datasets
 

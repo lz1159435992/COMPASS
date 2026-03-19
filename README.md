@@ -253,10 +253,10 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 
 | Dataset | Description | Size |
 |---------|-------------|------|
-| **SMTimer** | Real-world SMT constraints from program analysis | 710 instances |
-| **SMT-COMP QF_NIA** | Quantifier-Free Non-Linear Integer Arithmetic | 3,000+ instances |
-| **SMT-COMP QF_LIA** | Quantifier-Free Linear Integer Arithmetic | 5,000+ instances |
-| **SMT-COMP QF_BV** | Quantifier-Free Bit-Vector theory | 4,000+ instances |
+| **SMTimer** | Real-world SMT constraints from program analysis (Coreutils, BusyBox, angr, KLEE) | ~1,900 instances (hard sat subset varies by solver) |
+| **SMT-COMP QF_NIA** | Quantifier-Free Non-Linear Integer Arithmetic | ~3,200 instances (hard sat subset varies by solver) |
+
+> **Note**: Only SMTimer and SMT-COMP QF_NIA results are included in the paper. QF_LIA, QF_BV, and QF_IDL experiments were conducted but not included in the final evaluation.
 
 ### Data Location
 

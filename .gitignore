@@ -1,2 +1,7 @@
 Pearl.egg-info/
 build/
+
+# Large model files (>50MB) - local only
+*.pth
+archived/large_models/
+test_rl/archived/large_models/

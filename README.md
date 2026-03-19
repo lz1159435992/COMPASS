@@ -84,24 +84,21 @@ Variables are renamed as `VAR1, VAR2, ...` based on descending structural import
 ```
 COMPASS/
 ├── pearl/                           # Pearl RL framework (from Meta)
-├── test_rl/
-│   ├── test_script/                 # Core utilities (variable normalization, etc.)
-│   ├── predictor/                   # Predictor models and embeddings
+├── test_rl/                         # COMPASS core code
+│   ├── smtimer_experiments/         # SMTimer benchmark experiments (multi-solver)
 │   ├── test_QF_NIA/                 # QF_NIA benchmark experiments
-│   ├── test_cvc5/                   # Multi-solver experiments (CVC5, MathSAT, BVParti)
 │   ├── test_overfit/                # Predictor training scripts
 │   ├── test_LLM/                    # LLM variable selection experiments
+│   ├── test_script/                 # Core utilities (variable normalization, etc.)
 │   ├── test_solve/                  # Baseline solver caches
+│   ├── predictor/                   # Predictor models and embeddings
 │   ├── common/                      # Shared modules
-│   ├── features/                    # Embedding vectors
 │   ├── external_references/         # External dependency placeholders
-│   └── archived/                    # Archived/uncertain files
-├── New_RQ1_Effectiveness_Analysis/  # RQ1: Effectiveness analysis
-├── New_RQ2_Component_Analysis/      # RQ2: Component ablation
-├── New_RQ3_Routing_Analysis/        # RQ3: Selective routing
+│   └── archived/                    # Archived files
+├── archived/                        # Project-level archived files
 ├── paper/                           # Paper source code (LaTeX)
+├── docs/                            # Documentation
 ├── config.py                        # Centralized path configuration
-├── PATH_MIGRATION_GUIDE.md          # Path migration documentation
 └── requirements.txt                 # Python dependencies
 ```
 
@@ -145,8 +142,6 @@ nia_path = get_baseline_path('NIA')
 # Get external reference file
 rl_dict_path = get_external_file('info_dict_rl')
 ```
-
-See `PATH_MIGRATION_GUIDE.md` for detailed path migration instructions.
 
 ### Solver Installation
 
@@ -233,7 +228,6 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 |-----------|---------------|---------|-------------|
 | SMTimer | 72 solved | 94 solved | +30.6% |
 | QF_NIA (SMT-COMP) | - | - | +12.3% |
-| QF_LIA (SMT-COMP) | - | - | +4.6% |
 
 ### RQ2: Component Analysis
 
@@ -278,11 +272,11 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 
 ### Key Scripts
 
-#### SMTimer Experiments (`test_rl/test_cvc5/`)
+#### SMTimer Experiments (`test_rl/smtimer_experiments/`)
 
 | Directory | Solver | Script | Purpose |
 |-----------|--------|--------|---------|
-| `z3_process/` | Z3 | `run_predictor.py` | SMTimer with Z3 (initial experiment) |
+| `z3_process/` | Z3 | `run_predictor.py` | SMTimer with Z3 |
 | `cvc5_process/` | CVC5 | `run_predictor.py` | SMTimer with CVC5 |
 | `mathsat5_process/` | MathSAT5 | `run_predictor.py` | SMTimer with MathSAT5 |
 | `bvparti_process/` | BVParti | `run_bvparti_predictor.py` | SMTimer with BVParti |
@@ -333,7 +327,8 @@ If you use COMPASS in your research, please cite:
 
 ## Documentation
 
-- **PATH_MIGRATION_GUIDE.md**: Detailed guide for path configuration
+- **REPRODUCTION.md**: Detailed reproduction instructions for experiments
+- **SOLVER_INSTALLATION.md**: Solver installation guide (BVParti, AriParti)
 - **test_rl/external_references/README.md**: External dependency documentation
 - **pearl/README.md**: Pearl RL framework documentation
 - **paper/**: Full paper source with methodology details

@@ -158,6 +158,16 @@ sudo apt-get install cvc5
 # Download from https://mathsat.fbk.eu/
 ```
 
+#### Solver Versions
+
+The following solver versions were used in the experiments reported in the paper:
+
+| Solver | Version |
+|--------|---------|
+| CVC5 | 1.2.1 |
+| MathSAT5 | 5.6.11 |
+| Z3 | 4.12.4 |
+
 For external solvers (BVParti, AriParti), see `SOLVER_INSTALLATION.md` for detailed installation instructions.
 
 #### Checking Solver Availability

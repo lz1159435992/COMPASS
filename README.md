@@ -305,15 +305,28 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 Display all experimental results:
 
 ```bash
-# Show all RQ results
+# Show all RQ results (using paper data)
 python scripts/show_results.py
 
 # Show specific RQ
 python scripts/show_results.py --rq 1
 
+# Compute from actual project data files
+python scripts/show_results.py --compute
+
 # Save plots to PDF files
 python scripts/show_results.py --save-plots
 ```
+
+### Data Sources
+
+| RQ | Primary Source | Supporting Data Files |
+|----|----------------|----------------------|
+| **RQ1** | `paper/eval.tex` Tables 1-2 | `test_rl/smtimer_experiments/*_smtimer_results.json`, `test_rl/qf_nia_experiments/*_QF_NIA.json` |
+| **RQ2** | `paper/eval.tex` Tables 3-4 | `archived/analysis_outputs/New_RQ2_Component_Analysis/time_dict_*.txt` |
+| **RQ3** | `paper/eval.tex` Table 5 | `archived/analysis_outputs/New_RQ3_Routing_Analysis/simulate_parallel_*.py` |
+
+> **Note**: The script uses paper data by default. Use `--compute` to analyze actual project data files when available.
 
 ## Datasets
 

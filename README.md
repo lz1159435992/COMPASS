@@ -162,18 +162,15 @@ sudo apt-get install cvc5
 
 The following solver versions were used in the experiments reported in the paper:
 
-| Solver | Version |
-|--------|---------|
-| CVC5 | 1.2.1 |
-| MathSAT5 | 5.6.11 |
-| Z3 | 4.12.4 |
+| Solver | Type | Used For | Version / Build |
+|--------|------|----------|-----------------|
+| Z3 | Standard | General SMT solving | 4.12.4 |
+| CVC5 | Standard | General SMT solving | 1.2.1 |
+| MathSAT5 | Standard | General SMT solving | 5.6.11 |
+| BVParti | External | Bit-vector constraints (QF_BV) in the SMTimer backend | SMT-COMP 2025 build (`STP-Parti-Bitwuzla-at-SMT-COMP-2025`); includes `bitwuzla-0.8.0` |
+| AriParti | External | Non-linear integer arithmetic (QF_NIA) in the SMT-COMP backend | AriParti repository build (see `SOLVER_INSTALLATION.md`) |
 
-For external solvers, see `SOLVER_INSTALLATION.md` for detailed installation instructions:
-
-| External Solver | Used For | Version / Build |
-|----------------|----------|-----------------|
-| BVParti | Bit-vector constraints (QF_BV) in the SMTimer backend | SMT-COMP 2025 build (`STP-Parti-Bitwuzla-at-SMT-COMP-2025`); includes `bitwuzla-0.8.0` |
-| AriParti | Non-linear integer arithmetic (QF_NIA) in the SMT-COMP backend | AriParti repository build (see `SOLVER_INSTALLATION.md`) |
+For external solver setup details, see `SOLVER_INSTALLATION.md`.
 
 #### Checking Solver Availability
 

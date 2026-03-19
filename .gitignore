@@ -1,7 +1,21 @@
 Pearl.egg-info/
 build/
+__pycache__/
+*.pyc
+.idea/
 
 # Large model files (>50MB) - local only
 *.pth
 archived/large_models/
 test_rl/archived/large_models/
+
+# Large data files (>50MB) - local only
+archived/root_temp_files/NIA.json
+test_rl/archived/logs/*.log
+test_rl/archived/logs/**/*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

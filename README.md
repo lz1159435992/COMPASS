@@ -395,11 +395,11 @@ The script can use two data sources:
 | `mathsat5_process_QF_NIA/` | MathSAT5 | `run_predictor.py` | QF_NIA with MathSAT5 |
 | `ariparti_process_QF_NIA/` | AriParti | `run_predictor.py` | QF_NIA with AriParti |
 
-#### Predictor Training (`test_rl/test_overfit/`)
+#### Overfitting Tests (`test_rl/test_overfit/`)
 
 | Script | Purpose |
 |--------|---------|
-| `train_smtimer_llm_predictors.py` | Train predictors for SMTimer |
+| `train_smtimer_llm_predictors.py` | Standalone overfitting tests / sanity checks for predictors |
 
 ## Contributing
 

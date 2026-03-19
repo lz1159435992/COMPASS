@@ -1,0 +1,5 @@
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'ChannelAuthBase' from 'conda.plugins.types' (/home/lz/anaconda3/lib/python3.11/site-packages/conda/plugins/types.py))
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'ChannelAuthBase' from 'conda.plugins.types' (/home/lz/anaconda3/lib/python3.11/site-packages/conda/plugins/types.py))
+python: can't open file '/home/lz/PycharmProjects/Pearl/analyze_solver_time.py': [Errno 2] No such file or directory
+
+ERROR conda.cli.main_run:execute(49): `conda run python analyze_solver_time.py --result_file info_dict_SMTimer_cvc5_llama3.1_70b_QF_NIA.txt --plot` failed. (See above for error)

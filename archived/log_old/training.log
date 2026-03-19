@@ -1,0 +1,8 @@
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'ChannelAuthBase' from 'conda.plugins.types' (/home/lz/anaconda3/lib/python3.11/site-packages/conda/plugins/types.py))
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'ChannelAuthBase' from 'conda.plugins.types' (/home/lz/anaconda3/lib/python3.11/site-packages/conda/plugins/types.py))
+usage: train_predictor.py [-h] --model_type {binary,eight_class}
+                          [--features_dir FEATURES_DIR]
+                          [--labels_path LABELS_PATH] [--save_path SAVE_PATH]
+train_predictor.py: error: argument --model_type: invalid choice: 'both' (choose from 'binary', 'eight_class')
+
+ERROR conda.cli.main_run:execute(49): `conda run python train_predictor.py --mode both --epochs 100 --batch_size 32 --lr 0.001` failed. (See above for error)

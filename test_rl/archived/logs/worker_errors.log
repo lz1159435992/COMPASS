@@ -1,0 +1,31 @@
+[2025-11-13 00:57:49] file=/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NIA/20170427-VeryMax/ITS/16354399/From_AProVE_2014__Velroyen08-fib.jar-obl-8__p13916_terminationG_0.smt2 solver=cvc5 host=http://172.29.7.221:32773 model=llama3.1:70b
+embedding_path=/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_features/QF_NIA_time_out_llm/_home_lz_Downloads_non-incremental_Hierarchy_non-incremental_QF_NIA_20170427-VeryMax_ITS_16354399_From_AProVE_2014__Velroyen08-fib.jar-obl-8__p13916_terminationG_0.smt2.npy models_dir=models
+Exception: OutOfMemoryError('CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 11.75 GiB of which 408.44 MiB is free. Process 1115102 has 9.48 GiB memory in use. Including non-PyTorch memory, this process has 1.42 GiB memory in use. Of the allocated memory 1.17 GiB is allocated by PyTorch, and 9.01 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)')
+Traceback (most recent call last):
+  File "/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/run_predictor.py", line 637, in _process_worker
+    agent = create_agent(env, action_space)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/run_predictor.py", line 556, in create_agent
+    return PearlAgent(
+           ^^^^^^^^^^^
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/pearl/pearl_agent.py", line 124, in __init__
+    self.policy_learner.to(self.device)
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/rnn.py", line 223, in _apply
+    ret = super()._apply(fn, recurse)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/lz/anaconda3/envs/langchain/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 11.75 GiB of which 408.44 MiB is free. Process 1115102 has 9.48 GiB memory in use. Including non-PyTorch memory, this process has 1.42 GiB memory in use. Of the allocated memory 1.17 GiB is allocated by PyTorch, and 9.01 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+--------------------------------------------------------------------------------

@@ -86,7 +86,7 @@ COMPASS/
 ├── pearl/                           # Pearl RL framework (from Meta)
 ├── test_rl/                         # COMPASS core code
 │   ├── smtimer_experiments/         # SMTimer benchmark experiments (multi-solver)
-│   ├── test_QF_NIA/                 # QF_NIA benchmark experiments
+│   ├── qf_nia_experiments/          # QF_NIA benchmark experiments
 │   ├── test_overfit/                # Predictor training scripts
 │   ├── test_LLM/                    # LLM variable selection experiments
 │   ├── test_script/                 # Core utilities (variable normalization, etc.)
@@ -281,11 +281,11 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 | `mathsat5_process/` | MathSAT5 | `run_predictor.py` | SMTimer with MathSAT5 |
 | `bvparti_process/` | BVParti | `run_bvparti_predictor.py` | SMTimer with BVParti |
 
-#### QF_NIA Experiments (`test_rl/test_QF_NIA/`)
+#### QF_NIA Experiments (`test_rl/qf_nia_experiments/`)
 
 | Directory | Solver | Script | Purpose |
 |-----------|--------|--------|---------|
-| `z3_process_QF_NIA/` | Z3 | `run_predictor.py` | QF_NIA with Z3 (initial experiment) |
+| `z3_process_QF_NIA/` | Z3 | `run_predictor.py` | QF_NIA with Z3 |
 | `cvc5_process_QF_NIA/` | CVC5 | `run_predictor.py` | QF_NIA with CVC5 |
 | `mathsat5_process_QF_NIA/` | MathSAT5 | `run_predictor.py` | QF_NIA with MathSAT5 |
 | `ariparti_process_QF_NIA/` | AriParti | `run_predictor.py` | QF_NIA with AriParti |

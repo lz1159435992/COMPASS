@@ -302,31 +302,51 @@ normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 
 ### View Results Script
 
-Display all experimental results:
+Display all experimental results using `scripts/show_results.py`:
 
 ```bash
-# Show all RQ results (using paper data)
+# Show all RQ results (default: using paper data)
 python scripts/show_results.py
 
-# Show specific RQ
+# Show specific RQ (1, 2, or 3)
 python scripts/show_results.py --rq 1
 
-# Compute from actual project data files
+# Compute from actual project data files instead of paper data
 python scripts/show_results.py --compute
 
-# Save plots to PDF files
+# Save plots to PDF files (requires matplotlib)
 python scripts/show_results.py --save-plots
+
+# Combine options
+python scripts/show_results.py --compute --save-plots
 ```
+
+#### Command-line Options
+
+| Option | Description |
+|--------|-------------|
+| `--rq N` | Show results for specific RQ (1, 2, or 3). Default: show all |
+| `--compute` | Compute statistics from actual project data files instead of using pre-computed paper data. Useful for verification or when re-running experiments. |
+| `--save-plots` | Generate and save visualization plots to PDF files (`RQ1_effectiveness.pdf`, `RQ2_component_ablation.pdf`, `RQ3_parallel_portfolio.pdf`). Requires `matplotlib` and `numpy`. |
 
 ### Data Sources
 
-| RQ | Primary Source | Supporting Data Files |
-|----|----------------|----------------------|
-| **RQ1** | `paper/eval.tex` Tables 1-2 | `test_rl/smtimer_experiments/*_smtimer_results.json`, `test_rl/qf_nia_experiments/*_QF_NIA.json` |
-| **RQ2** | `paper/eval.tex` Tables 3-4 | `archived/analysis_outputs/New_RQ2_Component_Analysis/time_dict_*.txt` |
-| **RQ3** | `paper/eval.tex` Table 5 | `archived/analysis_outputs/New_RQ3_Routing_Analysis/simulate_parallel_*.py` |
+The script can use two data sources:
 
-> **Note**: The script uses paper data by default. Use `--compute` to analyze actual project data files when available.
+| Mode | Source | Description |
+|------|--------|-------------|
+| **Default** | `paper/eval.tex` | Pre-computed results from the paper (Tables 1-5). Always available and matches published results. |
+| **`--compute`** | Project data files | Raw experimental data files in the repository. Computes statistics on-the-fly. |
+
+#### Data Files by RQ
+
+| RQ | Paper Source | Project Data Files |
+|----|--------------|-------------------|
+| **RQ1** | Tables 1-2 | `test_rl/smtimer_experiments/*_smtimer_results.json` (baseline solver results)<br>`test_rl/qf_nia_experiments/*_QF_NIA.json` (QF_NIA results) |
+| **RQ2** | Tables 3-4 | `archived/analysis_outputs/New_RQ2_Component_Analysis/time_dict_*.txt` (ablation timing data) |
+| **RQ3** | Table 5 | `archived/analysis_outputs/New_RQ3_Routing_Analysis/simulate_parallel_*.py` (parallel portfolio simulation) |
+
+> **Note**: Project data files may be incomplete or located in `archived/` directories. The script falls back to paper data when files are unavailable.
 
 ## Datasets
 
@@ -336,8 +356,6 @@ python scripts/show_results.py --save-plots
 |---------|-------------|------|
 | **SMTimer** | Real-world SMT constraints from program analysis (Coreutils, BusyBox, angr, KLEE) | ~1,900 instances (hard sat subset varies by solver) |
 | **SMT-COMP QF_NIA** | Quantifier-Free Non-Linear Integer Arithmetic | ~3,200 instances (hard sat subset varies by solver) |
-
-> **Note**: Only SMTimer and SMT-COMP QF_NIA results are included in the paper. QF_LIA, QF_BV, and QF_IDL experiments were conducted but not included in the final evaluation.
 
 ### Data Location
 

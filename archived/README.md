@@ -6,6 +6,56 @@
 
 ## 目录结构
 
+### `archived/build_artifacts/`
+构建产物和包管理文件。
+
+| 目录/文件 | 大小 | 说明 |
+|-----------|------|------|
+| `build/` | 1.8MB | Python 构建产物（wheel 等） |
+| `Pearl.egg-info/` | - | Setuptools 包元数据 |
+| `__pycache__/` | - | Python 字节码缓存 |
+
+### `archived/analysis_outputs/`
+实验分析输出和中间结果。
+
+| 目录 | 大小 | 说明 |
+|------|------|------|
+| `features/` | - | 特征提取中间文件 |
+| `log/` | - | 运行日志 |
+| `log_overfit/` | - | 过拟合实验日志 |
+| `models/` | - | 中间模型文件 |
+| `supervenn_output/` | - | Supervenn 图表输出 |
+| `New_RQ1_Effectiveness_Analysis/` | - | RQ1 有效性分析 |
+| `New_RQ2_Component_Analysis/` | - | RQ2 组件分析 |
+| `New_RQ3_Routing_Analysis/` | - | RQ3 路由分析 |
+| `RQ4_Analysis_Framework/` | 141MB | RQ4 分析框架 |
+
+### `archived/development_files/`
+开发过程文件和测试环境。
+
+| 目录 | 大小 | 说明 |
+|------|------|------|
+| `backup_models/` | - | 模型备份 |
+| `llm_no_rl/` | - | 无 RL 的 LLM 实验 |
+| `ollama_model_file/` | - | Ollama 模型配置 |
+| `pdf_conversion/` | - | PDF 转换工具 |
+| `test_time/` | - | 时间测试 |
+| `torch_rl_test/` | - | PyTorch RL 测试 |
+| `test/` | - | Pearl 原始测试 |
+| `venv/` | 6.2GB | Python 虚拟环境（大文件，仅本地） |
+| `scripts/` | - | 开发脚本 |
+| `tutorials/` | - | 教程文件 |
+
+### `archived/internal_docs/`
+内部文档和迁移记录。
+
+| 文件/目录 | 说明 |
+|-----------|------|
+| `PATH_MIGRATION_GUIDE.md` | 路径迁移指南（内部记录） |
+| `EXPERIMENT_DATA_ANALYSIS.md` | 实验数据分析记录 |
+| `TEST_RL_CLEANUP_ANALYSIS.md` | test_rl 清理分析记录 |
+| `dev_docs/` | 开发文档目录 |
+
 ### `archived/root_temp_files/`
 从项目根目录归档的临时文件和旧版本数据。
 
@@ -118,6 +168,7 @@ RQ5 相关文件（论文中未使用）。
 
 - `archived/large_models/*.pth` (>100MB)
 - `archived/root_temp_files/NIA.json` (120MB)
+- `archived/development_files/venv/` (6.2GB) - Python 虚拟环境
 - `test_rl/archived/logs/` 目录下部分日志 (>50MB)
 
 ---
@@ -125,7 +176,7 @@ RQ5 相关文件（论文中未使用）。
 ## 归档时间
 
 - **首次归档**: 2026-03-19
-- **最后更新**: 2026-03-19
+- **最后更新**: 2026-03-19 (添加构建产物、分析输出、开发文件、内部文档)
 
 ---
 

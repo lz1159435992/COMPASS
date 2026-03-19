@@ -1,0 +1,125 @@
+{
+  "name": "Z3",
+  "paths": {
+    "test_keys": "test_rl/predictor/smt_comp_NIA/QF_NIA_test.json",
+    "baseline": "test_rl/test_solve/NIA/NIA.json",
+    "compass": "test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt"
+  },
+  "cap": 1200.0,
+  "scopes": [
+    {
+      "scope": "ALL (missing COMPASS treated as 'no_compass')",
+      "n_keys": 10043,
+      "require_compass": false,
+      "missing_baseline": 0,
+      "missing_compass": 8024,
+      "set_stats": {
+        "baseline_total": 7603,
+        "compass_total": 467,
+        "baseline_only": 7461,
+        "compass_only": 325,
+        "both_solved": 142,
+        "total_unique": 7928,
+        "improvement": -7136,
+        "relative_improvement": -93.85768775483362
+      },
+      "baseline_time_solved": {
+        "count": 7603,
+        "mean": 34.49271524398264,
+        "median": 2.026,
+        "p90": 55.246200000000016,
+        "p99": 768.617179999999,
+        "min": 0.011,
+        "max": 1199.818
+      },
+      "compass_total_time_succeed": {
+        "count": 467,
+        "mean": 225.3232293062598,
+        "median": 86.39717245101929,
+        "p90": 713.8517228603365,
+        "p99": 1168.7915083646772,
+        "min": 7.916763544082642,
+        "max": 1200.0
+      },
+      "compass_solve_time_succeed": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p90": null,
+        "p99": null,
+        "min": null,
+        "max": null
+      },
+      "compass_llm_time_succeed": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p90": null,
+        "p99": null,
+        "min": null,
+        "max": null
+      },
+      "conversions": {
+        "unknown_to_sat": 325,
+        "timeout_to_sat": 321
+      }
+    },
+    {
+      "scope": "INTERSECTION (only instances with COMPASS cache)",
+      "n_keys": 2019,
+      "require_compass": true,
+      "missing_baseline": 0,
+      "missing_compass": 0,
+      "set_stats": {
+        "baseline_total": 193,
+        "compass_total": 467,
+        "baseline_only": 51,
+        "compass_only": 325,
+        "both_solved": 142,
+        "total_unique": 518,
+        "improvement": 274,
+        "relative_improvement": 141.96891191709844
+      },
+      "baseline_time_solved": {
+        "count": 193,
+        "mean": 627.0003989637306,
+        "median": 544.717,
+        "p90": 1011.7706000000002,
+        "p99": 1176.8683599999997,
+        "min": 301.909,
+        "max": 1199.818
+      },
+      "compass_total_time_succeed": {
+        "count": 467,
+        "mean": 225.3232293062598,
+        "median": 86.39717245101929,
+        "p90": 713.8517228603365,
+        "p99": 1168.7915083646772,
+        "min": 7.916763544082642,
+        "max": 1200.0
+      },
+      "compass_solve_time_succeed": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p90": null,
+        "p99": null,
+        "min": null,
+        "max": null
+      },
+      "compass_llm_time_succeed": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p90": null,
+        "p99": null,
+        "min": null,
+        "max": null
+      },
+      "conversions": {
+        "unknown_to_sat": 325,
+        "timeout_to_sat": 321
+      }
+    }
+  ]
+}

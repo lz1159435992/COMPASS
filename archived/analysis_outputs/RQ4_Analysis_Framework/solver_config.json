@@ -1,0 +1,44 @@
+{
+  "solvers": {
+    "z3": {
+      "name": "Z3",
+      "data_file": "test_rl/test_solve/result_dict_z3solver_300s.txt",
+      "rl_llm_file": "test_rl/test_solve/result_dict_RL+LLM_108.txt",
+      "data_format": "z3_format",
+      "description": "Microsoft's flagship SMT solver"
+    },
+    "cvc5": {
+      "name": "CVC5", 
+      "data_file": "test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt",
+      "data_format": "cvc5_format",
+      "description": "Latest version of CVC solver family"
+    },
+    "bvparti": {
+      "name": "BVParti",
+      "data_file": "test_rl/test_cvc5/bvparti_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0728.txt",
+      "data_format": "bvparti_format",
+      "description": "Specialized bit-vector constraint solver"
+    },
+    "mathsat": {
+      "name": "MathSAT",
+      "data_file": "RQ4_Analysis_Framework/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_mathsat5_0628.txt",
+      "data_format": "mathsat_format",
+      "description": "Solver particularly effective for mathematical reasoning and optimization",
+      "status": "pending_experiments"
+    }
+  },
+  "output_settings": {
+    "figure_dir": "paper/pics",
+    "latex_dir": "paper/pics",
+    "figure_width": "0.8\\textwidth",
+    "figure_format": "pdf",
+    "dpi": 300
+  },
+  "style_settings": {
+    "color_palette": ["#0072B2", "#D55E00"],
+    "font_family": "serif",
+    "font_serif": ["Times New Roman", "DejaVu Serif"],
+    "font_size": 10,
+    "figure_size": [10, 3]
+  }
+}

@@ -1,0 +1,53 @@
+================================================================================
+Scope: ALL (missing COMPASS treated as 'no_compass') (n=87827, cap=1200.0, compass_time_field=total)
+--------------------------------------------------------------------------------
+Baseline:
+  counts: sat=36814 unsat=47070 unknown=3943
+  time_sums: sat_sum=98716.310 unsat_sum=723457.418 unknown_sum=4448400.328
+  total_time: 5270574.055  overall_avg: 60.011
+  per_status_avg: sat=2.681 unsat=15.370 unknown=1128.177
+Portfolio (Solver || COMPASS):
+  counts: sat=36903 unsat=47070 unknown=3854
+  time_sums: sat_sum=140048.869 unsat_sum=723457.418 unknown_sum=4341600.328
+  total_time: 5205106.614  overall_avg: 59.265
+  per_status_avg: sat=3.795 unsat=15.370 unknown=1126.518
+--------------------------------------------------------------------------------
+Wins: {'no_compass': 85914, 'both_unknown': 1795, 'compass': 94, 'solver': 24}
+Disagreements (both conclusive but different): 0
+Conversions (baseline -> portfolio):
+  unsat -> unsat: 47070
+  sat -> sat: 36814
+  unknown -> unknown: 3854
+  unknown -> sat: 89
+--------------------------------------------------------------------------------
+Time saved total: 65467.441  avg per instance: 0.745
+Portfolio faster/slower/equal: 94/0/87733
+--------------------------------------------------------------------------------
+LaTeX row (portfolio):
+Parallel Portfolio & 36903 & 47070 & 3854 & 3.8 & 59.3 & 5205107 \\
+================================================================================
+Scope: INTERSECTION (only instances with COMPASS cache) (n=1913, cap=1200.0, compass_time_field=total)
+--------------------------------------------------------------------------------
+Baseline:
+  counts: sat=29 unsat=0 unknown=1884
+  time_sums: sat_sum=23155.368 unsat_sum=0.000 unknown_sum=2260800.000
+  total_time: 2283955.368  overall_avg: 1193.913
+  per_status_avg: sat=798.461 unsat=0.000 unknown=1200.000
+Portfolio (Solver || COMPASS):
+  counts: sat=118 unsat=0 unknown=1795
+  time_sums: sat_sum=64487.927 unsat_sum=0.000 unknown_sum=2154000.000
+  total_time: 2218487.927  overall_avg: 1159.691
+  per_status_avg: sat=546.508 unsat=0.000 unknown=1200.000
+--------------------------------------------------------------------------------
+Wins: {'both_unknown': 1795, 'compass': 94, 'solver': 24}
+Disagreements (both conclusive but different): 0
+Conversions (baseline -> portfolio):
+  unknown -> unknown: 1795
+  unknown -> sat: 89
+  sat -> sat: 29
+--------------------------------------------------------------------------------
+Time saved total: 65467.441  avg per instance: 34.222
+Portfolio faster/slower/equal: 94/0/1819
+--------------------------------------------------------------------------------
+LaTeX row (portfolio):
+Parallel Portfolio & 118 & 0 & 1795 & 546.5 & 1159.7 & 2218488 \\

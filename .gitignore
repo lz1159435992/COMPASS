@@ -4,6 +4,12 @@ __pycache__/
 *.pyc
 .idea/
 
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
 # Large model files (>50MB) - local only
 *.pth
 archived/large_models/
@@ -11,6 +17,7 @@ test_rl/archived/large_models/
 
 # Large data files (>50MB) - local only
 archived/root_temp_files/NIA.json
+archived/development_files/venv/
 test_rl/archived/logs/*.log
 test_rl/archived/logs/**/*.log
 

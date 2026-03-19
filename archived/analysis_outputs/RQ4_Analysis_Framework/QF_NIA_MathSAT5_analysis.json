@@ -1,0 +1,125 @@
+{
+  "name": "MathSAT5",
+  "paths": {
+    "test_keys": "test_rl/test_QF_NIA/mathsat5_process_QF_NIA/QF_NIA_test.json",
+    "baseline": "test_rl/test_QF_NIA/mathsat5_QF_NIA.json",
+    "compass": "test_rl/test_QF_NIA/mathsat5_process_QF_NIA/info_dict_SMTimer_mathsat_llama3.1_70b_QF_NIA.txt"
+  },
+  "cap": 1200.0,
+  "scopes": [
+    {
+      "scope": "ALL (missing COMPASS treated as 'no_compass')",
+      "n_keys": 10088,
+      "require_compass": false,
+      "missing_baseline": 0,
+      "missing_compass": 6490,
+      "set_stats": {
+        "baseline_total": 6499,
+        "compass_total": 505,
+        "baseline_only": 6211,
+        "compass_only": 217,
+        "both_solved": 288,
+        "total_unique": 6716,
+        "improvement": -5994,
+        "relative_improvement": -92.22957378058163
+      },
+      "baseline_time_solved": {
+        "count": 6499,
+        "mean": 56.82440697143474,
+        "median": 3.4700276851654053,
+        "p90": 151.47780981063835,
+        "p99": 909.0876251935932,
+        "min": 0.003043651580810547,
+        "max": 1189.8015463352203
+      },
+      "compass_total_time_succeed": {
+        "count": 505,
+        "mean": 230.40346793373033,
+        "median": 110.70205354690552,
+        "p90": 708.5511643886568,
+        "p99": 1091.8861905193328,
+        "min": 4.666253566741943,
+        "max": 1186.2338292598724
+      },
+      "compass_solve_time_succeed": {
+        "count": 505,
+        "mean": 190.80084685996027,
+        "median": 85.05592226982117,
+        "p90": 596.814681911469,
+        "p99": 956.9957682800284,
+        "min": 0.041498422622680664,
+        "max": 1075.5084853172302
+      },
+      "compass_llm_time_succeed": {
+        "count": 505,
+        "mean": 10.614653599616325,
+        "median": 4.596344470977783,
+        "p90": 26.061169147491462,
+        "p99": 76.86204134941099,
+        "min": 1.354668140411377,
+        "max": 103.01936912536621
+      },
+      "conversions": {
+        "unknown_to_sat": 217,
+        "timeout_to_sat": 217
+      }
+    },
+    {
+      "scope": "INTERSECTION (only instances with COMPASS cache)",
+      "n_keys": 3598,
+      "require_compass": true,
+      "missing_baseline": 0,
+      "missing_compass": 0,
+      "set_stats": {
+        "baseline_total": 345,
+        "compass_total": 505,
+        "baseline_only": 57,
+        "compass_only": 217,
+        "both_solved": 288,
+        "total_unique": 562,
+        "improvement": 160,
+        "relative_improvement": 46.3768115942029
+      },
+      "baseline_time_solved": {
+        "count": 345,
+        "mean": 617.7519219467605,
+        "median": 551.3086140155792,
+        "p90": 1026.4118886470796,
+        "p99": 1176.9379750061034,
+        "min": 300.459290266037,
+        "max": 1189.8015463352203
+      },
+      "compass_total_time_succeed": {
+        "count": 505,
+        "mean": 230.40346793373033,
+        "median": 110.70205354690552,
+        "p90": 708.5511643886568,
+        "p99": 1091.8861905193328,
+        "min": 4.666253566741943,
+        "max": 1186.2338292598724
+      },
+      "compass_solve_time_succeed": {
+        "count": 505,
+        "mean": 190.80084685996027,
+        "median": 85.05592226982117,
+        "p90": 596.814681911469,
+        "p99": 956.9957682800284,
+        "min": 0.041498422622680664,
+        "max": 1075.5084853172302
+      },
+      "compass_llm_time_succeed": {
+        "count": 505,
+        "mean": 10.614653599616325,
+        "median": 4.596344470977783,
+        "p90": 26.061169147491462,
+        "p99": 76.86204134941099,
+        "min": 1.354668140411377,
+        "max": 103.01936912536621
+      },
+      "conversions": {
+        "unknown_to_sat": 217,
+        "timeout_to_sat": 217
+      }
+    }
+  ]
+}

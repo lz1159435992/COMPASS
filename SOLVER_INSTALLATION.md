@@ -6,6 +6,11 @@ This document describes how to install and configure external SMT solvers used b
 
 BVParti is a partition-based solver for bit-vector constraints, combining STP, Parti, and Bitwuzla.
 
+### Version
+
+- BVParti build used in the paper: SMT-COMP 2025 build from `STP-Parti-Bitwuzla-at-SMT-COMP-2025`
+- Bundled Bitwuzla binary: `bitwuzla-0.8.0-bin`
+
 ### Installation
 
 #### Option 1: Use Pre-built Binaries
@@ -48,6 +53,10 @@ After installation, ensure these files exist:
 
 AriParti is a partition-based solver for non-linear integer arithmetic.
 
+### Version
+
+- AriParti build used in the paper: built from the `ariparti/AriParti` repository (please align with the revision used in your experiments)
+
 ### Installation
 
 #### Option 1: Use Pre-built Version
@@ -85,7 +94,7 @@ docker pull ariparti/ariparti:latest
 
 ### Configuration
 
-Edit `test_rl/test_QF_NIA/ariparti_process_QF_NIA/config.json`:
+Edit `test_rl/qf_nia_experiments/ariparti_process_QF_NIA/config.json`:
 
 ```json
 {

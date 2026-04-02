@@ -8,8 +8,8 @@ import math
 from pathlib import Path
 
 # Ensure repo root on sys.path so that absolute package import works
-if '/home/lz/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/lz/PycharmProjects/Pearl')
+if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
+    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
 
 # Ensure AriParti paths and binaries available
 try:
@@ -43,7 +43,7 @@ class AriPartiSolver:
     def __init__(self, cfg: dict):
         self.cfg = cfg or {}
         ariparti_cfg = self.cfg.get('ariparti', {})
-        home = ariparti_cfg.get('home') or os.environ.get('ARIPARTI_HOME') or '/home/lz/PycharmProjects/AriParti'
+        home = ariparti_cfg.get('home') or os.environ.get('ARIPARTI_HOME') or '/home/<USER>/PycharmProjects/AriParti'
         self.ariparti_home = home
         part_path = ariparti_cfg.get('partitioner_path', 'bin/partitioner')
         solver_path = ariparti_cfg.get('solver_path', 'bin/linux-prebuilt/base-solvers/cvc5-1.0.8')

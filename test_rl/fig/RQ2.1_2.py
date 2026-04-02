@@ -101,7 +101,7 @@ def plot_solver_data_to_pdf(data, tool_name,path):
 
 # 为每个工具生成 PDF 文件
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
 
 # # 调用函数为每个工具生成 PDF 文件
 # plot_solver_data_to_pdf(data_dict['buzybox_angr.tar.gz'], 'buzybox','Z3solver')

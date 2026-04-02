@@ -2,7 +2,7 @@
 
 ## 任务完成情况
 
-✅ **任务已完成** - 成功完善了 `/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py` 的实现，使其达到与 `cvc5_process/run_predictor.py` 相似的功能水平，但使用BVParti作为底层求解器。
+✅ **任务已完成** - 成功完善了 `/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py` 的实现，使其达到与 `cvc5_process/run_predictor.py` 相似的功能水平，但使用BVParti作为底层求解器。
 
 ## 主要成就
 
@@ -102,7 +102,7 @@ python test_rl/test_cvc5/bvparti_process/example_usage.py
 ```bash
 python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
-    --result_dict_path /home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
+    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path output_results.txt \
     --timeout 1200
 ```

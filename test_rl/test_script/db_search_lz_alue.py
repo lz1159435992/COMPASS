@@ -32,7 +32,7 @@ def some_method():
         if list1[0] == "unknown":
             if list1[1] > 100:
                 if key not in result_dict_2.keys():
-                    with open(key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/'), 'r') as file:
+                    with open(key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/'), 'r') as file:
                         # 璇诲彇鏂囦欢鎵€鏈夊唴瀹瑰埌涓€涓瓧绗︿覆
                         smtlib_str = file.read()
                     try:

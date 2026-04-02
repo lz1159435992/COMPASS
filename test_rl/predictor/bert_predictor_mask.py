@@ -31,7 +31,7 @@ def train():
     file_pattern = 'features_normal_*.npy'
 
     # 使用 glob.glob 找到所有匹配的文件，并根据文件名中的数字进行排序
-    file_paths = sorted(glob.glob(os.path.join('/home/lz/PycharmProjects/Pearl/test_rl/features', file_pattern)),
+    file_paths = sorted(glob.glob(os.path.join('/home/<USER>/PycharmProjects/Pearl/test_rl/features', file_pattern)),
                         key=lambda x: int(os.path.basename(x).split('_')[-1].split('.')[0]))
 
     # 初始化一个空列表来收集所有的数组
@@ -134,7 +134,7 @@ def test():
     # 步骤4: 将状态字典应用到模型
     model.load_state_dict(state_dict)
     embedder = CodeEmbedder_normalize()
-    with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

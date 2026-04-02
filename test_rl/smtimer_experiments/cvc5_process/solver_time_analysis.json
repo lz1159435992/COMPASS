@@ -6,11 +6,11 @@
     "files_not_found": 0,
     "total_diff": 28159.24996874998,
     "max_diff": 876.8842083549499,
-    "max_diff_file": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43791"
+    "max_diff_file": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43791"
   },
   "details": [
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent747832",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent747832",
       "info_dict_time": 1.783076524734497,
       "log_reported_time": 0.008,
       "log_calculated_time": 1.786999999999999,
@@ -475,7 +475,7 @@
       "line_304_sum": 1.786999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1157345",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1157345",
       "info_dict_time": 0.43990302085876465,
       "log_reported_time": 0.015,
       "log_calculated_time": 321.55100000000004,
@@ -607,7 +607,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117712",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117712",
       "info_dict_time": 0.07829570770263672,
       "log_reported_time": 0.078,
       "log_calculated_time": 0.116,
@@ -631,7 +631,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128938",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128938",
       "info_dict_time": 0.11565494537353516,
       "log_reported_time": 0.116,
       "log_calculated_time": 0.11699999999999999,
@@ -654,7 +654,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125928",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125928",
       "info_dict_time": 0.09592747688293457,
       "log_reported_time": 0.096,
       "log_calculated_time": 0.149,
@@ -681,7 +681,7 @@
       "line_304_sum": 0.012
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182477",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182477",
       "info_dict_time": 48.26845574378967,
       "log_reported_time": 48.268,
       "log_calculated_time": 48.337999999999994,
@@ -711,7 +711,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rmdir/rmdir1130094",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rmdir/rmdir1130094",
       "info_dict_time": 3.0918655395507812,
       "log_reported_time": 0.034,
       "log_calculated_time": 514.0080000000047,
@@ -1524,7 +1524,7 @@
       "line_304_sum": 1.1740000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753855",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753855",
       "info_dict_time": 3.3906586170196533,
       "log_reported_time": 0.013,
       "log_calculated_time": 3.4019999999999664,
@@ -2080,7 +2080,7 @@
       "line_304_sum": 3.4019999999999664
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192070",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192070",
       "info_dict_time": 0.318666934967041,
       "log_reported_time": 0.016,
       "log_calculated_time": 242.0,
@@ -2189,7 +2189,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146536",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146536",
       "info_dict_time": 24.17571234703064,
       "log_reported_time": 24.176,
       "log_calculated_time": 24.176000000000002,
@@ -2214,7 +2214,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135095",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135095",
       "info_dict_time": 0.10441422462463379,
       "log_reported_time": 0.104,
       "log_calculated_time": 0.193,
@@ -2238,7 +2238,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fsync/fsync847602",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fsync/fsync847602",
       "info_dict_time": 8.45789361000061,
       "log_reported_time": 0.028,
       "log_calculated_time": 8.725999999999514,
@@ -4476,7 +4476,7 @@
       "line_304_sum": 8.725999999999514
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758687",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758687",
       "info_dict_time": 1.1065504550933838,
       "log_reported_time": 0.008,
       "log_calculated_time": 1.1549999999999991,
@@ -4791,7 +4791,7 @@
       "line_304_sum": 0.5700000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92647",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92647",
       "info_dict_time": 0.12325477600097656,
       "log_reported_time": 0.123,
       "log_calculated_time": 0.14800000000000002,
@@ -4815,7 +4815,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140517",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140517",
       "info_dict_time": 0.08636927604675293,
       "log_reported_time": 0.086,
       "log_calculated_time": 0.121,
@@ -4839,7 +4839,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac145286",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac145286",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -4856,7 +4856,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/base64/base64107579",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/base64/base64107579",
       "info_dict_time": 97.5477442741394,
       "log_reported_time": 97.548,
       "log_calculated_time": 146.088,
@@ -4900,7 +4900,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731291",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731291",
       "info_dict_time": 4.783375263214111,
       "log_reported_time": 0.015,
       "log_calculated_time": 4.957999999999916,
@@ -6228,7 +6228,7 @@
       "line_304_sum": 4.957999999999916
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748350",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748350",
       "info_dict_time": 22.970610857009888,
       "log_reported_time": 0.078,
       "log_calculated_time": 23.81700000000147,
@@ -12421,7 +12421,7 @@
       "line_304_sum": 20.33400000000035
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43821",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43821",
       "info_dict_time": 872.6308450698853,
       "log_reported_time": 24.113,
       "log_calculated_time": 873.3079999999999,
@@ -12646,7 +12646,7 @@
       "line_304_sum": 0.08900000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143558",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143558",
       "info_dict_time": 0.09108090400695801,
       "log_reported_time": 0.091,
       "log_calculated_time": 0.091,
@@ -12669,7 +12669,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108135",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108135",
       "info_dict_time": 24.181005239486694,
       "log_reported_time": 24.181,
       "log_calculated_time": 24.300000000000004,
@@ -12700,7 +12700,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/klogd/klogd900556",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/klogd/klogd900556",
       "info_dict_time": 0.37360191345214844,
       "log_reported_time": 0.019,
       "log_calculated_time": 151.94599999999997,
@@ -12806,7 +12806,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac137052",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac137052",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -12823,7 +12823,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac138894",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac138894",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -12840,7 +12840,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758589",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758589",
       "info_dict_time": 2.827244997024536,
       "log_reported_time": 0.016,
       "log_calculated_time": 2.8679999999999994,
@@ -13583,7 +13583,7 @@
       "line_304_sum": 1.4220000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1433346",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1433346",
       "info_dict_time": 0.48873400688171387,
       "log_reported_time": 0.017,
       "log_calculated_time": 178.2830000000001,
@@ -13709,7 +13709,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135098",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135098",
       "info_dict_time": 0.11589384078979492,
       "log_reported_time": 0.116,
       "log_calculated_time": 24.231,
@@ -13734,7 +13734,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146548",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146548",
       "info_dict_time": 24.178388118743896,
       "log_reported_time": 24.178,
       "log_calculated_time": 24.204000000000004,
@@ -13760,7 +13760,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92690",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92690",
       "info_dict_time": 0.07682228088378906,
       "log_reported_time": 0.077,
       "log_calculated_time": 0.117,
@@ -13784,7 +13784,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99169",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99169",
       "info_dict_time": 0.0833280086517334,
       "log_reported_time": 0.083,
       "log_calculated_time": 24.212,
@@ -13809,7 +13809,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr650609",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr650609",
       "info_dict_time": 17.160495281219482,
       "log_reported_time": 0.083,
       "log_calculated_time": 17.399000000000473,
@@ -16773,7 +16773,7 @@
       "line_304_sum": 17.399000000000473
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717240",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717240",
       "info_dict_time": 0.4797646999359131,
       "log_reported_time": 0.004,
       "log_calculated_time": 0.4990000000000004,
@@ -16920,7 +16920,7 @@
       "line_304_sum": 0.4990000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119547",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119547",
       "info_dict_time": 0.0873112678527832,
       "log_reported_time": 0.087,
       "log_calculated_time": 0.087,
@@ -16943,7 +16943,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112572",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112572",
       "info_dict_time": 0.12220120429992676,
       "log_reported_time": 0.122,
       "log_calculated_time": 0.122,
@@ -16965,7 +16965,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm/rpm802677",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm/rpm802677",
       "info_dict_time": 0.2840299606323242,
       "log_reported_time": 0.015,
       "log_calculated_time": 126.16300000000003,
@@ -17058,7 +17058,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753831",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753831",
       "info_dict_time": 5.8202056884765625,
       "log_reported_time": 0.023,
       "log_calculated_time": 5.8179999999998016,
@@ -18545,7 +18545,7 @@
       "line_304_sum": 2.891000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725319",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725319",
       "info_dict_time": 17.80424928665161,
       "log_reported_time": 0.064,
       "log_calculated_time": 18.11899999999944,
@@ -23134,7 +23134,7 @@
       "line_304_sum": 14.464999999998946
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743513",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743513",
       "info_dict_time": 12.383957147598267,
       "log_reported_time": 0.038,
       "log_calculated_time": 12.841999999999178,
@@ -26463,7 +26463,7 @@
       "line_304_sum": 7.6269999999996925
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac115546",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac115546",
       "info_dict_time": 77.61223125457764,
       "log_reported_time": 1.323,
       "log_calculated_time": 798.9520000000003,
@@ -26598,7 +26598,7 @@
       "line_304_sum": 0.026000000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr352311",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr352311",
       "info_dict_time": 535.4407045841217,
       "log_reported_time": 0.117,
       "log_calculated_time": 679.6570000000012,
@@ -27014,7 +27014,7 @@
       "line_304_sum": 0.2640000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac115687",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac115687",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -27031,7 +27031,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725343",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725343",
       "info_dict_time": 6.1146979331970215,
       "log_reported_time": 0.033,
       "log_calculated_time": 6.14399999999977,
@@ -28590,7 +28590,7 @@
       "line_304_sum": 4.606999999999937
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac129140",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac129140",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -28607,7 +28607,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731315",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731315",
       "info_dict_time": 1.983053207397461,
       "log_reported_time": 0.007,
       "log_calculated_time": 2.068999999999999,
@@ -29153,7 +29153,7 @@
       "line_304_sum": 2.068999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121419",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121419",
       "info_dict_time": 0.09398102760314941,
       "log_reported_time": 0.094,
       "log_calculated_time": 0.132,
@@ -29177,7 +29177,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent729720",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent729720",
       "info_dict_time": 6.83275842666626,
       "log_reported_time": 0.022,
       "log_calculated_time": 7.139999999999694,
@@ -31029,7 +31029,7 @@
       "line_304_sum": 7.139999999999694
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr462051",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr462051",
       "info_dict_time": 21.951934099197388,
       "log_reported_time": 0.102,
       "log_calculated_time": 22.1860000000005,
@@ -35436,7 +35436,7 @@
       "line_304_sum": 17.898000000000742
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date194063",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date194063",
       "info_dict_time": 10.860028505325317,
       "log_reported_time": 0.064,
       "log_calculated_time": 10.983999999999698,
@@ -36846,7 +36846,7 @@
       "line_304_sum": 3.3230000000000026
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52504",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52504",
       "info_dict_time": 320.19802141189575,
       "log_reported_time": 24.118,
       "log_calculated_time": 320.28799999999785,
@@ -37468,7 +37468,7 @@
       "line_304_sum": 0.3710000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq113575",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq113575",
       "info_dict_time": 0.1086266040802002,
       "log_reported_time": 0.109,
       "log_calculated_time": 0.14700000000000002,
@@ -37492,7 +37492,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117690",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117690",
       "info_dict_time": 0.0734415054321289,
       "log_reported_time": 0.073,
       "log_calculated_time": 0.111,
@@ -37516,7 +37516,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43779",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43779",
       "info_dict_time": 799.6128084659576,
       "log_reported_time": 24.109,
       "log_calculated_time": 800.3410000000013,
@@ -37800,7 +37800,7 @@
       "line_304_sum": 0.11200000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43814",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43814",
       "info_dict_time": 868.3489646911621,
       "log_reported_time": 24.109,
       "log_calculated_time": 869.0230000000006,
@@ -38016,7 +38016,7 @@
       "line_304_sum": 0.069
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216189",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216189",
       "info_dict_time": 72.40615010261536,
       "log_reported_time": 72.406,
       "log_calculated_time": 72.45400000000001,
@@ -38047,7 +38047,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89585",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89585",
       "info_dict_time": 0.050618648529052734,
       "log_reported_time": 0.051,
       "log_calculated_time": 0.088,
@@ -38071,7 +38071,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751994",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751994",
       "info_dict_time": 3.263737916946411,
       "log_reported_time": 0.012,
       "log_calculated_time": 3.2109999999999994,
@@ -38885,7 +38885,7 @@
       "line_304_sum": 2.1449999999999996
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108138",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108138",
       "info_dict_time": 24.21247363090515,
       "log_reported_time": 24.212,
       "log_calculated_time": 24.284000000000006,
@@ -38915,7 +38915,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758924",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758924",
       "info_dict_time": 8.338182926177979,
       "log_reported_time": 0.186,
       "log_calculated_time": 116.667,
@@ -39007,7 +39007,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128903",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128903",
       "info_dict_time": 0.06669306755065918,
       "log_reported_time": 0.067,
       "log_calculated_time": 0.068,
@@ -39030,7 +39030,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736057",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736057",
       "info_dict_time": 3.701554536819458,
       "log_reported_time": 0.015,
       "log_calculated_time": 3.795000000000002,
@@ -40007,7 +40007,7 @@
       "line_304_sum": 1.8860000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736655",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736655",
       "info_dict_time": 5.695295810699463,
       "log_reported_time": 0.029,
       "log_calculated_time": 5.759999999999816,
@@ -41477,7 +41477,7 @@
       "line_304_sum": 5.759999999999816
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719432",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719432",
       "info_dict_time": 13.255511283874512,
       "log_reported_time": 0.044,
       "log_calculated_time": 13.224999999999444,
@@ -44648,7 +44648,7 @@
       "line_304_sum": 13.224999999999444
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760486",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760486",
       "info_dict_time": 5.500881671905518,
       "log_reported_time": 0.025,
       "log_calculated_time": 3.856000000000003,
@@ -45631,7 +45631,7 @@
       "line_304_sum": 1.9290000000000014
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112578",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112578",
       "info_dict_time": 0.25374412536621094,
       "log_reported_time": 0.254,
       "log_calculated_time": 0.254,
@@ -45653,7 +45653,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr711778",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr711778",
       "info_dict_time": 13.230851173400879,
       "log_reported_time": 0.034,
       "log_calculated_time": 13.422000000000287,
@@ -48047,7 +48047,7 @@
       "line_304_sum": 13.422000000000287
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52540",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52540",
       "info_dict_time": 393.0473835468292,
       "log_reported_time": 24.117,
       "log_calculated_time": 393.1340000000021,
@@ -48629,7 +48629,7 @@
       "line_304_sum": 0.3370000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand441441",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand441441",
       "info_dict_time": 0.07353830337524414,
       "log_reported_time": 0.074,
       "log_calculated_time": 0.1,
@@ -48653,7 +48653,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760723",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760723",
       "info_dict_time": 11.034504413604736,
       "log_reported_time": 0.03,
       "log_calculated_time": 11.607999999999226,
@@ -51616,7 +51616,7 @@
       "line_304_sum": 2.8570000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140288",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140288",
       "info_dict_time": 0.20312285423278809,
       "log_reported_time": 0.203,
       "log_calculated_time": 0.203,
@@ -51639,7 +51639,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cut/cut134999",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cut/cut134999",
       "info_dict_time": 37.1863329410553,
       "log_reported_time": 0.113,
       "log_calculated_time": 245.53999999999996,
@@ -51963,7 +51963,7 @@
       "line_304_sum": 0.10200000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97946",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97946",
       "info_dict_time": 111.21263861656189,
       "log_reported_time": 0.249,
       "log_calculated_time": 139.9769999999997,
@@ -53435,7 +53435,7 @@
       "line_304_sum": 0.5940000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756903",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756903",
       "info_dict_time": 8.879207372665405,
       "log_reported_time": 0.037,
       "log_calculated_time": 9.017999999999478,
@@ -55722,7 +55722,7 @@
       "line_304_sum": 6.015999999999795
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128919",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128919",
       "info_dict_time": 0.09420990943908691,
       "log_reported_time": 0.094,
       "log_calculated_time": 0.095,
@@ -55745,7 +55745,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92675",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92675",
       "info_dict_time": 0.059815168380737305,
       "log_reported_time": 0.06,
       "log_calculated_time": 0.085,
@@ -55769,7 +55769,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123936",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123936",
       "info_dict_time": 0.0714411735534668,
       "log_reported_time": 0.071,
       "log_calculated_time": 0.072,
@@ -55792,7 +55792,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48117",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48117",
       "info_dict_time": 607.5845899581909,
       "log_reported_time": 24.118,
       "log_calculated_time": 607.8990000000008,
@@ -56214,7 +56214,7 @@
       "line_304_sum": 0.13400000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117706",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117706",
       "info_dict_time": 0.0711357593536377,
       "log_reported_time": 0.071,
       "log_calculated_time": 0.123,
@@ -56238,7 +56238,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/lsattr/lsattr1094342",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsattr/lsattr1094342",
       "info_dict_time": 8.725070476531982,
       "log_reported_time": 0.027,
       "log_calculated_time": 9.02999999999959,
@@ -58563,7 +58563,7 @@
       "line_304_sum": 9.02999999999959
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent744955",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent744955",
       "info_dict_time": 8.111391305923462,
       "log_reported_time": 0.165,
       "log_calculated_time": 242.77399999999994,
@@ -58652,7 +58652,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig877803",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig877803",
       "info_dict_time": 0.585820198059082,
       "log_reported_time": 0.013,
       "log_calculated_time": 87.97400000000002,
@@ -58784,7 +58784,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr476497",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr476497",
       "info_dict_time": 798.8321022987366,
       "log_reported_time": 24.13,
       "log_calculated_time": 828.9460000000026,
@@ -59502,7 +59502,7 @@
       "line_304_sum": 0.7030000000000005
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89609",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89609",
       "info_dict_time": 0.07479143142700195,
       "log_reported_time": 0.075,
       "log_calculated_time": 0.151,
@@ -59526,7 +59526,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr524539",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr524539",
       "info_dict_time": 3.154721736907959,
       "log_reported_time": 0.004,
       "log_calculated_time": 3.2870000000000017,
@@ -60401,7 +60401,7 @@
       "line_304_sum": 3.2870000000000017
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printf/printf893696",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printf/printf893696",
       "info_dict_time": 17.279319047927856,
       "log_reported_time": 0.05,
       "log_calculated_time": 17.375000000000018,
@@ -60753,7 +60753,7 @@
       "line_304_sum": 0.06300000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq67590",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq67590",
       "info_dict_time": 0.11670303344726562,
       "log_reported_time": 0.117,
       "log_calculated_time": 0.137,
@@ -60778,7 +60778,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date129450",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date129450",
       "info_dict_time": 6.1185338497161865,
       "log_reported_time": 0.011,
       "log_calculated_time": 54.62899999999987,
@@ -61616,7 +61616,7 @@
       "line_304_sum": 1.752999999999998
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent714641",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent714641",
       "info_dict_time": 5.631157875061035,
       "log_reported_time": 0.077,
       "log_calculated_time": 147.48900000000012,
@@ -61978,7 +61978,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133659",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133659",
       "info_dict_time": 0.1231527328491211,
       "log_reported_time": 0.123,
       "log_calculated_time": 0.123,
@@ -62001,7 +62001,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid220816",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid220816",
       "info_dict_time": 48.93568181991577,
       "log_reported_time": 48.936,
       "log_calculated_time": 48.934999999999995,
@@ -62029,7 +62029,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140275",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140275",
       "info_dict_time": 0.15044379234313965,
       "log_reported_time": 0.15,
       "log_calculated_time": 0.22000000000000003,
@@ -62053,7 +62053,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr460932",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr460932",
       "info_dict_time": 16.06825876235962,
       "log_reported_time": 0.06,
       "log_calculated_time": 16.244000000000167,
@@ -65323,7 +65323,7 @@
       "line_304_sum": 16.244000000000167
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/dir/dir43943",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dir/dir43943",
       "info_dict_time": 11.116084575653076,
       "log_reported_time": 0.083,
       "log_calculated_time": 11.081999999999988,
@@ -65707,7 +65707,7 @@
       "line_304_sum": 0.007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758935",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758935",
       "info_dict_time": 2.8669803142547607,
       "log_reported_time": 0.014,
       "log_calculated_time": 2.9699999999999993,
@@ -66512,7 +66512,7 @@
       "line_304_sum": 1.4429999999999974
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52508",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52508",
       "info_dict_time": 439.36644077301025,
       "log_reported_time": 24.113,
       "log_calculated_time": 439.44800000000004,
@@ -67077,7 +67077,7 @@
       "line_304_sum": 0.2770000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr489281",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr489281",
       "info_dict_time": 21.587175130844116,
       "log_reported_time": 0.241,
       "log_calculated_time": 100.96799999999992,
@@ -67245,7 +67245,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89617",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89617",
       "info_dict_time": 0.10566592216491699,
       "log_reported_time": 0.106,
       "log_calculated_time": 0.14800000000000002,
@@ -67269,7 +67269,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent745792",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent745792",
       "info_dict_time": 6.194438457489014,
       "log_reported_time": 0.022,
       "log_calculated_time": 6.312999999999763,
@@ -68881,7 +68881,7 @@
       "line_304_sum": 6.312999999999763
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748514",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748514",
       "info_dict_time": 5.106621265411377,
       "log_reported_time": 0.015,
       "log_calculated_time": 5.321999999999865,
@@ -70256,7 +70256,7 @@
       "line_304_sum": 2.6239999999999997
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92687",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92687",
       "info_dict_time": 0.0765843391418457,
       "log_reported_time": 0.077,
       "log_calculated_time": 0.136,
@@ -70280,7 +70280,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197784",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197784",
       "info_dict_time": 48.30617356300354,
       "log_reported_time": 48.306,
       "log_calculated_time": 48.36899999999999,
@@ -70309,7 +70309,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758190",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758190",
       "info_dict_time": 10.025176763534546,
       "log_reported_time": 0.215,
       "log_calculated_time": 10.213999999999997,
@@ -70377,7 +70377,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48123",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48123",
       "info_dict_time": 655.1656329631805,
       "log_reported_time": 24.104,
       "log_calculated_time": 655.518000000002,
@@ -70838,7 +70838,7 @@
       "line_304_sum": 0.11300000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128895",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128895",
       "info_dict_time": 0.06212019920349121,
       "log_reported_time": 0.062,
       "log_calculated_time": 0.063,
@@ -70861,7 +70861,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140534",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140534",
       "info_dict_time": 0.1318824291229248,
       "log_reported_time": 0.132,
       "log_calculated_time": 0.17099999999999999,
@@ -70885,7 +70885,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac138513",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac138513",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -70902,7 +70902,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143566",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143566",
       "info_dict_time": 0.14325261116027832,
       "log_reported_time": 0.143,
       "log_calculated_time": 0.14400000000000002,
@@ -70925,7 +70925,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97900",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97900",
       "info_dict_time": 0.046112060546875,
       "log_reported_time": 0.046,
       "log_calculated_time": 0.047,
@@ -70948,7 +70948,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac121253",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac121253",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -70965,7 +70965,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52518",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52518",
       "info_dict_time": 153.39394116401672,
       "log_reported_time": 24.112,
       "log_calculated_time": 153.45599999999672,
@@ -71742,7 +71742,7 @@
       "line_304_sum": 0.46100000000000035
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753832",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent753832",
       "info_dict_time": 4.795863389968872,
       "log_reported_time": 0.016,
       "log_calculated_time": 4.995999999999904,
@@ -73031,7 +73031,7 @@
       "line_304_sum": 2.480999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748060",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748060",
       "info_dict_time": 5.157865047454834,
       "log_reported_time": 0.024,
       "log_calculated_time": 5.284999999999866,
@@ -74388,7 +74388,7 @@
       "line_304_sum": 1.7450000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735413",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735413",
       "info_dict_time": 3.505197286605835,
       "log_reported_time": 0.025,
       "log_calculated_time": 3.455999999999992,
@@ -75235,7 +75235,7 @@
       "line_304_sum": 2.8729999999999944
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117704",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117704",
       "info_dict_time": 0.08794045448303223,
       "log_reported_time": 0.088,
       "log_calculated_time": 0.136,
@@ -75259,7 +75259,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742478",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742478",
       "info_dict_time": 6.34230899810791,
       "log_reported_time": 0.199,
       "log_calculated_time": 244.98899999999995,
@@ -75338,7 +75338,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr757128",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr757128",
       "info_dict_time": 3.6201071739196777,
       "log_reported_time": 0.051,
       "log_calculated_time": 3.752999999999982,
@@ -76230,7 +76230,7 @@
       "line_304_sum": 2.620999999999978
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740700",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740700",
       "info_dict_time": 9.910466194152832,
       "log_reported_time": 0.028,
       "log_calculated_time": 9.967999999999641,
@@ -78268,7 +78268,7 @@
       "line_304_sum": 7.241999999999873
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92663",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92663",
       "info_dict_time": 0.047376394271850586,
       "log_reported_time": 0.047,
       "log_calculated_time": 0.091,
@@ -78292,7 +78292,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent752787",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent752787",
       "info_dict_time": 8.63330340385437,
       "log_reported_time": 0.197,
       "log_calculated_time": 186.22399999999936,
@@ -78514,7 +78514,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758719",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758719",
       "info_dict_time": 3.0273077487945557,
       "log_reported_time": 0.258,
       "log_calculated_time": 75.61400000000009,
@@ -78646,7 +78646,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/linux/linux641017624",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/linux/linux641017624",
       "info_dict_time": 8.479644298553467,
       "log_reported_time": 0.027,
       "log_calculated_time": 8.663999999999595,
@@ -80781,7 +80781,7 @@
       "line_304_sum": 8.663999999999595
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121415",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121415",
       "info_dict_time": 0.1113126277923584,
       "log_reported_time": 0.111,
       "log_calculated_time": 0.136,
@@ -80805,7 +80805,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq110808",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq110808",
       "info_dict_time": 289.92508363723755,
       "log_reported_time": 0.3,
       "log_calculated_time": 297.06999999999556,
@@ -81999,7 +81999,7 @@
       "line_304_sum": 0.2570000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac144050",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac144050",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -82016,7 +82016,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printf/printf887976",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printf/printf887976",
       "info_dict_time": 141.49062132835388,
       "log_reported_time": 24.123,
       "log_calculated_time": 141.47299999999993,
@@ -82298,7 +82298,7 @@
       "line_304_sum": 0.04000000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac112292",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac112292",
       "info_dict_time": 487.45820450782776,
       "log_reported_time": 24.34,
       "log_calculated_time": 1000.1809999999998,
@@ -82402,7 +82402,7 @@
       "line_304_sum": 0.133
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/fold/fold450796",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/fold/fold450796",
       "info_dict_time": 443.0266785621643,
       "log_reported_time": 24.142,
       "log_calculated_time": 714.9500000000047,
@@ -83162,7 +83162,7 @@
       "line_304_sum": 0.17500000000000013
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1408313",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1408313",
       "info_dict_time": 0.39212775230407715,
       "log_reported_time": 0.017,
       "log_calculated_time": 223.36599999999999,
@@ -83272,7 +83272,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143569",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143569",
       "info_dict_time": 0.11628079414367676,
       "log_reported_time": 0.116,
       "log_calculated_time": 0.11599999999999999,
@@ -83295,7 +83295,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf40176",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf40176",
       "info_dict_time": 670.8978755474091,
       "log_reported_time": 24.141,
       "log_calculated_time": 671.3490000000007,
@@ -83619,7 +83619,7 @@
       "line_304_sum": 0.15000000000000005
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/dmesg/dmesg1019823",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/dmesg/dmesg1019823",
       "info_dict_time": 0.3555788993835449,
       "log_reported_time": 0.012,
       "log_calculated_time": 193.776,
@@ -83710,7 +83710,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent715132",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent715132",
       "info_dict_time": 4.252857208251953,
       "log_reported_time": 0.081,
       "log_calculated_time": 149.58799999999968,
@@ -84082,7 +84082,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92676",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92676",
       "info_dict_time": 0.06905341148376465,
       "log_reported_time": 0.069,
       "log_calculated_time": 0.096,
@@ -84106,7 +84106,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date166559",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date166559",
       "info_dict_time": 8.011960983276367,
       "log_reported_time": 0.013,
       "log_calculated_time": 104.63800000000025,
@@ -84874,7 +84874,7 @@
       "line_304_sum": 0.8010000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89594",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89594",
       "info_dict_time": 0.05586504936218262,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.08,
@@ -84898,7 +84898,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kill/kill694195",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kill/kill694195",
       "info_dict_time": 555.2192096710205,
       "log_reported_time": 24.131,
       "log_calculated_time": 1027.9470000000006,
@@ -85030,7 +85030,7 @@
       "line_304_sum": 0.2660000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent745891",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent745891",
       "info_dict_time": 16.446776151657104,
       "log_reported_time": 0.067,
       "log_calculated_time": 14.813999999999004,
@@ -88894,7 +88894,7 @@
       "line_304_sum": 12.293999999999263
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734394",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734394",
       "info_dict_time": 6.6628029346466064,
       "log_reported_time": 0.144,
       "log_calculated_time": 158.74000000000007,
@@ -89115,7 +89115,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724550",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724550",
       "info_dict_time": 3.2713592052459717,
       "log_reported_time": 0.021,
       "log_calculated_time": 3.313000000000002,
@@ -89959,7 +89959,7 @@
       "line_304_sum": 1.9800000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1051409",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1051409",
       "info_dict_time": 7.783129930496216,
       "log_reported_time": 0.022,
       "log_calculated_time": 8.095999999999632,
@@ -92101,7 +92101,7 @@
       "line_304_sum": 8.095999999999632
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740329",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740329",
       "info_dict_time": 13.096791744232178,
       "log_reported_time": 0.064,
       "log_calculated_time": 13.306999999999041,
@@ -95464,7 +95464,7 @@
       "line_304_sum": 11.631999999999207
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717280",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717280",
       "info_dict_time": 5.795762777328491,
       "log_reported_time": 0.022,
       "log_calculated_time": 5.898999999999804,
@@ -96964,7 +96964,7 @@
       "line_304_sum": 5.898999999999804
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fatattr/fatattr940699",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fatattr/fatattr940699",
       "info_dict_time": 1.1525847911834717,
       "log_reported_time": 0.026,
       "log_calculated_time": 53.057,
@@ -97071,7 +97071,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743370",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743370",
       "info_dict_time": 7.776050567626953,
       "log_reported_time": 0.038,
       "log_calculated_time": 8.038999999999591,
@@ -99124,7 +99124,7 @@
       "line_304_sum": 8.038999999999591
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead650786",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead650786",
       "info_dict_time": 0.7647788524627686,
       "log_reported_time": 0.023,
       "log_calculated_time": 47.704000000000015,
@@ -99270,7 +99270,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740320",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740320",
       "info_dict_time": 5.225289344787598,
       "log_reported_time": 0.022,
       "log_calculated_time": 5.446999999999857,
@@ -100674,7 +100674,7 @@
       "line_304_sum": 5.446999999999857
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printf/printf880830",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printf/printf880830",
       "info_dict_time": 16.595210313796997,
       "log_reported_time": 0.373,
       "log_calculated_time": 16.529,
@@ -101086,7 +101086,7 @@
       "line_304_sum": 0.08000000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/sync/sync1074740",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/sync/sync1074740",
       "info_dict_time": 0.28270769119262695,
       "log_reported_time": 0.012,
       "log_calculated_time": 217.65100000000004,
@@ -101182,7 +101182,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac118347",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac118347",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -101199,7 +101199,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121171",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121171",
       "info_dict_time": 0.22842836380004883,
       "log_reported_time": 0.228,
       "log_calculated_time": 0.38900000000000007,
@@ -101240,7 +101240,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739636",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739636",
       "info_dict_time": 7.23590612411499,
       "log_reported_time": 0.143,
       "log_calculated_time": 228.98099999999994,
@@ -101343,7 +101343,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac114607",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac114607",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -101360,7 +101360,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121158",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121158",
       "info_dict_time": 0.081207275390625,
       "log_reported_time": 0.081,
       "log_calculated_time": 0.128,
@@ -101386,7 +101386,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date137979",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date137979",
       "info_dict_time": 8.31465196609497,
       "log_reported_time": 0.05,
       "log_calculated_time": 8.510999999999903,
@@ -101807,7 +101807,7 @@
       "line_304_sum": 1.165000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac135495",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac135495",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -101824,7 +101824,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757543",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757543",
       "info_dict_time": 4.473970174789429,
       "log_reported_time": 0.025,
       "log_calculated_time": 4.607999999999935,
@@ -103024,7 +103024,7 @@
       "line_304_sum": 4.607999999999935
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119500",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119500",
       "info_dict_time": 48.325732469558716,
       "log_reported_time": 48.326,
       "log_calculated_time": 48.38799999999999,
@@ -103056,7 +103056,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755795",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755795",
       "info_dict_time": 1.985630750656128,
       "log_reported_time": 0.008,
       "log_calculated_time": 2.014000000000001,
@@ -103578,7 +103578,7 @@
       "line_304_sum": 2.014000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr277231",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277231",
       "info_dict_time": 351.53157019615173,
       "log_reported_time": 0.043,
       "log_calculated_time": 113.81200000000239,
@@ -104767,7 +104767,7 @@
       "line_304_sum": 3.2609999999999975
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent759993",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent759993",
       "info_dict_time": 7.658324480056763,
       "log_reported_time": 0.031,
       "log_calculated_time": 7.775999999999644,
@@ -106710,7 +106710,7 @@
       "line_304_sum": 5.797999999999827
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736063",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736063",
       "info_dict_time": 6.213410139083862,
       "log_reported_time": 0.025,
       "log_calculated_time": 6.191999999999765,
@@ -108253,7 +108253,7 @@
       "line_304_sum": 2.0460000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92679",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92679",
       "info_dict_time": 0.0698091983795166,
       "log_reported_time": 0.07,
       "log_calculated_time": 0.099,
@@ -108277,7 +108277,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent746190",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent746190",
       "info_dict_time": 6.555419445037842,
       "log_reported_time": 0.125,
       "log_calculated_time": 6.557000000000001,
@@ -108343,7 +108343,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq79291",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq79291",
       "info_dict_time": 191.9018931388855,
       "log_reported_time": 0.283,
       "log_calculated_time": 272.2749999999995,
@@ -109802,7 +109802,7 @@
       "line_304_sum": 0.007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131863",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131863",
       "info_dict_time": 0.18795514106750488,
       "log_reported_time": 0.188,
       "log_calculated_time": 0.188,
@@ -109826,7 +109826,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135048",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135048",
       "info_dict_time": 0.14986443519592285,
       "log_reported_time": 0.15,
       "log_calculated_time": 0.165,
@@ -109850,7 +109850,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand443121",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand443121",
       "info_dict_time": 0.06750154495239258,
       "log_reported_time": 0.068,
       "log_calculated_time": 24.198,
@@ -109875,7 +109875,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/linux/linux32895743",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/linux/linux32895743",
       "info_dict_time": 0.6909897327423096,
       "log_reported_time": 0.013,
       "log_calculated_time": 43.092,
@@ -110017,7 +110017,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date145885",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date145885",
       "info_dict_time": 5.0546863079071045,
       "log_reported_time": 0.019,
       "log_calculated_time": 5.162999999999903,
@@ -110642,7 +110642,7 @@
       "line_304_sum": 1.351000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805787",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805787",
       "info_dict_time": 0.7436928749084473,
       "log_reported_time": 0.027,
       "log_calculated_time": 38.12799999999999,
@@ -110780,7 +110780,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1113372",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1113372",
       "info_dict_time": 1.622833251953125,
       "log_reported_time": 0.024,
       "log_calculated_time": 78.46100000000004,
@@ -110936,7 +110936,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197764",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197764",
       "info_dict_time": 48.27541375160217,
       "log_reported_time": 48.275,
       "log_calculated_time": 48.409,
@@ -110967,7 +110967,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48127",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48127",
       "info_dict_time": 680.7599959373474,
       "log_reported_time": 24.113,
       "log_calculated_time": 681.1280000000023,
@@ -111398,7 +111398,7 @@
       "line_304_sum": 0.1630000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printf/printf888285",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printf/printf888285",
       "info_dict_time": 90.73103356361389,
       "log_reported_time": 24.12,
       "log_calculated_time": 90.72499999999991,
@@ -111777,7 +111777,7 @@
       "line_304_sum": 0.024
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac115686",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac115686",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -111794,7 +111794,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent744824",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent744824",
       "info_dict_time": 2.260429620742798,
       "log_reported_time": 0.014,
       "log_calculated_time": 2.272999999999991,
@@ -112144,7 +112144,7 @@
       "line_304_sum": 2.272999999999991
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737838",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737838",
       "info_dict_time": 7.413731575012207,
       "log_reported_time": 0.169,
       "log_calculated_time": 224.78899999999993,
@@ -112347,7 +112347,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1432079",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1432079",
       "info_dict_time": 9.00109076499939,
       "log_reported_time": 0.029,
       "log_calculated_time": 9.038999999999474,
@@ -114624,7 +114624,7 @@
       "line_304_sum": 9.038999999999474
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717211",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717211",
       "info_dict_time": 2.954716205596924,
       "log_reported_time": 0.268,
       "log_calculated_time": 93.772,
@@ -114661,7 +114661,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq126181",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq126181",
       "info_dict_time": 0.12078714370727539,
       "log_reported_time": 0.121,
       "log_calculated_time": 0.14200000000000002,
@@ -114685,7 +114685,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52499",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52499",
       "info_dict_time": 655.0927269458771,
       "log_reported_time": 24.129,
       "log_calculated_time": 655.1739999999999,
@@ -115038,7 +115038,7 @@
       "line_304_sum": 0.15700000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/klogd/klogd903066",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/klogd/klogd903066",
       "info_dict_time": 7.457251071929932,
       "log_reported_time": 0.024,
       "log_calculated_time": 7.656999999999624,
@@ -116978,7 +116978,7 @@
       "line_304_sum": 7.656999999999624
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date166732",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date166732",
       "info_dict_time": 5.871809720993042,
       "log_reported_time": 0.011,
       "log_calculated_time": 6.174999999999966,
@@ -117672,7 +117672,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140535",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140535",
       "info_dict_time": 0.1581740379333496,
       "log_reported_time": 0.158,
       "log_calculated_time": 0.19999999999999998,
@@ -117696,7 +117696,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date184779",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date184779",
       "info_dict_time": 5.8575944900512695,
       "log_reported_time": 0.044,
       "log_calculated_time": 54.364,
@@ -118554,7 +118554,7 @@
       "line_304_sum": 0.9190000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq126195",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq126195",
       "info_dict_time": 0.12466192245483398,
       "log_reported_time": 0.125,
       "log_calculated_time": 0.152,
@@ -118578,7 +118578,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131848",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131848",
       "info_dict_time": 0.12149572372436523,
       "log_reported_time": 0.121,
       "log_calculated_time": 0.193,
@@ -118607,7 +118607,7 @@
       "line_304_sum": 0.013000000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121176",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121176",
       "info_dict_time": 176.76415419578552,
       "log_reported_time": 0.027,
       "log_calculated_time": 207.94799999999898,
@@ -119992,7 +119992,7 @@
       "line_304_sum": 0.4280000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128893",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128893",
       "info_dict_time": 0.07152843475341797,
       "log_reported_time": 0.072,
       "log_calculated_time": 0.072,
@@ -120015,7 +120015,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr699600",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr699600",
       "info_dict_time": 10.993922472000122,
       "log_reported_time": 0.039,
       "log_calculated_time": 11.071999999999848,
@@ -122310,7 +122310,7 @@
       "line_304_sum": 6.514999999999977
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent728039",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent728039",
       "info_dict_time": 32.27501893043518,
       "log_reported_time": 0.132,
       "log_calculated_time": 32.454000000003816,
@@ -130345,7 +130345,7 @@
       "line_304_sum": 27.070000000002373
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac121144",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac121144",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -130362,7 +130362,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725187",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent725187",
       "info_dict_time": 3.6844751834869385,
       "log_reported_time": 0.015,
       "log_calculated_time": 2.9990000000000037,
@@ -131156,7 +131156,7 @@
       "line_304_sum": 2.9990000000000037
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent727982",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent727982",
       "info_dict_time": 0.6176028251647949,
       "log_reported_time": 0.008,
       "log_calculated_time": 0.6090000000000004,
@@ -131325,7 +131325,7 @@
       "line_304_sum": 0.6090000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758917",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758917",
       "info_dict_time": 1.8876919746398926,
       "log_reported_time": 0.008,
       "log_calculated_time": 1.9509999999999987,
@@ -131845,7 +131845,7 @@
       "line_304_sum": 1.9509999999999987
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135083",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135083",
       "info_dict_time": 0.09575366973876953,
       "log_reported_time": 0.096,
       "log_calculated_time": 0.096,
@@ -131868,7 +131868,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48136",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48136",
       "info_dict_time": 775.6197175979614,
       "log_reported_time": 24.115,
       "log_calculated_time": 775.9410000000028,
@@ -132261,7 +132261,7 @@
       "line_304_sum": 0.12500000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent738261",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent738261",
       "info_dict_time": 6.231917381286621,
       "log_reported_time": 0.183,
       "log_calculated_time": 111.4520000000002,
@@ -132454,7 +132454,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac99374",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac99374",
       "info_dict_time": 554.9971926212311,
       "log_reported_time": 24.262,
       "log_calculated_time": 923.0290000000002,
@@ -132539,7 +132539,7 @@
       "line_304_sum": 0.030999999999999996
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1407685",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1407685",
       "info_dict_time": 0.23866510391235352,
       "log_reported_time": 0.013,
       "log_calculated_time": 193.375,
@@ -132626,7 +132626,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent738170",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent738170",
       "info_dict_time": 3.178992509841919,
       "log_reported_time": 0.011,
       "log_calculated_time": 3.19699999999996,
@@ -133224,7 +133224,7 @@
       "line_304_sum": 3.19699999999996
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq67573",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq67573",
       "info_dict_time": 0.04650735855102539,
       "log_reported_time": 0.047,
       "log_calculated_time": 0.07,
@@ -133248,7 +133248,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent721499",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent721499",
       "info_dict_time": 1.6052992343902588,
       "log_reported_time": 0.008,
       "log_calculated_time": 1.6659999999999953,
@@ -133698,7 +133698,7 @@
       "line_304_sum": 1.6659999999999953
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757857",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757857",
       "info_dict_time": 7.07464861869812,
       "log_reported_time": 0.213,
       "log_calculated_time": 152.70100000000028,
@@ -133878,7 +133878,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq67586",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq67586",
       "info_dict_time": 0.05023503303527832,
       "log_reported_time": 0.05,
       "log_calculated_time": 0.07100000000000001,
@@ -133902,7 +133902,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116424",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116424",
       "info_dict_time": 0.05749654769897461,
       "log_reported_time": 0.057,
       "log_calculated_time": 0.11599999999999999,
@@ -133926,7 +133926,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq138366",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq138366",
       "info_dict_time": 0.07583284378051758,
       "log_reported_time": 0.076,
       "log_calculated_time": 0.076,
@@ -133949,7 +133949,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac138522",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac138522",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -133966,7 +133966,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date122167",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date122167",
       "info_dict_time": 2.932605743408203,
       "log_reported_time": 0.009,
       "log_calculated_time": 2.9969999999999994,
@@ -134072,7 +134072,7 @@
       "line_304_sum": 0.23100000000000018
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac55380",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac55380",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -134089,7 +134089,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719438",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719438",
       "info_dict_time": 5.891519069671631,
       "log_reported_time": 0.024,
       "log_calculated_time": 6.0209999999998,
@@ -135632,7 +135632,7 @@
       "line_304_sum": 2.987000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand441425",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand441425",
       "info_dict_time": 0.07054448127746582,
       "log_reported_time": 0.071,
       "log_calculated_time": 0.091,
@@ -135656,7 +135656,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac65754",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac65754",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -135673,7 +135673,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131872",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131872",
       "info_dict_time": 0.5734407901763916,
       "log_reported_time": 0.573,
       "log_calculated_time": 0.5730000000000001,
@@ -135697,7 +135697,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116462",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116462",
       "info_dict_time": 0.10024690628051758,
       "log_reported_time": 0.1,
       "log_calculated_time": 24.212999999999997,
@@ -135722,7 +135722,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108148",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108148",
       "info_dict_time": 24.207099437713623,
       "log_reported_time": 24.207,
       "log_calculated_time": 48.44999999999998,
@@ -135758,7 +135758,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent752073",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent752073",
       "info_dict_time": 5.438311338424683,
       "log_reported_time": 0.022,
       "log_calculated_time": 5.538999999999853,
@@ -137162,7 +137162,7 @@
       "line_304_sum": 5.538999999999853
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756454",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756454",
       "info_dict_time": 10.242485284805298,
       "log_reported_time": 0.035,
       "log_calculated_time": 10.577999999999403,
@@ -139901,7 +139901,7 @@
       "line_304_sum": 8.423999999999616
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724499",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724499",
       "info_dict_time": 6.54361891746521,
       "log_reported_time": 0.165,
       "log_calculated_time": 179.04199999999997,
@@ -140138,7 +140138,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97937",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97937",
       "info_dict_time": 0.07394576072692871,
       "log_reported_time": 0.074,
       "log_calculated_time": 0.138,
@@ -140162,7 +140162,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac143261",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac143261",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -140179,7 +140179,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac113292",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac113292",
       "info_dict_time": 530.713814496994,
       "log_reported_time": 24.264,
       "log_calculated_time": 972.3009999999999,
@@ -140261,7 +140261,7 @@
       "line_304_sum": 0.013999999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq141710",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq141710",
       "info_dict_time": 0.07003974914550781,
       "log_reported_time": 0.07,
       "log_calculated_time": 0.071,
@@ -140284,7 +140284,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date138950",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date138950",
       "info_dict_time": 8.58871865272522,
       "log_reported_time": 0.014,
       "log_calculated_time": 32.8929999999998,
@@ -141118,7 +141118,7 @@
       "line_304_sum": 2.374000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac120929",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac120929",
       "info_dict_time": 27.327648162841797,
       "log_reported_time": 1.334,
       "log_calculated_time": 829.5720000000001,
@@ -141275,7 +141275,7 @@
       "line_304_sum": 0.05
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99153",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99153",
       "info_dict_time": 0.053568363189697266,
       "log_reported_time": 0.054,
       "log_calculated_time": 0.089,
@@ -141299,7 +141299,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr278576",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr278576",
       "info_dict_time": 604.5900502204895,
       "log_reported_time": 0.073,
       "log_calculated_time": 37.58299999999913,
@@ -142664,7 +142664,7 @@
       "line_304_sum": 35.219999999999835
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123923",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123923",
       "info_dict_time": 0.0690460205078125,
       "log_reported_time": 0.069,
       "log_calculated_time": 0.069,
@@ -142687,7 +142687,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751235",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751235",
       "info_dict_time": 9.083972930908203,
       "log_reported_time": 0.025,
       "log_calculated_time": 9.295999999999445,
@@ -145052,7 +145052,7 @@
       "line_304_sum": 6.1779999999997735
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/linux/linux641018259",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/linux/linux641018259",
       "info_dict_time": 0.48229551315307617,
       "log_reported_time": 0.017,
       "log_calculated_time": 178.16999999999996,
@@ -145180,7 +145180,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735931",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735931",
       "info_dict_time": 9.740773677825928,
       "log_reported_time": 0.04,
       "log_calculated_time": 9.946999999999532,
@@ -147794,7 +147794,7 @@
       "line_304_sum": 5.869999999999883
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743340",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743340",
       "info_dict_time": 11.363405704498291,
       "log_reported_time": 0.043,
       "log_calculated_time": 11.523999999999413,
@@ -150388,7 +150388,7 @@
       "line_304_sum": 9.471999999999602
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116459",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116459",
       "info_dict_time": 0.08017420768737793,
       "log_reported_time": 0.08,
       "log_calculated_time": 0.113,
@@ -150412,7 +150412,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89576",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89576",
       "info_dict_time": 0.04779410362243652,
       "log_reported_time": 0.048,
       "log_calculated_time": 0.089,
@@ -150436,7 +150436,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr756229",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr756229",
       "info_dict_time": 25.741271018981934,
       "log_reported_time": 0.109,
       "log_calculated_time": 25.664999999999917,
@@ -155179,7 +155179,7 @@
       "line_304_sum": 25.664999999999917
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140519",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140519",
       "info_dict_time": 0.10395646095275879,
       "log_reported_time": 0.104,
       "log_calculated_time": 0.163,
@@ -155203,7 +155203,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1113375",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1113375",
       "info_dict_time": 5.72933554649353,
       "log_reported_time": 0.019,
       "log_calculated_time": 5.820999999999806,
@@ -156686,7 +156686,7 @@
       "line_304_sum": 5.820999999999806
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749612",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749612",
       "info_dict_time": 4.1132588386535645,
       "log_reported_time": 0.016,
       "log_calculated_time": 4.215999999999988,
@@ -157776,7 +157776,7 @@
       "line_304_sum": 4.215999999999988
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755074",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755074",
       "info_dict_time": 7.5953264236450195,
       "log_reported_time": 0.028,
       "log_calculated_time": 7.855999999999602,
@@ -159798,7 +159798,7 @@
       "line_304_sum": 7.855999999999602
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand429235",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand429235",
       "info_dict_time": 0.1014702320098877,
       "log_reported_time": 0.101,
       "log_calculated_time": 0.121,
@@ -159822,7 +159822,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135085",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135085",
       "info_dict_time": 0.11646080017089844,
       "log_reported_time": 0.116,
       "log_calculated_time": 0.11599999999999999,
@@ -159845,7 +159845,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq83555",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83555",
       "info_dict_time": 0.06610417366027832,
       "log_reported_time": 0.066,
       "log_calculated_time": 0.097,
@@ -159869,7 +159869,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116450",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116450",
       "info_dict_time": 0.07767367362976074,
       "log_reported_time": 0.078,
       "log_calculated_time": 0.115,
@@ -159893,7 +159893,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq110801",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq110801",
       "info_dict_time": 0.074371337890625,
       "log_reported_time": 0.074,
       "log_calculated_time": 0.097,
@@ -159917,7 +159917,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac135345",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac135345",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -159934,7 +159934,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125901",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125901",
       "info_dict_time": 0.17750000953674316,
       "log_reported_time": 0.178,
       "log_calculated_time": 0.23299999999999998,
@@ -159961,7 +159961,7 @@
       "line_304_sum": 0.012
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac137331",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac137331",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -159978,7 +159978,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125939",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125939",
       "info_dict_time": 0.09996700286865234,
       "log_reported_time": 0.1,
       "log_calculated_time": 0.133,
@@ -160005,7 +160005,7 @@
       "line_304_sum": 0.012
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123967",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123967",
       "info_dict_time": 0.12982654571533203,
       "log_reported_time": 0.13,
       "log_calculated_time": 0.212,
@@ -160029,7 +160029,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cut/cut135001",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cut/cut135001",
       "info_dict_time": 11.788320302963257,
       "log_reported_time": 0.118,
       "log_calculated_time": 386.75700000000006,
@@ -160256,7 +160256,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197796",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197796",
       "info_dict_time": 48.30065059661865,
       "log_reported_time": 48.301,
       "log_calculated_time": 48.337999999999994,
@@ -160285,7 +160285,7 @@
       "line_304_sum": 0.004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48129",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48129",
       "info_dict_time": 792.7114336490631,
       "log_reported_time": 24.117,
       "log_calculated_time": 793.0260000000003,
@@ -160603,7 +160603,7 @@
       "line_304_sum": 0.11100000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mt/mt738883",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mt/mt738883",
       "info_dict_time": 0.8561611175537109,
       "log_reported_time": 0.013,
       "log_calculated_time": 49.38600000000004,
@@ -160746,7 +160746,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140267",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140267",
       "info_dict_time": 0.10134124755859375,
       "log_reported_time": 0.101,
       "log_calculated_time": 0.233,
@@ -160770,7 +160770,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737844",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737844",
       "info_dict_time": 7.193596601486206,
       "log_reported_time": 0.196,
       "log_calculated_time": 159.43799999999985,
@@ -160982,7 +160982,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac122106",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac122106",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -160999,7 +160999,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac137063",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac137063",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -161016,7 +161016,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117708",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117708",
       "info_dict_time": 0.07744455337524414,
       "log_reported_time": 0.077,
       "log_calculated_time": 0.108,
@@ -161040,7 +161040,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131860",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131860",
       "info_dict_time": 0.3941781520843506,
       "log_reported_time": 0.394,
       "log_calculated_time": 0.44900000000000007,
@@ -161065,7 +161065,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac126043",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac126043",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -161082,7 +161082,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133656",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133656",
       "info_dict_time": 0.11217093467712402,
       "log_reported_time": 0.112,
       "log_calculated_time": 0.112,
@@ -161105,7 +161105,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757553",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757553",
       "info_dict_time": 6.934835433959961,
       "log_reported_time": 0.18,
       "log_calculated_time": 272.947,
@@ -161173,7 +161173,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq105171",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq105171",
       "info_dict_time": 0.07312750816345215,
       "log_reported_time": 0.073,
       "log_calculated_time": 0.11599999999999999,
@@ -161197,7 +161197,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent754654",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent754654",
       "info_dict_time": 6.909590721130371,
       "log_reported_time": 0.039,
       "log_calculated_time": 6.836999999999794,
@@ -162671,7 +162671,7 @@
       "line_304_sum": 6.836999999999794
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52497",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52497",
       "info_dict_time": 606.5620930194855,
       "log_reported_time": 24.107,
       "log_calculated_time": 606.7000000000013,
@@ -163081,7 +163081,7 @@
       "line_304_sum": 0.25200000000000017
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135099",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135099",
       "info_dict_time": 0.11997079849243164,
       "log_reported_time": 0.12,
       "log_calculated_time": 24.227000000000004,
@@ -163106,7 +163106,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143531",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143531",
       "info_dict_time": 0.14598393440246582,
       "log_reported_time": 0.146,
       "log_calculated_time": 0.14600000000000002,
@@ -163129,7 +163129,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135080",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135080",
       "info_dict_time": 0.08366823196411133,
       "log_reported_time": 0.084,
       "log_calculated_time": 0.08399999999999999,
@@ -163152,7 +163152,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735573",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735573",
       "info_dict_time": 2.3791463375091553,
       "log_reported_time": 0.025,
       "log_calculated_time": 2.461999999999999,
@@ -163801,7 +163801,7 @@
       "line_304_sum": 1.7500000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99141",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99141",
       "info_dict_time": 0.04807424545288086,
       "log_reported_time": 0.048,
       "log_calculated_time": 0.097,
@@ -163825,7 +163825,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date21786",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date21786",
       "info_dict_time": 0.4244065284729004,
       "log_reported_time": 0.009,
       "log_calculated_time": 0.5610000000000004,
@@ -163965,7 +163965,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq110804",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq110804",
       "info_dict_time": 0.0682075023651123,
       "log_reported_time": 0.068,
       "log_calculated_time": 0.138,
@@ -163989,7 +163989,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121143",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121143",
       "info_dict_time": 0.13070464134216309,
       "log_reported_time": 0.131,
       "log_calculated_time": 0.29500000000000004,
@@ -164027,7 +164027,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq113572",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq113572",
       "info_dict_time": 0.10273909568786621,
       "log_reported_time": 0.103,
       "log_calculated_time": 0.145,
@@ -164051,7 +164051,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758927",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758927",
       "info_dict_time": 7.799870252609253,
       "log_reported_time": 0.179,
       "log_calculated_time": 63.422000000000004,
@@ -164132,7 +164132,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52538",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52538",
       "info_dict_time": 440.2314534187317,
       "log_reported_time": 24.115,
       "log_calculated_time": 440.3399999999997,
@@ -164700,7 +164700,7 @@
       "line_304_sum": 0.4350000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760256",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent760256",
       "info_dict_time": 8.530421733856201,
       "log_reported_time": 0.046,
       "log_calculated_time": 8.67900000000005,
@@ -167168,7 +167168,7 @@
       "line_304_sum": 8.67900000000005
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117693",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117693",
       "info_dict_time": 0.05068564414978027,
       "log_reported_time": 0.051,
       "log_calculated_time": 0.078,
@@ -167192,7 +167192,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737678",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent737678",
       "info_dict_time": 6.329785346984863,
       "log_reported_time": 0.186,
       "log_calculated_time": 213.9219999999995,
@@ -167371,7 +167371,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97917",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97917",
       "info_dict_time": 0.0426487922668457,
       "log_reported_time": 0.043,
       "log_calculated_time": 0.043000000000000003,
@@ -167394,7 +167394,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac120928",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac120928",
       "info_dict_time": 34.28944444656372,
       "log_reported_time": 1.304,
       "log_calculated_time": 884.3539999999997,
@@ -167553,7 +167553,7 @@
       "line_304_sum": 0.039000000000000014
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133627",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133627",
       "info_dict_time": 0.05572962760925293,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.056,
@@ -167576,7 +167576,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734492",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734492",
       "info_dict_time": 6.075678825378418,
       "log_reported_time": 0.099,
       "log_calculated_time": 163.7489999999979,
@@ -168094,7 +168094,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749623",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749623",
       "info_dict_time": 6.513331174850464,
       "log_reported_time": 0.021,
       "log_calculated_time": 6.795999999999979,
@@ -170005,7 +170005,7 @@
       "line_304_sum": 4.748000000000011
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac97422",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac97422",
       "info_dict_time": 617.2198848724365,
       "log_reported_time": 24.281,
       "log_calculated_time": 1019.6830000000002,
@@ -170089,7 +170089,7 @@
       "line_304_sum": 0.047
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731858",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731858",
       "info_dict_time": 9.346810579299927,
       "log_reported_time": 0.29,
       "log_calculated_time": 162.899,
@@ -170172,7 +170172,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734229",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734229",
       "info_dict_time": 6.216356039047241,
       "log_reported_time": 0.099,
       "log_calculated_time": 255.33999999999818,
@@ -170655,7 +170655,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52536",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52536",
       "info_dict_time": 582.7398433685303,
       "log_reported_time": 24.084,
       "log_calculated_time": 582.8379999999995,
@@ -171171,7 +171171,7 @@
       "line_304_sum": 0.30600000000000016
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133626",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133626",
       "info_dict_time": 0.05186343193054199,
       "log_reported_time": 0.052,
       "log_calculated_time": 0.052000000000000005,
@@ -171194,7 +171194,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133619",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133619",
       "info_dict_time": 0.055263519287109375,
       "log_reported_time": 0.055,
       "log_calculated_time": 0.055999999999999994,
@@ -171217,7 +171217,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac140577",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac140577",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -171234,7 +171234,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52529",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52529",
       "info_dict_time": 463.8462562561035,
       "log_reported_time": 24.088,
       "log_calculated_time": 464.00199999999825,
@@ -171906,7 +171906,7 @@
       "line_304_sum": 0.5530000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182465",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182465",
       "info_dict_time": 48.21028447151184,
       "log_reported_time": 48.21,
       "log_calculated_time": 48.254000000000005,
@@ -171936,7 +171936,7 @@
       "line_304_sum": 0.006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97907",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97907",
       "info_dict_time": 0.03895163536071777,
       "log_reported_time": 0.039,
       "log_calculated_time": 0.039,
@@ -171959,7 +171959,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tty/tty28723",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty28723",
       "info_dict_time": 3.0191214084625244,
       "log_reported_time": 3.019,
       "log_calculated_time": 3.041,
@@ -171983,7 +171983,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192703",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192703",
       "info_dict_time": 11.192240476608276,
       "log_reported_time": 0.042,
       "log_calculated_time": 11.314000000000016,
@@ -174341,7 +174341,7 @@
       "line_304_sum": 11.314000000000016
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743610",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743610",
       "info_dict_time": 5.809093952178955,
       "log_reported_time": 0.026,
       "log_calculated_time": 5.79799999999995,
@@ -175704,7 +175704,7 @@
       "line_304_sum": 2.643999999999988
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742349",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742349",
       "info_dict_time": 4.5802435874938965,
       "log_reported_time": 0.146,
       "log_calculated_time": 210.062,
@@ -175783,7 +175783,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108128",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108128",
       "info_dict_time": 24.14140772819519,
       "log_reported_time": 24.141,
       "log_calculated_time": 24.145000000000003,
@@ -175812,7 +175812,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac120994",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac120994",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -175829,7 +175829,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128910",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128910",
       "info_dict_time": 0.057248592376708984,
       "log_reported_time": 0.057,
       "log_calculated_time": 0.056999999999999995,
@@ -175852,7 +175852,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758236",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758236",
       "info_dict_time": 8.836210489273071,
       "log_reported_time": 0.347,
       "log_calculated_time": 183.15699999999987,
@@ -175957,7 +175957,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1104540",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1104540",
       "info_dict_time": 10.763881921768188,
       "log_reported_time": 0.043,
       "log_calculated_time": 10.832000000000084,
@@ -178138,7 +178138,7 @@
       "line_304_sum": 10.832000000000084
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq83562",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83562",
       "info_dict_time": 0.05568647384643555,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.09,
@@ -178162,7 +178162,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736643",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736643",
       "info_dict_time": 6.112914085388184,
       "log_reported_time": 0.025,
       "log_calculated_time": 6.213999999999971,
@@ -179853,7 +179853,7 @@
       "line_304_sum": 4.406000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac138492",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac138492",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -179870,7 +179870,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748646",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748646",
       "info_dict_time": 19.221036434173584,
       "log_reported_time": 0.056,
       "log_calculated_time": 19.91400000000043,
@@ -185243,7 +185243,7 @@
       "line_304_sum": 17.375000000000366
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mv/mv1175118",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mv/mv1175118",
       "info_dict_time": 0.5601503849029541,
       "log_reported_time": 0.018,
       "log_calculated_time": 22.016000000000016,
@@ -185376,7 +185376,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent746023",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent746023",
       "info_dict_time": 6.545346736907959,
       "log_reported_time": 0.03,
       "log_calculated_time": 6.596999999999951,
@@ -186936,7 +186936,7 @@
       "line_304_sum": 6.596999999999951
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123947",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123947",
       "info_dict_time": 0.05638837814331055,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.056999999999999995,
@@ -186959,7 +186959,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117692",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117692",
       "info_dict_time": 0.055680036544799805,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.08299999999999999,
@@ -186983,7 +186983,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734083",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent734083",
       "info_dict_time": 10.804698944091797,
       "log_reported_time": 0.038,
       "log_calculated_time": 11.404000000000101,
@@ -190474,7 +190474,7 @@
       "line_304_sum": 9.392000000000094
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac119941",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac119941",
       "info_dict_time": 91.71726727485657,
       "log_reported_time": 1.302,
       "log_calculated_time": 852.3389999999998,
@@ -190701,7 +190701,7 @@
       "line_304_sum": 0.061000000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116468",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116468",
       "info_dict_time": 0.10036540031433105,
       "log_reported_time": 0.1,
       "log_calculated_time": 0.101,
@@ -190724,7 +190724,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq83518",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83518",
       "info_dict_time": 0.036591291427612305,
       "log_reported_time": 0.037,
       "log_calculated_time": 0.051000000000000004,
@@ -190748,7 +190748,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740735",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740735",
       "info_dict_time": 4.632129907608032,
       "log_reported_time": 0.083,
       "log_calculated_time": 281.34900000000016,
@@ -190859,7 +190859,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216179",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216179",
       "info_dict_time": 72.2966730594635,
       "log_reported_time": 72.297,
       "log_calculated_time": 72.323,
@@ -190890,7 +190890,7 @@
       "line_304_sum": 0.006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92657",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92657",
       "info_dict_time": 0.03972911834716797,
       "log_reported_time": 0.04,
       "log_calculated_time": 0.066,
@@ -190914,7 +190914,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719451",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent719451",
       "info_dict_time": 8.254148006439209,
       "log_reported_time": 0.039,
       "log_calculated_time": 8.553999999999965,
@@ -193243,7 +193243,7 @@
       "line_304_sum": 4.526000000000006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740304",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740304",
       "info_dict_time": 4.277655601501465,
       "log_reported_time": 0.017,
       "log_calculated_time": 4.312999999999997,
@@ -194330,7 +194330,7 @@
       "line_304_sum": 2.0829999999999798
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736598",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent736598",
       "info_dict_time": 17.493666648864746,
       "log_reported_time": 0.08,
       "log_calculated_time": 18.041000000000246,
@@ -199289,7 +199289,7 @@
       "line_304_sum": 13.65100000000012
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead671209",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead671209",
       "info_dict_time": 0.2692995071411133,
       "log_reported_time": 0.009,
       "log_calculated_time": 289.70299999999975,
@@ -199411,7 +199411,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740302",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740302",
       "info_dict_time": 9.031180143356323,
       "log_reported_time": 0.037,
       "log_calculated_time": 9.383000000000003,
@@ -202125,7 +202125,7 @@
       "line_304_sum": 5.376000000000018
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf40167",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf40167",
       "info_dict_time": 798.6658596992493,
       "log_reported_time": 24.08,
       "log_calculated_time": 799.0680000000012,
@@ -202526,7 +202526,7 @@
       "line_304_sum": 0.13600000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805795",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805795",
       "info_dict_time": 10.05056643486023,
       "log_reported_time": 0.03,
       "log_calculated_time": 10.123999999999977,
@@ -204634,7 +204634,7 @@
       "line_304_sum": 10.123999999999977
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac108365",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac108365",
       "info_dict_time": 198.40919160842896,
       "log_reported_time": 1.29,
       "log_calculated_time": 635.6220000000002,
@@ -204872,7 +204872,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731935",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731935",
       "info_dict_time": 3.6002798080444336,
       "log_reported_time": 0.013,
       "log_calculated_time": 3.6880000000000006,
@@ -205873,7 +205873,7 @@
       "line_304_sum": 1.9339999999999848
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99173",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99173",
       "info_dict_time": 0.07383871078491211,
       "log_reported_time": 0.074,
       "log_calculated_time": 24.156,
@@ -205898,7 +205898,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748192",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent748192",
       "info_dict_time": 4.895570516586304,
       "log_reported_time": 0.019,
       "log_calculated_time": 5.035999999999987,
@@ -207186,7 +207186,7 @@
       "line_304_sum": 1.5689999999999886
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740299",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740299",
       "info_dict_time": 4.240043640136719,
       "log_reported_time": 0.017,
       "log_calculated_time": 4.328999999999992,
@@ -208294,7 +208294,7 @@
       "line_304_sum": 4.328999999999992
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92685",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92685",
       "info_dict_time": 0.05407547950744629,
       "log_reported_time": 0.054,
       "log_calculated_time": 0.07200000000000001,
@@ -208318,7 +208318,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43787",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43787",
       "info_dict_time": 890.6685857772827,
       "log_reported_time": 24.081,
       "log_calculated_time": 891.1869999999994,
@@ -208561,7 +208561,7 @@
       "line_304_sum": 0.18100000000000008
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755109",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755109",
       "info_dict_time": 1.907245397567749,
       "log_reported_time": 0.007,
       "log_calculated_time": 1.9099999999999835,
@@ -209082,7 +209082,7 @@
       "line_304_sum": 1.9099999999999835
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac112340",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac112340",
       "info_dict_time": 49.681297063827515,
       "log_reported_time": 1.32,
       "log_calculated_time": 890.3710000000001,
@@ -209244,7 +209244,7 @@
       "line_304_sum": 0.082
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92699",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92699",
       "info_dict_time": 0.06333541870117188,
       "log_reported_time": 0.063,
       "log_calculated_time": 0.10200000000000001,
@@ -209268,7 +209268,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date144840",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date144840",
       "info_dict_time": 9.781159400939941,
       "log_reported_time": 0.019,
       "log_calculated_time": 58.014000000000145,
@@ -210596,7 +210596,7 @@
       "line_304_sum": 4.606999999999975
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac138334",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac138334",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -210613,7 +210613,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740296",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740296",
       "info_dict_time": 5.622126340866089,
       "log_reported_time": 0.023,
       "log_calculated_time": 5.7839999999999865,
@@ -212206,7 +212206,7 @@
       "line_304_sum": 5.7839999999999865
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kill/kill694258",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kill/kill694258",
       "info_dict_time": 698.837543964386,
       "log_reported_time": 24.088,
       "log_calculated_time": 1051.0280000000002,
@@ -212342,7 +212342,7 @@
       "line_304_sum": 0.24400000000000016
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1103145",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1103145",
       "info_dict_time": 0.2238926887512207,
       "log_reported_time": 0.01,
       "log_calculated_time": 217.23999999999984,
@@ -212440,7 +212440,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr716436",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr716436",
       "info_dict_time": 25.970748901367188,
       "log_reported_time": 0.108,
       "log_calculated_time": 25.624000000000866,
@@ -217824,7 +217824,7 @@
       "line_304_sum": 20.954000000000107
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac141274",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac141274",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -217841,7 +217841,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742577",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742577",
       "info_dict_time": 7.31222677230835,
       "log_reported_time": 0.136,
       "log_calculated_time": 305.82499999999834,
@@ -218314,7 +218314,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac100008",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac100008",
       "info_dict_time": 627.2148342132568,
       "log_reported_time": 24.254,
       "log_calculated_time": 972.336,
@@ -218400,7 +218400,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq103664",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq103664",
       "info_dict_time": 0.042943716049194336,
       "log_reported_time": 0.043,
       "log_calculated_time": 0.066,
@@ -218424,7 +218424,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48140",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48140",
       "info_dict_time": 775.1800806522369,
       "log_reported_time": 24.106,
       "log_calculated_time": 775.380000000001,
@@ -218750,7 +218750,7 @@
       "line_304_sum": 0.08400000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112594",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112594",
       "info_dict_time": 3.2475392818450928,
       "log_reported_time": 3.248,
       "log_calculated_time": 3.247,
@@ -218772,7 +218772,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740661",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent740661",
       "info_dict_time": 1.9859669208526611,
       "log_reported_time": 0.007,
       "log_calculated_time": 1.964999999999967,
@@ -219426,7 +219426,7 @@
       "line_304_sum": 1.964999999999967
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr277232",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277232",
       "info_dict_time": 610.1480703353882,
       "log_reported_time": 0.024,
       "log_calculated_time": 157.6709999999974,
@@ -219972,7 +219972,7 @@
       "line_304_sum": 1.2029999999999987
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147531",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147531",
       "info_dict_time": 0.08118009567260742,
       "log_reported_time": 0.081,
       "log_calculated_time": 24.173,
@@ -219997,7 +219997,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43791",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43791",
       "info_dict_time": 900.97420835495,
       "log_reported_time": 24.09,
       "log_calculated_time": 901.6480000000006,
@@ -220220,7 +220220,7 @@
       "line_304_sum": 0.05600000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21454396",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21454396",
       "info_dict_time": 6.931180000305176,
       "log_reported_time": 0.021,
       "log_calculated_time": 4.4740000000000455,
@@ -221689,7 +221689,7 @@
       "line_304_sum": 4.4740000000000455
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128907",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128907",
       "info_dict_time": 0.05572223663330078,
       "log_reported_time": 0.056,
       "log_calculated_time": 0.055,
@@ -221712,7 +221712,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cut/cut236303",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cut/cut236303",
       "info_dict_time": 43.86498045921326,
       "log_reported_time": 0.154,
       "log_calculated_time": 43.33100000000097,
@@ -232811,7 +232811,7 @@
       "line_304_sum": 10.84400000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717236",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent717236",
       "info_dict_time": 0.9287569522857666,
       "log_reported_time": 0.007,
       "log_calculated_time": 0.9220000000000007,
@@ -233097,7 +233097,7 @@
       "line_304_sum": 0.9220000000000007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756551",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756551",
       "info_dict_time": 8.800222158432007,
       "log_reported_time": 0.038,
       "log_calculated_time": 8.505000000000132,
@@ -235856,7 +235856,7 @@
       "line_304_sum": 6.79900000000009
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent723105",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent723105",
       "info_dict_time": 13.21294903755188,
       "log_reported_time": 0.047,
       "log_calculated_time": 12.93100000000036,
@@ -240168,7 +240168,7 @@
       "line_304_sum": 8.621000000000203
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89613",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89613",
       "info_dict_time": 0.05667996406555176,
       "log_reported_time": 0.057,
       "log_calculated_time": 0.076,
@@ -240192,7 +240192,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq83524",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83524",
       "info_dict_time": 0.03960275650024414,
       "log_reported_time": 0.04,
       "log_calculated_time": 0.076,
@@ -240216,7 +240216,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead647650",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead647650",
       "info_dict_time": 0.35077953338623047,
       "log_reported_time": 0.007,
       "log_calculated_time": 222.294,
@@ -240328,7 +240328,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig877865",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig877865",
       "info_dict_time": 6.287771701812744,
       "log_reported_time": 0.013,
       "log_calculated_time": 6.190000000000112,
@@ -242396,7 +242396,7 @@
       "line_304_sum": 6.190000000000112
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/sulogin/sulogin1005289",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/sulogin/sulogin1005289",
       "info_dict_time": 0.447401762008667,
       "log_reported_time": 0.008,
       "log_calculated_time": 344.676,
@@ -242534,7 +242534,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119521",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119521",
       "info_dict_time": 0.05549359321594238,
       "log_reported_time": 0.055,
       "log_calculated_time": 0.095,
@@ -242558,7 +242558,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mv/mv1175125",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mv/mv1175125",
       "info_dict_time": 6.363965749740601,
       "log_reported_time": 0.022,
       "log_calculated_time": 6.235000000000103,
@@ -244597,7 +244597,7 @@
       "line_304_sum": 6.235000000000103
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751138",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751138",
       "info_dict_time": 9.448192834854126,
       "log_reported_time": 0.036,
       "log_calculated_time": 9.329000000000223,
@@ -247704,7 +247704,7 @@
       "line_304_sum": 6.989000000000144
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731945",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent731945",
       "info_dict_time": 5.290034055709839,
       "log_reported_time": 0.178,
       "log_calculated_time": 193.4319999999986,
@@ -247912,7 +247912,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac125443",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac125443",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -247929,7 +247929,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743333",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743333",
       "info_dict_time": 3.428004741668701,
       "log_reported_time": 0.013,
       "log_calculated_time": 3.357000000000014,
@@ -249060,7 +249060,7 @@
       "line_304_sum": 1.6739999999999773
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739865",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739865",
       "info_dict_time": 5.909604787826538,
       "log_reported_time": 0.13,
       "log_calculated_time": 167.9729999999984,
@@ -249408,7 +249408,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent723008",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent723008",
       "info_dict_time": 19.72459840774536,
       "log_reported_time": 0.047,
       "log_calculated_time": 19.218000000000572,
@@ -255707,7 +255707,7 @@
       "line_304_sum": 15.370000000000406
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac130053",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac130053",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -255724,7 +255724,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749040",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749040",
       "info_dict_time": 7.094915151596069,
       "log_reported_time": 0.275,
       "log_calculated_time": 7.093999999999996,
@@ -255866,7 +255866,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac120573",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac120573",
       "info_dict_time": 486.8506338596344,
       "log_reported_time": 24.374,
       "log_calculated_time": 829.26,
@@ -255957,7 +255957,7 @@
       "line_304_sum": 0.036000000000000004
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757510",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757510",
       "info_dict_time": 12.414166450500488,
       "log_reported_time": 0.051,
       "log_calculated_time": 12.467999999999915,
@@ -256752,7 +256752,7 @@
       "line_304_sum": 2.7189999999999976
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108104",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108104",
       "info_dict_time": 48.476662397384644,
       "log_reported_time": 48.477,
       "log_calculated_time": 72.76300000000002,
@@ -256787,7 +256787,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr758471",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr758471",
       "info_dict_time": 22.61382818222046,
       "log_reported_time": 0.146,
       "log_calculated_time": 22.627999999999815,
@@ -259577,7 +259577,7 @@
       "line_304_sum": 22.627999999999815
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805725",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm/rpm805725",
       "info_dict_time": 7.223933219909668,
       "log_reported_time": 0.022,
       "log_calculated_time": 7.192999999999923,
@@ -260938,7 +260938,7 @@
       "line_304_sum": 7.192999999999923
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112555",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112555",
       "info_dict_time": 24.627785205841064,
       "log_reported_time": 24.628,
       "log_calculated_time": 24.628,
@@ -260966,7 +260966,7 @@
       "line_304_sum": 0.007
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743644",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent743644",
       "info_dict_time": 3.8525900840759277,
       "log_reported_time": 0.013,
       "log_calculated_time": 3.856999999999983,
@@ -261565,7 +261565,7 @@
       "line_304_sum": 3.856999999999983
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112579",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112579",
       "info_dict_time": 0.22600078582763672,
       "log_reported_time": 0.226,
       "log_calculated_time": 0.346,
@@ -261588,7 +261588,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac55087",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac55087",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -261605,7 +261605,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97901",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97901",
       "info_dict_time": 0.12773609161376953,
       "log_reported_time": 0.128,
       "log_calculated_time": 0.127,
@@ -261628,7 +261628,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757417",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757417",
       "info_dict_time": 9.318226099014282,
       "log_reported_time": 0.34,
       "log_calculated_time": 204.149,
@@ -261684,7 +261684,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr310242",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr310242",
       "info_dict_time": 66.62929010391235,
       "log_reported_time": 0.133,
       "log_calculated_time": 124.96200000000009,
@@ -262310,7 +262310,7 @@
       "line_304_sum": 1.3779999999999966
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92701",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92701",
       "info_dict_time": 92.79142427444458,
       "log_reported_time": 0.248,
       "log_calculated_time": 97.7510000000002,
@@ -262935,7 +262935,7 @@
       "line_304_sum": 0.3070000000000001
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid190940",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid190940",
       "info_dict_time": 48.51139163970947,
       "log_reported_time": 48.511,
       "log_calculated_time": 48.632999999999996,
@@ -262965,7 +262965,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date190314",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date190314",
       "info_dict_time": 4.284795522689819,
       "log_reported_time": 0.025,
       "log_calculated_time": 4.291999999999996,
@@ -263377,7 +263377,7 @@
       "line_304_sum": 2.3209999999999926
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf43825",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf43825",
       "info_dict_time": 631.7478232383728,
       "log_reported_time": 24.231,
       "log_calculated_time": 632.8039999999999,
@@ -263538,7 +263538,7 @@
       "line_304_sum": 0.29100000000000015
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123917",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123917",
       "info_dict_time": 0.1479477882385254,
       "log_reported_time": 0.148,
       "log_calculated_time": 0.149,
@@ -263561,7 +263561,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent747758",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent747758",
       "info_dict_time": 4.824309349060059,
       "log_reported_time": 0.02,
       "log_calculated_time": 4.8449999999999775,
@@ -264325,7 +264325,7 @@
       "line_304_sum": 3.1739999999999817
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac97421",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac97421",
       "info_dict_time": 462.7165849208832,
       "log_reported_time": 24.534,
       "log_calculated_time": 761.2959999999997,
@@ -264398,7 +264398,7 @@
       "line_304_sum": 0.056
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac119993",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac119993",
       "info_dict_time": 467.9901955127716,
       "log_reported_time": 24.653,
       "log_calculated_time": 813.6879999999998,
@@ -264494,7 +264494,7 @@
       "line_304_sum": 0.05499999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758654",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758654",
       "info_dict_time": 3.0436289310455322,
       "log_reported_time": 0.019,
       "log_calculated_time": 3.049999999999969,
@@ -264996,7 +264996,7 @@
       "line_304_sum": 0.9870000000000008
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739501",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent739501",
       "info_dict_time": 23.51315140724182,
       "log_reported_time": 0.089,
       "log_calculated_time": 23.497000000000074,
@@ -269371,7 +269371,7 @@
       "line_304_sum": 19.492000000000505
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742218",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent742218",
       "info_dict_time": 8.337628364562988,
       "log_reported_time": 0.035,
       "log_calculated_time": 4.265999999999939,
@@ -270125,7 +270125,7 @@
       "line_304_sum": 1.3859999999999983
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751367",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751367",
       "info_dict_time": 20.50429630279541,
       "log_reported_time": 0.081,
       "log_calculated_time": 20.577000000001313,
@@ -273654,7 +273654,7 @@
       "line_304_sum": 16.4000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756192",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent756192",
       "info_dict_time": 20.17872714996338,
       "log_reported_time": 0.082,
       "log_calculated_time": 20.230999999999216,
@@ -276721,7 +276721,7 @@
       "line_304_sum": 16.878999999999845
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749351",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent749351",
       "info_dict_time": 8.29560375213623,
       "log_reported_time": 0.049,
       "log_calculated_time": 8.300999999999966,
@@ -278294,7 +278294,7 @@
       "line_304_sum": 5.520999999999925
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735552",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent735552",
       "info_dict_time": 4.299972772598267,
       "log_reported_time": 0.032,
       "log_calculated_time": 4.28299999999993,
@@ -279111,7 +279111,7 @@
       "line_304_sum": 3.551999999999945
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197791",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197791",
       "info_dict_time": 48.47811317443848,
       "log_reported_time": 48.478,
       "log_calculated_time": 48.526,
@@ -279140,7 +279140,7 @@
       "line_304_sum": 0.006
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac112371",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac112371",
       "info_dict_time": 58.76446223258972,
       "log_reported_time": 1.345,
       "log_calculated_time": 648.3910000000001,
@@ -279241,7 +279241,7 @@
       "line_304_sum": 0.011
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent750814",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent750814",
       "info_dict_time": 4.272876262664795,
       "log_reported_time": 0.02,
       "log_calculated_time": 4.289999999999935,
@@ -280047,7 +280047,7 @@
       "line_304_sum": 4.289999999999935
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143568",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143568",
       "info_dict_time": 0.18317365646362305,
       "log_reported_time": 0.183,
       "log_calculated_time": 0.183,
@@ -280070,7 +280070,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116425",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116425",
       "info_dict_time": 0.11057138442993164,
       "log_reported_time": 0.111,
       "log_calculated_time": 0.11,
@@ -280093,7 +280093,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date131499",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date131499",
       "info_dict_time": 6.398303270339966,
       "log_reported_time": 0.121,
       "log_calculated_time": 30.541000000000157,
@@ -280519,7 +280519,7 @@
       "line_304_sum": 3.475999999999986
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printf/printf880953",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printf/printf880953",
       "info_dict_time": 37.562005043029785,
       "log_reported_time": 24.215,
       "log_calculated_time": 37.57499999999998,
@@ -280668,7 +280668,7 @@
       "line_304_sum": 0.024
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119514",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119514",
       "info_dict_time": 0.09564089775085449,
       "log_reported_time": 0.096,
       "log_calculated_time": 0.21400000000000002,
@@ -280692,7 +280692,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97919",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97919",
       "info_dict_time": 0.06791448593139648,
       "log_reported_time": 0.068,
       "log_calculated_time": 0.069,
@@ -280715,7 +280715,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48121",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48121",
       "info_dict_time": 558.4330909252167,
       "log_reported_time": 24.128,
       "log_calculated_time": 558.5939999999982,
@@ -280970,7 +280970,7 @@
       "line_304_sum": 0.11699999999999999
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755371",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent755371",
       "info_dict_time": 34.42694139480591,
       "log_reported_time": 0.065,
       "log_calculated_time": 34.40200000000058,
@@ -285141,7 +285141,7 @@
       "line_304_sum": 28.60500000000039
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac113451",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac113451",
       "info_dict_time": 477.04513812065125,
       "log_reported_time": 24.559,
       "log_calculated_time": 836.1289999999997,
@@ -285212,7 +285212,7 @@
       "line_304_sum": 0.149
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date140950",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date140950",
       "info_dict_time": 2.2591733932495117,
       "log_reported_time": 0.016,
       "log_calculated_time": 26.417999999999996,
@@ -285442,7 +285442,7 @@
       "line_304_sum": 0.5150000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac81413",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac81413",
       "info_dict_time": 436.85759234428406,
       "log_reported_time": 24.468,
       "log_calculated_time": 808.057,
@@ -285520,7 +285520,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758726",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758726",
       "info_dict_time": 4.841720819473267,
       "log_reported_time": 0.799,
       "log_calculated_time": 77.586,
@@ -285550,7 +285550,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52546",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52546",
       "info_dict_time": 77.61814212799072,
       "log_reported_time": 24.121,
       "log_calculated_time": 77.65500000000029,
@@ -285833,7 +285833,7 @@
       "line_304_sum": 0.3080000000000002
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf48137",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf48137",
       "info_dict_time": 318.40725111961365,
       "log_reported_time": 24.234,
       "log_calculated_time": 318.64799999999997,
@@ -286173,7 +286173,7 @@
       "line_304_sum": 0.13300000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128913",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128913",
       "info_dict_time": 0.13121533393859863,
       "log_reported_time": 0.131,
       "log_calculated_time": 0.131,
@@ -286196,7 +286196,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131849",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131849",
       "info_dict_time": 0.21303391456604004,
       "log_reported_time": 0.213,
       "log_calculated_time": 0.27,
@@ -286225,7 +286225,7 @@
       "line_304_sum": 0.005
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131867",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131867",
       "info_dict_time": 0.9606385231018066,
       "log_reported_time": 0.961,
       "log_calculated_time": 0.96,
@@ -286249,7 +286249,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio833222",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio833222",
       "info_dict_time": 10.869832277297974,
       "log_reported_time": 0.038,
       "log_calculated_time": 10.926000000000274,
@@ -288377,7 +288377,7 @@
       "line_304_sum": 10.926000000000274
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97912",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97912",
       "info_dict_time": 0.06595087051391602,
       "log_reported_time": 0.066,
       "log_calculated_time": 0.065,
@@ -288400,7 +288400,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751936",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent751936",
       "info_dict_time": 7.486753463745117,
       "log_reported_time": 0.397,
       "log_calculated_time": 177.83799999999974,
@@ -288530,7 +288530,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757990",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757990",
       "info_dict_time": 3.398463726043701,
       "log_reported_time": 0.124,
       "log_calculated_time": 100.66999999999999,
@@ -288579,7 +288579,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121151",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121151",
       "info_dict_time": 0.22858834266662598,
       "log_reported_time": 0.229,
       "log_calculated_time": 0.42900000000000005,
@@ -288612,7 +288612,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758958",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent758958",
       "info_dict_time": 12.872570991516113,
       "log_reported_time": 0.626,
       "log_calculated_time": 12.872000000000002,
@@ -288656,7 +288656,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131855",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131855",
       "info_dict_time": 0.8160431385040283,
       "log_reported_time": 0.816,
       "log_calculated_time": 0.816,
@@ -288680,7 +288680,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac137064",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac137064",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -288697,7 +288697,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116448",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116448",
       "info_dict_time": 0.1549391746520996,
       "log_reported_time": 0.155,
       "log_calculated_time": 0.29100000000000004,
@@ -288721,7 +288721,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121164",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121164",
       "info_dict_time": 0.2211906909942627,
       "log_reported_time": 0.221,
       "log_calculated_time": 0.269,
@@ -288752,7 +288752,7 @@
       "line_304_sum": 0.005
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112584",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112584",
       "info_dict_time": 0.3311727046966553,
       "log_reported_time": 0.331,
       "log_calculated_time": 0.331,
@@ -288774,7 +288774,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140523",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140523",
       "info_dict_time": 0.16380548477172852,
       "log_reported_time": 0.164,
       "log_calculated_time": 0.221,
@@ -288798,7 +288798,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757794",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent757794",
       "info_dict_time": 1.8052163124084473,
       "log_reported_time": 0.008,
       "log_calculated_time": 1.8039999999999967,
@@ -289028,7 +289028,7 @@
       "line_304_sum": 1.8039999999999967
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52531",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52531",
       "info_dict_time": 125.39944744110107,
       "log_reported_time": 24.13,
       "log_calculated_time": 125.48800000000017,
@@ -289319,7 +289319,7 @@
       "line_304_sum": 0.31300000000000017
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116443",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116443",
       "info_dict_time": 0.11048436164855957,
       "log_reported_time": 0.11,
       "log_calculated_time": 0.111,
@@ -289342,7 +289342,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mt/mt737582",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mt/mt737582",
       "info_dict_time": 1.316601037979126,
       "log_reported_time": 0.037,
       "log_calculated_time": 33.92899999999999,
@@ -289435,7 +289435,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52510",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52510",
       "info_dict_time": 245.4635832309723,
       "log_reported_time": 24.194,
       "log_calculated_time": 245.61499999999975,
@@ -289671,7 +289671,7 @@
       "line_304_sum": 0.19400000000000012
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr745741",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr745741",
       "info_dict_time": 26.129114389419556,
       "log_reported_time": 0.165,
       "log_calculated_time": 26.183000000000703,
@@ -292529,7 +292529,7 @@
       "line_304_sum": 26.183000000000703
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/chroot/chroot946029",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/chroot/chroot946029",
       "info_dict_time": 11.656931400299072,
       "log_reported_time": 0.033,
       "log_calculated_time": 11.763000000000337,
@@ -294907,7 +294907,7 @@
       "line_304_sum": 11.763000000000337
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117714",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117714",
       "info_dict_time": 0.12952733039855957,
       "log_reported_time": 0.13,
       "log_calculated_time": 0.18,
@@ -294931,7 +294931,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143561",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143561",
       "info_dict_time": 0.13001036643981934,
       "log_reported_time": 0.13,
       "log_calculated_time": 0.13,
@@ -294954,7 +294954,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac142014",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac142014",
       "info_dict_time": 0,
       "log_reported_time": 0,
       "log_calculated_time": 0,
@@ -294971,7 +294971,7 @@
       "line_304_sum": 0
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/shuf/shuf52547",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/shuf/shuf52547",
       "info_dict_time": 172.6152172088623,
       "log_reported_time": 24.133,
       "log_calculated_time": 172.68400000000022,
@@ -295208,7 +295208,7 @@
       "line_304_sum": 0.16000000000000003
     },
     {
-      "constraint_path": "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724859",
+      "constraint_path": "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/uevent/uevent724859",
       "info_dict_time": 21.546945571899414,
       "log_reported_time": 0.07,
       "log_calculated_time": 21.575000000000113,

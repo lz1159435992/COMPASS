@@ -12,13 +12,13 @@ echo "=========================================="
 echo ""
 
 # 设置Python路径
-export PYTHONPATH="/home/lz/PycharmProjects/Pearl:$PYTHONPATH"
+export PYTHONPATH="/home/<USER>/PycharmProjects/Pearl:$PYTHONPATH"
 
 if [ -n "${CONDA_PYTHON:-}" ]; then
     PYTHON_CMD=("$CONDA_PYTHON")
 elif [ -n "${CONDA_ENV:-}" ]; then
     PYTHON_BIN=""
-    for base in "$HOME/anaconda3" "$HOME/miniconda3" "/home/lz/anaconda3" "/opt/conda"; do
+    for base in "$HOME/anaconda3" "$HOME/miniconda3" "/home/<USER>/anaconda3" "/opt/conda"; do
         candidate="$base/envs/$CONDA_ENV/bin/python"
         if [ -x "$candidate" ]; then
             PYTHON_BIN="$candidate"

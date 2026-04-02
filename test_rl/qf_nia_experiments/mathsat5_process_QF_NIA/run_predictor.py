@@ -3,8 +3,8 @@ import sys
 import json
 import time
 
-if '/home/lz/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/lz/PycharmProjects/Pearl')
+if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
+    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
 
 from loguru import logger
 from test_rl.test_QF_NIA.cvc5_process_QF_NIA import run_predictor as base_rp

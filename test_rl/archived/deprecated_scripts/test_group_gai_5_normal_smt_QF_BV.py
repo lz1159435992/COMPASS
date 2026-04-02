@@ -44,7 +44,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_script/result_dict_no_increment_QF_BV.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_script/result_dict_no_increment_QF_BV.txt', 'r') as file:
         result_dict = json.load(file)
     #添加一个限制
     # with open('info_bit_dict.txt', 'r') as file:

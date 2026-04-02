@@ -650,8 +650,8 @@ def run_predictor(args):
     # 创建新的字典来存储替换后的路径
     new_rl_dict = {}
     for key in rl_dict:
-        if '/home/lz/baidudisk/' in key:
-            new_key = key.replace('/home/lz/baidudisk/', '/home/nju/Downloads/')
+        if '/home/<USER>/<CLOUD_DISK>/' in key:
+            new_key = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
             new_rl_dict[new_key] = rl_dict[key]
         else:
             new_rl_dict[key] = rl_dict[key]

@@ -1,6 +1,6 @@
 {
     "_comment": "This is a placeholder file. Replace with actual RL training data mapping.",
-    "_original_path": "/home/lz/sibyl_3/src/networks/info_dict_rl.txt",
+    "_original_path": "/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt",
     "_description": "Maps SMT file paths to RL-related features for training.",
     "_format": "JSON dictionary: {smt_file_path: [features]}",
     "_required_by": [

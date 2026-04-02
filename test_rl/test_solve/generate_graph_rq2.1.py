@@ -28,8 +28,8 @@ def deal_time_dict(file_path):
     gnu_sat_unknown_time = [gnu_data[proj]['sat+unknown_time_avg'] for proj in gnu_projects]
     gnu_avg_time = [gnu_data[proj]['avg'] for proj in gnu_projects]
     return buzybox_projects,buzybox_sat_time_avg,buzybox_sat_unknown_time,buzybox_avg_time,gnu_projects,gnu_sat_time_avg,gnu_sat_unknown_time,gnu_avg_time
-buzybox_projects,buzybox_sat_time_avg,buzybox_sat_unknown_time,buzybox_avg_time,gnu_projects,gnu_sat_time_avg,gnu_sat_unknown_time,gnu_avg_time = deal_time_dict('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
-RL_LLM_buzybox_projects,RL_LLM_buzybox_sat_time_avg,RL_LLM_buzybox_sat_unknown_time,RL_LLM_buzybox_avg_time,RL_LLM_gnu_projects,RL_LLM_gnu_sat_time_avg,RL_LLM_gnu_sat_unknown_time,RL_LLM_gnu_avg_time = deal_time_dict('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
+buzybox_projects,buzybox_sat_time_avg,buzybox_sat_unknown_time,buzybox_avg_time,gnu_projects,gnu_sat_time_avg,gnu_sat_unknown_time,gnu_avg_time = deal_time_dict('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+RL_LLM_buzybox_projects,RL_LLM_buzybox_sat_time_avg,RL_LLM_buzybox_sat_unknown_time,RL_LLM_buzybox_avg_time,RL_LLM_gnu_projects,RL_LLM_gnu_sat_time_avg,RL_LLM_gnu_sat_unknown_time,RL_LLM_gnu_avg_time = deal_time_dict('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
 
 
 

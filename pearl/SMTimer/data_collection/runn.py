@@ -36,7 +36,7 @@ if __name__ == '__main__':
     test = cf.getboolean("Test", "test_rl")
     if not test:
         try:
-            data_dir = "/home/lz/data/angr"
+            data_dir = "/home/<USER>/data/angr"
             if os.path.exists(os.path.join(data_dir, "query/timeout_query.log")):
                 os.remove(os.path.join(data_dir, "query/timeout_query.log"))
             if os.path.exists(os.path.join(data_dir, "query/timein_query.log")):

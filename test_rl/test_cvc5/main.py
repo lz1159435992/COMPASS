@@ -241,8 +241,8 @@ def solve_files_with_all_solvers(file_paths, timeout=5, save_dir="solver_results
 
 # 示例用法
 if __name__ == "__main__":
-    # info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
-    # # info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
     #
     # info_dict = load_dictionary(info_name)
     # file_paths = info_dict.keys()
@@ -252,7 +252,7 @@ if __name__ == "__main__":
     #     print("请在file_paths中填写你的smt2文件路径进行测试。")
 
     file_paths = []
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     else:
         info_dict = load_dictionary(info_name)
 
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

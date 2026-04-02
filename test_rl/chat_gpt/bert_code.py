@@ -5,7 +5,7 @@ import json
 
 from z3 import parse_smt2_string, Solver
 
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict, \
     solve_and_measure_time, model_to_dict, load_dictionary, extract_variables_from_smt2_content, normalize_variables, \
     find_var_declaration_in_string, split_at_check_sat
@@ -66,9 +66,9 @@ def process_text(text):
 
     return " ".join(responses)
 
-file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq155454'
+file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq155454'
 
-# file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77477'
+# file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77477'
 with open(file_path, 'r') as file:
     # 读取文件所有内容到一个字符串
     smtlib_str = file.read()

@@ -42,7 +42,7 @@ def test_group():
     else:
         info_dict = load_dictionary('info_dict_gai_3_normal64.txt')
         print(f"文件已存在。")
-    with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())
@@ -97,7 +97,7 @@ def test_group():
                     if model:
                         result_list.append(model_to_dict(model))
                     # file_path = key
-                    # file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
+                    # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
 
                     start_time = time.time()
 

@@ -9,7 +9,7 @@ import json
 import traceback
 
 # 添加路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 def test_data_processing_logic():
     """测试数据处理逻辑"""
@@ -21,7 +21,7 @@ def test_data_processing_logic():
         )
         
         # 加载实际的结果文件
-        result_file_path = '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
         
         if not os.path.exists(result_file_path):
             print(f"✗ 文件不存在: {result_file_path}")
@@ -55,7 +55,7 @@ def test_data_processing_logic():
         time_threshold = 300
         
         # 加载RL字典
-        rl_dict_path = '/home/lz/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_dict_path = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
         if os.path.exists(rl_dict_path):
             with open(rl_dict_path, 'r') as f:
                 rl_dict = json.load(f)

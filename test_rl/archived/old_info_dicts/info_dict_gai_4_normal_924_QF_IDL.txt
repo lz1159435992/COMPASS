@@ -1,5 +1,5 @@
 {
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_IDL/queens_bench/toroidal_bench/16325960/toroidal_queen47-1.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_IDL/queens_bench/toroidal_bench/16325960/toroidal_queen47-1.smt2": [
         "sat",
         16869.489,
         999999999,
@@ -4696,7 +4696,7 @@
             ]
         ]
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_IDL/queens_bench/toroidal_bench/16325957/toroidal_queen26-1.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_IDL/queens_bench/toroidal_bench/16325957/toroidal_queen26-1.smt2": [
         "unknown",
         301005.554,
         999999999,

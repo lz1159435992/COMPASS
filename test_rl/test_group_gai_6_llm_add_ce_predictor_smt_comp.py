@@ -45,7 +45,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
         result_dict = json.load(file)
 
     for key, value in result_dict.items():

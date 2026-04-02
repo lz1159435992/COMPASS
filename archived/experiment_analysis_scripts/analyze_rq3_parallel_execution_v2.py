@@ -56,9 +56,9 @@ def analyze_parallel_execution():
     """分析并行执行策略"""
     
     # 文件路径
-    test_file = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
-    direct_file = '/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json'
-    compass_file = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
+    test_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
+    direct_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json'
+    compass_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
     
     # 加载数据
     print("=" * 80)

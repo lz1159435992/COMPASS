@@ -43,7 +43,7 @@ def process_file(file_path, info_dict, info_name, smtlib_str):
     return None
 
 def test_group():
-    NIA_dict = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/QF_LRA/QF_LRA.json')
+    NIA_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/QF_LRA/QF_LRA.json')
     tasks = []
     setup_logger()
     info_name = 'info_dict_smt_comp_QF_LRA.txt'
@@ -57,9 +57,9 @@ def test_group():
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
-    # directory = '/home/lz/Downloads/incremental_Hierarchy/incremental'
+    # directory = '/path/to/Downloads/incremental_Hierarchy/incremental'
     # test_path.append(directory)
     search_list = [
         # 'QF_IDL',
@@ -120,7 +120,7 @@ def test_group():
                         if file_path not in info_dict.keys() and status != 'unsat':
                             count += 1
                             if file_path not in NIA_dict.keys():
-                                tasks.append((file_path, info_dict, os.path.join('/home/lz/new_disk/QF_LRA',str(count)+ '_' + info_name), smtlib_str))
+                                tasks.append((file_path, info_dict, os.path.join('/home/<USER>/new_disk/QF_LRA',str(count)+ '_' + info_name), smtlib_str))
 
     with Pool(processes=10) as pool:
         pool.starmap(process_file, tasks)

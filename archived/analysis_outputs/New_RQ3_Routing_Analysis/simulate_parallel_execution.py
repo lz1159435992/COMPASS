@@ -93,8 +93,8 @@ def simulate_parallel_execution():
     
     # 文件路径
     threshold_file = 'test_rl/test_cvc5/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json'
-    direct_file = '/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json'
-    compass_file = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
+    direct_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json'
+    compass_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
     
     print("=" * 100)
     print("RQ3 并行执行模拟 - 基于原始数据源")

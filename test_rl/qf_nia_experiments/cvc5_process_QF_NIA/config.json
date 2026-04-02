@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "data": {
-    "source": "/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json",
+    "source": "/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json",
     "logic": "QF_NIA",
     "train_ratio": 0.8,
     "max_variables": 1000

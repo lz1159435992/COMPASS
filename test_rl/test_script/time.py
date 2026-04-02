@@ -470,7 +470,7 @@ def extract_variables_from_smt2_content(content):
 
 
 print(time.time())
-file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who86404'
+file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who86404'
 with open('time.txt', "a") as file:
     file.write(f"当前测试文件:{file_path}\n")
 with open(file_path, 'r') as file:

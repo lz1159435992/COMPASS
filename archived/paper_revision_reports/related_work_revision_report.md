@@ -1,7 +1,7 @@
 # Related Work 改写报告
 
 ## 改写目标
-基于QSF论文的简洁写法，对`/home/lz/PycharmProjects/Pearl/paper/related.tex`进行改写，去除冗余内容，保持所有引用，提高可读性。
+基于QSF论文的简洁写法，对`/home/<USER>/PycharmProjects/Pearl/paper/related.tex`进行改写，去除冗余内容，保持所有引用，提高可读性。
 
 ## 改写原则
 

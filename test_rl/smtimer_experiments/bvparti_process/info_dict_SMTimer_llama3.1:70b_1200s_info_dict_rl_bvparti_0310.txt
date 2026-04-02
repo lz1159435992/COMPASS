@@ -1,5 +1,5 @@
 {
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1156645": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1156645": [
         "unknown",
         1200.0580344200134,
         0,
@@ -221,7 +221,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mt/mt734096": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mt/mt734096": [
         "unknown",
         1200.0667743682861,
         0,
@@ -235,7 +235,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/nice/nice752639": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/nice/nice752639": [
         "unknown",
         1200.0609533786774,
         0,
@@ -511,7 +511,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/nice/nice751784": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/nice/nice751784": [
         "unknown",
         1200.0646901130676,
         0,
@@ -763,7 +763,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1432010": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/zcat/zcat1432010": [
         "unknown",
         1200.0626277923584,
         0,
@@ -777,7 +777,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/chroot/chroot945960": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/chroot/chroot945960": [
         "unknown",
         1200.0959961414337,
         0,
@@ -791,7 +791,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky229879": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky229879": [
         "unknown",
         1200.0313956737518,
         0,
@@ -935,7 +935,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/sync/sync1074671": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/sync/sync1074671": [
         "unknown",
         1200.0503764152527,
         0,
@@ -1073,7 +1073,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1407616": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1407616": [
         "unknown",
         1200.0318756103516,
         0,
@@ -1265,7 +1265,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr277232": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277232": [
         "sat",
         741.700350522995,
         0,
@@ -1417,7 +1417,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192703": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/watchdog/watchdog1192703": [
         "unknown",
         1200.0300207138062,
         0,
@@ -1693,7 +1693,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999278": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999278": [
         "unknown",
         1200.0650100708008,
         0,
@@ -1707,7 +1707,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tac/tac71510": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tac/tac71510": [
         "unknown",
         1200.0193891525269,
         0,
@@ -1721,7 +1721,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/fsync/fsync846135": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fsync/fsync846135": [
         "unknown",
         1200.031875371933,
         0,
@@ -1919,7 +1919,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/losetup/losetup1261875": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/losetup/losetup1261875": [
         "unknown",
         1200.072161436081,
         0,
@@ -2033,7 +2033,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky231980": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky231980": [
         "unknown",
         1200.0906088352203,
         0,
@@ -2175,7 +2175,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr278325": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr278325": [
         "unknown",
         1200.0135447978973,
         0,
@@ -2349,7 +2349,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/swapon/swapon1074582": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/swapon/swapon1074582": [
         "unknown",
         1200.0387661457062,
         0,
@@ -2363,7 +2363,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1051409": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1051409": [
         "unknown",
         1200.0578560829163,
         0,
@@ -2669,7 +2669,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky231102": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky231102": [
         "unknown",
         1200.097847700119,
         0,
@@ -2813,7 +2813,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead671140": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead671140": [
         "unknown",
         1200.014974117279,
         0,
@@ -2981,7 +2981,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mkdir/mkdir1347000": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkdir/mkdir1347000": [
         "unknown",
         1200.0186681747437,
         0,
@@ -2995,7 +2995,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr277231": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277231": [
         "sat",
         645.8505918979645,
         0,
@@ -3157,7 +3157,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky220550": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky220550": [
         "unknown",
         1200.0876376628876,
         0,
@@ -3311,7 +3311,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453754": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453754": [
         "unknown",
         1200.0396463871002,
         0,
@@ -3479,7 +3479,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead646947": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead646947": [
         "unknown",
         1200.090348482132,
         0,
@@ -3493,7 +3493,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kill/kill691036": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kill/kill691036": [
         "unknown",
         1200.0458569526672,
         0,
@@ -4555,7 +4555,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1050709": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/kbd_mode/kbd_mode1050709": [
         "unknown",
         1200.0123174190521,
         0,
@@ -4759,7 +4759,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mv/mv1171211": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mv/mv1171211": [
         "unknown",
         1200.0450611114502,
         0,
@@ -4915,7 +4915,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor74956": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor74956": [
         "unknown",
         1200.0730924606323,
         0,
@@ -4929,7 +4929,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead647650": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead647650": [
         "unknown",
         1200.0398604869843,
         0,
@@ -4943,7 +4943,7 @@
             []
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872958": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872958": [
         "unknown",
         1200.0355548858643,
         0,
@@ -5177,7 +5177,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/rpm/rpm801978": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm/rpm801978": [
         "unknown",
         1200.0668804645538,
         0,

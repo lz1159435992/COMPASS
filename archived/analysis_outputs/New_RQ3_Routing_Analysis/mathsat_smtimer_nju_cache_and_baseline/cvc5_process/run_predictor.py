@@ -1106,13 +1106,13 @@ def main():
     
     # 添加命令行参数
     parser.add_argument('--rl_dict_path', type=str, 
-                        default='/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
                         help='RL字典文件路径')
     parser.add_argument('--info_dict_path', type=str, 
                         default='info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0626.txt',
                         help='信息字典文件路径')
     parser.add_argument('--result_dict_path', type=str, 
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
                         help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
                         default='models/binary_classifier.pth',

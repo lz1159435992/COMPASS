@@ -10,7 +10,7 @@ import subprocess
 import traceback
 
 # 添加路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 def test_help_command():
     """测试help命令，确认默认参数"""
@@ -25,7 +25,7 @@ def test_help_command():
         
         result = subprocess.run(
             cmd,
-            cwd='/home/lz/PycharmProjects/Pearl',
+            cwd='/home/<USER>/PycharmProjects/Pearl',
             capture_output=True,
             text=True,
             timeout=30
@@ -60,8 +60,8 @@ def test_file_access():
     print("\n=== 测试文件访问权限 ===")
     
     files_to_check = [
-        '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
-        '/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+        '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
+        '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
     ]
     
     all_accessible = True
@@ -90,12 +90,12 @@ def test_data_compatibility():
         )
         
         # 加载新的结果文件
-        result_file = '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
         with open(result_file, 'r') as f:
             result_dict = json.load(f)
         
         # 加载RL字典
-        rl_file = '/home/lz/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_file = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
         with open(rl_file, 'r') as f:
             rl_dict = json.load(f)
         
@@ -136,11 +136,11 @@ def test_filtering_logic():
         )
         
         # 加载数据
-        result_file = '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
         with open(result_file, 'r') as f:
             result_dict = json.load(f)
         
-        rl_file = '/home/lz/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_file = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
         with open(rl_file, 'r') as f:
             rl_dict = json.load(f)
         

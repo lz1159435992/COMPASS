@@ -10,7 +10,7 @@ import argparse
 import traceback
 
 # 添加路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 def test_argument_parsing():
     """测试命令行参数解析，确认新的默认路径"""
@@ -22,7 +22,7 @@ def test_argument_parsing():
         
         # 添加与实际代码相同的参数
         parser.add_argument('--result_dict_path', type=str, 
-                            default='/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
+                            default='/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
                             help='结果字典文件路径')
         parser.add_argument('--solver', type=str, default='bvparti', choices=['z3', 'cvc5', 'bvparti'])
         
@@ -60,7 +60,7 @@ def test_json_processing():
         )
         
         # 使用新的默认文件路径
-        result_file_path = '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
         
         if not os.path.exists(result_file_path):
             print(f"✗ 文件不存在: {result_file_path}")
@@ -104,12 +104,12 @@ def test_data_filtering():
         )
         
         # 加载结果文件
-        result_file_path = '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
         with open(result_file_path, 'r') as f:
             result_dict = json.load(f)
         
         # 加载RL字典
-        rl_dict_path = '/home/lz/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_dict_path = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
         if os.path.exists(rl_dict_path):
             with open(rl_dict_path, 'r') as f:
                 rl_dict = json.load(f)

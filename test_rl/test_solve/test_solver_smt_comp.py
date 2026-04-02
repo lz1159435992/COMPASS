@@ -26,9 +26,9 @@ def test_group():
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
-    # directory = '/home/lz/Downloads/incremental_Hierarchy/incremental'
+    # directory = '/path/to/Downloads/incremental_Hierarchy/incremental'
     # test_path.append(directory)
     search_list = [
         'QF_IDL',

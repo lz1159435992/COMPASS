@@ -15,7 +15,7 @@ import re
 
 # import sys
 #
-# sys.path.append('/home/lz/PycharmProjects/Pearl')
+# sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 import io
 import json
 import sys

@@ -7,7 +7,7 @@
 ## 项目位置
 
 ```
-/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/
+/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/
 ```
 
 ## 完整文件列表
@@ -232,7 +232,7 @@ cvc5_process_QF_NIA/
 ### 快速开始（推荐）
 
 ```bash
-cd /home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
+cd /home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
 
 # 运行完整实验（处理10个文件进行测试）
 MAX_FILES=10 ./run_experiment.sh

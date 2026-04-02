@@ -17,8 +17,8 @@ from loguru import logger
 
 # 保证项目根路径可导入
 import sys
-if '/home/lz/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/lz/PycharmProjects/Pearl')
+if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
+    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
 
 from test_rl.test_script.utils import setup_logger
 

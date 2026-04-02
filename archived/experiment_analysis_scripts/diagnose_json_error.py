@@ -75,9 +75,9 @@ def diagnose_qf_nia_files():
     
     # 默认文件路径（从QF_NIA_run_advanced_predictor.py中获取）
     files_to_check = [
-        ("/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json", "源约束文件"),
-        ("/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json", "直接求解缓存"),
-        ("/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt", "RL求解缓存"),
+        ("/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json", "源约束文件"),
+        ("/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json", "直接求解缓存"),
+        ("/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt", "RL求解缓存"),
         ("QF_NIA_advanced_solver_results_all.json", "输出文件"),
     ]
     
@@ -122,9 +122,9 @@ def test_with_fixed_load_dictionary():
         from test_rl.test_cvc5.predict_z3_process.QF_NIA_run_advanced_predictor import load_dictionary
         
         files_to_test = [
-            ("/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json", "源约束文件"),
-            ("/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json", "直接求解缓存"),
-            ("/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt", "RL求解缓存"),
+            ("/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json", "源约束文件"),
+            ("/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json", "直接求解缓存"),
+            ("/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt", "RL求解缓存"),
         ]
         
         for file_path, description in files_to_test:

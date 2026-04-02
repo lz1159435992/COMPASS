@@ -4,7 +4,7 @@
 
 - RQ3 的评测数据不应混入 **predictor 训练/推断产生的数据**。
 - QF\_NIA 的评测集应使用：`test_rl/predictor/smt_comp_NIA/QF_NIA_test.json`（10,043 keys）。
-- SMTimer 的评测集应使用强化学习方法使用的、未经 300s 过滤的数据：`/home/lz/sibyl_3/src/networks/info_dict_rl.txt`。
+- SMTimer 的评测集应使用强化学习方法使用的、未经 300s 过滤的数据：`/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt`。
 
 ## 2) 现有链路中存在的问题（为何需要修正）
 
@@ -22,7 +22,7 @@
 
 本次检查发现：
 
-- `/home/lz/sibyl_3/src/networks/info_dict_rl.txt` 的 key 数为 **43,914**
+- `/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt` 的 key 数为 **43,914**
 - `test_rl/test_cvc5/cvc5_smtimer_results_rl.json` 的 key 数为 **43,914**
 - `.../mathsat5_smtimer_results_rl.json` 的 key 数为 **43,914**
 
@@ -65,6 +65,6 @@
 
 ## 4) 备注：关于 key 规范化
 
-- QF\_NIA 使用绝对路径 key（`/home/lz/Downloads/...`），baseline/compass/test_keys 三者一致，因此无需 normalize。
-- SMTimer 的不同结果文件可能来自不同机器前缀（例如 `/home/lz/...` vs `/home/nju/...`），因此 SMTimer RL-only 复算默认开启了 `--normalize_keys`。
+- QF\_NIA 使用绝对路径 key（`/path/to/Downloads/...`），baseline/compass/test_keys 三者一致，因此无需 normalize。
+- SMTimer 的不同结果文件可能来自不同机器前缀（例如 `/home/<USER>/...` vs `/home/nju/...`），因此 SMTimer RL-only 复算默认开启了 `--normalize_keys`。
 

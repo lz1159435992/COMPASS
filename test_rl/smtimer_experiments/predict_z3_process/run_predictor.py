@@ -1169,14 +1169,14 @@ def main():
     
     # --- EXISTING ARGUMENTS ---
     parser.add_argument('--rl_dict_path', type=str, 
-                        default='/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
                         help='RL字典文件路径 (包含所有待处理文件)')
     parser.add_argument('--info_dict_path', type=str, 
                         default='info_dict_z3_predict_driven.txt', # Changed default name
                         help='信息字典文件路径')
     # result_dict_path is no longer needed for filtering, but might be needed by other funcs if not removed
     # parser.add_argument('--result_dict_path', type=str, 
-    #                     default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
+    #                     default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
     #                     help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
                         default='models/binary_classifier.pth',

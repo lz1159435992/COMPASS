@@ -46,8 +46,8 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    # with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
+    # with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
         result_dict = json.load(file)
     # items = list(result_dict.items())
     # random.shuffle(items)

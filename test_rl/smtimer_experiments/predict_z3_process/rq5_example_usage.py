@@ -28,10 +28,10 @@ def run_small_experiment():
     
     # 实验参数
     args = type('Args', (), {
-        'source_constraints_path': '/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+        'source_constraints_path': '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
         'output_path': 'rq5_small_experiment.json',
-        'binary_model_path': '/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth',
-        'eight_class_model_path': '/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth',
+        'binary_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth',
+        'eight_class_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth',
         'solver': 'z3',
         'timeout': 1200,
         'num_samples': 20,  # 小规模测试

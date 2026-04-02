@@ -44,7 +44,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
         result_dict = json.load(file)
     # 添加一个限制
     with open('info_bit_dict.txt', 'r') as file:

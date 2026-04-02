@@ -176,7 +176,7 @@ def main():
     """主函数"""
     
     # 文件路径
-    bvparti_file = "/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0728.txt"
+    bvparti_file = "/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0728.txt"
     
     print("🔍 分析BVParti实验结果...")
     

@@ -37,9 +37,9 @@ def extract_variables_from_smt2_content(content):
 
 if __name__ == '__main__':
 
-    # file_path = '/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/readahead/readahead651389'
-    # file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who202348'
-    for dirpath, dirnames, filenames in os.walk('/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test'):
+    # file_path = '/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead651389'
+    # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who202348'
+    for dirpath, dirnames, filenames in os.walk('/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test'):
         for filename in filenames:
             # 构造完整的文件路径
             file_path = os.path.join(dirpath, filename)

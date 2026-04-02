@@ -41,15 +41,15 @@ pip install pearl-agent
 
 ### BVParti求解器
 确保以下路径存在并可执行：
-- `/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/BVPartition-bin`
-- `/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/partitioner-bin`
-- `/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/bitwuzla-0.8.0-bin`
+- `/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/BVPartition-bin`
+- `/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/partitioner-bin`
+- `/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/bitwuzla-0.8.0-bin`
 
 ## 使用方法
 
 ### 基本用法
 ```bash
-cd /home/lz/PycharmProjects/Pearl
+cd /home/<USER>/PycharmProjects/Pearl
 python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
     --result_dict_path /path/to/SMTimer_z3_result_predictor.json \
@@ -61,7 +61,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 ### 主要参数
 
 #### 文件路径参数
-- `--rl_dict_path`: RL字典文件路径（默认：`/home/lz/sibyl_3/src/networks/info_dict_rl.txt`）
+- `--rl_dict_path`: RL字典文件路径（默认：`/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt`）
 - `--info_dict_path`: 输出信息字典文件路径
 - `--result_dict_path`: 输入结果字典文件路径
 - `--binary_model_path`: 二分类模型路径（默认：`models/binary_classifier.pth`）
@@ -86,7 +86,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 ```bash
 python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
-    --result_dict_path /home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
+    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path info_dict_bvparti_results.txt \
     --timeout 1200 \
     --llm_model llama3.1:70b
@@ -96,7 +96,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 ```bash
 python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
     --solver z3 \
-    --result_dict_path /home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_predictor.json \
+    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_predictor.json \
     --info_dict_path info_dict_z3_results.txt \
     --timeout 600
 ```

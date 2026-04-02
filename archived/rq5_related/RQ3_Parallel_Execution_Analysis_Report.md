@@ -7,8 +7,8 @@
 ## 数据源
 
 1. **预测+求解结果**: `test_rl/test_cvc5/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json` (10,043个)
-2. **直接求解结果**: `/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json` (20,206个)
-3. **COMPASS结果**: `/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt` (2,019个)
+2. **直接求解结果**: `/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json` (20,206个)
+3. **COMPASS结果**: `/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt` (2,019个)
 
 ## 预测+求解结果的Status分布
 

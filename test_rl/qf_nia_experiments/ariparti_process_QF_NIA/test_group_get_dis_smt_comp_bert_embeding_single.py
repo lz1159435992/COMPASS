@@ -13,8 +13,8 @@ import time
 import tqdm
 
 # 先确保项目根在 sys.path，再引导 AriParti 环境
-if '/home/lz/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/lz/PycharmProjects/Pearl')
+if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
+    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
 try:
     _cfg_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
     if os.path.exists(_cfg_path):
@@ -37,7 +37,7 @@ from ollama import Client
 from loguru import logger
 
 # 添加项目路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.test_script.utils import (
     extract_variables_from_smt2_content,
@@ -144,7 +144,7 @@ def test_group_bert_normalize_1by1_smt_name_2_QF_NIA():
     result_dict = convert_timeout_to_unknown(result_dict)
 
     # 加载全局已有的embedding字典（从predictor目录）
-    global_embedding_file = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json'
+    global_embedding_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json'
     if os.path.exists(global_embedding_file):
         with open(global_embedding_file, 'r') as file:
             global_embeding_dict = json.load(file)
@@ -353,8 +353,8 @@ def split_train_test_QF_NIA(embedding_dict_path=None):
 
     # 如果没有原始划分，就直接基于当前embedding做一次随机划分（保持与 cvc5 的接口一致）
     # 这里仍然复用原有的 predictor 划分作为基线（若存在）
-    original_train_path = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_train.json'
-    original_test_path = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
+    original_train_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_train.json'
+    original_test_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
 
     if os.path.exists(original_train_path) and os.path.exists(original_test_path):
         logger.info(f'读取原始训练/测试集划分')

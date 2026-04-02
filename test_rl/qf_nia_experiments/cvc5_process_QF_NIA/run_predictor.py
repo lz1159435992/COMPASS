@@ -23,7 +23,7 @@ os.environ['ALL_PROXY'] = ''
 os.environ['all_proxy'] = ''
 
 # 添加项目路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 from z3.z3 import parse_smt2_string, Solver, sat, unknown, unsat
 from z3.z3 import Solver as Z3_Solver
@@ -854,7 +854,7 @@ def run_QF_NIA_experiment(
     logger.info('='*80)
     
     # 读取QF_NIA问题和求解结果（从config.data.source读取）
-    data_source = config.get('data', {}).get('source', '/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json')
+    data_source = config.get('data', {}).get('source', '/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json')
     with open(data_source, 'r') as file:
         solve_dict = json.load(file)
     try:

@@ -111,10 +111,10 @@ except Exception as e:
 ```python
 # 模型路径参数
 parser.add_argument('--binary_model_path', type=str,
-                    default='/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth',
+                    default='/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth',
                     help='Path to the binary solvability prediction model.')
 parser.add_argument('--eight_class_model_path', type=str,
-                    default='/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth',
+                    default='/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth',
                     help='Path to the 8-class time prediction model.')
 
 # Ollama服务器配置
@@ -203,10 +203,10 @@ Ollama服务器 (LLaMA 3.1:70b模型)
 ### 模型文件
 ```bash
 # 二分类模型
-/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth
+/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth
 
 # 8类时间预测模型
-/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth
+/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth
 ```
 
 ### 使用示例

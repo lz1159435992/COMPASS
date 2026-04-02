@@ -25,7 +25,7 @@ def fetch_data_as_dict(db_path, table_name):
 def solve_(file_path):
     timeout = 300000
     # file_path = '/home/nju/Downloads/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6668814'
-    # with open(key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/'), 'r') as file:
+    # with open(key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/'), 'r') as file:
     with open(file_path, 'r') as file:
         smtlib_str = file.read()
     try:

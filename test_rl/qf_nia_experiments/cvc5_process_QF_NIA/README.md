@@ -28,12 +28,12 @@ cvc5_process_QF_NIA/
 第一步是处理QF_NIA问题集并生成LLM embeddings：
 
 ```bash
-cd /home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
+cd /home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
 python test_group_get_dis_smt_comp_bert_embeding_single.py
 ```
 
 **功能说明：**
-- 读取`/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json`中的QF_NIA问题集
+- 读取`/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json`中的QF_NIA问题集
 - 对每个SMT文件进行归一化处理
 - 使用LLM API（llama3.1:70b）生成8192维的embedding向量
 - 将embeddings保存为.npy文件到`features/QF_NIA_llm_embeddings/`目录

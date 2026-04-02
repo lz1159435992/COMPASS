@@ -31,7 +31,7 @@ def some_method():
         if list1[0] == "unknown":
             if list1[1] > 100:
                 if key not in result_dict_2.keys():
-                    with open(key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/'), 'r') as file:
+                    with open(key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/'), 'r') as file:
                         # 璇诲彇鏂囦欢鎵€鏈夊唴瀹瑰埌涓€涓瓧绗︿覆
                         smtlib_str = file.read()
                     try:
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     #         count += 1
     # print(count)
 
-    db_path = '/home/lz/baidudisk/3.13_db/result_dictionary.db'
+    db_path = '/home/<USER>/<CLOUD_DISK>/3.13_db/result_dictionary.db'
     table_name = 'result_dictionary'
     value_dict = fetch_data_as_dict(db_path, table_name)
     # print(value_dict)

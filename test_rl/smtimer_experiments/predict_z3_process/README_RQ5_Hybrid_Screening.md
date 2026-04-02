@@ -60,7 +60,7 @@ python rq5_hybrid_screening.py \
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
-| `--source_constraints_path` | `/home/lz/sibyl_3/src/networks/info_dict_rl.txt` | 约束数据路径 |
+| `--source_constraints_path` | `/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt` | 约束数据路径 |
 | `--output_path` | `rq5_hybrid_results.json` | 结果输出路径 |
 | `--num_samples` | 100 | 测试约束数量（0表示全部） |
 | `--solver` | z3 | 求解器类型（z3/cvc5/mathsat） |

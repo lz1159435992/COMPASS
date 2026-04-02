@@ -176,16 +176,16 @@ def training():
     with open('QF_IDF_train.json', 'r') as file:
         train_dict = json.load(file)
 
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
         solve_dict = json.load(file)
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/predictor/embeding_QF_IDL.json', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/embeding_QF_IDL.json', 'r') as file:
     #     embed_dict = json.load(file)
 
     # # 定义文件名模式，这里假设文件名以 'feature_normal_' 开头并以 '.npy' 结尾
     # file_pattern = 'features_normal_*.npy'
     #
     # # 使用 glob.glob 找到所有匹配的文件，并根据文件名中的数字进行排序
-    # file_paths = sorted(glob.glob(os.path.join('/home/lz/PycharmProjects/Pearl/test_rl/features', file_pattern)),
+    # file_paths = sorted(glob.glob(os.path.join('/home/<USER>/PycharmProjects/Pearl/test_rl/features', file_pattern)),
     #                     key=lambda x: int(os.path.basename(x).split('_')[-1].split('.')[0]))
 
     # 初始化一个空列表来收集所有的数组
@@ -257,7 +257,7 @@ def training():
 def testing():
     with open('QF_IDF_test.json', 'r') as file:
         test_dict = json.load(file)
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
         solve_dict = json.load(file)
     features_list = []
     labels_list = []

@@ -242,7 +242,7 @@ def test_group_bert_normalize_1by1_smt():
 def test_group_bert_normalize_1by1_smt_name():
     import pysmt.logics
 
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
         result_dict = json.load(file)
     embeding_dict = {}
     features_list = []
@@ -272,7 +272,7 @@ def test_group_bert_normalize_1by1_smt_name():
         # "QF_NIA",
         # # "UFBV", "BV"
     ]
-    output_path = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_features'
+    output_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_features'
     # 遍历字典并统计数据
     for (i, (file_path, v)) in enumerate(tqdm.tqdm(result_dict.items())):
         print(file_path, v)
@@ -366,7 +366,7 @@ def convert_timeout_to_unknown(solve_dict):
             modified_dict[key] = value
     return modified_dict
 
-def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_path='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json'):
+def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_path='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json'):
     with open(file_path, 'r') as file:
         result_dict = json.load(file)
     with open(solve_path, 'r') as file:
@@ -378,8 +378,8 @@ def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_pat
     # 创建新的字典来存储替换后的路径
     new_result_dict = {}
     for key in result_dict:
-        if '/home/lz/baidudisk/' in key:
-            new_key = key.replace('/home/lz/baidudisk/', '/home/nju/Downloads/')
+        if '/home/<USER>/<CLOUD_DISK>/' in key:
+            new_key = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
             new_result_dict[new_key] = result_dict[key]
         else:
             new_result_dict[key] = result_dict[key]
@@ -388,8 +388,8 @@ def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_pat
     # 同样替换solve_dict中的路径
     new_solve_dict = {}
     for key in solve_dict:
-        if '/home/lz/baidudisk/' in key:
-            new_key = key.replace('/home/lz/baidudisk/', '/home/nju/Downloads/')
+        if '/home/<USER>/<CLOUD_DISK>/' in key:
+            new_key = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
             new_solve_dict[new_key] = solve_dict[key]
         else:
             new_solve_dict[key] = solve_dict[key]

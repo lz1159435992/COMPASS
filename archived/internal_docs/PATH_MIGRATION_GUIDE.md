@@ -14,10 +14,10 @@ The following external paths were referenced in the original codebase:
 
 | Original Path | Purpose | Solution |
 |---------------|---------|----------|
-| `/home/lz/sibyl_3/src/networks/info_dict_rl.txt` | RL training data | Created placeholder in `test_rl/external_references/` |
-| `/home/lz/sibyl_3/src/networks/info_dict_predictor.txt` | Predictor data | Created placeholder in `test_rl/external_references/` |
-| `/home/lz/sibyl_3/src/networks/result_dict_time.txt` | Timing results | Created placeholder in `test_rl/external_references/` |
-| `/home/lz/PycharmProjects/Pearl/test_rl/...` | Old Pearl path | Changed to relative paths or current repo paths |
+| `/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt` | RL training data | Created placeholder in `test_rl/external_references/` |
+| `/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt` | Predictor data | Created placeholder in `test_rl/external_references/` |
+| `/home/<USER>/sibyl_3/src/networks/result_dict_time.txt` | Timing results | Created placeholder in `test_rl/external_references/` |
+| `/home/<USER>/PycharmProjects/Pearl/test_rl/...` | Old Pearl path | Changed to relative paths or current repo paths |
 | `/home/nju/PycharmProjects/Pearl/test_rl` | Old NJU path | Removed `sys.path.append` calls |
 
 ---
@@ -31,7 +31,7 @@ The following external paths were referenced in the original codebase:
 **Lines to modify**:
 ```python
 # OLD:
-with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
     rl_dict = json.load(file)
 
 # NEW:
@@ -45,7 +45,7 @@ with open(rl_dict_path, 'r') as file:
 **Also modify**:
 ```python
 # OLD:
-with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
+with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
 
 # NEW:
 with open(os.path.join(script_dir, 'test_solve', 'info_dict_bingxing.txt'), 'r') as file:
@@ -56,8 +56,8 @@ with open(os.path.join(script_dir, 'test_solve', 'info_dict_bingxing.txt'), 'r')
 **Lines to modify**:
 ```python
 # OLD:
-with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
-with open('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
 
 # NEW:
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -70,7 +70,7 @@ with open(os.path.join(script_dir, 'predictor', 'smt_comp_NIA', 'QF_NIA_test.jso
 **Lines to modify**:
 ```python
 # OLD:
-with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
 
 # NEW:
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -86,7 +86,7 @@ The following `sys.path.append` calls should be removed (imports already work co
 | File | Line to Remove |
 |------|----------------|
 | `test_script/*.py` | `sys.path.append('/home/nju/PycharmProjects/Pearl/test_rl')` |
-| Various scripts | `sys.path.append('/home/lz/PycharmProjects/Pearl')` |
+| Various scripts | `sys.path.append('/home/<USER>/PycharmProjects/Pearl')` |
 
 ---
 

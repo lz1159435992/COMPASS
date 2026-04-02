@@ -61,7 +61,7 @@ def visit(expr):
             visit(child)
 # predictor = Predictor('KNN')
 
-# file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/arch/arch15998'
+# file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/arch/arch15998'
 # file_path = '/home/nju/Downloads/smt/buzybox_angr.tar.gz/single_test/readahead/readahead651389'
 file_path = '/home/nju/Downloads/smt/gnu_angr.tar.gz/single_test/seq/seq143541'
 with open('time.txt', "a") as file:
@@ -106,8 +106,8 @@ set_seed(0)
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device = torch.device("cpu")
 # model = SequenceClassificationModel(100).to(device)
-# model.load_state_dict(torch.load("/home/lz/PycharmProjects/Pearl/pearl/tutorials/single_item_recommender_system_example/env_model_state_dict.pt"))
-# actions = torch.load("/home/lz/PycharmProjects/Pearl/pearl/tutorials/single_item_recommender_system_example/news_embedding_small.pt")
+# model.load_state_dict(torch.load("/home/<USER>/PycharmProjects/Pearl/pearl/tutorials/single_item_recommender_system_example/env_model_state_dict.pt"))
+# actions = torch.load("/home/<USER>/PycharmProjects/Pearl/pearl/tutorials/single_item_recommender_system_example/news_embedding_small.pt")
 # env = RecEnv(list(actions.values())[:100], model)
 # observation, action_space = env.reset()
 

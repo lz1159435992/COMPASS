@@ -11,12 +11,12 @@
 
 **更改前**:
 ```python
-default='/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_predictor.json'
+default='/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_predictor.json'
 ```
 
 **更改后**:
 ```python
-default='/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+default='/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
 ```
 
 ### 2. 文档更新
@@ -102,7 +102,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py
 ### 显式指定路径
 ```bash
 python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
-    --result_dict_path /home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
+    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path output_results.txt \
     --timeout 1200
 ```

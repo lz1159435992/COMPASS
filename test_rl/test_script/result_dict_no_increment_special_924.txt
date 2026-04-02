@@ -1,5 +1,5 @@
 {
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556321/down.i_4_5_5.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556321/down.i_4_5_5.bpl_3.smt2": [
         "sat",
         3730.189,
         12000000,
@@ -216,73 +216,73 @@
             "motzkin_519_2": "1/2"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556323/sum60.i_5_6_5.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556323/sum60.i_5_6_5.bpl_3.smt2": [
         "unknown",
         12000.182,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556320/standard_init9_ground.i_3_2_2.bpl_1.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556320/standard_init9_ground.i_3_2_2.bpl_1.smt2": [
         "unsat",
         5.51,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556346/linear_search.i_6_21_3.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556346/linear_search.i_6_21_3.bpl_3.smt2": [
         "unknown",
         8442.505,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556300/gj2007.c.i_4_3_3.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556300/gj2007.c.i_4_3_3.bpl_5.smt2": [
         "unknown",
         1.681,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556304/standard_init9_ground.i_3_2_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556304/standard_init9_ground.i_3_2_2.bpl_3.smt2": [
         "unknown",
         0.2,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556281/jain_4.i_2_3_3.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556281/jain_4.i_2_3_3.bpl_3.smt2": [
         "unknown",
         0.102,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556342/standard_copyInitSum3_ground.i_3_2_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556342/standard_copyInitSum3_ground.i_3_2_2.bpl_5.smt2": [
         "unknown",
         12000.11,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556293/fragtest_simple.i_4_5_4.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556293/fragtest_simple.i_4_5_4.bpl_3.smt2": [
         "unknown",
         12000.245,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556294/avg60.i_5_5_4.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556294/avg60.i_5_5_4.bpl_3.smt2": [
         "unknown",
         12000.362,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556315/gr2006.c.i_4_4_3.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556315/gr2006.c.i_4_4_3.bpl_5.smt2": [
         "unknown",
         12000.121,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556287/standard_two_index_04.i_3_2_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556287/standard_two_index_04.i_3_2_2.bpl_5.smt2": [
         "unknown",
         12000.038,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556326/nested.c_4_2_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556326/nested.c_4_2_2.bpl_3.smt2": [
         "sat",
         45.503,
         12000000,
@@ -409,25 +409,25 @@
             "motzkin_896_5": "1.9142135623?"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556313/standard_copy1_ground.i_3_2_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556313/standard_copy1_ground.i_3_2_2.bpl_9.smt2": [
         "unknown",
         12000.07,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556279/overflow1.i_3_8_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556279/overflow1.i_3_8_2.bpl_9.smt2": [
         "unknown",
         12000.07,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556311/standard_allDiff2_ground.i_4_4_3.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556311/standard_allDiff2_ground.i_4_4_3.bpl_3.smt2": [
         "unknown",
         12000.122,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556296/seq.i_5_5_5.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556296/seq.i_5_5_5.bpl_3.smt2": [
         "sat",
         8326.098,
         12000000,
@@ -666,67 +666,67 @@
             "lp_0_1_ULTIMATE.start_main_~n0~5": "0"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556305/check_removal_from_set_after_insertion.i_8_6_6.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556305/check_removal_from_set_after_insertion.i_8_6_6.bpl_3.smt2": [
         "unknown",
         12000.618,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556338/array1.i_3_2_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556338/array1.i_3_2_2.bpl_9.smt2": [
         "unknown",
         12000.071,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556325/sanfoundry_10_ground.i_6_3_3.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556325/sanfoundry_10_ground.i_6_3_3.bpl_5.smt2": [
         "unknown",
         12000.145,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556292/standard_init5_ground.i_3_2_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556292/standard_init5_ground.i_3_2_2.bpl_3.smt2": [
         "unknown",
         12000.095,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556295/const1.i_3_6_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556295/const1.i_3_6_2.bpl_5.smt2": [
         "unknown",
         12000.048,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556324/standard_copy4_ground.i_3_2_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556324/standard_copy4_ground.i_3_2_2.bpl_3.smt2": [
         "unsat",
         5.115,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556314/standard_password_ground.i_4_2_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556314/standard_password_ground.i_4_2_2.bpl_5.smt2": [
         "unknown",
         12000.064,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556341/simple1.i_3_6_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556341/simple1.i_3_6_2.bpl_9.smt2": [
         "unknown",
         12000.099,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556328/count_by_2.i_3_2_2.bpl_11.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556328/count_by_2.i_3_2_2.bpl_11.smt2": [
         "unknown",
         12000.14,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556286/standard_init6_ground.i_3_2_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556286/standard_init6_ground.i_3_2_2.bpl_3.smt2": [
         "unknown",
         12000.122,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556329/hhk2008.c.i_3_3_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556329/hhk2008.c.i_3_3_2.bpl_5.smt2": [
         "sat",
         168.844,
         12000000,
@@ -820,31 +820,31 @@
             "lp_0_0c": "0"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556302/standard_init1_ground.i_3_2_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556302/standard_init1_ground.i_3_2_2.bpl_9.smt2": [
         "unknown",
         12000.109,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556299/count_up_down.i_3_11_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556299/count_up_down.i_3_11_2.bpl_9.smt2": [
         "unknown",
         12000.129,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556332/array_single_elem_init.i_4_2_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556332/array_single_elem_init.i_4_2_2.bpl_5.smt2": [
         "unknown",
         12000.199,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556301/standard_copyInitSum2_ground.i_3_2_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556301/standard_copyInitSum2_ground.i_3_2_2.bpl_5.smt2": [
         "unknown",
         12000.107,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556282/ddlm2013.i_3_6_2.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556282/ddlm2013.i_3_6_2.bpl_3.smt2": [
         "sat",
         654.522,
         12000000,
@@ -1037,7 +1037,7 @@
             "motzkin_503_6": "0"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556283/cggmp2005_variant.c.i_3_3_2.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556283/cggmp2005_variant.c.i_3_3_2.bpl_5.smt2": [
         "sat",
         3122.009,
         12000000,
@@ -1128,19 +1128,19 @@
             "motzkin_265_2": "1/2"
         }
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556334/linear_search.i_7_23_3.bpl_3.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556334/linear_search.i_7_23_3.bpl_3.smt2": [
         "unknown",
         12001.043,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556333/standard_strcpy_original.i_3_3_2.bpl_9.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556333/standard_strcpy_original.i_3_3_2.bpl_9.smt2": [
         "unknown",
         12000.255,
         12000000,
         null
     ],
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556344/sorting_bubblesort_ground.i_4_3_3.bpl_5.smt2": [
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/16556344/sorting_bubblesort_ground.i_4_3_3.bpl_5.smt2": [
         "unknown",
         12000.18,
         12000000,

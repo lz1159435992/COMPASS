@@ -93,7 +93,7 @@ def main() -> None:
     # Use the RL-used, unfiltered key set for SMTimer.
     # =============================
 
-    smtimer_rl_keys = "/home/lz/sibyl_3/src/networks/info_dict_rl.txt"
+    smtimer_rl_keys = "/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt"
 
     # Z3: baseline is the same RL info_dict (status/time);
     # COMPASS cache is partial, missing keys fall back to baseline.

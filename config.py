@@ -81,10 +81,10 @@ MODEL_DIRS = {
 # =============================================================================
 
 # BVParti solver (for QF_BV theory)
-BVPARTI_HOME = os.environ.get('BVPARTI_HOME', '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync')
+BVPARTI_HOME = os.environ.get('BVPARTI_HOME', '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync')
 
 # AriParti solver (for QF_NIA theory)
-ARIPARTI_HOME = os.environ.get('ARIPARTI_HOME', '/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync')
+ARIPARTI_HOME = os.environ.get('ARIPARTI_HOME', '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync')
 
 # Solver paths configuration
 SOLVER_PATHS = {

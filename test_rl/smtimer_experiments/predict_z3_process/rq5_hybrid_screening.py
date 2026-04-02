@@ -453,7 +453,7 @@ def main():
     
     # 数据路径
     parser.add_argument('--source_constraints_path', type=str, 
-                        default='/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
                         help='Path to source constraints')
     parser.add_argument('--output_path', type=str,
                         default='rq5_hybrid_results.json',
@@ -461,9 +461,9 @@ def main():
     
     # 模型路径
     parser.add_argument('--binary_model_path', type=str, 
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
     parser.add_argument('--eight_class_model_path', type=str, 
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
     
     # 求解器配置
     parser.add_argument('--solver', type=str, default='z3', choices=['z3', 'cvc5', 'mathsat'])

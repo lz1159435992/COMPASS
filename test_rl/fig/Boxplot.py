@@ -4,8 +4,8 @@ from pyecharts.charts import Grid, Boxplot, Scatter
 
 from test_rl.test_script.utils import load_dictionary
 
-result_dict_Z3 = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
-result_dict_RL_LLM = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
+result_dict_Z3 = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+result_dict_RL_LLM = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
 
 def box_plot_2(data_dict):
     y_data = []

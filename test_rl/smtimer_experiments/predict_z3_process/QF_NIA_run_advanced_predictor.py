@@ -224,13 +224,13 @@ def main():
     
     # --- Paths to Data ---
     parser.add_argument('--source_constraints_path', type=str, 
-                        default='/home/lz/sibyl_3/src/networks/info_dict_rl.txt',
+                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
                         help='Path to the JSON file with all constraint file paths as keys.')
     parser.add_argument('--direct_solve_cache_path', type=str,
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt',
                         help='Path to the cache of pre-solved "easy" problems.')
     parser.add_argument('--rl_solve_cache_path', type=str,
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt',
                         help='Path to the cache of pre-solved "hard" problems using RL.')
     parser.add_argument('--output_path', type=str,
                         default='advanced_solver_results_all.json',
@@ -248,8 +248,8 @@ def main():
                         help='Predicted time class threshold (inclusive). Problems <= this value are considered "easy".')
 
     # --- RL+LLM Solver Arguments (inherited from run_predictor.py) ---
-    parser.add_argument('--binary_model_path', type=str, default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
-    parser.add_argument('--eight_class_model_path', type=str, default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
+    parser.add_argument('--binary_model_path', type=str, default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
+    parser.add_argument('--eight_class_model_path', type=str, default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
     parser.add_argument('--timeout', type=int, default=1200, help='Timeout for the RL+LLM solver in seconds.')
     parser.add_argument('--num_episodes', type=int, default=1)
     parser.add_argument('--record_period', type=int, default=1)
@@ -260,13 +260,13 @@ def main():
     #QF_NIA
 
     parser.add_argument('--source_constraints_path', type=str, 
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json',
                         help='Path to the JSON file with all constraint file paths as keys.')
     parser.add_argument('--direct_solve_cache_path', type=str,
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json',
                         help='Path to the cache of pre-solved "easy" problems.')
     parser.add_argument('--rl_solve_cache_path', type=str,
-                        default='/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt',
+                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt',
                         help='Path to the cache of pre-solved "hard" problems using RL.')
     parser.add_argument('--output_path', type=str,
                         default='QF_NIA_advanced_solver_results_all.json',
@@ -284,8 +284,8 @@ def main():
                         help='Predicted time class threshold (inclusive). Problems <= this value are considered "easy".')
 
     # --- RL+LLM Solver Arguments (inherited from run_predictor.py) ---
-    parser.add_argument('--binary_model_path', type=str, default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
-    parser.add_argument('--eight_class_model_path', type=str, default='/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
+    parser.add_argument('--binary_model_path', type=str, default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
+    parser.add_argument('--eight_class_model_path', type=str, default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
     parser.add_argument('--timeout', type=int, default=1200, help='Timeout for the RL+LLM solver in seconds.')
     parser.add_argument('--num_episodes', type=int, default=1)
     parser.add_argument('--record_period', type=int, default=1)

@@ -2,7 +2,7 @@ import os
 import sys
 import importlib
 
-ARIPARTI_BASE = os.environ.get('ARIPARTI_HOME', '/home/lz/PycharmProjects/AriParti')
+ARIPARTI_BASE = os.environ.get('ARIPARTI_HOME', '/home/<USER>/PycharmProjects/AriParti')
 
 
 def _append_sys_path(p: str) -> None:

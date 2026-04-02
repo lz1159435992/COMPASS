@@ -70,7 +70,7 @@ def visit(expr):
 
 
 def test_group():
-    db_path = '/home/lz/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
+    db_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
     table_name = 'result_dictionary'
     result_dict = fetch_data_as_dict(db_path, table_name)
     items = list(result_dict.items())
@@ -98,9 +98,9 @@ def test_group():
     time_list = []
     for key, value in result_dict.items():
         if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         with open(file_path, 'r') as file:
             # 读取文件所有内容到一个字符串
             smtlib_str = file.read()
@@ -203,7 +203,7 @@ def test_group():
 def test_group_2():
     predictor = Predictor('KNN')
 
-    db_path = '/home/lz/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
+    db_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
     table_name = 'result_dictionary'
     result_dict = fetch_data_as_dict(db_path, table_name)
     items = list(result_dict.items())
@@ -232,9 +232,9 @@ def test_group_2():
     count = 0
     for key, value in result_dict.items():
         if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         with open(file_path, 'r') as file:
             # 读取文件所有内容到一个字符串
             smtlib_str = file.read()
@@ -267,7 +267,7 @@ def test_group_2():
 
 
 def test_group_3():
-    db_path = '/home/lz/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
+    db_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
     table_name = 'result_dictionary'
     result_dict = fetch_data_as_dict(db_path, table_name)
     items = list(result_dict.items())
@@ -295,9 +295,9 @@ def test_group_3():
     time_list = []
     for key, value in result_dict.items():
         if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         with open(file_path, 'r') as file:
             # 读取文件所有内容到一个字符串
             smtlib_str = file.read()
@@ -391,7 +391,7 @@ def test_group_3():
 
 
 def test_group_4():
-    with open('/home/lz/sibyl_3/src/networks/info_dict_predictor.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt', 'r') as file:
         result_dict = json.load(file)
     # items = list(result_dict.items())
     # random.shuffle(items)
@@ -417,9 +417,9 @@ def test_group_4():
     time_list = []
     for key, value in result_dict.items():
         if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/lz/baidudisk/')
+            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
         else:
             file_path = key
         with open(file_path, 'r') as file:
@@ -510,7 +510,7 @@ def test_group_4():
     for time_key, data in stats['times'].items():
         print(f"  Time <= {time_key}: Count = {data['count']}, Percentage = {data['percentage']:.2f}%")
 
-    with open('/home/lz/sibyl_3/src/networks/result_dict_time.txt', 'w') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/result_dict_time.txt', 'w') as file:
         # 使用json.dump()将字典保存到文件
         json.dump(result_dict, file, indent=4)
 

@@ -8,7 +8,7 @@ The following files are referenced by the scripts but are located outside the CO
 
 ### 1. `info_dict_rl.txt`
 
-**Original Path**: `/home/lz/sibyl_3/src/networks/info_dict_rl.txt`
+**Original Path**: `/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt`
 
 **Purpose**: Contains RL training data mapping for SMT constraints.
 
@@ -22,13 +22,13 @@ This file should be generated from your own RL training process. It maps SMT fil
 
 ### 2. `info_dict_predictor.txt`
 
-**Original Path**: `/home/lz/sibyl_3/src/networks/info_dict_predictor.txt`
+**Original Path**: `/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt`
 
 **Purpose**: Contains predictor-related data mapping.
 
 ### 3. `result_dict_time.txt`
 
-**Original Path**: `/home/lz/sibyl_3/src/networks/result_dict_time.txt`
+**Original Path**: `/home/<USER>/sibyl_3/src/networks/result_dict_time.txt`
 
 **Purpose**: Contains timing results for solver experiments.
 

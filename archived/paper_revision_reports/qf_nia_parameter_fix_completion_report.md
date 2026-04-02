@@ -12,9 +12,9 @@
 ```python
 # 使用了错误的参数名称和默认值
 model_path = getattr(args, 'binary_model_path', 
-                   '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth')
+                   '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_classifier_model.pth')
 model_time_path = getattr(args, 'eight_class_model_path',
-                        '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth')
+                        '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/enhanced_eight_class_model_large_input.pth')
 ollama_host = getattr(args, 'ollama_host', 'http://172.29.7.221:32903')
 ```
 
@@ -29,9 +29,9 @@ initial_state = process_embeding(normalized_str, args.llm_host)
 **参数定义**:
 ```python
 parser.add_argument('--binary_model_path', type=str, 
-                    default='/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth')
+                    default='/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth')
 parser.add_argument('--eight_class_model_path', type=str, 
-                    default='/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth')
+                    default='/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth')
 parser.add_argument('--llm_host', type=str, 
                     default='http://172.29.7.221:32783')
 ```

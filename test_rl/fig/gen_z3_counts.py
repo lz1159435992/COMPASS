@@ -170,13 +170,13 @@ def plot_pyecharts(data_dict, tool_name, path):
 
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
 
 # 调用函数为每个工具生成 PDF 文件
 plot_pyecharts(data_dict, 'buzybox', 'Z3solver')
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
+data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
 
 # 调用函数为每个工具生成 PDF 文件
 plot_pyecharts(data_dict, 'buzybox', 'RL_LLM')

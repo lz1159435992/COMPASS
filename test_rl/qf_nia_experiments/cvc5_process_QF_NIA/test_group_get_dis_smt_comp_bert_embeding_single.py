@@ -21,7 +21,7 @@ from ollama import Client
 from loguru import logger
 
 # 添加项目路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.test_script.utils import (
     extract_variables_from_smt2_content, 
@@ -89,14 +89,14 @@ def test_group_bert_normalize_1by1_smt_name_2_QF_NIA():
     logger.info(f'LLM配置 - Host: {llm_host}, Model: {llm_model}')
     
     # 读取QF_NIA求解结果
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json', 'r') as file:
         result_dict = json.load(file)
     
     # 转换timeout为unknown
     result_dict = convert_timeout_to_unknown(result_dict)
     
     # 加载全局已有的embedding字典（从predictor目录）
-    global_embedding_file = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json'
+    global_embedding_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json'
     if os.path.exists(global_embedding_file):
         with open(global_embedding_file, 'r') as file:
             global_embeding_dict = json.load(file)
@@ -118,7 +118,7 @@ def test_group_bert_normalize_1by1_smt_name_2_QF_NIA():
     logger.info(f'Embedding输出文件: {embedding_output_file}')
     
     # 设置输出路径
-    output_path = '/home/lz/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/features'
+    output_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/features'
     logic_name = 'QF_NIA'
     output_path_file = os.path.join(output_path, logic_name + '_llm_embeddings')
     
@@ -337,8 +337,8 @@ def split_train_test_QF_NIA(embedding_dict_path=None):
         embeding_dict = json.load(file)
     
     # 读取原始的训练/测试集划分
-    original_train_path = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_train.json'
-    original_test_path = '/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
+    original_train_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_train.json'
+    original_test_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
     
     logger.info(f'读取原始训练集: {original_train_path}')
     with open(original_train_path, 'r') as file:

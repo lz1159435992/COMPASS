@@ -72,11 +72,11 @@ def run_single_file(file_path, value, state, solve_info, q):
             set_seed(0)
 
             model = EnhancedClassifier()
-            model.load_state_dict(torch.load('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth'))
+            model.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth'))
             model.eval()
 
             model_time = EnhancedEightClassModelLargeInput()
-            model_time.load_state_dict(torch.load('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth'))
+            model_time.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth'))
             model_time.eval()
 
             env = ConstraintSimplificationEnv_test(embedder, assertions, model, model_time, smtlib_str,
@@ -134,7 +134,7 @@ def test_group():
     timeout_file = 'timeout_keys.json'
     timeout_keys = load_timeout_keys(timeout_file)
 
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -145,7 +145,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
 
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

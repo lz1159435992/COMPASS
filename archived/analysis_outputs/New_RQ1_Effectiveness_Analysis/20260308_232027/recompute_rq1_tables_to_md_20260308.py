@@ -54,9 +54,9 @@ def resolve_smt2_path(p: str) -> Optional[str]:
 
     # Common path remapping across environments
     remaps = [
-        ("/home/nju/Downloads/smt/", "/home/lz/baidudisk/smt/"),
-        ("/home/nju/Downloads/smt/", "/home/lz/Downloads/smt/"),
-        ("/home/nju/Downloads/", "/home/lz/Downloads/"),
+        ("/home/nju/Downloads/smt/", "/home/<USER>/<CLOUD_DISK>/smt/"),
+        ("/home/nju/Downloads/smt/", "/path/to/Downloads/smt/"),
+        ("/home/nju/Downloads/", "/path/to/Downloads/"),
     ]
     for a, b in remaps:
         if p.startswith(a):
@@ -69,7 +69,7 @@ def resolve_smt2_path(p: str) -> Optional[str]:
     marker = "/smt/"
     if marker in p:
         tail = p.split(marker, 1)[1]
-        for root in ("/home/lz/baidudisk/smt/", "/home/lz/Downloads/smt/"):
+        for root in ("/home/<USER>/<CLOUD_DISK>/smt/", "/path/to/Downloads/smt/"):
             q = str(Path(root) / tail)
             if Path(q).exists():
                 return q

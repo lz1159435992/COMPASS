@@ -1,5 +1,5 @@
 {
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131846": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131846": [
         "sat",
         24.31358003616333,
         999999999,
@@ -24,7 +24,7 @@
         1640.3371245861053,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6661314": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6661314": [
         "sat",
         9.472702741622925,
         999999999,
@@ -42,7 +42,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/mv/mv1175679": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mv/mv1175679": [
         "sat",
         1.345217227935791,
         999999999,
@@ -59,7 +59,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81323": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81323": [
         "sat",
         55.79155731201172,
         999999999,
@@ -84,7 +84,7 @@
         4826.758338212967,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who72807": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who72807": [
         "sat",
         9.770248174667358,
         999999999,
@@ -94,7 +94,7 @@
         359.45488595962524,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125914": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125914": [
         "sat",
         20.216501235961914,
         999999999,
@@ -125,7 +125,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97904": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97904": [
         "sat",
         2.0438766479492188,
         999999999,
@@ -154,7 +154,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78725": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78725": [
         "sat",
         16.001737356185913,
         999999999,
@@ -182,7 +182,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77493": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77493": [
         "sat",
         187.7453329563141,
         999999999,
@@ -206,7 +206,7 @@
         3968.5376932621,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq126184": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq126184": [
         "sat",
         0.8409402370452881,
         999999999,
@@ -232,7 +232,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79301": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79301": [
         "sat",
         11.360748052597046,
         999999999,
@@ -254,7 +254,7 @@
         1821.3490822315216,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc34490": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc34490": [
         "sat",
         6.4035584926605225,
         999999999,
@@ -271,7 +271,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143559": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143559": [
         "sat",
         69.64485955238342,
         999999999,
@@ -299,7 +299,7 @@
         2057.6046788692474,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand404009": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand404009": [
         "sat",
         14.035370349884033,
         999999999,
@@ -318,7 +318,7 @@
         3030.405264377594,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108141": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108141": [
         "sat",
         2.6688711643218994,
         999999999,
@@ -348,7 +348,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81587": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81587": [
         "sat",
         14.048314094543457,
         999999999,
@@ -366,7 +366,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73274": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73274": [
         "sat",
         5.879102468490601,
         999999999,
@@ -393,7 +393,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who95517": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who95517": [
         "sat",
         6.18882417678833,
         999999999,
@@ -407,7 +407,7 @@
         1332.8997571468353,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147507": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147507": [
         "sat",
         237.8047697544098,
         999999999,
@@ -436,7 +436,7 @@
         1916.547688961029,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77456": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77456": [
         "sat",
         79.56303811073303,
         999999999,
@@ -460,7 +460,7 @@
         2983.381144285202,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123938": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123938": [
         "sat",
         330.1933116912842,
         999999999,
@@ -487,7 +487,7 @@
         4135.614576339722,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who96228": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who96228": [
         "sat",
         9.392148494720459,
         999999999,
@@ -501,7 +501,7 @@
         1365.912678718567,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who257135": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who257135": [
         "sat",
         11.838704586029053,
         999999999,
@@ -520,7 +520,7 @@
         3095.1152110099792,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143542": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143542": [
         "sat",
         35.374210357666016,
         999999999,
@@ -548,7 +548,7 @@
         4495.542920351028,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79306": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79306": [
         "sat",
         52.18005871772766,
         999999999,
@@ -570,7 +570,7 @@
         2454.7119467258453,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq132245": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq132245": [
         "sat",
         42.32129120826721,
         999999999,
@@ -601,7 +601,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who181280": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who181280": [
         "sat",
         9.100578308105469,
         999999999,
@@ -620,7 +620,7 @@
         3016.2175211906433,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79309": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79309": [
         "sat",
         77.07664895057678,
         999999999,
@@ -642,7 +642,7 @@
         3203.9064571857452,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq110802": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq110802": [
         "sat",
         1.9244990348815918,
         999999999,
@@ -669,7 +669,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140243": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140243": [
         "sat",
         51.22069692611694,
         999999999,
@@ -696,7 +696,7 @@
         1906.5271360874176,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who88889": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who88889": [
         "sat",
         7.517757892608643,
         999999999,
@@ -723,7 +723,7 @@
         4952.167806148529,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89959": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89959": [
         "sat",
         28.496408462524414,
         999999999,
@@ -753,7 +753,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc45262": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc45262": [
         "sat",
         4.168341398239136,
         999999999,
@@ -770,7 +770,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99172": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99172": [
         "sat",
         36.24419975280762,
         999999999,
@@ -791,7 +791,7 @@
         3783.040821313858,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum52426": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum52426": [
         "sat",
         2.177003860473633,
         999999999,
@@ -817,7 +817,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who246039": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who246039": [
         "sat",
         13.90892481803894,
         999999999,
@@ -833,7 +833,7 @@
         2089.098028898239,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76097": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76097": [
         "sat",
         524.5469193458557,
         999999999,
@@ -856,7 +856,7 @@
         3933.6915481090546,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who232744": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who232744": [
         "sat",
         9.736384153366089,
         999999999,
@@ -875,7 +875,7 @@
         2968.8332481384277,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc32605": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc32605": [
         "sat",
         2.7186896800994873,
         999999999,
@@ -892,7 +892,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80544": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80544": [
         "sat",
         256.7097997665405,
         999999999,
@@ -915,7 +915,7 @@
         2845.0604095458984,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80523": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80523": [
         "sat",
         97.32244753837585,
         999999999,
@@ -938,7 +938,7 @@
         3937.5492248535156,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97913": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97913": [
         "sat",
         49.84718465805054,
         999999999,
@@ -960,7 +960,7 @@
         3571.807013273239,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81349": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81349": [
         "sat",
         88.37312769889832,
         999999999,
@@ -985,7 +985,7 @@
         1925.2544221878052,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92697": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92697": [
         "sat",
         73.41858434677124,
         999999999,
@@ -1006,7 +1006,7 @@
         3248.1719300746918,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116468": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116468": [
         "sat",
         75.77617311477661,
         999999999,
@@ -1031,7 +1031,7 @@
         1597.9571936130524,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84947": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84947": [
         "sat",
         428.30958557128906,
         999999999,
@@ -1054,7 +1054,7 @@
         2913.967055797577,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80543": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80543": [
         "sat",
         43.09314942359924,
         999999999,
@@ -1077,7 +1077,7 @@
         2831.064652442932,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc46952": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc46952": [
         "sat",
         2.197094202041626,
         999999999,
@@ -1094,7 +1094,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119515": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119515": [
         "sat",
         15.18051791191101,
         999999999,
@@ -1120,7 +1120,7 @@
         2462.479668855667,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand435338": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand435338": [
         "sat",
         9.364874601364136,
         999999999,
@@ -1150,7 +1150,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135053": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135053": [
         "sat",
         68.50007224082947,
         999999999,
@@ -1183,7 +1183,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80520": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80520": [
         "sat",
         26.854600191116333,
         999999999,
@@ -1213,7 +1213,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77476": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77476": [
         "sat",
         151.54668617248535,
         999999999,
@@ -1237,7 +1237,7 @@
         2152.0981283187866,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47776": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47776": [
         "sat",
         1.1884026527404785,
         999999999,
@@ -1263,7 +1263,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who60705": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who60705": [
         "sat",
         21.23064351081848,
         999999999,
@@ -1281,7 +1281,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64503": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64503": [
         "sat",
         2.208749294281006,
         999999999,
@@ -1309,7 +1309,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123936": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123936": [
         "sat",
         8.224283456802368,
         999999999,
@@ -1336,7 +1336,7 @@
         2076.5079851150513,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum86384": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum86384": [
         "sat",
         4.430546045303345,
         999999999,
@@ -1364,7 +1364,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall311235": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall311235": [
         "sat",
         2.9001777172088623,
         999999999,
@@ -1383,7 +1383,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76103": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76103": [
         "sat",
         100.08482074737549,
         999999999,
@@ -1406,7 +1406,7 @@
         3599.6261146068573,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand420445": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand420445": [
         "sat",
         1.68046236038208,
         999999999,
@@ -1437,7 +1437,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147494": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147494": [
         "sat",
         120.59778475761414,
         999999999,
@@ -1466,7 +1466,7 @@
         2016.326664686203,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75114": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75114": [
         "sat",
         27.11048674583435,
         999999999,
@@ -1488,7 +1488,7 @@
         1470.5735175609589,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87736": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87736": [
         "sat",
         251.01763463020325,
         999999999,
@@ -1514,7 +1514,7 @@
         4406.241594552994,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119520": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119520": [
         "sat",
         7.501914978027344,
         999999999,
@@ -1540,7 +1540,7 @@
         4781.020648956299,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77469": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77469": [
         "sat",
         105.44587826728821,
         999999999,
@@ -1564,7 +1564,7 @@
         3983.510775566101,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc25558": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc25558": [
         "sat",
         0.7926216125488281,
         999999999,
@@ -1574,7 +1574,7 @@
         269.5754613876343,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who86712": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who86712": [
         "sat",
         11.996657133102417,
         999999999,
@@ -1601,7 +1601,7 @@
         5209.318035125732,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135333": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135333": [
         "sat",
         3.648930072784424,
         999999999,
@@ -1629,7 +1629,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78741": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78741": [
         "sat",
         77.87827157974243,
         999999999,
@@ -1657,7 +1657,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq95762": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq95762": [
         "sat",
         16.472373723983765,
         999999999,
@@ -1688,7 +1688,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who127986": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who127986": [
         "sat",
         9.220244884490967,
         999999999,
@@ -1718,7 +1718,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84941": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84941": [
         "sat",
         61.00176286697388,
         999999999,
@@ -1752,7 +1752,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119512": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119512": [
         "sat",
         13.714663743972778,
         999999999,
@@ -1778,7 +1778,7 @@
         5313.458252668381,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90004": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90004": [
         "sat",
         5.576670408248901,
         999999999,
@@ -1801,7 +1801,7 @@
         2027.5207240581512,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand435350": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand435350": [
         "sat",
         55.474128007888794,
         999999999,
@@ -1824,7 +1824,7 @@
         3992.8302280902863,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who60132": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who60132": [
         "sat",
         10.19483494758606,
         999999999,
@@ -1852,7 +1852,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand416916": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand416916": [
         "sat",
         3.0053436756134033,
         999999999,
@@ -1878,7 +1878,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc27893": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc27893": [
         "sat",
         8.59540843963623,
         999999999,
@@ -1895,7 +1895,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47802": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47802": [
         "sat",
         48.721654176712036,
         999999999,
@@ -1914,7 +1914,7 @@
         2549.661680698395,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125949": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125949": [
         "sat",
         2.952672243118286,
         999999999,
@@ -1938,7 +1938,7 @@
         4735.442554235458,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr275734": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr275734": [
         "sat",
         14.819350004196167,
         999999999,
@@ -1948,7 +1948,7 @@
         26.471971035003662,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77486": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77486": [
         "sat",
         115.48845100402832,
         999999999,
@@ -1972,7 +1972,7 @@
         3368.469673871994,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87738": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87738": [
         "sat",
         26.688178539276123,
         999999999,
@@ -1998,7 +1998,7 @@
         4468.988829612732,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79303": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79303": [
         "sat",
         124.0200583934784,
         999999999,
@@ -2020,7 +2020,7 @@
         1460.183693408966,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum68184": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum68184": [
         "sat",
         149.92770504951477,
         999999999,
@@ -2040,7 +2040,7 @@
         2866.121831178665,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97912": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97912": [
         "sat",
         6.159454345703125,
         999999999,
@@ -2069,7 +2069,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand440544": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand440544": [
         "sat",
         43.558539628982544,
         999999999,
@@ -2097,7 +2097,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq97931": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97931": [
         "sat",
         25.32232141494751,
         999999999,
@@ -2119,7 +2119,7 @@
         3103.8337309360504,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116452": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116452": [
         "sat",
         27.178291082382202,
         999999999,
@@ -2144,7 +2144,7 @@
         1554.4025523662567,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq83559": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83559": [
         "sat",
         17.154529094696045,
         999999999,
@@ -2170,7 +2170,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135086": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135086": [
         "sat",
         40.21943497657776,
         999999999,
@@ -2196,7 +2196,7 @@
         4595.3114511966705,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81351": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81351": [
         "sat",
         271.38842844963074,
         999999999,
@@ -2221,7 +2221,7 @@
         1859.3424708843231,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc55454": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc55454": [
         "sat",
         5.328261613845825,
         999999999,
@@ -2231,7 +2231,7 @@
         285.3155801296234,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87744": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87744": [
         "sat",
         134.6490330696106,
         999999999,
@@ -2257,7 +2257,7 @@
         4477.985572099686,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143566": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143566": [
         "sat",
         229.41181206703186,
         999999999,
@@ -2285,7 +2285,7 @@
         2202.2008731365204,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who246041": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who246041": [
         "sat",
         17.070189714431763,
         999999999,
@@ -2301,7 +2301,7 @@
         2091.0797641277313,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128911": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128911": [
         "sat",
         2.0835583209991455,
         999999999,
@@ -2329,7 +2329,7 @@
         1679.1674847602844,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87740": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87740": [
         "sat",
         989.5463733673096,
         999999999,
@@ -2355,7 +2355,7 @@
         4475.902581453323,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76093": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76093": [
         "sat",
         121.30192136764526,
         999999999,
@@ -2378,7 +2378,7 @@
         3738.89985203743,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc33548": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc33548": [
         "sat",
         1.740119457244873,
         999999999,
@@ -2395,7 +2395,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119548": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119548": [
         "sat",
         117.5295717716217,
         999999999,
@@ -2421,7 +2421,7 @@
         5058.077729463577,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc31257": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc31257": [
         "sat",
         11.006669998168945,
         999999999,
@@ -2438,7 +2438,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123946": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123946": [
         "sat",
         175.96787810325623,
         999999999,
@@ -2465,7 +2465,7 @@
         2521.306426525116,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81357": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81357": [
         "sat",
         182.41318774223328,
         999999999,
@@ -2490,7 +2490,7 @@
         4877.283240318298,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tr/tr148310": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr148310": [
         "sat",
         13.217931747436523,
         999999999,
@@ -2506,7 +2506,7 @@
         2042.053522825241,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90005": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90005": [
         "sat",
         158.04714965820312,
         999999999,
@@ -2529,7 +2529,7 @@
         1893.6809132099152,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131873": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131873": [
         "sat",
         2.7722463607788086,
         999999999,
@@ -2554,7 +2554,7 @@
         1746.3534178733826,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77477": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77477": [
         "sat",
         96.81961703300476,
         999999999,
@@ -2578,7 +2578,7 @@
         2396.0980541706085,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq125947": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq125947": [
         "sat",
         134.53471446037292,
         999999999,
@@ -2602,7 +2602,7 @@
         4728.367698431015,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who225163": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who225163": [
         "sat",
         19.46891951560974,
         999999999,
@@ -2625,7 +2625,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who98818": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who98818": [
         "sat",
         3.604517936706543,
         999999999,
@@ -2641,7 +2641,7 @@
         2071.928456544876,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73299": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73299": [
         "sat",
         11.191807270050049,
         999999999,
@@ -2668,7 +2668,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131843": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131843": [
         "sat",
         62.50581908226013,
         999999999,
@@ -2693,7 +2693,7 @@
         1729.6563005447388,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64522": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64522": [
         "sat",
         4.626089572906494,
         999999999,
@@ -2721,7 +2721,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89986": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89986": [
         "sat",
         83.91098189353943,
         999999999,
@@ -2744,7 +2744,7 @@
         3642.877401828766,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108154": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108154": [
         "sat",
         1.9530622959136963,
         999999999,
@@ -2767,7 +2767,7 @@
         4436.346071720123,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116459": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116459": [
         "sat",
         71.79771137237549,
         999999999,
@@ -2792,7 +2792,7 @@
         1691.274340391159,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq113557": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq113557": [
         "sat",
         3.7151553630828857,
         999999999,
@@ -2820,7 +2820,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq152928": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq152928": [
         "sat",
         98.77652096748352,
         999999999,
@@ -2850,7 +2850,7 @@
         6528.5963633060455,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77475": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77475": [
         "sat",
         245.9935839176178,
         999999999,
@@ -2874,7 +2874,7 @@
         2617.9997403621674,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq92699": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92699": [
         "sat",
         15.684054613113403,
         999999999,
@@ -2895,7 +2895,7 @@
         3083.3657858371735,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6668814": [
+    "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6668814": [
         "sat",
         42.044912576675415,
         999999999,
@@ -2906,7 +2906,7 @@
         362.61436915397644,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77444": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77444": [
         "sat",
         40.27926754951477,
         999999999,
@@ -2937,7 +2937,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand444515": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand444515": [
         "sat",
         86.5533664226532,
         999999999,
@@ -2959,7 +2959,7 @@
         3734.293698310852,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc29813": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc29813": [
         "sat",
         6.2223896980285645,
         999999999,
@@ -2976,7 +2976,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135084": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135084": [
         "sat",
         135.70626497268677,
         999999999,
@@ -3002,7 +3002,7 @@
         3728.7655279636383,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand427674": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand427674": [
         "sat",
         9.66092848777771,
         999999999,
@@ -3030,7 +3030,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108158": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108158": [
         "sat",
         64.47275519371033,
         999999999,
@@ -3053,7 +3053,7 @@
         4350.549362659454,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who145705": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who145705": [
         "sat",
         19.134778022766113,
         999999999,
@@ -3074,7 +3074,7 @@
         3655.8676607608795,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid217526": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid217526": [
         "sat",
         1.0566506385803223,
         999999999,
@@ -3119,7 +3119,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/chroot/chroot32085": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot32085": [
         "sat",
         0.2314140796661377,
         999999999,
@@ -3136,7 +3136,7 @@
         1569.4867193698883,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89593": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89593": [
         "sat",
         3.263807535171509,
         999999999,
@@ -3156,7 +3156,7 @@
         2900.54980301857,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand420464": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand420464": [
         "sat",
         5.9994165897369385,
         999999999,
@@ -3183,7 +3183,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87711": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87711": [
         "sat",
         118.67248392105103,
         999999999,
@@ -3209,7 +3209,7 @@
         4496.763353586197,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87725": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87725": [
         "sat",
         51.51717782020569,
         999999999,
@@ -3235,7 +3235,7 @@
         2208.7241327762604,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc33644": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc33644": [
         "sat",
         1.1931312084197998,
         999999999,
@@ -3252,7 +3252,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq103703": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq103703": [
         "sat",
         13.294092655181885,
         999999999,
@@ -3274,7 +3274,7 @@
         4071.325307369232,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47799": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47799": [
         "sat",
         4.966281890869141,
         999999999,
@@ -3300,7 +3300,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116458": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116458": [
         "sat",
         75.49371385574341,
         999999999,
@@ -3325,7 +3325,7 @@
         1695.115250825882,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133615": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133615": [
         "sat",
         248.53883457183838,
         999999999,
@@ -3361,7 +3361,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128930": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128930": [
         "sat",
         416.67869210243225,
         999999999,
@@ -3389,7 +3389,7 @@
         5898.8271605968475,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140287": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140287": [
         "sat",
         216.14867663383484,
         999999999,
@@ -3416,7 +3416,7 @@
         5686.480837583542,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135070": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135070": [
         "sat",
         6.700223207473755,
         999999999,
@@ -3442,7 +3442,7 @@
         1570.2996244430542,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943": [
         "sat",
         270.81416034698486,
         999999999,
@@ -3452,7 +3452,7 @@
         208.81171894073486,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who212355": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who212355": [
         "sat",
         3.506061553955078,
         999999999,
@@ -3471,7 +3471,7 @@
         2989.5005207061768,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc14110": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc14110": [
         "sat",
         4.029235363006592,
         999999999,
@@ -3488,7 +3488,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77463": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77463": [
         "sat",
         29.172046899795532,
         999999999,
@@ -3512,7 +3512,7 @@
         3437.886999130249,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc20000": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc20000": [
         "sat",
         8.872458457946777,
         999999999,
@@ -3529,7 +3529,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who127805": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who127805": [
         "sat",
         12.999242782592773,
         999999999,
@@ -3552,7 +3552,7 @@
         4472.798599720001,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108135": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108135": [
         "sat",
         1.966963768005371,
         999999999,
@@ -3575,7 +3575,7 @@
         4451.3005311489105,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77481": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77481": [
         "sat",
         219.04060697555542,
         999999999,
@@ -3599,7 +3599,7 @@
         1973.1808290481567,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75098": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75098": [
         "sat",
         53.19988226890564,
         999999999,
@@ -3660,7 +3660,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119504": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119504": [
         "sat",
         33.665992736816406,
         999999999,
@@ -3693,7 +3693,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who98191": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who98191": [
         "sat",
         8.603869676589966,
         999999999,
@@ -3709,7 +3709,7 @@
         2072.328659057617,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who61150": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who61150": [
         "sat",
         24.9559907913208,
         999999999,
@@ -3737,7 +3737,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail206633": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail206633": [
         "sat",
         4.121880054473877,
         999999999,
@@ -3755,7 +3755,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor43945": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor43945": [
         "sat",
         0.8342177867889404,
         999999999,
@@ -3765,7 +3765,7 @@
         229.5888488292694,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc13114": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc13114": [
         "sat",
         11.840931415557861,
         999999999,
@@ -3782,7 +3782,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87706": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87706": [
         "sat",
         34.52276086807251,
         999999999,
@@ -3815,7 +3815,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/stat/stat111714": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/stat/stat111714": [
         "sat",
         89.18699264526367,
         999999999,
@@ -3832,7 +3832,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who86404": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who86404": [
         "sat",
         11.190850734710693,
         999999999,
@@ -3859,7 +3859,7 @@
         444.32584714889526,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor61564": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor61564": [
         "sat",
         1.4539501667022705,
         999999999,
@@ -3869,7 +3869,7 @@
         401.2614462375641,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135073": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135073": [
         "sat",
         168.4676012992859,
         999999999,
@@ -3895,7 +3895,7 @@
         2864.226475954056,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209666": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209666": [
         "sat",
         200.33007431030273,
         999999999,
@@ -3913,7 +3913,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who145708": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who145708": [
         "sat",
         1.477996826171875,
         999999999,
@@ -3934,7 +3934,7 @@
         283.0600481033325,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv10421": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv10421": [
         "sat",
         0.5856420993804932,
         999999999,
@@ -3952,7 +3952,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who53174": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who53174": [
         "sat",
         33.858484506607056,
         999999999,
@@ -3971,7 +3971,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81609": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81609": [
         "sat",
         15.145206689834595,
         999999999,
@@ -3989,7 +3989,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail175253": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175253": [
         "sat",
         88.2274763584137,
         999999999,
@@ -4000,7 +4000,7 @@
         455.31909346580505,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76102": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76102": [
         "sat",
         38.25629925727844,
         999999999,
@@ -4023,7 +4023,7 @@
         1030.079515695572,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail207869": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail207869": [
         "sat",
         42.37399101257324,
         999999999,
@@ -4034,7 +4034,7 @@
         427.2348790168762,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv10229": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv10229": [
         "sat",
         0.5831804275512695,
         999999999,
@@ -4052,7 +4052,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky148240": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky148240": [
         "sat",
         43.72890615463257,
         999999999,
@@ -4079,7 +4079,7 @@
         479.84876680374146,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123958": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123958": [
         "sat",
         64.7637186050415,
         999999999,
@@ -4106,7 +4106,7 @@
         1085.3656196594238,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum92024": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum92024": [
         "sat",
         3.7395565509796143,
         999999999,
@@ -4139,7 +4139,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209195": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209195": [
         "sat",
         102.0099151134491,
         999999999,
@@ -4150,7 +4150,7 @@
         452.9382336139679,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65362": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65362": [
         "sat",
         56.46080470085144,
         999999999,
@@ -4160,7 +4160,7 @@
         430.5783612728119,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128931": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128931": [
         "sat",
         74.46574378013611,
         999999999,
@@ -4188,7 +4188,7 @@
         629.9362063407898,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail185132": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail185132": [
         "sat",
         4.815582752227783,
         999999999,
@@ -4206,7 +4206,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81337": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81337": [
         "sat",
         95.51754522323608,
         999999999,
@@ -4231,7 +4231,7 @@
         2948.637884616852,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail151935": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151935": [
         "sat",
         186.88417434692383,
         999999999,
@@ -4249,7 +4249,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75090": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75090": [
         "sat",
         28.71392798423767,
         999999999,
@@ -4271,7 +4271,7 @@
         912.9920208454132,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky159391": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky159391": [
         "sat",
         7.4063966274261475,
         999999999,
@@ -4307,7 +4307,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail152129": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152129": [
         "sat",
         119.83121943473816,
         999999999,
@@ -4318,7 +4318,7 @@
         478.9645285606384,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80515": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80515": [
         "sat",
         1.5023608207702637,
         999999999,
@@ -4341,7 +4341,7 @@
         1038.6759612560272,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who257258": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who257258": [
         "sat",
         12.429978609085083,
         999999999,
@@ -4360,7 +4360,7 @@
         288.960649728775,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail93110": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail93110": [
         "sat",
         27.037593364715576,
         999999999,
@@ -4371,7 +4371,7 @@
         406.24175667762756,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv11177": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv11177": [
         "sat",
         0.879934549331665,
         999999999,
@@ -4389,7 +4389,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146548": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146548": [
         "sat",
         3.617849826812744,
         999999999,
@@ -4440,7 +4440,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81345": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81345": [
         "sat",
         68.25570178031921,
         999999999,
@@ -4465,7 +4465,7 @@
         2597.342012643814,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209686": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209686": [
         "sat",
         94.24613881111145,
         999999999,
@@ -4476,7 +4476,7 @@
         432.0512764453888,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80527": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80527": [
         "sat",
         51.087931632995605,
         999999999,
@@ -4499,7 +4499,7 @@
         1132.9285299777985,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209238": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209238": [
         "sat",
         132.19631838798523,
         999999999,
@@ -4510,7 +4510,7 @@
         451.76211953163147,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv10653": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv10653": [
         "sat",
         3.368675470352173,
         999999999,
@@ -4528,7 +4528,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail185981": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail185981": [
         "sat",
         71.5705451965332,
         999999999,
@@ -4546,7 +4546,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat43772": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat43772": [
         "sat",
         1.287618637084961,
         999999999,
@@ -4564,7 +4564,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76105": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76105": [
         "sat",
         21.647223234176636,
         999999999,
@@ -4587,7 +4587,7 @@
         1345.0988051891327,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112584": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112584": [
         "sat",
         26.5179443359375,
         999999999,
@@ -4618,7 +4618,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who60130": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who60130": [
         "sat",
         8.741158485412598,
         999999999,
@@ -4639,7 +4639,7 @@
         274.58250856399536,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv11307": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv11307": [
         "sat",
         0.719351053237915,
         999999999,
@@ -4657,7 +4657,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81359": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81359": [
         "sat",
         193.64038276672363,
         999999999,
@@ -4682,7 +4682,7 @@
         2945.022289991379,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140254": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140254": [
         "sat",
         188.1511037349701,
         999999999,
@@ -4709,7 +4709,7 @@
         687.709198474884,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand439860": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand439860": [
         "sat",
         4.860559701919556,
         999999999,
@@ -4731,7 +4731,7 @@
         311.21619987487793,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky164722": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky164722": [
         "sat",
         9.075508117675781,
         999999999,
@@ -4764,7 +4764,7 @@
         749.7643649578094,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112591": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112591": [
         "sat",
         167.01270079612732,
         999999999,
@@ -4788,7 +4788,7 @@
         1127.5196747779846,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand397184": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand397184": [
         "sat",
         7.746222972869873,
         999999999,
@@ -4814,7 +4814,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who69334": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who69334": [
         "sat",
         13.338048696517944,
         999999999,
@@ -4835,7 +4835,7 @@
         247.38154935836792,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq113575": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq113575": [
         "sat",
         2.467869997024536,
         999999999,
@@ -4856,7 +4856,7 @@
         278.4255702495575,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat43009": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat43009": [
         "sat",
         0.4968852996826172,
         999999999,
@@ -4874,7 +4874,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209684": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209684": [
         "sat",
         148.12494349479675,
         999999999,
@@ -4885,7 +4885,7 @@
         398.48435282707214,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date68391": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date68391": [
         "sat",
         2.115445137023926,
         999999999,
@@ -4902,7 +4902,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90001": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90001": [
         "sat",
         9.692941665649414,
         999999999,
@@ -4925,7 +4925,7 @@
         1977.6804509162903,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241318": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241318": [
         "sat",
         16.209771871566772,
         999999999,
@@ -4943,7 +4943,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87753": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87753": [
         "sat",
         48.89608955383301,
         999999999,
@@ -4969,7 +4969,7 @@
         1285.6843130588531,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79277": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79277": [
         "sat",
         3.2320396900177,
         999999999,
@@ -4998,7 +4998,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89978": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89978": [
         "sat",
         65.2861123085022,
         999999999,
@@ -5028,7 +5028,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209955": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209955": [
         "sat",
         244.41215324401855,
         999999999,
@@ -5039,7 +5039,7 @@
         473.5606665611267,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77492": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77492": [
         "sat",
         600.5335831642151,
         999999999,
@@ -5063,7 +5063,7 @@
         1263.0061314105988,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail91294": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail91294": [
         "sat",
         33.35863947868347,
         999999999,
@@ -5081,7 +5081,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail114946": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail114946": [
         "sat",
         8.730349063873291,
         999999999,
@@ -5099,7 +5099,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241246": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241246": [
         "sat",
         2.672231435775757,
         999999999,
@@ -5117,7 +5117,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241406": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241406": [
         "sat",
         31.481761932373047,
         999999999,
@@ -5135,7 +5135,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid212844": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid212844": [
         "sat",
         3.2437689304351807,
         999999999,
@@ -5177,7 +5177,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128913": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128913": [
         "sat",
         125.15122389793396,
         999999999,
@@ -5205,7 +5205,7 @@
         4625.30847287178,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209626": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209626": [
         "sat",
         70.25765132904053,
         999999999,
@@ -5216,7 +5216,7 @@
         465.1420547962189,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224484": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224484": [
         "sat",
         27.17810344696045,
         999999999,
@@ -5255,7 +5255,7 @@
         1007.4524166584015,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date121416": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date121416": [
         "sat",
         0.567568302154541,
         999999999,
@@ -5272,7 +5272,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv9850": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv9850": [
         "sat",
         0.5189945697784424,
         999999999,
@@ -5283,7 +5283,7 @@
         39.92089509963989,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky154671": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky154671": [
         "sat",
         14.013713121414185,
         999999999,
@@ -5311,7 +5311,7 @@
         513.0508100986481,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand386508": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand386508": [
         "sat",
         1.1532697677612305,
         999999999,
@@ -5344,7 +5344,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81322": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81322": [
         "sat",
         27.79234552383423,
         999999999,
@@ -5369,7 +5369,7 @@
         819.7135515213013,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail93111": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail93111": [
         "sat",
         26.488046407699585,
         999999999,
@@ -5387,7 +5387,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who121639": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who121639": [
         "sat",
         23.494083166122437,
         999999999,
@@ -5401,7 +5401,7 @@
         328.99967885017395,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail151521": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151521": [
         "sat",
         159.681902885437,
         999999999,
@@ -5419,7 +5419,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89013": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89013": [
         "sat",
         2.5238354206085205,
         999999999,
@@ -5449,7 +5449,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date62962": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date62962": [
         "sat",
         9.46549105644226,
         999999999,
@@ -5466,7 +5466,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail128732": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail128732": [
         "sat",
         35.950485944747925,
         999999999,
@@ -5477,7 +5477,7 @@
         415.0326364040375,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135049": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135049": [
         "sat",
         1.3417139053344727,
         999999999,
@@ -5510,7 +5510,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv10296": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv10296": [
         "sat",
         0.49248266220092773,
         999999999,
@@ -5521,7 +5521,7 @@
         30.14228630065918,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307793": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307793": [
         "sat",
         9.204079866409302,
         999999999,
@@ -5539,7 +5539,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date22176": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date22176": [
         "sat",
         19.687299251556396,
         999999999,
@@ -5556,7 +5556,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq108121": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108121": [
         "sat",
         21.838910818099976,
         999999999,
@@ -5586,7 +5586,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87707": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87707": [
         "sat",
         48.93843650817871,
         999999999,
@@ -5623,7 +5623,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64525": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64525": [
         "sat",
         61.69808006286621,
         999999999,
@@ -5651,7 +5651,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date69391": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date69391": [
         "sat",
         30.79524326324463,
         999999999,
@@ -5668,7 +5668,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135072": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135072": [
         "sat",
         12.189017295837402,
         999999999,
@@ -5694,7 +5694,7 @@
         3625.3942255973816,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date129439": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date129439": [
         "sat",
         5.679908752441406,
         999999999,
@@ -5706,7 +5706,7 @@
         564.9815104007721,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who245992": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who245992": [
         "sat",
         9.366873264312744,
         999999999,
@@ -5722,7 +5722,7 @@
         443.3921813964844,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119518": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119518": [
         "sat",
         28.518508911132812,
         999999999,
@@ -5748,7 +5748,7 @@
         1075.0001800060272,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail140427": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail140427": [
         "sat",
         7.80289888381958,
         999999999,
@@ -5766,7 +5766,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky152945": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky152945": [
         "sat",
         17.64302372932434,
         999999999,
@@ -5794,7 +5794,7 @@
         474.0146760940552,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail147705": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail147705": [
         "sat",
         3.435332775115967,
         999999999,
@@ -5812,7 +5812,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who127807": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who127807": [
         "sat",
         6.021082401275635,
         999999999,
@@ -5835,7 +5835,7 @@
         345.5627248287201,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail148127": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail148127": [
         "sat",
         13.86656928062439,
         999999999,
@@ -5853,7 +5853,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90216": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90216": [
         "sat",
         0.7366940975189209,
         999999999,
@@ -5883,7 +5883,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who224789": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who224789": [
         "sat",
         16.60296392440796,
         999999999,
@@ -5906,7 +5906,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who212354": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who212354": [
         "sat",
         21.269548892974854,
         999999999,
@@ -5925,7 +5925,7 @@
         331.2577574253082,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123945": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123945": [
         "sat",
         305.2884147167206,
         999999999,
@@ -5952,7 +5952,7 @@
         2863.5470752716064,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail140374": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail140374": [
         "sat",
         4.004487991333008,
         999999999,
@@ -5963,7 +5963,7 @@
         411.59239888191223,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/stat/stat109288": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/stat/stat109288": [
         "sat",
         18.33046317100525,
         999999999,
@@ -5973,7 +5973,7 @@
         398.8000273704529,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131874": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131874": [
         "sat",
         108.6329607963562,
         999999999,
@@ -5998,7 +5998,7 @@
         3483.5276901721954,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116433": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116433": [
         "sat",
         1.3785948753356934,
         999999999,
@@ -6023,7 +6023,7 @@
         3025.1369683742523,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65079": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65079": [
         "sat",
         57.932090044021606,
         999999999,
@@ -6040,7 +6040,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail147358": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail147358": [
         "sat",
         9.250505685806274,
         999999999,
@@ -6051,7 +6051,7 @@
         415.34730792045593,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail175255": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175255": [
         "sat",
         102.85835599899292,
         999999999,
@@ -6062,7 +6062,7 @@
         432.0399241447449,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky159258": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky159258": [
         "sat",
         15.770557403564453,
         999999999,
@@ -6091,7 +6091,7 @@
         526.3933992385864,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc45263": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc45263": [
         "sat",
         1.639373540878296,
         999999999,
@@ -6108,7 +6108,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail152502": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152502": [
         "sat",
         225.05950236320496,
         999999999,
@@ -6119,7 +6119,7 @@
         482.11131834983826,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand440555": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand440555": [
         "sat",
         1.332298994064331,
         999999999,
@@ -6147,7 +6147,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/chroot/chroot33477": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot33477": [
         "sat",
         0.44069457054138184,
         999999999,
@@ -6176,7 +6176,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv10549": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv10549": [
         "sat",
         0.5576789379119873,
         999999999,
@@ -6194,7 +6194,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr265201": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr265201": [
         "sat",
         0.859935998916626,
         999999999,
@@ -6204,7 +6204,7 @@
         24.950655698776245,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84933": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84933": [
         "sat",
         191.32595539093018,
         999999999,
@@ -6278,7 +6278,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail94436": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail94436": [
         "sat",
         45.338112592697144,
         999999999,
@@ -6296,7 +6296,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date26136": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date26136": [
         "sat",
         6.373631000518799,
         999999999,
@@ -6313,7 +6313,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date107612": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date107612": [
         "sat",
         8.771715641021729,
         999999999,
@@ -6330,7 +6330,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84925": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84925": [
         "sat",
         78.24429249763489,
         999999999,
@@ -6360,7 +6360,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224477": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224477": [
         "sat",
         37.0278058052063,
         999999999,
@@ -6399,7 +6399,7 @@
         762.9566447734833,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail126217": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail126217": [
         "sat",
         10.18973684310913,
         999999999,
@@ -6417,7 +6417,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87751": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87751": [
         "sat",
         157.96942806243896,
         999999999,
@@ -6443,7 +6443,7 @@
         1495.527147769928,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail152462": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152462": [
         "sat",
         151.3591377735138,
         999999999,
@@ -6454,7 +6454,7 @@
         496.71030020713806,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140268": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140268": [
         "sat",
         487.32125425338745,
         999999999,
@@ -6481,7 +6481,7 @@
         1126.3417506217957,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84950": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84950": [
         "sat",
         30.506195306777954,
         999999999,
@@ -6504,7 +6504,7 @@
         1764.7676906585693,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail91293": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail91293": [
         "sat",
         12.717273235321045,
         999999999,
@@ -6522,7 +6522,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119540": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119540": [
         "sat",
         75.1028470993042,
         999999999,
@@ -6548,7 +6548,7 @@
         3862.2719020843506,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail186577": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail186577": [
         "sat",
         118.55713248252869,
         999999999,
@@ -6559,7 +6559,7 @@
         2479.345477104187,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91093": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91093": [
         "sat",
         51.5953254699707,
         999999999,
@@ -6579,7 +6579,7 @@
         1177.9836523532867,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209219": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209219": [
         "sat",
         11.91628098487854,
         999999999,
@@ -6597,7 +6597,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73989": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73989": [
         "sat",
         0.6806173324584961,
         999999999,
@@ -6625,7 +6625,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail126880": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail126880": [
         "sat",
         13.15742301940918,
         999999999,
@@ -6643,7 +6643,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who181087": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who181087": [
         "sat",
         13.128360033035278,
         999999999,
@@ -6662,7 +6662,7 @@
         260.77594089508057,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/stat/stat98369": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/stat/stat98369": [
         "sat",
         3.044585704803467,
         999999999,
@@ -6679,7 +6679,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75099": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75099": [
         "sat",
         123.5202739238739,
         999999999,
@@ -6708,7 +6708,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128919": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128919": [
         "sat",
         45.49574398994446,
         999999999,
@@ -6736,7 +6736,7 @@
         3866.9943923950195,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr273314": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr273314": [
         "sat",
         9.938478708267212,
         999999999,
@@ -6746,7 +6746,7 @@
         25.818228483200073,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147506": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147506": [
         "sat",
         206.2014241218567,
         999999999,
@@ -6775,7 +6775,7 @@
         4259.282072544098,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119529": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119529": [
         "sat",
         44.47613525390625,
         999999999,
@@ -6801,7 +6801,7 @@
         4124.777368783951,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail105896": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail105896": [
         "sat",
         31.19827651977539,
         999999999,
@@ -6819,7 +6819,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail151121": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151121": [
         "sat",
         264.11215591430664,
         999999999,
@@ -6837,7 +6837,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135088": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135088": [
         "sat",
         2.8809425830841064,
         999999999,
@@ -6863,7 +6863,7 @@
         1371.0142500400543,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date61874": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date61874": [
         "sat",
         3.7215311527252197,
         999999999,
@@ -6880,7 +6880,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77311": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77311": [
         "sat",
         1.5697367191314697,
         999999999,
@@ -6911,7 +6911,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75108": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75108": [
         "sat",
         143.80559062957764,
         999999999,
@@ -6944,7 +6944,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq95765": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq95765": [
         "sat",
         19.367833137512207,
         999999999,
@@ -6975,7 +6975,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133656": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133656": [
         "sat",
         1215.6440258026123,
         999999999,
@@ -7004,7 +7004,7 @@
         1005.8311061859131,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date48677": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date48677": [
         "sat",
         115.21401643753052,
         999999999,
@@ -7021,7 +7021,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who194824": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who194824": [
         "sat",
         10.712995529174805,
         999999999,
@@ -7044,7 +7044,7 @@
         354.1192309856415,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241247": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241247": [
         "sat",
         9.064266920089722,
         999999999,
@@ -7062,7 +7062,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail140443": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail140443": [
         "sat",
         20.208767890930176,
         999999999,
@@ -7080,7 +7080,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123953": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123953": [
         "sat",
         97.14457154273987,
         999999999,
@@ -7107,7 +7107,7 @@
         2570.8316855430603,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116443": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116443": [
         "sat",
         43.96370553970337,
         999999999,
@@ -7132,7 +7132,7 @@
         3298.048061609268,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77487": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77487": [
         "sat",
         157.30900287628174,
         999999999,
@@ -7156,7 +7156,7 @@
         1594.8666439056396,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail141240": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail141240": [
         "sat",
         11.687312126159668,
         999999999,
@@ -7174,7 +7174,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor53990": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor53990": [
         "sat",
         1.587000846862793,
         999999999,
@@ -7184,7 +7184,7 @@
         439.57252168655396,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head64203": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head64203": [
         "sat",
         4.895514965057373,
         999999999,
@@ -7202,7 +7202,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor77039": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor77039": [
         "sat",
         2.657736301422119,
         999999999,
@@ -7212,7 +7212,7 @@
         455.31959414482117,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143547": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143547": [
         "sat",
         220.63694548606873,
         999999999,
@@ -7240,7 +7240,7 @@
         4111.150126218796,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84936": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84936": [
         "sat",
         134.78429770469666,
         999999999,
@@ -7263,7 +7263,7 @@
         1201.161413192749,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who212356": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who212356": [
         "sat",
         11.837615013122559,
         999999999,
@@ -7282,7 +7282,7 @@
         349.6853063106537,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140245": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140245": [
         "sat",
         108.0901427268982,
         999999999,
@@ -7309,7 +7309,7 @@
         2531.684600353241,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who32817": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who32817": [
         "sat",
         5.572242975234985,
         999999999,
@@ -7326,7 +7326,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140535": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140535": [
         "sat",
         146.75011277198792,
         999999999,
@@ -7348,7 +7348,7 @@
         1172.7280797958374,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123959": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123959": [
         "sat",
         26.608535766601562,
         999999999,
@@ -7375,7 +7375,7 @@
         2967.125813484192,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail174571": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail174571": [
         "sat",
         114.68540835380554,
         999999999,
@@ -7386,7 +7386,7 @@
         459.0908589363098,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79290": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79290": [
         "sat",
         65.86517691612244,
         999999999,
@@ -7408,7 +7408,7 @@
         1035.532170534134,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77488": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77488": [
         "sat",
         407.34456849098206,
         999999999,
@@ -7432,7 +7432,7 @@
         1234.3628199100494,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who98507": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who98507": [
         "sat",
         11.385706901550293,
         999999999,
@@ -7448,7 +7448,7 @@
         365.9899640083313,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc31188": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc31188": [
         "sat",
         6.6438517570495605,
         999999999,
@@ -7465,7 +7465,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who256691": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who256691": [
         "sat",
         15.900133609771729,
         999999999,
@@ -7491,7 +7491,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77462": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77462": [
         "sat",
         138.42423844337463,
         999999999,
@@ -7515,7 +7515,7 @@
         1614.1784505844116,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81222": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81222": [
         "sat",
         7.185479164123535,
         999999999,
@@ -7533,7 +7533,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209624": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209624": [
         "sat",
         107.08226776123047,
         999999999,
@@ -7544,7 +7544,7 @@
         433.5517213344574,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87752": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87752": [
         "sat",
         28.727576732635498,
         999999999,
@@ -7570,7 +7570,7 @@
         1454.9638595581055,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/stat/stat109290": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/stat/stat109290": [
         "sat",
         10.01924443244934,
         999999999,
@@ -7587,7 +7587,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128910": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128910": [
         "sat",
         75.60216784477234,
         999999999,
@@ -7615,7 +7615,7 @@
         4029.8996510505676,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date55443": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date55443": [
         "sat",
         3.6922531127929688,
         999999999,
@@ -7632,7 +7632,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq89615": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89615": [
         "sat",
         22.490197896957397,
         999999999,
@@ -7652,7 +7652,7 @@
         1085.3401849269867,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135100": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135100": [
         "sat",
         310.81209564208984,
         999999999,
@@ -7678,7 +7678,7 @@
         466.5017740726471,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81686": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81686": [
         "sat",
         21.121164560317993,
         999999999,
@@ -7696,7 +7696,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131845": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131845": [
         "sat",
         55.29871082305908,
         999999999,
@@ -7721,7 +7721,7 @@
         3305.0771627426147,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc29719": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc29719": [
         "sat",
         1.8596880435943604,
         999999999,
@@ -7738,7 +7738,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq99153": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq99153": [
         "sat",
         0.9529318809509277,
         999999999,
@@ -7766,7 +7766,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date20928": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date20928": [
         "sat",
         5.6214563846588135,
         999999999,
@@ -7783,7 +7783,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147510": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147510": [
         "sat",
         330.6005415916443,
         999999999,
@@ -7812,7 +7812,7 @@
         4099.498996257782,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197794": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197794": [
         "sat",
         29.301692962646484,
         999999999,
@@ -7854,7 +7854,7 @@
         796.6116750240326,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123928": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123928": [
         "sat",
         318.3018500804901,
         999999999,
@@ -7881,7 +7881,7 @@
         4256.391659498215,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date47809": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date47809": [
         "sat",
         76.86834335327148,
         999999999,
@@ -7898,7 +7898,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq113566": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq113566": [
         "sat",
         2.975541114807129,
         999999999,
@@ -7926,7 +7926,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81513": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81513": [
         "sat",
         13.461677312850952,
         999999999,
@@ -7944,7 +7944,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail175494": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175494": [
         "sat",
         106.85467505455017,
         999999999,
@@ -7955,7 +7955,7 @@
         449.348925113678,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77466": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77466": [
         "sat",
         42.65223240852356,
         999999999,
@@ -7979,7 +7979,7 @@
         1449.7429337501526,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid163655": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid163655": [
         "sat",
         1.1525077819824219,
         999999999,
@@ -8036,7 +8036,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77449": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77449": [
         "sat",
         3.3765008449554443,
         999999999,
@@ -8067,7 +8067,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140264": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140264": [
         "sat",
         129.71894931793213,
         999999999,
@@ -8094,7 +8094,7 @@
         626.1840536594391,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor73664": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor73664": [
         "sat",
         2.5530738830566406,
         999999999,
@@ -8104,7 +8104,7 @@
         426.2864954471588,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail199329": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail199329": [
         "sat",
         91.3074893951416,
         999999999,
@@ -8122,7 +8122,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail208500": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail208500": [
         "sat",
         91.86319017410278,
         999999999,
@@ -8140,7 +8140,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224463": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224463": [
         "sat",
         1.6399173736572266,
         999999999,
@@ -8186,7 +8186,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who232576": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who232576": [
         "sat",
         11.87608551979065,
         999999999,
@@ -8205,7 +8205,7 @@
         218.57602167129517,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand444513": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand444513": [
         "sat",
         13.115718126296997,
         999999999,
@@ -8227,7 +8227,7 @@
         303.0664632320404,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail148985": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail148985": [
         "sat",
         3.3782947063446045,
         999999999,
@@ -8245,7 +8245,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77491": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77491": [
         "sat",
         76.38273119926453,
         999999999,
@@ -8269,7 +8269,7 @@
         1442.426629781723,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky164721": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky164721": [
         "sat",
         14.534891605377197,
         999999999,
@@ -8302,7 +8302,7 @@
         755.8461425304413,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87754": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87754": [
         "sat",
         45.19300317764282,
         999999999,
@@ -8328,7 +8328,7 @@
         1305.7514998912811,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241407": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241407": [
         "sat",
         24.233266592025757,
         999999999,
@@ -8346,7 +8346,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date23698": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date23698": [
         "sat",
         41.21113109588623,
         999999999,
@@ -8363,7 +8363,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head88593": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head88593": [
         "sat",
         0.3435797691345215,
         999999999,
@@ -8373,7 +8373,7 @@
         411.33121728897095,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail206646": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail206646": [
         "sat",
         6.689230680465698,
         999999999,
@@ -8391,7 +8391,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date68844": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date68844": [
         "sat",
         4.664908170700073,
         999999999,
@@ -8408,7 +8408,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date92379": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date92379": [
         "sat",
         48.19064283370972,
         999999999,
@@ -8418,7 +8418,7 @@
         437.9936285018921,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131833": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131833": [
         "sat",
         23.094895362854004,
         999999999,
@@ -8454,7 +8454,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135087": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135087": [
         "sat",
         74.30375337600708,
         999999999,
@@ -8480,7 +8480,7 @@
         1246.821758031845,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc16769": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc16769": [
         "sat",
         2.7884738445281982,
         999999999,
@@ -8497,7 +8497,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail89294": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail89294": [
         "sat",
         8.142366886138916,
         999999999,
@@ -8515,7 +8515,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky153303": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky153303": [
         "sat",
         7.557314157485962,
         999999999,
@@ -8543,7 +8543,7 @@
         531.3528332710266,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81350": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81350": [
         "sat",
         108.26790761947632,
         999999999,
@@ -8568,7 +8568,7 @@
         3463.6094102859497,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc50889": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc50889": [
         "sat",
         9.296496868133545,
         999999999,
@@ -8585,7 +8585,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq135052": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135052": [
         "sat",
         1.0317609310150146,
         999999999,
@@ -8618,7 +8618,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who80929": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who80929": [
         "sat",
         9.47175669670105,
         999999999,
@@ -8644,7 +8644,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89987": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89987": [
         "sat",
         7.97393012046814,
         999999999,
@@ -8667,7 +8667,7 @@
         1421.3220508098602,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv8916": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv8916": [
         "sat",
         0.651757001876831,
         999999999,
@@ -8678,7 +8678,7 @@
         34.077638387680054,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum74487": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum74487": [
         "sat",
         2.3073532581329346,
         999999999,
@@ -8706,7 +8706,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117712": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117712": [
         "sat",
         3.412543535232544,
         999999999,
@@ -8739,7 +8739,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head52110": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head52110": [
         "sat",
         94.02603483200073,
         999999999,
@@ -8750,7 +8750,7 @@
         490.9326858520508,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81362": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81362": [
         "sat",
         519.2201111316681,
         999999999,
@@ -8775,7 +8775,7 @@
         4200.508105754852,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky124263": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky124263": [
         "sat",
         9.94628620147705,
         999999999,
@@ -8794,7 +8794,7 @@
         295.9009234905243,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who128050": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who128050": [
         "sat",
         18.42148470878601,
         999999999,
@@ -8817,7 +8817,7 @@
         409.6105260848999,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116447": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116447": [
         "sat",
         4.595175504684448,
         999999999,
@@ -8842,7 +8842,7 @@
         3672.9740562438965,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail109890": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail109890": [
         "sat",
         24.010181665420532,
         999999999,
@@ -8860,7 +8860,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date98507": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date98507": [
         "sat",
         4.540700197219849,
         999999999,
@@ -8877,7 +8877,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77482": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77482": [
         "sat",
         130.68980264663696,
         999999999,
@@ -8901,7 +8901,7 @@
         2743.4893128871918,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76116": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76116": [
         "sat",
         0.8042201995849609,
         999999999,
@@ -8932,7 +8932,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor47993": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor47993": [
         "sat",
         2.0087828636169434,
         999999999,
@@ -8942,7 +8942,7 @@
         474.422429561615,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date54405": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date54405": [
         "sat",
         8.521814346313477,
         999999999,
@@ -8959,7 +8959,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81340": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81340": [
         "sat",
         147.45954012870789,
         999999999,
@@ -8984,7 +8984,7 @@
         3962.211140871048,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65943": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65943": [
         "sat",
         108.10200023651123,
         999999999,
@@ -9001,7 +9001,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91756": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91756": [
         "sat",
         430.8585047721863,
         999999999,
@@ -9022,7 +9022,7 @@
         951.374354839325,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123923": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123923": [
         "sat",
         131.02824330329895,
         999999999,
@@ -9049,7 +9049,7 @@
         4346.573615312576,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81208": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81208": [
         "sat",
         14.947728157043457,
         999999999,
@@ -9068,7 +9068,7 @@
         240.55159330368042,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91730": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91730": [
         "sat",
         53.882118225097656,
         999999999,
@@ -9096,7 +9096,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date89420": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date89420": [
         "sat",
         5.524899482727051,
         999999999,
@@ -9113,7 +9113,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65364": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65364": [
         "sat",
         96.42587637901306,
         999999999,
@@ -9123,7 +9123,7 @@
         453.60565280914307,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143543": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143543": [
         "sat",
         43.40892219543457,
         999999999,
@@ -9151,7 +9151,7 @@
         4137.875755310059,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who86402": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who86402": [
         "sat",
         14.883952856063843,
         999999999,
@@ -9178,7 +9178,7 @@
         499.88072299957275,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail208501": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail208501": [
         "sat",
         33.09666991233826,
         999999999,
@@ -9196,7 +9196,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail210468": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail210468": [
         "sat",
         186.8508322238922,
         999999999,
@@ -9207,7 +9207,7 @@
         520.7275390625,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who81210": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who81210": [
         "sat",
         7.492201328277588,
         999999999,
@@ -9226,7 +9226,7 @@
         260.40710854530334,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail208025": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail208025": [
         "sat",
         77.67129039764404,
         999999999,
@@ -9244,7 +9244,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail152835": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152835": [
         "sat",
         90.32355332374573,
         999999999,
@@ -9255,7 +9255,7 @@
         547.8120760917664,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131850": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131850": [
         "sat",
         13.417418718338013,
         999999999,
@@ -9280,7 +9280,7 @@
         3703.566906929016,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail242471": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail242471": [
         "sat",
         144.79927468299866,
         999999999,
@@ -9291,7 +9291,7 @@
         509.17691016197205,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76090": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76090": [
         "sat",
         53.11426067352295,
         999999999,
@@ -9314,7 +9314,7 @@
         1177.0552341938019,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77473": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77473": [
         "sat",
         160.33298444747925,
         999999999,
@@ -9338,7 +9338,7 @@
         1439.6838297843933,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143569": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143569": [
         "sat",
         3.7788867950439453,
         999999999,
@@ -9366,7 +9366,7 @@
         1246.3152050971985,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail242130": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail242130": [
         "sat",
         115.2241199016571,
         999999999,
@@ -9377,7 +9377,7 @@
         482.6866490840912,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky163474": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky163474": [
         "sat",
         12.21954870223999,
         999999999,
@@ -9417,7 +9417,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor66853": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor66853": [
         "sat",
         2.245251178741455,
         999999999,
@@ -9427,7 +9427,7 @@
         457.0123860836029,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum63139": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum63139": [
         "sat",
         7.963052988052368,
         999999999,
@@ -9454,7 +9454,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/join/join46618": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/join/join46618": [
         "sat",
         0.32886528968811035,
         999999999,
@@ -9479,7 +9479,7 @@
         327.6814880371094,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor35018": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor35018": [
         "sat",
         0.35077810287475586,
         999999999,
@@ -9489,7 +9489,7 @@
         28.750759601593018,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128939": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128939": [
         "sat",
         570.1981425285339,
         999999999,
@@ -9517,7 +9517,7 @@
         1018.4741489887238,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65941": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65941": [
         "sat",
         92.91312551498413,
         999999999,
@@ -9527,7 +9527,7 @@
         481.7887885570526,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail209216": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209216": [
         "sat",
         42.165722608566284,
         999999999,
@@ -9538,7 +9538,7 @@
         507.2309868335724,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121175": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121175": [
         "sat",
         46.770455837249756,
         999999999,
@@ -9561,7 +9561,7 @@
         524.88578748703,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76101": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76101": [
         "sat",
         142.15250086784363,
         999999999,
@@ -9584,7 +9584,7 @@
         1142.0369534492493,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/wc/wc32606": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/wc/wc32606": [
         "sat",
         1.3868529796600342,
         999999999,
@@ -9601,7 +9601,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date35718": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date35718": [
         "sat",
         47.18357992172241,
         999999999,
@@ -9618,7 +9618,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89976": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89976": [
         "sat",
         3.1720056533813477,
         999999999,
@@ -9641,7 +9641,7 @@
         1138.8145532608032,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date62963": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date62963": [
         "sat",
         24.0376238822937,
         999999999,
@@ -9658,7 +9658,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor36030": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor36030": [
         "sat",
         1.3854267597198486,
         999999999,
@@ -9668,7 +9668,7 @@
         466.2176208496094,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor6485": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor6485": [
         "sat",
         0.41164183616638184,
         999999999,
@@ -9678,7 +9678,7 @@
         464.5634865760803,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77465": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77465": [
         "sat",
         122.79967975616455,
         999999999,
@@ -9702,7 +9702,7 @@
         1612.1087605953217,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147515": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147515": [
         "sat",
         308.99238085746765,
         999999999,
@@ -9731,7 +9731,7 @@
         5038.336492538452,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq147511": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147511": [
         "sat",
         123.01098465919495,
         999999999,
@@ -9760,7 +9760,7 @@
         4793.787643909454,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date69389": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date69389": [
         "sat",
         40.39574575424194,
         999999999,
@@ -9777,7 +9777,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date46972": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date46972": [
         "sat",
         45.50821328163147,
         999999999,
@@ -9787,7 +9787,7 @@
         484.04666924476624,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who211797": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who211797": [
         "sat",
         34.41007900238037,
         999999999,
@@ -9806,7 +9806,7 @@
         243.76274347305298,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail110861": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail110861": [
         "sat",
         4.654636383056641,
         999999999,
@@ -9824,7 +9824,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87750": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87750": [
         "sat",
         24.12553334236145,
         999999999,
@@ -9850,7 +9850,7 @@
         1399.36172413826,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor54690": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor54690": [
         "sat",
         1.9537830352783203,
         999999999,
@@ -9867,7 +9867,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143568": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143568": [
         "sat",
         16.808383464813232,
         999999999,
@@ -9895,7 +9895,7 @@
         2338.470607995987,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47791": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47791": [
         "sat",
         3.34773588180542,
         999999999,
@@ -9921,7 +9921,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq116422": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116422": [
         "sat",
         31.810479402542114,
         999999999,
@@ -9953,7 +9953,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq112589": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112589": [
         "sat",
         117.63485622406006,
         999999999,
@@ -9977,7 +9977,7 @@
         3025.9801630973816,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand423387": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand423387": [
         "sat",
         2.3785135746002197,
         999999999,
@@ -9999,7 +9999,7 @@
         336.57103633880615,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head64204": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head64204": [
         "sat",
         14.731384992599487,
         999999999,
@@ -10017,7 +10017,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expr/expr277231": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277231": [
         "sat",
         413.4900619983673,
         999999999,
@@ -10028,7 +10028,7 @@
         41.72359323501587,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224481": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224481": [
         "sat",
         36.77919888496399,
         999999999,
@@ -10074,7 +10074,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81344": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81344": [
         "sat",
         120.9169533252716,
         999999999,
@@ -10099,7 +10099,7 @@
         2323.0498712062836,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail173770": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail173770": [
         "sat",
         7.461165428161621,
         999999999,
@@ -10110,7 +10110,7 @@
         496.3592026233673,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor68389": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor68389": [
         "sat",
         2.6775596141815186,
         999999999,
@@ -10120,7 +10120,7 @@
         420.9679436683655,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87745": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87745": [
         "sat",
         237.41942262649536,
         999999999,
@@ -10146,7 +10146,7 @@
         1530.8258700370789,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64528": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64528": [
         "sat",
         52.97569727897644,
         999999999,
@@ -10167,7 +10167,7 @@
         1192.6916332244873,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq140252": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140252": [
         "sat",
         184.7887213230133,
         999999999,
@@ -10194,7 +10194,7 @@
         1057.356718301773,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail152110": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152110": [
         "sat",
         236.9001660346985,
         999999999,
@@ -10212,7 +10212,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date65081": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65081": [
         "sat",
         41.38078784942627,
         999999999,
@@ -10222,7 +10222,7 @@
         433.94173097610474,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75116": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75116": [
         "sat",
         112.09884643554688,
         999999999,
@@ -10244,7 +10244,7 @@
         2652.811087369919,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sort/sort21837": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sort/sort21837": [
         "sat",
         1.1261091232299805,
         999999999,
@@ -10264,7 +10264,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head82230": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head82230": [
         "sat",
         2.270207166671753,
         999999999,
@@ -10283,7 +10283,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121168": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121168": [
         "sat",
         19.04640817642212,
         999999999,
@@ -10313,7 +10313,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor76119": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor76119": [
         "sat",
         2.641771078109741,
         999999999,
@@ -10323,7 +10323,7 @@
         432.11123037338257,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid167544": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid167544": [
         "sat",
         0.3993804454803467,
         999999999,
@@ -10361,7 +10361,7 @@
         796.1990797519684,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail113786": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail113786": [
         "sat",
         2.6026926040649414,
         999999999,
@@ -10379,7 +10379,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail198158": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail198158": [
         "sat",
         11.169001817703247,
         999999999,
@@ -10397,7 +10397,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216193": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid216193": [
         "sat",
         2.834371566772461,
         999999999,
@@ -10440,7 +10440,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131868": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131868": [
         "sat",
         58.67625188827515,
         999999999,
@@ -10465,7 +10465,7 @@
         3234.535313844681,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum74470": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum74470": [
         "sat",
         1.666043996810913,
         999999999,
@@ -10493,7 +10493,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date105255": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date105255": [
         "sat",
         4.843508720397949,
         999999999,
@@ -10510,7 +10510,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail204365": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail204365": [
         "sat",
         5.033087730407715,
         999999999,
@@ -10528,7 +10528,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who89242": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who89242": [
         "sat",
         7.2769176959991455,
         999999999,
@@ -10555,7 +10555,7 @@
         474.5642683506012,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182477": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid182477": [
         "sat",
         1.2167341709136963,
         999999999,
@@ -10595,7 +10595,7 @@
         3009.124320745468,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who75124": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who75124": [
         "sat",
         7.931567430496216,
         999999999,
@@ -10618,7 +10618,7 @@
         380.57909321784973,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date25547": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date25547": [
         "sat",
         1.7232742309570312,
         999999999,
@@ -10628,7 +10628,7 @@
         439.917284488678,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77484": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77484": [
         "sat",
         114.51175451278687,
         999999999,
@@ -10652,7 +10652,7 @@
         2394.5425827503204,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky137104": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky137104": [
         "sat",
         16.45304250717163,
         999999999,
@@ -10675,7 +10675,7 @@
         367.2749683856964,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who211795": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who211795": [
         "sat",
         9.589905023574829,
         999999999,
@@ -10694,7 +10694,7 @@
         237.48337149620056,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77489": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77489": [
         "sat",
         312.8891315460205,
         999999999,
@@ -10718,7 +10718,7 @@
         1392.3817393779755,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81342": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81342": [
         "sat",
         245.91211867332458,
         999999999,
@@ -10743,7 +10743,7 @@
         2125.975483417511,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81358": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81358": [
         "sat",
         275.85581135749817,
         999999999,
@@ -10768,7 +10768,7 @@
         2639.976136445999,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq119514": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119514": [
         "sat",
         95.15969681739807,
         999999999,
@@ -10794,7 +10794,7 @@
         925.7552223205566,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87714": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87714": [
         "sat",
         44.96696710586548,
         999999999,
@@ -10820,7 +10820,7 @@
         1432.1523306369781,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84903": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84903": [
         "sat",
         10.525289297103882,
         999999999,
@@ -10850,7 +10850,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat79721": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat79721": [
         "sat",
         0.5395333766937256,
         999999999,
@@ -10869,7 +10869,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail140426": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail140426": [
         "sat",
         4.819163799285889,
         999999999,
@@ -10887,7 +10887,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail91697": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail91697": [
         "sat",
         0.9419879913330078,
         999999999,
@@ -10905,7 +10905,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75102": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75102": [
         "sat",
         15.33087968826294,
         999999999,
@@ -10934,7 +10934,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail208521": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail208521": [
         "sat",
         60.01811242103577,
         999999999,
@@ -10945,7 +10945,7 @@
         430.43181824684143,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80524": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80524": [
         "sat",
         188.27034854888916,
         999999999,
@@ -10968,7 +10968,7 @@
         1205.8153495788574,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87732": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87732": [
         "sat",
         45.23871636390686,
         999999999,
@@ -10994,7 +10994,7 @@
         1775.8565573692322,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat85919": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat85919": [
         "sat",
         1.5027759075164795,
         999999999,
@@ -11012,7 +11012,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date32463": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date32463": [
         "sat",
         37.406094789505005,
         999999999,
@@ -11029,7 +11029,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq133623": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133623": [
         "sat",
         261.5531268119812,
         999999999,
@@ -11058,7 +11058,7 @@
         4968.6332051754,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84898": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84898": [
         "sat",
         3.411466360092163,
         999999999,
@@ -11088,7 +11088,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail198892": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail198892": [
         "sat",
         3.562016010284424,
         999999999,
@@ -11106,7 +11106,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131871": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131871": [
         "sat",
         39.60813331604004,
         999999999,
@@ -11131,7 +11131,7 @@
         3244.1252751350403,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date55442": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date55442": [
         "sat",
         19.361857652664185,
         999999999,
@@ -11148,7 +11148,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat85289": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat85289": [
         "sat",
         1.3658428192138672,
         999999999,
@@ -11165,7 +11165,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pr/pr18107": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pr/pr18107": [
         "sat",
         0.3696315288543701,
         999999999,
@@ -11191,7 +11191,7 @@
         344.7146837711334,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date92431": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date92431": [
         "sat",
         75.50976657867432,
         999999999,
@@ -11201,7 +11201,7 @@
         438.3648717403412,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum62424": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum62424": [
         "sat",
         2.481719970703125,
         999999999,
@@ -11228,7 +11228,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor67556": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor67556": [
         "sat",
         1.3496761322021484,
         999999999,
@@ -11238,7 +11238,7 @@
         459.1877567768097,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who161740": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who161740": [
         "sat",
         14.217920541763306,
         999999999,
@@ -11257,7 +11257,7 @@
         290.85460805892944,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143553": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143553": [
         "sat",
         29.706101894378662,
         999999999,
@@ -11285,7 +11285,7 @@
         4858.306399822235,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor55358": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor55358": [
         "sat",
         2.106154203414917,
         999999999,
@@ -11295,7 +11295,7 @@
         449.4151632785797,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89989": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89989": [
         "sat",
         59.691986083984375,
         999999999,
@@ -11318,7 +11318,7 @@
         1507.7084968090057,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv9157": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv9157": [
         "sat",
         0.6774921417236328,
         999999999,
@@ -11336,7 +11336,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79314": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79314": [
         "sat",
         16.329502820968628,
         999999999,
@@ -11358,7 +11358,7 @@
         1446.4067785739899,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor70364": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor70364": [
         "sat",
         1.1106665134429932,
         999999999,
@@ -11368,7 +11368,7 @@
         454.55688548088074,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq117717": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117717": [
         "sat",
         6.169196128845215,
         999999999,
@@ -11390,7 +11390,7 @@
         342.3574023246765,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand435346": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand435346": [
         "sat",
         2.3906261920928955,
         999999999,
@@ -11413,7 +11413,7 @@
         369.98565578460693,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/stat/stat111712": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/stat/stat111712": [
         "sat",
         73.54267621040344,
         999999999,
@@ -11423,7 +11423,7 @@
         462.38825368881226,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail185690": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail185690": [
         "sat",
         60.6393563747406,
         999999999,
@@ -11441,7 +11441,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who161405": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who161405": [
         "sat",
         17.105424880981445,
         999999999,
@@ -11460,7 +11460,7 @@
         284.47295928001404,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky126655": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky126655": [
         "sat",
         10.274245738983154,
         999999999,
@@ -11486,7 +11486,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/pinky/pinky169318": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky169318": [
         "sat",
         5.039468288421631,
         999999999,
@@ -11521,7 +11521,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who232574": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who232574": [
         "sat",
         11.413560628890991,
         999999999,
@@ -11540,7 +11540,7 @@
         243.34247517585754,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87748": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87748": [
         "sat",
         621.3964958190918,
         999999999,
@@ -11566,7 +11566,7 @@
         1534.9684674739838,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123931": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123931": [
         "sat",
         50.34452939033508,
         999999999,
@@ -11604,7 +11604,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail241345": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail241345": [
         "sat",
         11.843762159347534,
         999999999,
@@ -11622,7 +11622,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/cat/cat95720": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/cat/cat95720": [
         "sat",
         0.6152501106262207,
         999999999,
@@ -11640,7 +11640,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv9476": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv9476": [
         "sat",
         0.5170395374298096,
         999999999,
@@ -11651,7 +11651,7 @@
         36.77871870994568,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv5673": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv5673": [
         "sat",
         0.3331918716430664,
         999999999,
@@ -11669,7 +11669,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq128916": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128916": [
         "sat",
         75.41544246673584,
         999999999,
@@ -11697,7 +11697,7 @@
         4841.357841491699,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131872": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131872": [
         "sat",
         49.38012385368347,
         999999999,
@@ -11722,7 +11722,7 @@
         3518.6992723941803,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/expand/expand416930": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand416930": [
         "sat",
         6.051923990249634,
         999999999,
@@ -11748,7 +11748,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/dir/dir488035": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dir/dir488035": [
         "sat",
         5.4938061237335205,
         999999999,
@@ -11778,7 +11778,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq121161": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121161": [
         "sat",
         2.3445024490356445,
         999999999,
@@ -11801,7 +11801,7 @@
         380.89460372924805,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail141959": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail141959": [
         "sat",
         38.66160178184509,
         999999999,
@@ -11812,7 +11812,7 @@
         472.33998799324036,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail149685": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail149685": [
         "sat",
         9.010185241699219,
         999999999,
@@ -11830,7 +11830,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/factor/factor75801": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor75801": [
         "sat",
         2.396028995513916,
         999999999,
@@ -11840,7 +11840,7 @@
         461.95574164390564,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq123929": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123929": [
         "sat",
         35.43636608123779,
         999999999,
@@ -11867,7 +11867,7 @@
         4263.825496435165,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who72982": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who72982": [
         "sat",
         16.93352961540222,
         999999999,
@@ -11877,7 +11877,7 @@
         629.1499536037445,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who87293": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who87293": [
         "sat",
         17.59187412261963,
         999999999,
@@ -11904,7 +11904,7 @@
         482.9058475494385,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who60713": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who60713": [
         "sat",
         5.308029651641846,
         999999999,
@@ -11932,7 +11932,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84949": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84949": [
         "sat",
         46.26988458633423,
         999999999,
@@ -11955,7 +11955,7 @@
         2663.8245408535004,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64526": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64526": [
         "sat",
         19.60314631462097,
         999999999,
@@ -11983,7 +11983,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who232742": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who232742": [
         "sat",
         15.753568410873413,
         999999999,
@@ -12002,7 +12002,7 @@
         338.3503460884094,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq131875": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq131875": [
         "sat",
         216.50305771827698,
         999999999,
@@ -12027,7 +12027,7 @@
         3600.9183197021484,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date27779": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date27779": [
         "sat",
         16.99324083328247,
         999999999,
@@ -12044,7 +12044,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date106818": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date106818": [
         "sat",
         14.15795636177063,
         999999999,
@@ -12054,7 +12054,7 @@
         374.3029808998108,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/seq/seq143541": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143541": [
         "sat",
         36.038599491119385,
         999999999,
@@ -12082,7 +12082,7 @@
         3629.204061985016,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who96430": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who96430": [
         "sat",
         30.58447575569153,
         999999999,
@@ -12096,7 +12096,7 @@
         361.36860251426697,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date92294": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date92294": [
         "sat",
         30.650041103363037,
         999999999,
@@ -12106,7 +12106,7 @@
         390.6766469478607,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/printenv/printenv9975": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/printenv/printenv9975": [
         "sat",
         2.7661774158477783,
         999999999,
@@ -12124,7 +12124,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/who/who161407": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who161407": [
         "sat",
         14.608992576599121,
         999999999,
@@ -12143,7 +12143,7 @@
         261.797789812088,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/tail/tail207126": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail207126": [
         "sat",
         5.163092851638794,
         999999999,
@@ -12161,7 +12161,7 @@
             ]
         ]
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/head/head53264": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head53264": [
         "sat",
         252.63026881217957,
         999999999,
@@ -12172,7 +12172,7 @@
         452.9742681980133,
         "failed"
     ],
-    "/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/date/date92629": [
+    "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date92629": [
         "sat",
         86.97483777999878,
         999999999,

@@ -124,8 +124,8 @@ def test_group():
                     file_path = key.replace('/home/yy/Downloads/', '/home/user/')
                 elif '/home/nju/Downloads/' in key:
                     file_path = key.replace('/home/nju/Downloads/', '/home/user/')
-                elif '/home/lz/baidudisk/' in key:
-                    file_path = key.replace('/home/lz/baidudisk/', '/home/user/')
+                elif '/home/<USER>/<CLOUD_DISK>/' in key:
+                    file_path = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/user/')
                 else:
                     file_path = key
                 if file_path not in info_dict.keys():
@@ -170,7 +170,7 @@ def test_group():
                     if model:
                         result_list.append(model_to_dict(model))
                     # file_path = key
-                    # file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
+                    # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
 
                     start_time = time.time()
 

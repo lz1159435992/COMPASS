@@ -11,7 +11,7 @@ import traceback
 from loguru import logger
 
 # 添加路径
-sys.path.append('/home/lz/PycharmProjects/Pearl')
+sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 def test_bvparti_solver():
     """测试BVParti求解器的基本功能"""

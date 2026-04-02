@@ -134,7 +134,7 @@ def test():
     # 步骤4: 将状态字典应用到模型
     model.load_state_dict(state_dict)
     embedder = CodeEmbedder_normalize()
-    with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

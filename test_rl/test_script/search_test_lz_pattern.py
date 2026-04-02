@@ -420,9 +420,9 @@ if __name__ == '__main__':
     # test_path.append(directory)
     # directory = '/home/yy/Downloads/smt/gnu_KLEE/klee_bk/single_test'
     # test_path.append(directory)
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
-    # directory = '/home/lz/Downloads/incremental_Hierarchy/incremental'
+    # directory = '/path/to/Downloads/incremental_Hierarchy/incremental'
     # test_path.append(directory)
 
     # 遍历目录
@@ -439,7 +439,7 @@ if __name__ == '__main__':
                     with open(file_path, 'r') as file:
                         # 璇诲彇鏂囦欢鎵€鏈夊唴瀹瑰埌涓€涓瓧绗︿覆
                         smtlib_str = file.read()
-                    # with open('/home/lz/PycharmProjects/Pearl/test_rl/ge_cons/auto_gen_v2.txt', 'r') as file:
+                    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/ge_cons/auto_gen_v2.txt', 'r') as file:
                     #     result_dict = json.load(file)
                     # for k, v in result_dict.items():
                     #     smtlib_str = v[1]

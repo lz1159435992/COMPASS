@@ -1,5 +1,5 @@
 {
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301527/unbd-sage14.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301527/unbd-sage14.smt2": {
         "x71": "VAR1",
         "x68": "VAR2",
         "x65": "VAR3",
@@ -76,7 +76,7 @@
         "x14": "VAR74",
         "x10": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297604/constraint-357303.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297604/constraint-357303.smt2": {
         "f12c": "VAR1",
         "f19c": "VAR2",
         "f19m": "VAR3",
@@ -3414,7 +3414,7 @@
         "f24m": "VAR3335",
         "f0m": "VAR3336"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301546/unbd-sage9.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301546/unbd-sage9.smt2": {
         "x74": "VAR1",
         "x72": "VAR2",
         "x71": "VAR3",
@@ -3491,7 +3491,7 @@
         "x43": "VAR74",
         "x6": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301568/unbd-sage20.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301568/unbd-sage20.smt2": {
         "x49": "VAR1",
         "x47": "VAR2",
         "x46": "VAR3",
@@ -3543,7 +3543,7 @@
         "x26": "VAR49",
         "x14": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297584/constraint-478122.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297584/constraint-478122.smt2": {
         "f20c": "VAR1",
         "f35c": "VAR2",
         "f35m": "VAR3",
@@ -8033,7 +8033,7 @@
         "f40m": "VAR4487",
         "f0m": "VAR4488"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301508/unbd-sage22.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301508/unbd-sage22.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x96": "VAR3",
@@ -8135,7 +8135,7 @@
         "x8": "VAR99",
         "x67": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308633/constraint-496324.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308633/constraint-496324.smt2": {
         "f19c": "VAR1",
         "f18c": "VAR2",
         "f17c": "VAR3",
@@ -12697,7 +12697,7 @@
         "f12m": "VAR4559",
         "f24m": "VAR4560"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301520/unbd-sage14.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301520/unbd-sage14.smt2": {
         "x99": "VAR1",
         "x96": "VAR2",
         "x95": "VAR3",
@@ -12799,7 +12799,7 @@
         "x21": "VAR99",
         "x41": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301503/unbd-sage23.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301503/unbd-sage23.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x97": "VAR3",
@@ -12901,7 +12901,7 @@
         "x30": "VAR99",
         "x24": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297649/constraint-655888.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297649/constraint-655888.smt2": {
         "f30c": "VAR1",
         "f49c": "VAR2",
         "f49m": "VAR3",
@@ -19063,7 +19063,7 @@
         "f90m": "VAR6159",
         "f0m": "VAR6160"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301556/unbd-sage23.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301556/unbd-sage23.smt2": {
         "x49": "VAR1",
         "x48": "VAR2",
         "x46": "VAR3",
@@ -19115,7 +19115,7 @@
         "x47": "VAR49",
         "x30": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301521/unbd-sage4.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301521/unbd-sage4.smt2": {
         "x98": "VAR1",
         "x94": "VAR2",
         "x93": "VAR3",
@@ -19217,7 +19217,7 @@
         "x19": "VAR99",
         "x58": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/35-vars/16301408/v35_problem__034.smt2.slack.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/35-vars/16301408/v35_problem__034.smt2.slack.smt2": {
         "x33_plus": "VAR1",
         "x34_plus": "VAR2",
         "x17_plus": "VAR3",
@@ -19289,7 +19289,7 @@
         "x30_minus": "VAR69",
         "x34_minus": "VAR70"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308539/constraint-321761.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308539/constraint-321761.smt2": {
         "f19c": "VAR1",
         "f18c": "VAR2",
         "f17c": "VAR3",
@@ -22291,7 +22291,7 @@
         "f24m": "VAR2999",
         "f48m": "VAR3000"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297614/constraint-506600.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297614/constraint-506600.smt2": {
         "f40c": "VAR1",
         "f55c": "VAR2",
         "f55m": "VAR3",
@@ -27029,7 +27029,7 @@
         "f0m": "VAR4735",
         "f60m": "VAR4736"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301550/unbd-sage2.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301550/unbd-sage2.smt2": {
         "x49": "VAR1",
         "x48": "VAR2",
         "x45": "VAR3",
@@ -27081,7 +27081,7 @@
         "x16": "VAR49",
         "x2": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310044/Example_15.txt.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310044/Example_15.txt.smt2": {
         "x_2_1": "VAR1",
         "x_1_1": "VAR2",
         "x_7_64": "VAR3",
@@ -27531,7 +27531,7 @@
         "x_4_1": "VAR447",
         "x_3_1": "VAR448"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297562/constraint-391798.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297562/constraint-391798.smt2": {
         "f20c": "VAR1",
         "f31c": "VAR2",
         "f31m": "VAR3",
@@ -31269,7 +31269,7 @@
         "f0m": "VAR3735",
         "f60m": "VAR3736"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297648/constraint-487307.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297648/constraint-487307.smt2": {
         "f30c": "VAR1",
         "f53c": "VAR2",
         "f53m": "VAR3",
@@ -35891,7 +35891,7 @@
         "f60m": "VAR4619",
         "f0m": "VAR4620"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301539/unbd-sage0.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301539/unbd-sage0.smt2": {
         "x72": "VAR1",
         "x71": "VAR2",
         "x70": "VAR3",
@@ -35968,7 +35968,7 @@
         "x12": "VAR74",
         "x7": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301533/unbd-sage2.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301533/unbd-sage2.smt2": {
         "x74": "VAR1",
         "x73": "VAR2",
         "x70": "VAR3",
@@ -36045,7 +36045,7 @@
         "x14": "VAR74",
         "x9": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301512/unbd-sage5.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301512/unbd-sage5.smt2": {
         "x99": "VAR1",
         "x97": "VAR2",
         "x95": "VAR3",
@@ -36147,7 +36147,7 @@
         "x1": "VAR99",
         "x9": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308557/constraint-247831.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308557/constraint-247831.smt2": {
         "f17c": "VAR1",
         "f14c": "VAR2",
         "f19c": "VAR3",
@@ -38513,7 +38513,7 @@
         "f0m": "VAR2363",
         "f48m": "VAR2364"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301573/unbd-sage19.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301573/unbd-sage19.smt2": {
         "x48": "VAR1",
         "x47": "VAR2",
         "x46": "VAR3",
@@ -38565,7 +38565,7 @@
         "x10": "VAR49",
         "x5": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297587/constraint-481231.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297587/constraint-481231.smt2": {
         "f20c": "VAR1",
         "f35c": "VAR2",
         "f35m": "VAR3",
@@ -43095,7 +43095,7 @@
         "f0m": "VAR4527",
         "f60m": "VAR4528"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310038/Example_11.txt.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310038/Example_11.txt.smt2": {
         "x_1_1": "VAR1",
         "x_7_30": "VAR2",
         "x_6_30": "VAR3",
@@ -43307,7 +43307,7 @@
         "x_3_1": "VAR209",
         "x_2_1": "VAR210"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301553/unbd-sage6.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301553/unbd-sage6.smt2": {
         "x49": "VAR1",
         "x48": "VAR2",
         "x47": "VAR3",
@@ -43359,7 +43359,7 @@
         "x17": "VAR49",
         "x16": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301509/unbd-sage13.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301509/unbd-sage13.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x97": "VAR3",
@@ -43461,7 +43461,7 @@
         "x34": "VAR99",
         "x10": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301549/unbd-sage1.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301549/unbd-sage1.smt2": {
         "x74": "VAR1",
         "x73": "VAR2",
         "x72": "VAR3",
@@ -43538,7 +43538,7 @@
         "x68": "VAR74",
         "x39": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301526/unbd-sage21.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301526/unbd-sage21.smt2": {
         "x74": "VAR1",
         "x73": "VAR2",
         "x71": "VAR3",
@@ -43615,7 +43615,7 @@
         "x37": "VAR74",
         "x3": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308558/constraint-285271.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308558/constraint-285271.smt2": {
         "f94c": "VAR1",
         "f93c": "VAR2",
         "f92c": "VAR3",
@@ -46393,7 +46393,7 @@
         "f100m": "VAR2775",
         "f120m": "VAR2776"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301564/unbd-sage10.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301564/unbd-sage10.smt2": {
         "x49": "VAR1",
         "x48": "VAR2",
         "x47": "VAR3",
@@ -46445,7 +46445,7 @@
         "x34": "VAR49",
         "x11": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/bofill-scheduling/SMT_real_LIA/16309003/ex5040_2400_100.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/bofill-scheduling/SMT_real_LIA/16309003/ex5040_2400_100.smt2": {
         "xH169": "VAR1",
         "xH121": "VAR2",
         "xH97": "VAR3",
@@ -47023,7 +47023,7 @@
         "xH48": "VAR575",
         "xH24": "VAR576"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301514/unbd-sage1.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301514/unbd-sage1.smt2": {
         "x99": "VAR1",
         "x97": "VAR2",
         "x96": "VAR3",
@@ -47125,7 +47125,7 @@
         "x19": "VAR99",
         "x45": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301536/unbd-sage24.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301536/unbd-sage24.smt2": {
         "x74": "VAR1",
         "x73": "VAR2",
         "x72": "VAR3",
@@ -47202,7 +47202,7 @@
         "x6": "VAR74",
         "x0": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301554/unbd-sage17.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301554/unbd-sage17.smt2": {
         "x48": "VAR1",
         "x47": "VAR2",
         "x46": "VAR3",
@@ -47254,7 +47254,7 @@
         "x6": "VAR49",
         "x39": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd025v30c/16301591/unbd-sage24.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd025v30c/16301591/unbd-sage24.smt2": {
         "x24": "VAR1",
         "x23": "VAR2",
         "x18": "VAR3",
@@ -47281,7 +47281,7 @@
         "x13": "VAR24",
         "x6": "VAR25"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/slacks/16300650/35-26.slack.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/slacks/16300650/35-26.slack.smt2": {
         "x16_minus": "VAR1",
         "x18_minus": "VAR2",
         "x17_plus": "VAR3",
@@ -47353,7 +47353,7 @@
         "x6_minus": "VAR69",
         "x12_plus": "VAR70"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301538/unbd-sage4.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301538/unbd-sage4.smt2": {
         "x73": "VAR1",
         "x72": "VAR2",
         "x71": "VAR3",
@@ -47430,7 +47430,7 @@
         "x15": "VAR74",
         "x2": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301501/unbd-sage6.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301501/unbd-sage6.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x95": "VAR3",
@@ -47532,7 +47532,7 @@
         "x61": "VAR99",
         "x7": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310040/Example_7.txt.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/RWS/16310040/Example_7.txt.smt2": {
         "x_1_1": "VAR1",
         "x_7_29": "VAR2",
         "x_6_29": "VAR3",
@@ -47737,7 +47737,7 @@
         "x_3_1": "VAR202",
         "x_2_1": "VAR203"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301510/unbd-sage15.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301510/unbd-sage15.smt2": {
         "x98": "VAR1",
         "x97": "VAR2",
         "x95": "VAR3",
@@ -47839,7 +47839,7 @@
         "x6": "VAR99",
         "x0": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297591/constraint-551279.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297591/constraint-551279.smt2": {
         "f20c": "VAR1",
         "f34c": "VAR2",
         "f34m": "VAR3",
@@ -52993,7 +52993,7 @@
         "f0m": "VAR5151",
         "f40m": "VAR5152"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301523/unbd-sage0.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301523/unbd-sage0.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x97": "VAR3",
@@ -53095,7 +53095,7 @@
         "x85": "VAR99",
         "x2": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301528/unbd-sage7.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301528/unbd-sage7.smt2": {
         "x74": "VAR1",
         "x72": "VAR2",
         "x69": "VAR3",
@@ -53172,7 +53172,7 @@
         "x71": "VAR74",
         "x23": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301542/unbd-sage17.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301542/unbd-sage17.smt2": {
         "x74": "VAR1",
         "x73": "VAR2",
         "x72": "VAR3",
@@ -53249,7 +53249,7 @@
         "x31": "VAR74",
         "x23": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301506/unbd-sage7.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301506/unbd-sage7.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x96": "VAR3",
@@ -53351,7 +53351,7 @@
         "x85": "VAR99",
         "x34": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301530/unbd-sage3.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301530/unbd-sage3.smt2": {
         "x72": "VAR1",
         "x71": "VAR2",
         "x69": "VAR3",
@@ -53428,7 +53428,7 @@
         "x30": "VAR74",
         "x2": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308603/constraint-649834.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308603/constraint-649834.smt2": {
         "f19c": "VAR1",
         "f18c": "VAR2",
         "f17c": "VAR3",
@@ -59316,7 +59316,7 @@
         "f12m": "VAR5885",
         "f24m": "VAR5886"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301522/unbd-sage21.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301522/unbd-sage21.smt2": {
         "x97": "VAR1",
         "x96": "VAR2",
         "x95": "VAR3",
@@ -59418,7 +59418,7 @@
         "x1": "VAR99",
         "x76": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301545/unbd-sage23.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301545/unbd-sage23.smt2": {
         "x73": "VAR1",
         "x72": "VAR2",
         "x71": "VAR3",
@@ -59495,7 +59495,7 @@
         "x37": "VAR74",
         "x34": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301537/unbd-sage15.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd075v83c/16301537/unbd-sage15.smt2": {
         "x73": "VAR1",
         "x70": "VAR2",
         "x66": "VAR3",
@@ -59572,7 +59572,7 @@
         "x8": "VAR74",
         "x5": "VAR75"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301562/unbd-sage1.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd050v55c/16301562/unbd-sage1.smt2": {
         "x48": "VAR1",
         "x47": "VAR2",
         "x46": "VAR3",
@@ -59624,7 +59624,7 @@
         "x23": "VAR49",
         "x1": "VAR50"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301517/unbd-sage19.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301517/unbd-sage19.smt2": {
         "x98": "VAR1",
         "x96": "VAR2",
         "x93": "VAR3",
@@ -59726,7 +59726,7 @@
         "x46": "VAR99",
         "x87": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308612/constraint-603294.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/tropical-matrix/16308612/constraint-603294.smt2": {
         "f40c": "VAR1",
         "f55c": "VAR2",
         "f54c": "VAR3",
@@ -65336,7 +65336,7 @@
         "f20m": "VAR5607",
         "f80m": "VAR5608"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/miplib2003/16309778/harp2.sat.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/miplib2003/16309778/harp2.sat.smt2": {
         "x2992": "VAR1",
         "x2991": "VAR2",
         "x2989": "VAR3",
@@ -68331,7 +68331,7 @@
         "x41": "VAR2992",
         "x38": "VAR2993"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301504/unbd-sage12.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/20180326-Bromberger/unbd-sage/unbd100v110c/16301504/unbd-sage12.smt2": {
         "x99": "VAR1",
         "x98": "VAR2",
         "x96": "VAR3",
@@ -68433,7 +68433,7 @@
         "x47": "VAR99",
         "x41": "VAR100"
     },
-    "/home/lz/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297617/constraint-365451.smt2": {
+    "/path/to/Downloads/non-incremental_Hierarchy/non-incremental/QF_LIA/arctic-matrix/16297617/constraint-365451.smt2": {
         "f20c": "VAR1",
         "f31c": "VAR2",
         "f31m": "VAR3",

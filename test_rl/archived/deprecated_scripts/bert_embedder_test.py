@@ -4,7 +4,7 @@ from transformers import RobertaTokenizer, RobertaModel
 
 
 class CodeEmbedder_normalize:
-    def __init__(self, model_name='/home/lz/baidudisk/codebert-base', max_length=512, chunk_size=128, overlap_size=32):
+    def __init__(self, model_name='/home/<USER>/<CLOUD_DISK>/codebert-base', max_length=512, chunk_size=128, overlap_size=32):
         self.tokenizer = RobertaTokenizer.from_pretrained(model_name)
         self.model = RobertaModel.from_pretrained(model_name)
         self.max_length = max_length

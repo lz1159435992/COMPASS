@@ -175,9 +175,9 @@ if __name__ == '__main__':
     # test_path.append(directory)
     # directory = '/home/yy/Downloads/smt/gnu_KLEE/klee_bk/single_test'
     # test_path.append(directory)
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
-    # directory = '/home/lz/Downloads/incremental_Hierarchy/incremental'
+    # directory = '/path/to/Downloads/incremental_Hierarchy/incremental'
     # test_path.append(directory)
 
 

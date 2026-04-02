@@ -9,9 +9,9 @@ This note re-verifies SMTimer Table 3 numbers using the latest artifacts, focusi
 
 ## Data sources
 - SMTimer/CVC5 info_dict:
-  - `/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt`
+  - `/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt`
 - SMTimer/BVParti latest info_dict (COMPASS cache):
-  - `/home/lz/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0310.txt`
+  - `/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0310.txt`
 
 ## Field mapping (COMPASS end-to-end time)
 - For CVC5 predictor `info_dict`:

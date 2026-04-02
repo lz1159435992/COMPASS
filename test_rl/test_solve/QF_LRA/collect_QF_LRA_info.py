@@ -3,7 +3,7 @@ import json
 import re
 def merge_json_files():
     # 定义目标路径
-    target_path = '/home/lz/new_disk/QF_LRA'
+    target_path = '/home/<USER>/new_disk/QF_LRA'
 
     # 初始化合并后的字典
     merged_dict = {}
@@ -48,9 +48,9 @@ def get_info():
     print(len(solve_dict),count)
 def get_QF_LRA_count():
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
-    # directory = '/home/lz/Downloads/incremental_Hierarchy/incremental'
+    # directory = '/path/to/Downloads/incremental_Hierarchy/incremental'
     # test_path.append(directory)
     search_list = [
         # 'QF_IDL',

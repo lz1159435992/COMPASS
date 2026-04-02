@@ -7,7 +7,7 @@ echo "=========================================="
 echo ""
 
 # 设置Python路径
-export PYTHONPATH="/home/lz/PycharmProjects/Pearl:$PYTHONPATH"
+export PYTHONPATH="/home/<USER>/PycharmProjects/Pearl:$PYTHONPATH"
 
 # 创建必要的目录
 mkdir -p features/QF_NIA_llm_embeddings

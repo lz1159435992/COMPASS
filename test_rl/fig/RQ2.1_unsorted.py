@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from test_rl.test_script.utils import load_dictionary
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
 
 # 定义一个函数来绘制图表并保存为 PDF
 def plot_solver_data_to_pdf(data, tool_name):

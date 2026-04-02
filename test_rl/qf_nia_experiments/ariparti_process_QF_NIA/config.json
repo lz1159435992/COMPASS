@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "data": {
-    "source": "/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/default/QF_NIA_Ariparti_result_parallel.json",
+    "source": "/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/default/QF_NIA_Ariparti_result_parallel.json",
     "logic": "QF_NIA",
     "train_ratio": 0.8,
     "max_variables": 1000
@@ -73,9 +73,9 @@
     "embedding_dict": "embeding_QF_NIA.json"
   },
   "ariparti": {
-    "home": "/home/lz/PycharmProjects/Pearl/test_rl/AriParti_sync",
+    "home": "/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync",
     "partitioner_path": "bin/partitioner",
-    "solver_path": "/home/lz/Downloads/z3_solver-4.12.4.0-py2.py3-none-manylinux2014_x86_64/z3_solver-4.12.4.0.data/data/bin/z3",
+    "solver_path": "/path/to/Downloads/z3_solver-4.12.4.0-py2.py3-none-manylinux2014_x86_64/z3_solver-4.12.4.0.data/data/bin/z3",
     "max_running_tasks": 8
   }
 }

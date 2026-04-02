@@ -114,7 +114,7 @@ COMPASS/
 
 ```bash
 # Clone the repository
-git clone https://github.com/lz1159435992/COMPASS.git
+git clone https://github.com/<ANON_USER>/COMPASS.git
 cd COMPASS
 
 # Install Pearl (RL framework)

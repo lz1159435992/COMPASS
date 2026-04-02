@@ -89,7 +89,7 @@ def test_group():
     else:
         info_dict = load_dictionary('info_dict.txt')
         print(f"文件已存在。")
-    db_path = '/home/lz/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
+    db_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_script/result_dictionary.db'
     table_name = 'result_dictionary'
     result_dict = fetch_data_as_dict(db_path, table_name)
     items = list(result_dict.items())
@@ -135,9 +135,9 @@ def test_group():
             # if '/who/who86404' in key:
                 print(key, value)
                 if '/home/yy/Downloads/' in key:
-                    file_path = key.replace('/home/yy/Downloads/', '/home/lz/baidudisk/')
+                    file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
                 elif '/home/nju/Downloads/' in key:
-                    file_path = key.replace('/home/nju/Downloads/', '/home/lz/baidudisk/')
+                    file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
                 else:
                     file_path = key
                 if file_path not in info_dict.keys():
@@ -183,7 +183,7 @@ def test_group():
                     if model:
                         result_list.append(model_to_dict(model))
                     # file_path = key
-                    # file_path = '/home/lz/baidudisk/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
+                    # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall307943'
 
                     start_time = time.time()
 

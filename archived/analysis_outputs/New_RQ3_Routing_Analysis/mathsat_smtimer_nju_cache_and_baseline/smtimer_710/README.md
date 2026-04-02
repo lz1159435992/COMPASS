@@ -138,7 +138,7 @@ python smt_solver_cli.py batch \
   --solver z3 \
   --timeout 1200 \
   --max-workers 8 \
-  --path-replace /home/lz/baidudisk/ /home/nju/Downloads/ \
+  --path-replace /home/<USER>/<CLOUD_DISK>/ /home/nju/Downloads/ \
   --output z3_results.json
 ```
 

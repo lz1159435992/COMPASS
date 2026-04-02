@@ -326,7 +326,7 @@ def process_z3_file(args):
 
 def get_Z3_result():
     setup_logger()
-    info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
     info_dict = load_dictionary(info_name)
     file_paths = list(info_dict.keys())
     solver_name = "z3"
@@ -360,7 +360,7 @@ def get_Z3_result():
 
 def get_CVC5_result():
     file_paths = []
-    info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "CVC5"
@@ -435,7 +435,7 @@ def get_CVC5_result_QF_NIA():
     result_dict = load_result_dict(json_path)
     
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
     
     search_list = ['QF_NIA']
@@ -525,7 +525,7 @@ def get_MathSAT_result_QF_NIA():
     result_dict = load_result_dict(json_path)
     
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
     
     search_list = ['QF_NIA']
@@ -616,7 +616,7 @@ def get_CVC5_result_QF_LIA():
     result_dict = load_result_dict(json_path)
     
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
     
     search_list = ['QF_LIA']
@@ -707,7 +707,7 @@ def get_MathSAT_result_QF_LIA():
     result_dict = load_result_dict(json_path)
     
     test_path = []
-    directory = '/home/lz/Downloads/non-incremental_Hierarchy/non-incremental'
+    directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)
     
     search_list = ['QF_LIA']
@@ -778,7 +778,7 @@ def get_MathSAT_result_QF_LIA():
 def get_CVC5_result_all():
     file_paths = []
     setup_logger()
-    info_name = '/home/lz/sibyl_3/src/networks/info_dict_predictor.txt'
+    info_name = '/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt'
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "CVC5"
@@ -837,7 +837,7 @@ def get_CVC5_result_all():
 def get_MathSAT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "MathSAT5"
@@ -893,7 +893,7 @@ def get_MathSAT_result():
 def get_OpenSMT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "OpenSMT"
@@ -949,7 +949,7 @@ def get_OpenSMT_result():
 def get_Yices_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "Yices"
@@ -1029,8 +1029,8 @@ if __name__ == "__main__":
     # get_Yices_result()
     # 运行测试用例
     # test_z3solver_basic_sat()
-    # info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
-    # # info_name = '/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
     #
     # info_dict = load_dictionary(info_name)
     # file_paths = info_dict.keys()
@@ -1040,7 +1040,7 @@ if __name__ == "__main__":
     #     print("请在file_paths中填写你的smt2文件路径进行测试。")
 
     # file_paths = []
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
     #     solve_dict = json.load(file)
     #
     # info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -1051,7 +1051,7 @@ if __name__ == "__main__":
     # else:
     #     info_dict = load_dictionary(info_name)
     #
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
     #     result_dict = json.load(file)
     #
     # items = list(result_dict.items())

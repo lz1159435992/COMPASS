@@ -219,7 +219,7 @@ class LLM_no_rl:
 
         os.environ['ALL_PROXY'] = ''
         os.environ['all_proxy'] = ''
-        sys.path.append('/home/lz/PycharmProjects/Pearl')
+        sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
         client = OpenAI(
             base_url='http://210.28.135.117:33043/v1/',
@@ -790,7 +790,7 @@ def execute_smt(file_path, smtlib_str, var_dict, constant_list, assertions, resu
     return result_list
 if __name__ == '__main__':
     setup_logger()
-    with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
         rl_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_1210_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl_llm_only.txt'
@@ -803,11 +803,11 @@ if __name__ == '__main__':
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt', 'r') as file:
-    # with open('/home/lz/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
-    # with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt', 'r') as file:
+    # with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
+    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt', 'r') as file:
         result_dict = json.load(file)
     # items = list(result_dict.items())
     # random.shuffle(items)

@@ -85,7 +85,7 @@ def train():
 
     with open('QF_NIA_train.json', 'r') as file:
         train_dict = json.load(file)
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []
@@ -187,7 +187,7 @@ def test():
 
     with open('QF_NIA_test.json', 'r') as file:
         test_dict = json.load(file)
-    with open('/home/lz/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []

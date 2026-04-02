@@ -232,6 +232,60 @@ smtlib_str = "(declare-fun x () Int) (assert (> x 0))"
 normalized, var_dict, constants = normalize_smt_str(smtlib_str)
 ```
 
+## Reproduction
+
+This section provides a minimal set of steps to reproduce the main paper experiments (RQ1–RQ3).
+
+### Environment Setup
+
+- Python 3.8+
+- A CUDA-capable GPU is recommended for running the LLM/predictors
+
+```bash
+conda create -n compass python=3.8
+conda activate compass
+
+cd pearl && pip install -e . && cd ..
+pip install -r requirements.txt
+pip install z3-solver
+```
+
+### LLM Setup (Ollama)
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3.1:70b
+ollama pull deepseek-r1:70b
+```
+
+### Running Experiments
+
+```bash
+cd test_rl
+
+# RQ1 (SMTimer + Z3 backend)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py
+
+# RQ1 (QF_NIA)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py
+
+# RQ2 ablations
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_llm_only_v2.py
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_random_1223.py
+```
+
+## Path Migration / External Dependencies
+
+Some scripts referenced external files in the original codebase. For open-source/reproducibility, these were migrated to local placeholders under `test_rl/external_references/`.
+
+| Original Path (example) | Purpose | Replacement |
+|---|---|---|
+| `/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt` | RL training data | `test_rl/external_references/info_dict_rl.txt` |
+| `/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt` | Predictor data | `test_rl/external_references/info_dict_predictor.txt` |
+| `/home/<USER>/sibyl_3/src/networks/result_dict_time.txt` | Timing results | `test_rl/external_references/result_dict_time.txt` |
+
+If you encounter path errors, check `test_rl/external_references/README.md`.
+
 ## Experimental Results
 
 > **Quick View**: Run `python scripts/show_results.py` to display all experimental results in formatted tables.
@@ -444,11 +498,10 @@ If you use COMPASS in your research, please cite:
 
 ## Documentation
 
-- **REPRODUCTION.md**: Detailed reproduction instructions for experiments
 - **SOLVER_INSTALLATION.md**: Solver installation guide (BVParti, AriParti)
 - **test_rl/external_references/README.md**: External dependency documentation
 - **pearl/README.md**: Pearl RL framework documentation
-- **paper/**: Full paper source with methodology details
+
 
 ## License
 

@@ -26,3 +26,8 @@ test_rl/archived/logs/**/*.log
 *.bak
 *.swp
 *~
+
+# Local-only analysis / reports (do not upload)
+TEST_RL_CLEANUP_ANALYSIS.md
+EXPERIMENT_DATA_ANALYSIS.md
+anonymize_report.*.json

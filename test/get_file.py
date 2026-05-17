@@ -1,5 +1,5 @@
 import os
-directory = '/home/nju/Downloads/QF_FP'
+directory = os.environ.get('SMT_QF_FP_DIR', '/tmp/smt_data/QF_FP')
 for dirpath, dirnames, filenames in os.walk(directory):
     for filename in filenames:
         # 构造完整的文件路径

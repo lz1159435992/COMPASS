@@ -16,14 +16,14 @@ def get_active_info_dicts():
     
     # 1. 检查各solver_process目录下的info_dict文件
     solver_dirs = [
-        'test_rl/test_cvc5/z3_process',
-        'test_rl/test_cvc5/cvc5_process', 
-        'test_rl/test_cvc5/mathsat5_process',
-        'test_rl/test_cvc5/bvparti_process',
-        'test_rl/test_QF_NIA/z3_process_QF_NIA',
-        'test_rl/test_QF_NIA/cvc5_process_QF_NIA',
-        'test_rl/test_QF_NIA/mathsat5_process_QF_NIA',
-        'test_rl/test_QF_NIA/ariparti_process_QF_NIA',
+        'test_rl/smtimer_experiments/z3_process',
+        'test_rl/smtimer_experiments/cvc5_process',
+        'test_rl/smtimer_experiments/mathsat5_process',
+        'test_rl/smtimer_experiments/bvparti_process',
+        'test_rl/qf_nia_experiments/z3_process_QF_NIA',
+        'test_rl/qf_nia_experiments/cvc5_process_QF_NIA',
+        'test_rl/qf_nia_experiments/mathsat5_process_QF_NIA',
+        'test_rl/qf_nia_experiments/ariparti_process_QF_NIA',
     ]
     
     for dir_path in solver_dirs:

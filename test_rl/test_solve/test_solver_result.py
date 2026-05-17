@@ -1,11 +1,16 @@
 import json
 import os
+import sys
 
 import time
 
 from overrides.typing_utils import unknown
 from z3 import *
 from z3.z3 import parse_smt2_string, Solver
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
 
 from test_rl.test_script.utils import solve_and_measure_time, model_to_dict, load_dictionary, setup_logger, \
     normalize_smt_str
@@ -18,6 +23,7 @@ from supervenn import supervenn
 
 os.environ['ALL_PROXY'] = ''
 os.environ['all_proxy'] = ''
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 setup_logger()
 
 def plot_supervenn_diagrams_cvc5(baseline_solved, rl_llm_solved, solver_name="CVC5", output_dir=None):
@@ -107,16 +113,11 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'), 'r') as file:
         result_dict = json.load(file)
 
     for key, value in result_dict.items():
-        if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
-        elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
-        else:
-            file_path = key
+        file_path = config.resolve_data_path(key, 'smtimer')
         with open(file_path, 'r') as file:
             # 读取文件所有内容到一个字符串
             smtlib_str = file.read()
@@ -177,6 +178,12 @@ def test_group_1():
     all_time_rl_failed = 0
     all_time_sat = 0
     all_time_rl = 0
+    unknown_count = 0
+    sat_count = 0
+    unknown2succeed = 0
+    unknown2failed = 0
+    sat2succeed = 0
+    sat2failed = 0
     for k,v in info_dict.items():
        if v[1] > 300:
             print(k,v[0],v[1],v[2],v[3],v[4])
@@ -195,10 +202,10 @@ def test_group_1():
 
 #选择修正过的求解时间大于300s的测试数据
 def test_group_1_save():
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt'
+    solve_name = os.path.join(config.get_data_dir('solve'), 'info_dict.txt')
     solve_dict = load_dictionary(solve_name)
 
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_save_docker_llama_3.1:70b_1200s.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_save_docker_llama_3.1:70b_1200s.txt')
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
         if k in solve_dict.keys():
@@ -223,6 +230,12 @@ def test_group_1_save():
     all_time_rl_failed = 0
     all_time_sat = 0
     all_time_rl = 0
+    unknown_count = 0
+    sat_count = 0
+    unknown2succeed = 0
+    unknown2failed = 0
+    sat2succeed = 0
+    sat2failed = 0
     for k,v in info_dict.items():
        if v[1] > 300:
             print(k,v[0],v[1],v[2],v[3],v[4])
@@ -244,7 +257,7 @@ def test_group_2_save_1208(solve_name,info_name):
 
     solve_dict = load_dictionary(solve_name)
 
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_save_docker_llama_3.1:70b_1200s.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -276,12 +289,13 @@ def test_group_2_save_1208(solve_name,info_name):
     unknown2failed = 0
     sat2succeed = 0
     sat2failed = 0
-
-    # v0 原始求解是否成功
-    # v1 实际求解时间
-    # v2 求解超时时间
-    # v3 大模型求解时间
-    # v4 大模型求解是否成功
+    z3_sat_time = 0
+    z3_failed_time = 0
+    #v0 原始求解是否成功
+    #v1 实际求解时间
+    #v2 求解超时时间
+    #v3 大模型求解时间
+    #v4 大模型求解是否成功
     time_out = 500
     for k, v in info_dict.items():
         if v[1] > time_out:
@@ -330,11 +344,11 @@ def test_group_2_save_1208(solve_name,info_name):
     #修改求解时间,求解时间大于1200s的测试数据记为unknown
 #选择修正过的求解时间大于300s的测试数据
 def test_group_1_no_save():
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    solve_name = config.get_baseline_path('info_dict_bingxing')
     solve_dict = load_dictionary(solve_name)
 
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -404,10 +418,10 @@ def test_group_1_no_save():
     #修改求解时间,求解时间大于1200s的测试数据记为unknown
 #选择修正过的求解时间大于300s的测试数据
 def test_group_1_llm():
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt'
+    solve_name = os.path.join(config.get_data_dir('solve'), 'info_dict.txt')
     solve_dict = load_dictionary(solve_name)
 
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1109_llm_no_rl_direct_solve_docker_llama3.1:70b_1set_1200s.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_normal_1109_llm_no_rl_direct_solve_docker_llama3.1:70b_1set_1200s.txt')
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
         if k in solve_dict.keys():
@@ -504,9 +518,9 @@ def test_group_2():
     #     json.dump(info_dict, file, indent=4)
     # 修改求解时间,求解时间大于1200s的测试数据记为unknown
 def test_group_3():
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open(config.get_external_file('info_dict_rl'), 'r') as file:
         rl_dict = json.load(file)
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt'
+    info_name = os.path.join(config.get_data_dir('solve'), 'info_dict.txt')
     if not os.path.exists(info_name):
         # 文件不存在时，创建文件
         info_dict = {}
@@ -547,10 +561,10 @@ def extract_unique_keys(file_paths):
 
     return unique_keys
 def something():
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt'
+    solve_name = os.path.join(config.get_data_dir('solve'), 'info_dict.txt')
     solve_dict = load_dictionary(solve_name)
 
-    info_name = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
+    info_name = config.get_external_file('info_dict_rl')
     info_dict = load_dictionary(info_name)
 
     count = 0
@@ -563,10 +577,10 @@ def something():
     print(len(solve_dict),len(info_dict),count)
     # 定义文件路径列表
     file_paths = [
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt',
-        '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt',
-        # '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt'
+        os.path.join(config.TEST_RL_ROOT, 'info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt'),
+        config.get_external_file('info_dict_rl'),
+        os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_109_2_SMTimer.txt'),
+        # os.path.join(config.get_data_dir('solve'), 'info_dict.txt')
     ]
 
     # 调用函数并打印结果
@@ -581,10 +595,10 @@ def something():
     # for key in sorted(unique_keys):  # 排序输出
     #     print(key)
 
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1109_llm_no_rl_direct_solve_docker_llama3.1:70b_1set_1200s.txt'
+    solve_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_normal_1109_llm_no_rl_direct_solve_docker_llama3.1:70b_1set_1200s.txt')
     solve_dict = load_dictionary(solve_name)
 
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     # 提取字典的键
     solve_keys = set(solve_dict.keys())
@@ -601,13 +615,13 @@ def something():
     print("Keys Union:", len(keys_union))
     print(keys_union)
 
-    info_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/result_dict.txt')
+    info_dict = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'result_dict.txt'))
     print(len(info_dict))
 def test_group_2_no_save(solve_name,info_name):
 
     solve_dict = load_dictionary(solve_name)
 
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -646,10 +660,38 @@ def test_group_2_no_save(solve_name,info_name):
     unknown2failed = 0
     sat2succeed = 0
     sat2failed = 0
+    z3_sat_time = 0
+    z3_failed_time = 0
+    #v0 原始求解是否成功
+    #v1 实际求解时间
+    #v2 求解超时时间
+    #v3 大模型求解时间
+    #v4 大模型求解是否成功
+    time_out = 1200
+    for k, v in info_dict.items():
+        if v[1] > time_out:
+            v[0] = 'unknown'
+            v[1] = time_out
+        if v[3] > time_out:
+            v[4] = 'failed'
+            v[3] = time_out
+    del_list = []
     for k,v in info_dict.items():
-
-        if v[1] > 300:
-            if v[0] == 'sat' and v[1] <= 1200:
+        #筛选变量个数
+        if v[1] > 300 and len(var_count[k]) > 5:
+            #收集求解时间 z3solver
+            if v[0] == 'sat':
+                time_dict[k] = v[1]
+                z3_sat_time += v[1]
+            else:
+                time_dict[k] = -v[1]
+                z3_failed_time += v[1]
+            #收集其他求解时间
+            if v[4] == 'succeed':
+                time_dict_2[k] = v[3]
+            else:
+                time_dict_2[k] = -v[3]
+            if v[0] == 'sat' and v[1] <= time_out:
                 sat_count += 1
                 if v[4] == 'succeed':
                     result_dict['succeed'].append(k)
@@ -659,7 +701,8 @@ def test_group_2_no_save(solve_name,info_name):
                     result_dict['failed'].append(k)
                     sat2failed += 1
                     result_dict['sat to failed'].append(k)
-            elif v[1]>1200:
+            # elif v[1]>900:
+            elif v[0] == 'unknown':
                 # print(k,v)
                 unknown_count += 1
                 if v[4] == 'succeed':
@@ -682,24 +725,29 @@ def test_group_2_no_save(solve_name,info_name):
                 failed_count += 1
                 all_time_sat_failed += v[1]
                 all_time_rl_failed += v[3]
+        else:
+            del_list.append(k)                      #删除变量个数小于5的测试数据
+    for k in del_list:
+        del info_dict[k]
     # logger.info(result_dict)
     print(f"Total Count: {count}, Succeed Count: {succeed_count}, Failed Count: {failed_count}, "
-          f"All Time SAT: {all_time_sat}, All Time RL: {all_time_rl}, "
-          f"All Time SAT Succeed: {all_time_sat_succeed}, All Time RL Succeed: {all_time_rl_succeed}, "
-          f"All Time SAT Failed: {all_time_sat_failed}, All Time RL Failed: {all_time_rl_failed}")
+          f"All Time SAT: {all_time_sat},All Time SAT avg: {all_time_sat/count}  All Time RL: {all_time_rl},All Time RL avg:{all_time_rl/count}, "
+          f"All Time SAT Succeed: {all_time_sat_succeed}, All Time SAT Succeed avg: {all_time_sat_succeed/succeed_count}, All Time RL Succeed: {all_time_rl_succeed},All Time RL Succeed avg: {all_time_rl_succeed/succeed_count}, "
+          f"All Time SAT Failed: {all_time_sat_failed}, All Time SAT Failed avg: {all_time_sat_failed/failed_count},All Time RL Failed: {all_time_rl_failed},All Time RL Failed avg: {all_time_rl_failed/failed_count}")
     print(f"Unknown Count: {unknown_count}, SAT Count: {sat_count}, "
           f"Unknown to Succeed: {unknown2succeed}, Unknown to Failed: {unknown2failed}, "
           f"SAT to Succeed: {sat2succeed}, SAT to Failed: {sat2failed}")
     print(result_dict)
-    return result_dict
+    print(time_dict)
+    return result_dict,time_dict,time_dict_2,info_dict
     #修改求解时间,求解时间大于1200s的测试数据记为unknown
-def test_group_2_no_save_1207(solve_name, info_name, var_count_path='/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt'):
+def test_group_2_no_save_1207(solve_name, info_name, var_count_path=os.path.join(project_root, 'test_rl', 'test_solve', 'var_count.txt')):
     time_dict = {}
     time_dict_2 = {}
     solve_dict = load_dictionary(solve_name)
 
     var_count = load_dictionary(var_count_path)
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -833,8 +881,8 @@ def test_group_2_no_save_0607_cvc5(solve_name,info_name,new_solver):
     time_dict_2 = {}
     solve_dict = load_dictionary(solve_name)
 
-    var_count = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt')
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    var_count = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'test_solve', 'var_count.txt'))
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -965,8 +1013,8 @@ def test_group_2_no_save_1207_only_llm(solve_name,info_name):
 
     solve_dict = load_dictionary(solve_name)
 
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
-    var_count = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt')
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
+    var_count = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'test_solve', 'var_count.txt'))
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
         if k in solve_dict.keys():
@@ -1077,7 +1125,7 @@ def test_group_2_no_save_QF_IDL_0429(solve_name,info_name):
     time_dict_2 = {}
     solve_dict = load_dictionary(solve_name)
 
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt')
 
     info_dict = load_dictionary(info_name)
     for k,v in info_dict.items():
@@ -1234,7 +1282,7 @@ def spilt_class(data_dict):
 def resolve_dataset():
     result_dict = {}
     result_dict_2 = {}
-    solve_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt')
+    solve_dict = load_dictionary(config.get_baseline_path('info_dict_bingxing'))
     for k, v in solve_dict.items():
         if v[0] =='sat' and v[1] > 1200:
             solve_dict[k][0] = 'unknown'
@@ -1307,12 +1355,12 @@ def resolve_dataset():
     with open('result_dict_z3solver.txt', 'w') as file:
         json.dump(result_dict_2, file, indent=4)
 def resolve_dataset_300s():
-    var_count = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt')
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    var_count = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'test_solve', 'var_count.txt'))
+    with open(config.get_external_file('info_dict_rl'), 'r') as file:
         rl_dict = json.load(file)
     result_dict = {}
     result_dict_2 = {}
-    solve_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt')
+    solve_dict = load_dictionary(config.get_baseline_path('info_dict_bingxing'))
     for k, v in solve_dict.items():
         if v[0] =='sat' and v[1] > 1200:
             solve_dict[k][0] = 'unknown'
@@ -1350,7 +1398,7 @@ def resolve_dataset_300s():
             result_dict_2[k][k1]['all_time'] = 0
             result_dict_2[k][k1]['avg'] = 0
             #unsat数据
-            result_dict_2[k][k1]['sat_list'] = []
+
 
 
             for k2, v2 in v1.items():
@@ -1360,9 +1408,6 @@ def resolve_dataset_300s():
                     result_dict_2[k][k1]['sat_time'] += v2[1]
                     result_dict_2[k][k1]['all_time'] += v2[1]
                     result_dict_2[k][k1]['sat+unknown_time'] += v2[1]
-
-                    result_dict_2[k][k1]['sat_list'].append(v2[1])
-
                 elif v2[0] == 'unknown':
                     result_dict_2[k][k1]['unknown'] += 1
                     result_dict_2[k][k1]['unknown_time'] += v2[1]
@@ -1388,7 +1433,9 @@ def resolve_dataset_300s():
             print(k,k1,v1)
     with open('result_dict_z3solver_300s.txt', 'w') as file:
         json.dump(result_dict_2, file, indent=4)
-def resolve_dataset_cvc5_smtimer(file_path='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results.json'):
+def resolve_dataset_cvc5_smtimer(file_path=None):
+    if file_path is None:
+        file_path = os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results.json')
     result_dict = {}
     result_dict_2 = {}
     solve_dict = load_dictionary(file_path)
@@ -1467,7 +1514,7 @@ def resolve_dataset_cvc5_smtimer(file_path='/home/<USER>/PycharmProjects/Pearl/t
     unsat_time = 0
     unknown_count = 0
     unknown_time = 0
-    var_count = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt')
+    var_count = load_dictionary(os.path.join(project_root, 'test_rl', 'test_solve', 'var_count.txt'))
     for k,v in solve_dict.items():
         if len(var_count[k]) > 5:
             if v[0] == 'sat':
@@ -1566,8 +1613,8 @@ def resolve_time_dict_300s(data_dict):
     # with open('result_dict_z3solver_300s.txt', 'w') as file:
     #     json.dump(result_dict_2, file, indent=4)
 def resolve_time_dict_300s_RL_LLM(data_dict):
-    var_count = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt')
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    var_count = load_dictionary(os.path.join(project_root, 'test_rl', 'test_solve', 'var_count.txt'))
+    with open(os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'info_dict_rl.txt'), 'r') as file:
         rl_dict = json.load(file)
     result_dict = {}
     result_dict_2 = {}
@@ -1648,9 +1695,9 @@ def resolve_time_dict_300s_RL_LLM(data_dict):
 def resolve_dataset_by_var_count():
     result_dict = {}
     result_dict_2 = {}
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open(os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'info_dict_rl.txt'), 'r') as file:
         rl_dict = json.load(file)
-    solve_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt')
+    solve_dict = load_dictionary(os.path.join(project_root, 'test_rl', 'test_solve', 'info_dict_bingxing.txt'))
     for k, v in solve_dict.items():
         if v[0] =='sat' and v[1] > 1200:
             solve_dict[k][0] = 'unknown'
@@ -1741,7 +1788,7 @@ def get_var_count_from_dataset(input_path, output_path):
     
     print(f"变量统计完成。结果已保存到 {output_path}")
 
-def test_group_cvc5_process_analysis(info_name, var_count_path='/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt',
+def test_group_cvc5_process_analysis(info_name, var_count_path=os.path.join(project_root, 'test_rl', 'test_solve', 'var_count.txt'),
                                    output_dir=None, solver_name="CVC5"):
     """
     分析CVC5处理结果的方法，类似于test_group_2_no_save_1207
@@ -1957,7 +2004,7 @@ if __name__ == '__main__':
     #     '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1118_pre_llm_llama3.1:70b_1200s_QF_LIA.txt',
     #     'info_QF_LIA_var_count.txt')
     #获取变量个数 cvc5 smtimer
-    # get_var_count_from_dataset('/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt', 'cvc5_smtimer_var_count.txt')
+    # get_var_count_from_dataset('/home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt', 'cvc5_smtimer_var_count.txt')
     # test_group()
     # test_group_1()
     # test_group_2()
@@ -1967,16 +2014,22 @@ if __name__ == '__main__':
     # test_group_1_llm()
     # something()
     #z3结果smtimer
-    # resolve_dataset_cvc5_smtimer('/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/z3_smtimer_results.json')
+    # resolve_dataset_cvc5_smtimer('/home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/z3_smtimer_results.json')
     # #cvc5结果smtimer
     # resolve_dataset_cvc5_smtimer()
     #cvc5 llama3.1
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json'
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'
-    var_count_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
+    solve_name = os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results_rl.json')
+    info_name = os.path.join(
+        project_root,
+        'test_rl',
+        'smtimer_experiments',
+        'cvc5_process',
+        'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+    )
+    var_count_path = os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt')
     # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # 示例调用，包含SuperVenn图生成
-    output_dir = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/supervenn_output'
+    output_dir = os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'cvc5_process', 'supervenn_output')
     result_dict_2, time_dict, time_dict_2, info_dict, supervenn_stats = test_group_cvc5_process_analysis(
         info_name, var_count_path, output_dir=output_dir, solver_name="CVC5"
     )
@@ -1988,7 +2041,7 @@ if __name__ == '__main__':
     # cvc5_result_dict, cvc5_time_dict, cvc5_time_dict_2, cvc5_info_dict, cvc5_supervenn_stats = test_group_cvc5_process_analysis(info_name, var_count_path, output_dir='/path/to/output', solver_name="CVC5")
 
     #mathsat结果smtimer
-    # resolve_dataset_cvc5_smtimer('/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_smtimer_results.json')
+    # resolve_dataset_cvc5_smtimer('/home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/mathsat5_smtimer_results.json')
 
     # QF_NIA llama3.1
     # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json'
@@ -2003,25 +2056,25 @@ if __name__ == '__main__':
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_QF_IDL_0429(solve_name, info_name)
 
     # #deepseekr1:70b 70b
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0107_pre_SMTimer_deepseek-r1:70b_1200s_info_dict_rl.txt'
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)
 
     # #llama3.3 70b
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_0107_pre_SMTimer_llama3.3:70b_1200s_info_dict_rl.txt'
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)
 
     # RL+LLM CVC5
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
-    # new_solver = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results.json'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
+    # new_solver = '/home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/cvc5_smtimer_results.json'
     # result_dict_2, time_dict, time_dict_2, info_dict = test_group_2_no_save_0607_cvc5(solve_name, info_name, new_solver)
     #RL+LLM
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)
     # # with open('time_dict_z3solver_106.txt', 'w') as file:
@@ -2088,7 +2141,7 @@ if __name__ == '__main__':
     # for k,v in set2_dict.items():
     #     print(k,v)
     # Random+LLM
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1217_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl_random.txt'
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)
@@ -2120,18 +2173,18 @@ if __name__ == '__main__':
     # test_group_2_no_save(solve_name,info_name)
 
     #使用同一个rl agent
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1111_pre_SMTimer_save_docker_llama_3.1:70b_1200s_info_dict_rl.txt'
     # test_group_2_save_1208(solve_name,info_name)
     # 只使用llm的结果 LLM
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1210_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl_llm_only.txt'
     # result_dict, time_dict= test_group_2_no_save_1207_only_llm(solve_name,info_name)
     # with open('time_dict_LLM_106.txt', 'w') as file:
     #     json.dump(time_dict, file, indent=4)
 
     # 全部随机的结果 Random+Random
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1217_pre_SMTimer_llama3.1:70b_1200s_info_dict_all_random.txt'
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)
@@ -2140,7 +2193,7 @@ if __name__ == '__main__':
     #     json.dump(time_dict_2, file, indent=4)
 
     # 全部随机的结果 RL+Random
-    # solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt'
+    # solve_name = config.get_baseline_path('info_dict_bingxing')
     # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1223_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl_random_1223.txt'
     # # result_dict_1 = test_group_2_no_save(solve_name,info_name)
     # result_dict_2,time_dict,time_dict_2,info_dict =test_group_2_no_save_1207(solve_name, info_name)

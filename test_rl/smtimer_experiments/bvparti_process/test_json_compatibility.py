@@ -6,9 +6,10 @@
 import json
 import sys
 import os
+import config
 
 # 添加路径以便导入模块
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def test_json_formats():
     """测试两种JSON格式的兼容性"""
@@ -89,7 +90,7 @@ def test_json_formats():
     print("\n3. 验证实际文件...")
     
     # 检查cvc5文件
-    cvc5_file = "/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_predictor.json"
+    cvc5_file = os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'cvc5_smtimer_results_predictor.json')
     if os.path.exists(cvc5_file):
         print(f"  检查cvc5文件: {cvc5_file}")
         with open(cvc5_file, 'r') as f:
@@ -107,7 +108,7 @@ def test_json_formats():
         print(f"  cvc5文件不存在: {cvc5_file}")
     
     # 检查bvparti文件
-    bvparti_file = "/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_predictor.json"
+    bvparti_file = os.path.join(config.BVPARTI_HOME, "scripts", "batch_output", "bv_default", "SMTimer_z3_result_predictor.json")
     if os.path.exists(bvparti_file):
         print(f"  检查bvparti文件: {bvparti_file}")
         with open(bvparti_file, 'r') as f:

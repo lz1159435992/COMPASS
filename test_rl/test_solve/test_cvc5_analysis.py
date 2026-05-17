@@ -6,7 +6,9 @@ CVC5处理结果分析测试脚本
 
 import sys
 import os
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from test_rl.test_solve.test_solver_result import test_group_cvc5_process_analysis
 
@@ -16,8 +18,14 @@ def main():
     print("=" * 60)
 
     # 文件路径 - 可以通过命令行参数或环境变量自定义
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'
-    var_count_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
+    info_name = os.path.join(
+        project_root,
+        'test_rl',
+        'smtimer_experiments',
+        'cvc5_process',
+        'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+    )
+    var_count_path = os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt')
 
     # 支持命令行参数
     if len(sys.argv) > 1:

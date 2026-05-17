@@ -8,9 +8,10 @@ import sys
 import json
 import subprocess
 import traceback
+import config
 
 # 添加路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def test_help_command():
     """测试help命令，确认默认参数"""
@@ -25,7 +26,7 @@ def test_help_command():
         
         result = subprocess.run(
             cmd,
-            cwd='/home/<USER>/PycharmProjects/Pearl',
+            cwd=config.REPO_ROOT,
             capture_output=True,
             text=True,
             timeout=30
@@ -60,8 +61,8 @@ def test_file_access():
     print("\n=== 测试文件访问权限 ===")
     
     files_to_check = [
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
-        '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+        os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json'),
+        config.get_external_file('info_dict_rl'),
     ]
     
     all_accessible = True
@@ -90,12 +91,12 @@ def test_data_compatibility():
         )
         
         # 加载新的结果文件
-        result_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file = os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json')
         with open(result_file, 'r') as f:
             result_dict = json.load(f)
         
         # 加载RL字典
-        rl_file = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_file = config.get_external_file('info_dict_rl')
         with open(rl_file, 'r') as f:
             rl_dict = json.load(f)
         
@@ -136,11 +137,11 @@ def test_filtering_logic():
         )
         
         # 加载数据
-        result_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file = os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json')
         with open(result_file, 'r') as f:
             result_dict = json.load(f)
         
-        rl_file = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_file = config.get_external_file('info_dict_rl')
         with open(rl_file, 'r') as f:
             rl_dict = json.load(f)
         

@@ -96,12 +96,12 @@ JSON处理功能: ✓ 通过
 
 ### 基本命令（使用新的默认路径）
 ```bash
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py
 ```
 
 ### 显式指定路径
 ```bash
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py \
     --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path output_results.txt \
     --timeout 1200

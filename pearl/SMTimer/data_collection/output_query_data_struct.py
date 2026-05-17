@@ -19,9 +19,9 @@ class query_data:
         self.last_query = None
         self.query_index = 1
         self.time_limit = 1
-        self.time_output_addr = "/home/<USER>/data/time/solver_time.log"
+        self.time_output_addr = os.environ.get("SOLVER_TIME_LOG", "/tmp/solver_time.log")
         self.filename = ""
-        self.query_output_dir = "/home/<USER>/data/log/con/"
+        self.query_output_dir = os.environ.get("QUERY_OUTPUT_DIR", "/tmp/query_output/")
         self.output = True
 
     def set_attr(self, filename, time_output_addr, query_output_dir):

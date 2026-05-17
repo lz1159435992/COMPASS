@@ -23,6 +23,7 @@ from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer imp
 from pearl.utils.functional_utils.experimentation.set_seed import set_seed
 from pearl.action_representation_modules.identity_action_representation_module import IdentityActionRepresentationModule
 from pearl.history_summarization_modules.lstm_history_summarization_module import LSTMHistorySummarizationModule
+import config
 def save_timeout_key(timeout_file, key):
     if os.path.exists(timeout_file):
         with open(timeout_file, 'r') as f:
@@ -72,11 +73,11 @@ def run_single_file(file_path, value, state, solve_info, q):
             set_seed(0)
 
             model = EnhancedClassifier()
-            model.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth'))
+            model.load_state_dict(torch.load(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_bert_predictor_mask_best_llm.pth')))
             model.eval()
 
             model_time = EnhancedEightClassModelLargeInput()
-            model_time.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth'))
+            model_time.load_state_dict(torch.load(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_bert_predictor_2_mask_best_model_llm.pth')))
             model_time.eval()
 
             env = ConstraintSimplificationEnv_test(embedder, assertions, model, model_time, smtlib_str,
@@ -134,7 +135,7 @@ def test_group():
     timeout_file = 'timeout_keys.json'
     timeout_keys = load_timeout_keys(timeout_file)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -145,7 +146,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_test.json'), 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

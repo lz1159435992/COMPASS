@@ -1,0 +1,11 @@
+# Placeholder for info_dict_predictor.txt
+# Replace with actual predictor training data.
+# Original: /home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt
+#
+# Format: One entry per line mapping SMT file paths to solver labels
+#   /path/to/instance.smt2 sat 1.5 z3
+#   /path/to/instance2.smt2 unsat 0.8 cvc5
+#
+# Referenced by:
+#   - test_rl/predictor/test_group_get_dis_smt_comp.py
+#   - test_rl/smtimer_experiments/*/run_predictor.py

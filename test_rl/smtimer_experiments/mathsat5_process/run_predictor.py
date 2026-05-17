@@ -44,6 +44,7 @@ from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.bert_predictor_2_mask import EnhancedEightClassModel
 from test_rl.bert_predictor_mask import SimpleClassifier
 from test_rl.test_script.online_learning_break import online_learning
+import config
 
 # 设置环境变量
 os.environ['ALL_PROXY'] = ''
@@ -717,13 +718,13 @@ def main():
     
     # 添加命令行参数
     parser.add_argument('--rl_dict_path', type=str, 
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='RL字典文件路径')
     parser.add_argument('--info_dict_path', type=str, 
                         default='info_dict_gai_6_normal_0107_pre_SMTimer_deepseek-r1:70b_1200s_info_dict_rl.txt',
                         help='信息字典文件路径')
     parser.add_argument('--result_dict_path', type=str, 
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt',
+                        default=config.get_baseline_path('info_dict_bingxing'),
                         help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
                         default='bert_predictor_mask_best.pth',

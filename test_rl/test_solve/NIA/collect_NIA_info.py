@@ -1,9 +1,10 @@
 import os
 import json
 import re
+import config
 def merge_json_files():
     # 定义目标路径
-    target_path = '/home/<USER>/new_disk/NIA'
+    target_path = os.environ.get('SMT_NIA_DIR', os.path.join(config.TEST_RL_ROOT, 'NIA'))
 
     # 初始化合并后的字典
     merged_dict = {}

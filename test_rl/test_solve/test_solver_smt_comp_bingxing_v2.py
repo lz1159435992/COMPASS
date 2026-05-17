@@ -6,6 +6,7 @@ from z3.z3 import parse_smt2_string, Solver
 from test_rl.test_script.utils import solve_and_measure_time, model_to_dict, load_dictionary, setup_logger
 import re
 from loguru import logger
+import config
 
 def process_file(file_path, info_dict, info_name, smtlib_str):
     logger.info(f'Processing file: {file_path},:文件路径：{info_name}')
@@ -43,7 +44,7 @@ def process_file(file_path, info_dict, info_name, smtlib_str):
     return None
 
 def test_group():
-    NIA_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/QF_LRA/QF_LRA.json')
+    NIA_dict = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'test_solve', 'QF_LRA', 'QF_LRA.json'))
     tasks = []
     setup_logger()
     info_name = 'info_dict_smt_comp_QF_LRA.txt'
@@ -120,7 +121,7 @@ def test_group():
                         if file_path not in info_dict.keys() and status != 'unsat':
                             count += 1
                             if file_path not in NIA_dict.keys():
-                                tasks.append((file_path, info_dict, os.path.join('/home/<USER>/new_disk/QF_LRA',str(count)+ '_' + info_name), smtlib_str))
+                                tasks.append((file_path, info_dict, os.path.join(os.environ.get('SMT_QF_LRA_DIR', os.path.join(config.TEST_RL_ROOT, 'QF_LRA')),str(count)+ '_' + info_name), smtlib_str))
 
     with Pool(processes=10) as pool:
         pool.starmap(process_file, tasks)

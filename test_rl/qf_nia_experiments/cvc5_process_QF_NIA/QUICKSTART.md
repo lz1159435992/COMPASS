@@ -6,7 +6,7 @@
 
 ```bash
 # 安装依赖
-cd /home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
+cd /home/<USER>/PycharmProjects/Pearl/test_rl/qf_nia_experiments/cvc5_process_QF_NIA
 pip install -r requirements.txt
 
 # 检查LLM服务

@@ -7,6 +7,7 @@ from code2inv.prog_generator.chc_tools.chctools.horndb import *
 from code2inv.prog_generator.chc_tools.chctools.solver_utils import *
 from code2inv.prog_generator.chc_tools.chctools.chcmodel import load_model_from_file, define_fun_to_lambda
 from z3 import *
+import config
 
 p = {}
 p["%"] = 5
@@ -124,7 +125,7 @@ def inv_checker(vc_file: str, inv: str, assignments):
         return False
 
 def inv_solver(vc_file: str, inv: str):
-    file_path = '/home/yy/constraiant/constraint.txt'
+    file_path = os.environ.get('CONSTRAINT_FILE', '/tmp/constraint.txt')
     with open(file_path, 'r', encoding='utf-8') as file:
         cons = file.read()
     cons = cons.replace("&&", "and", -1)

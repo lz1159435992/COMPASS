@@ -10,15 +10,13 @@ import tempfile
 import traceback
 from loguru import logger
 
-# 添加路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
 
 def test_bvparti_solver():
     """测试BVParti求解器的基本功能"""
     print("=== 测试BVParti求解器 ===")
     
     try:
-        from test_rl.test_cvc5.bvparti_process.run_bvparti_predictor import BVPartiSolver, BVPartiConfig
+        from test_rl.smtimer_experiments.bvparti_process.run_bvparti_predictor import BVPartiSolver, BVPartiConfig
         
         # 创建求解器
         config = BVPartiConfig()
@@ -76,7 +74,7 @@ def test_json_compatibility():
     print("\n=== 测试JSON格式兼容性 ===")
     
     try:
-        from test_rl.test_cvc5.bvparti_process.test_group_get_dis_smt_comp_bert_embeding_single import (
+        from test_rl.smtimer_experiments.bvparti_process.test_group_get_dis_smt_comp_bert_embeding_single import (
             get_solve_result_and_time, convert_timeout_to_unknown
         )
         
@@ -129,7 +127,7 @@ def test_environment_creation():
     
     try:
         # 这里只测试导入，不实际创建环境（需要模型文件）
-        from test_rl.test_cvc5.bvparti_process.run_bvparti_predictor import (
+        from test_rl.smtimer_experiments.bvparti_process.run_bvparti_predictor import (
             ConstraintSimplificationEnv_test, get_solver
         )
         
@@ -154,7 +152,7 @@ def test_argument_parsing():
     
     try:
         import argparse
-        from test_rl.test_cvc5.bvparti_process.run_bvparti_predictor import main
+        from test_rl.smtimer_experiments.bvparti_process.run_bvparti_predictor import main
         
         # 创建测试参数
         test_args = [

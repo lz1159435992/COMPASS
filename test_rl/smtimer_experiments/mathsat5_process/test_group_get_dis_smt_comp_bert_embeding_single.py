@@ -2,6 +2,11 @@ import ast
 import json
 import os
 import random
+import sys
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+import config
 
 
 import time
@@ -242,7 +247,7 @@ def test_group_bert_normalize_1by1_smt():
 def test_group_bert_normalize_1by1_smt_name():
     import pysmt.logics
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open(config.get_baseline_path('info_dict_smt_comp'), 'r') as file:
         result_dict = json.load(file)
     embeding_dict = {}
     features_list = []
@@ -272,7 +277,7 @@ def test_group_bert_normalize_1by1_smt_name():
         # "QF_NIA",
         # # "UFBV", "BV"
     ]
-    output_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_features'
+    output_path = os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_features')
     # 遍历字典并统计数据
     for (i, (file_path, v)) in enumerate(tqdm.tqdm(result_dict.items())):
         print(file_path, v)
@@ -366,7 +371,7 @@ def convert_timeout_to_unknown(solve_dict):
             modified_dict[key] = value
     return modified_dict
 
-def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_path='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json'):
+def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_path=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results_rl.json')):
     with open(file_path, 'r') as file:
         result_dict = json.load(file)
     with open(solve_path, 'r') as file:
@@ -378,8 +383,8 @@ def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_pat
     # 创建新的字典来存储替换后的路径
     new_result_dict = {}
     for key in result_dict:
-        if '/home/<USER>/<CLOUD_DISK>/' in key:
-            new_key = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
+        if os.environ.get('SMT_CLOUD_DISK_PREFIX', '') and os.environ.get('SMT_CLOUD_DISK_PREFIX') in key:
+            new_key = config.resolve_data_path(key, 'smtimer')
             new_result_dict[new_key] = result_dict[key]
         else:
             new_result_dict[key] = result_dict[key]
@@ -388,8 +393,8 @@ def test_group_get_label_and_time(file_path='result_dict_time_pre.txt',solve_pat
     # 同样替换solve_dict中的路径
     new_solve_dict = {}
     for key in solve_dict:
-        if '/home/<USER>/<CLOUD_DISK>/' in key:
-            new_key = key.replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
+        if os.environ.get('SMT_CLOUD_DISK_PREFIX', '') and os.environ.get('SMT_CLOUD_DISK_PREFIX') in key:
+            new_key = config.resolve_data_path(key, 'smtimer')
             new_solve_dict[new_key] = solve_dict[key]
         else:
             new_solve_dict[key] = solve_dict[key]
@@ -539,15 +544,15 @@ def run_complete_process(info_dict_path, solve_dict_path, features_dir='features
 if __name__ == '__main__':
     # 示例：运行完整处理流程
     run_complete_process(
-        info_dict_path='/home/nju/constraint_solve_file/info_dict_predictor.txt',
-        solve_dict_path='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/smtimer_710/mathsat5_smtimer_results_predictor.json',
-        features_dir='/home/nju/constraint_solve_file/smtimer_features',
+        info_dict_path=config.get_external_file('info_dict_predictor'),
+        solve_dict_path=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'smtimer_710', 'mathsat5_smtimer_results_predictor.json'),
+        features_dir=os.path.join(config.TEST_RL_ROOT, 'smtimer_features'),
         model_save_dir='models'
     )
     
     # 或者单独运行数据处理
     # test_group_get_label_and_time('/home/nju/constraint_solve_file/info_dict_predictor.txt',
-    #                               '/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/smtimer_710/mathsat5_smtimer_results_predictor.json')
+    #                               '/home/nju/PycharmProjects/Pearl/test_rl/smtimer_experiments/smtimer_710/mathsat5_smtimer_results_predictor.json')
 
     """
     完整执行示例：

@@ -5,10 +5,11 @@ import json
 
 from z3 import parse_smt2_string, Solver
 
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict, \
     solve_and_measure_time, model_to_dict, load_dictionary, extract_variables_from_smt2_content, normalize_variables, \
     find_var_declaration_in_string, split_at_check_sat
+import config
 
 client = OpenAI(
     # base_url='https://api.openai.com',
@@ -66,7 +67,7 @@ def process_text(text):
 
     return " ".join(responses)
 
-file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq155454'
+file_path = os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/gnu_angr.tar.gz/single_test/seq/seq155454')
 
 # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77477'
 with open(file_path, 'r') as file:

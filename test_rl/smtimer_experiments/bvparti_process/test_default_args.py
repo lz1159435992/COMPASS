@@ -5,9 +5,10 @@
 
 import sys
 import argparse
+import config
 
 # 添加路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def test_default_arguments():
     """测试默认参数"""
@@ -18,13 +19,13 @@ def test_default_arguments():
     
     # 添加所有参数
     parser.add_argument('--rl_dict_path', type=str, 
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='RL字典文件路径')
     parser.add_argument('--info_dict_path', type=str, 
                         default='info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0728.txt',
                         help='信息字典文件路径')
     parser.add_argument('--result_dict_path', type=str, 
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
+                        default=os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json'),
                         help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
                         default='models/binary_classifier.pth',
@@ -68,7 +69,7 @@ def test_default_arguments():
     print(f"  LLM模型: {args.llm_model}")
     
     # 验证关键路径
-    expected_result_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+    expected_result_path = os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json')
     
     if args.result_dict_path == expected_result_path:
         print("\n✓ 结果字典路径设置正确")
@@ -88,7 +89,7 @@ def test_import_main():
         import importlib.util
         spec = importlib.util.spec_from_file_location(
             "run_bvparti_predictor", 
-            "/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py"
+            os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'bvparti_process', 'run_bvparti_predictor.py')
         )
         module = importlib.util.module_from_spec(spec)
         

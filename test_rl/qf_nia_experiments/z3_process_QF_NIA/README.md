@@ -28,6 +28,6 @@ Results are saved to:
 ## Usage
 
 ```bash
-cd test_rl/test_QF_NIA/z3_process_QF_NIA
+cd test_rl/qf_nia_experiments/z3_process_QF_NIA
 python run_predictor.py
 ```

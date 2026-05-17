@@ -22,6 +22,10 @@ from torch.nn.parameter import Parameter
 
 from z3.z3 import Solver, parse_smt2_string,sat,unknown,unsat
 
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 # import embedding_util
 # from pearl.SMTimer.KNN_Predictor import Predictor
 from pearl.api import Space
@@ -44,7 +48,7 @@ import datetime
 from bert_predictor_mask import SimpleClassifier
 from bert_predictor_2_mask import EnhancedEightClassModel
 import sys
-sys.path.append('/home/nju/PycharmProjects/Pearl/test_rl')
+sys.path.append(config.TEST_RL_ROOT)
 def is_number(s):
     # 匹配整数、小数和分数
     pattern = r'^(\d+|\d+\.\d+|\d+\/\d+)$'

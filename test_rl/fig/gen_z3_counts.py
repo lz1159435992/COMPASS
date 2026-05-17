@@ -1,4 +1,8 @@
 import time
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 import matplotlib.pyplot as plt
 from test_rl.test_script.utils import load_dictionary
@@ -170,13 +174,13 @@ def plot_pyecharts(data_dict, tool_name, path):
 
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+data_dict = load_dictionary(config.get_baseline_path(result_dict_z3solver_300s))
 
 # 调用函数为每个工具生成 PDF 文件
 plot_pyecharts(data_dict, 'buzybox', 'Z3solver')
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_RL+LLM_108.txt')
+data_dict = load_dictionary(config.get_baseline_path(result_dict_RL_LLM))
 
 # 调用函数为每个工具生成 PDF 文件
 plot_pyecharts(data_dict, 'buzybox', 'RL_LLM')

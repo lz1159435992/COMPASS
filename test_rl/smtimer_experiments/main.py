@@ -15,6 +15,11 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import json
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
+
 
 class SolverResult:
     def __init__(self, solve_time, result, model):
@@ -252,7 +257,7 @@ if __name__ == "__main__":
     #     print("请在file_paths中填写你的smt2文件路径进行测试。")
 
     file_paths = []
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -263,7 +268,7 @@ if __name__ == "__main__":
     else:
         info_dict = load_dictionary(info_name)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open(config.get_baseline_path('QF_NIA_test'), 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

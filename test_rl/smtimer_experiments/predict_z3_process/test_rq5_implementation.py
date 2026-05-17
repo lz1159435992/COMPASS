@@ -41,8 +41,8 @@ def test_feature_extraction():
         
         # 创建模拟参数
         args = type('Args', (), {
-            'binary_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth',
-            'eight_class_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth',
+            'binary_model_path': os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_mask_best.pth'),
+            'eight_class_model_path': os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_2_mask_best_model.pth'),
             'solver': 'z3',
             'timeout': 1200,
             'llm_host': 'http://172.29.7.221:32943',
@@ -85,8 +85,8 @@ def test_hybrid_screening_logic():
         
         # 创建模拟参数
         args = type('Args', (), {
-            'binary_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth',
-            'eight_class_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth',
+            'binary_model_path': os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_mask_best.pth'),
+            'eight_class_model_path': os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_2_mask_best_model.pth'),
             'solver': 'z3',
             'timeout': 1200,
             'llm_host': 'http://172.29.7.221:32943',

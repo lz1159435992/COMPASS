@@ -3,6 +3,7 @@ import os
 import time
 from z3 import *
 from test_script.utils import *
+import config
 def solve(filepath):
     with open(file_path, 'r') as file:
         smtlib_str = file.read()
@@ -21,7 +22,7 @@ def solve(filepath):
         print(f"������� {result}, ����ʱ�䣺 {time_taken:.2f} ����ֵ�� {model},·����{filepath}")
 #��Ҫ����·��
 path = []
-directory = '/home/nju/smt_collect/test'
+directory = os.environ.get('SMT_DATA_DIR', '/tmp/smt_data/smt_collect/test')
 path.append(directory)
 #����·��
 for directory in path:

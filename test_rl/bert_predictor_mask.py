@@ -1,5 +1,6 @@
 import json
 import random
+import sys
 
 import numpy as np
 import torch
@@ -9,6 +10,11 @@ from torch.utils.data import DataLoader, TensorDataset
 from torch.utils.data import Subset
 import glob
 import os
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict, \
     solve_and_measure_time, model_to_dict, load_dictionary, extract_variables_from_smt2_content, normalize_variables, normalize_smt_str
 from bert_embedder_test import CodeEmbedder_normalize
@@ -134,7 +140,7 @@ def test():
     # 步骤4: 将状态字典应用到模型
     model.load_state_dict(state_dict)
     embedder = CodeEmbedder_normalize()
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open(config.get_external_file('info_dict_rl'), 'r') as file:
         result_dict = json.load(file)
 
     items = list(result_dict.items())

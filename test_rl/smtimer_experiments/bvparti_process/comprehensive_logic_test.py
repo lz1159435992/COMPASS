@@ -8,9 +8,10 @@ import sys
 import json
 import traceback
 import tempfile
+import config
 
 # 添加路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def test_bvparti_solver_paths():
     """测试BVParti求解器路径配置"""
@@ -214,7 +215,7 @@ def test_file_processing_logic():
     
     try:
         # 加载实际的结果文件
-        result_file_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json'
+        result_file_path = os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json')
         
         if not os.path.exists(result_file_path):
             print(f"  ✗ 结果文件不存在: {result_file_path}")
@@ -235,7 +236,7 @@ def test_file_processing_logic():
         results_data = result_dict.get("results", result_dict) if "results" in result_dict else result_dict
         
         # 模拟RL字典
-        rl_dict_path = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
+        rl_dict_path = config.get_external_file('info_dict_rl')
         if os.path.exists(rl_dict_path):
             with open(rl_dict_path, 'r') as f:
                 rl_dict = json.load(f)

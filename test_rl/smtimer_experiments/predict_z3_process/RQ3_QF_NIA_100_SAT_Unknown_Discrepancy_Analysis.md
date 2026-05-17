@@ -24,7 +24,7 @@
 
 - **baseline 直接求解缓存**：`test_rl/test_solve/NIA/NIA.json`
 - **旧口径/阈值流程输出（含 succeed/failed/cached_direct_solve 等状态）**：
-  - `test_rl/test_cvc5/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json`
+  - `test_rl/smtimer_experiments/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json`
 - **COMPASS（\tool）缓存**：
   - `test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt`
 
@@ -196,7 +196,7 @@ with open("test_rl/predictor/smt_comp_NIA/QF_NIA_test.json", "r") as f:
 with open("test_rl/test_solve/NIA/NIA.json", "r") as f:
     baseline = json.load(f)
 
-with open("test_rl/test_cvc5/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json", "r") as f:
+with open("test_rl/smtimer_experiments/predict_z3_process/QF_NIA_advanced_solver_results_all_4_threshold.json", "r") as f:
     threshold = json.load(f)
 
 compass = load_compass("test_rl/info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt")

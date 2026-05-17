@@ -18,12 +18,7 @@ from pearl.utils.instantiations.spaces.discrete_action import DiscreteActionSpac
 class TestPPO(unittest.TestCase):
     def test_optimizer_param_count(self) -> None:
         """
-<<<<<<< HEAD
-        This test_rl is to ensure optimizer defined in PPO has all the parameters needed
-=======
-        This test is to ensure optimizer defined in PPO has all the parameters needed
->>>>>>> acd8d5edab04f718ae531c81ff33cbadac0121b4
-        including actor and critic
+        This test is to ensure optimizer defined in PPO has all the parameters needed        including actor and critic
         """
         policy_learner = ProximalPolicyOptimization(
             16,

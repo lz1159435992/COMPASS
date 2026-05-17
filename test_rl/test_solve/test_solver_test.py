@@ -5,6 +5,7 @@ import os
 
 
 from test_rl.test_script.utils import load_dictionary
+import config
 
 
 
@@ -21,7 +22,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/result_dict.txt', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'result_dict.txt'), 'r') as file:
         result_dict = json.load(file)
 
     for key, value in result_dict.items():

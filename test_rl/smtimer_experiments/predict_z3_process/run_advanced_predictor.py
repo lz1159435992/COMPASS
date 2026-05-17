@@ -18,7 +18,7 @@ from loguru import logger
 import torch
 
 # Import necessary components from the existing framework
-from test_rl.test_cvc5.predict_z3_process.run_predictor import (
+from test_rl.smtimer_experiments.predict_z3_process.run_predictor import (
     setup_logger,
     load_dictionary,
     get_solver,
@@ -31,6 +31,7 @@ from test_rl.test_cvc5.predict_z3_process.run_predictor import (
 )
 from test_rl.predictor.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.test_script.utils import normalize_smt_str
+import config
 
 
 def run_advanced_prediction_flow(args):
@@ -153,13 +154,13 @@ def main():
     
     # --- Paths to Data ---
     parser.add_argument('--source_constraints_path', type=str, 
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='Path to the JSON file with all constraint file paths as keys.')
     parser.add_argument('--direct_solve_cache_path', type=str,
-                        default='/home/<USER>/constraint_solve_file/smtimer-533-result.txt',
+                        default=os.path.join(config.TEST_RL_ROOT, 'smtimer-533-result.txt'),
                         help='Path to the cache of pre-solved "easy" problems.')
     parser.add_argument('--rl_solve_cache_path', type=str,
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt',
+                        default=os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'),
                         help='Path to the cache of pre-solved "hard" problems using RL.')
     parser.add_argument('--output_path', type=str,
                         default='advanced_solver_results.json',

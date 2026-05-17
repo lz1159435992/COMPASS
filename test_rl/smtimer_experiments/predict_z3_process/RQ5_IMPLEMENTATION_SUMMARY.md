@@ -7,7 +7,7 @@
 ## 📁 文件结构
 
 ```
-test_rl/test_cvc5/predict_z3_process/
+test_rl/smtimer_experiments/predict_z3_process/
 ├── rq5_hybrid_screening.py          # 主要实验实现 (19KB, 522行)
 ├── rq5_example_usage.py             # 使用示例 (5.9KB, 177行)
 ├── test_rq5_implementation.py       # 测试脚本 (6.9KB, 223行)

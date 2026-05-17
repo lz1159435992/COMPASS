@@ -43,12 +43,13 @@ from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_strin
     normalize_smt_str, MyException, timeout_handler
 from test_rl.test_script.online_learning_break import online_learning
 from loguru import logger
+import config
 
 start = time.time()
 
 def test_group():
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -61,7 +62,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_test.json'), 'r') as file:
 
         result_dict = json.load(file)
     #随机打乱
@@ -143,12 +144,12 @@ def test_group():
                         # device = torch.device("cpu")
                         # 更改了预测器
                         model = EnhancedClassifier()
-                        model_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth'  # 或者 'bert_predictor_mask_final.pth'
+                        model_path = os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_bert_predictor_mask_best_llm.pth')  # 或者 'bert_predictor_mask_final.pth'
                         state_dict = torch.load(model_path)
                         model.load_state_dict(state_dict)
                         model.eval()
                         model_time = EnhancedEightClassModelLargeInput()
-                        model_time.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth'))
+                        model_time.load_state_dict(torch.load(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_bert_predictor_2_mask_best_model_llm.pth')))
                         model_time.eval()
                         env = ConstraintSimplificationEnv_test(embedder, assertions, model, model_time, smtlib_str,
                                                                file_path, var_dict, state)

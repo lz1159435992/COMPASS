@@ -59,7 +59,7 @@ def build_rules() -> List[ReplacementRule]:
         ("author_hongyu_chen", r"Anonymous Author", "Anonymous Author"),
         ("github_user_lz1159435992", r"https://github.com/<ANON_USER>", "https://github.com/<ANON_USER>"),
         ("github_user_prefix_lz", r"github.com/<ANON_USER>", "github.com/<ANON_USER>"),
-        ("home_user_lz", r"/home/<USER>", "/home/<USER>"),
+        ("home_user_lz", r"/home/[^/]+", "/home/<USER>"),
         ("<CLOUD_DISK>_path", r"<CLOUD_DISK>", "<CLOUD_DISK>"),
         ("absolute_downloads", r"/path/to/Downloads", "/path/to/Downloads"),
     ]

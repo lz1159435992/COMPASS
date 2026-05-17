@@ -38,6 +38,7 @@ from code2inv.common.constants import *
 from code2inv.common.cmd_args import cmd_args
 from code2inv.common.checker import boogie_result, z3_precheck, z3_precheck_expensive, stat_counter
 from code2inv.prog_generator.tree_decoder import genExprTree, GeneralDecoder, InvariantTreeNode, fully_expanded_node
+import config
 checker_module = importlib.import_module(cmd_args.inv_checker)
 
 class RLEnv(object):

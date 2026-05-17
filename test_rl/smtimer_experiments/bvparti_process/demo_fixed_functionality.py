@@ -7,9 +7,10 @@ import json
 import sys
 import os
 import numpy as np
+import config
 
 # 添加路径以便导入模块
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def demo_fixed_functionality():
     """演示修复后的功能"""
@@ -27,17 +28,17 @@ def demo_fixed_functionality():
     
     # 模拟info_dict（文件信息字典）
     test_info_dict = {
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sort/sort29776": ["test_data"],
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/comm/comm28789": ["test_data"],
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": ["test_data"]
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/sort/sort29776": ["test_data"],
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/comm/comm28789": ["test_data"],
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": ["test_data"]
     }
     
     # 测试旧格式（cvc5格式）
     print("\n2. 测试旧格式处理...")
     old_format_solve_dict = {
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sort/sort29776": ["sat", 1.7, 1200, {}],
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/comm/comm28789": ["unsat", 1.1, 1200, {}],
-        "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": ["sat", 4.2, 1200, {}]
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/sort/sort29776": ["sat", 1.7, 1200, {}],
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/comm/comm28789": ["unsat", 1.1, 1200, {}],
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": ["sat", 4.2, 1200, {}]
     }
     
     print("  旧格式数据处理结果:")
@@ -72,21 +73,21 @@ def demo_fixed_functionality():
             "configuration": {"solver": "bitwuzla", "time_limit": 1200}
         },
         "results": {
-            "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sort/sort29776": {
+            os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/sort/sort29776": {
                 "result": "error",  # 这会被映射为unknown
                 "solve_time": -1,
                 "total_time": 0.078,
                 "error": "KeyError: 'unknown'",
                 "returncode": 1
             },
-            "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/comm/comm28789": {
+            os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/comm/comm28789": {
                 "result": "unsat",
                 "solve_time": 0.010,
                 "total_time": 0.077,
                 "error": None,
                 "returncode": 0
             },
-            "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": {
+            os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk') + "smt/gnu_angr.tar.gz/single_test/pinky/pinky154333": {
                 "result": "sat",
                 "solve_time": 24.2,
                 "total_time": 24.3,

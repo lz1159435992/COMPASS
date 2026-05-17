@@ -37,7 +37,7 @@ import datetime
 from bert_predictor_mask import SimpleClassifier
 from bert_predictor_2_mask import EnhancedEightClassModel
 
-sys.path.append('/home/nju/PycharmProjects/Pearl/test_rl')
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 def is_number(s):
     # 匹配整数、小数和分数
     pattern = r'^(\d+|\d+\.\d+|\d+\/\d+)$'

@@ -39,13 +39,14 @@ from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_strin
     solve_and_measure_time, model_to_dict, load_dictionary, extract_variables_from_smt2_content, normalize_variables, \
     normalize_smt_str, MyException, timeout_handler, setup_logger
 from test_rl.test_script.online_learning_break import online_learning
+import config
 
 start = time.time()
 
 def test_group():
     setup_logger()
 
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open(config.get_external_file('info_dict_rl'), 'r') as file:
         rl_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0107_pre_SMTimer_deepseek-r1:70b_1200s_info_dict_rl.txt'
@@ -58,9 +59,9 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
+    with open(config.get_baseline_path('info_dict_bingxing'), 'r') as file:
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt', 'r') as file:
-    # with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    # with open(config.get_external_file('info_dict_rl'), 'r') as file:
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt', 'r') as file:
         result_dict = json.load(file)

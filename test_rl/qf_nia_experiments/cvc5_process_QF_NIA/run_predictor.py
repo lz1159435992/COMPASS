@@ -23,7 +23,9 @@ os.environ['ALL_PROXY'] = ''
 os.environ['all_proxy'] = ''
 
 # 添加项目路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from z3.z3 import parse_smt2_string, Solver, sat, unknown, unsat
 from z3.z3 import Solver as Z3_Solver
@@ -43,14 +45,15 @@ from test_rl.test_script.utils import (
     find_var_declaration_in_string, split_at_check_sat, repalce_veriable, solve_assertion_get_range
 )
 from test_rl.test_script.online_learning_break import online_learning
-from test_rl.test_QF_NIA.cvc5_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
-from test_rl.test_QF_NIA.cvc5_process_QF_NIA.train_predictor import (
+from test_rl.qf_nia_experiments.cvc5_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
+from test_rl.qf_nia_experiments.cvc5_process_QF_NIA.train_predictor import (
     EnhancedClassifier,
     EnhancedEightClassModelLargeInput,
 )
 from ollama import Client
 import tempfile
 import subprocess
+import config
 
 script_dir_local = os.path.dirname(os.path.abspath(__file__))
 local_log_dir = os.path.join(script_dir_local, 'log')
@@ -854,7 +857,7 @@ def run_QF_NIA_experiment(
     logger.info('='*80)
     
     # 读取QF_NIA问题和求解结果（从config.data.source读取）
-    data_source = config.get('data', {}).get('source', '/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_QF_NIA.json')
+    data_source = config.get('data', {}).get('source', os.path.join(config.TEST_RL_ROOT, 'qf_nia_experiments', 'cvc5_QF_NIA.json'))
     with open(data_source, 'r') as file:
         solve_dict = json.load(file)
     try:

@@ -77,6 +77,7 @@ from test_rl.test_script.utils import (
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from train_predictor import EnhancedEightClassModel, SimpleClassifier
 from test_rl.test_script.online_learning_break import online_learning
+import config
 
 # 设置设备
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -105,7 +106,7 @@ def get_actions(tensor_1d_1):
 class BVPartiConfig:
     def __init__(self):
         # 获取AriParti_sync目录下的STP-Parti-Bitwuzla求解器路径
-        self.ariparti_base_path = "/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync"
+        self.ariparti_base_path = config.BVPARTI_HOME
         self.bvparti_solver_path = os.path.join(
             self.ariparti_base_path,
             "STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver"
@@ -1228,19 +1229,19 @@ def main():
 
     # 添加命令行参数
     parser.add_argument('--rl_dict_path', type=str,
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='RL字典文件路径')
     parser.add_argument('--info_dict_path', type=str,
                         default='info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_bvparti_0310.txt',
                         help='信息字典文件路径')
     parser.add_argument('--result_dict_path', type=str,
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
+                        default=os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json'),
                         help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/models/binary_classifier.pth',
+                        default=os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'bvparti_process', 'models', 'binary_classifier.pth'),
                         help='二分类模型路径')
     parser.add_argument('--eight_class_model_path', type=str,
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/models/eight_class_model.pth',
+                        default=os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'bvparti_process', 'models', 'eight_class_model.pth'),
                         help='八分类模型路径')
     parser.add_argument('--time_threshold', type=int,
                         default=300,

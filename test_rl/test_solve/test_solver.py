@@ -8,6 +8,7 @@ from z3 import *
 from z3.z3 import parse_smt2_string, Solver
 
 from test_rl.test_script.utils import  solve_and_measure_time, model_to_dict, load_dictionary
+import config
 
 
 os.environ['ALL_PROXY'] = ''
@@ -24,14 +25,11 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/result_dict.txt', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'result_dict.txt'), 'r') as file:
         result_dict = json.load(file)
 
     for key, value in result_dict.items():
-        if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
-        elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
+        file_path = config.resolve_data_path(key, 'smtimer')
 
         with open(file_path, 'r') as file:
             # 读取文件所有内容到一个字符串

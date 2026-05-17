@@ -4,6 +4,7 @@ from multiprocessing import Pool
 from z3 import *
 from z3.z3 import parse_smt2_string, Solver
 from test_rl.test_script.utils import solve_and_measure_time, model_to_dict, load_dictionary
+import config
 
 def process_file(file_path, python_list, info_dict, info_name, smtlib_str):
     print(file_path)
@@ -38,17 +39,12 @@ def test_group():
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/result_dict.txt', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'result_dict.txt'), 'r') as file:
         result_dict = json.load(file)
 
     tasks = []
     for key, value in result_dict.items():
-        if '/home/yy/Downloads/' in key:
-            file_path = key.replace('/home/yy/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
-        elif '/home/nju/Downloads/' in key:
-            file_path = key.replace('/home/nju/Downloads/', '/home/<USER>/<CLOUD_DISK>/')
-        else:
-            file_path = key
+        file_path = config.resolve_data_path(key, 'smtimer')
         if file_path not in info_dict.keys():
 
             with open(file_path, 'r') as file:

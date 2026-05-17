@@ -1,9 +1,15 @@
 import ast
 import json
+import os
 import pickle
 import random
 import re
+import sys
 import time
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 from z3 import *
 
@@ -47,7 +53,7 @@ def test_group():
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
     # with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_109_2_SMTimer.txt'), 'r') as file:
         result_dict = json.load(file)
     # items = list(result_dict.items())
     # random.shuffle(items)

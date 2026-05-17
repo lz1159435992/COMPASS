@@ -72,10 +72,5 @@ class TestCNNQValueNetworks(unittest.TestCase):
             action_batch = torch.rand((x_batch.shape[0], action_dim))
             q_values = network.get_q_values(
                 x_batch, action_batch
-<<<<<<< HEAD
-            )  # test_rl get_q_values method
-=======
             )  # test get_q_values method
->>>>>>> acd8d5edab04f718ae531c81ff33cbadac0121b4
-
             self.assertEqual(q_values.shape[0], x_batch.shape[0])

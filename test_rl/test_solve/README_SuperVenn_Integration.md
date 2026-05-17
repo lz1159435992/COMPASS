@@ -45,9 +45,16 @@ import os
 from test_rl.test_solve.test_solver_result import test_group_cvc5_process_analysis
 
 # 设置文件路径
-info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'
-var_count_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
-output_dir = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/supervenn_output'
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+info_name = os.path.join(
+    project_root,
+    'test_rl',
+    'smtimer_experiments',
+    'cvc5_process',
+    'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+)
+var_count_path = os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt')
+output_dir = os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'supervenn_output')
 
 # 执行分析并生成SuperVenn图
 result_dict, time_dict, time_dict_2, info_dict, supervenn_stats = test_group_cvc5_process_analysis(
@@ -71,7 +78,7 @@ if supervenn_stats:
 ### 函数参数
 
 - **info_name** (str): CVC5处理结果文件路径
-- **var_count_path** (str): 变量统计文件路径，默认为 `'/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt'`
+- **var_count_path** (str): 变量统计文件路径，默认为 `test_rl/test_solve/var_count.txt`
 - **output_dir** (str, optional): SuperVenn图输出目录，如果为 `None` 则不生成图片
 - **solver_name** (str): 求解器名称，用于图表标签，默认为 `"CVC5"`
 

@@ -1,8 +1,0 @@
-
-% BVParti SuperVenn图的LaTeX代码
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.8\textwidth]{pics/supervenn-bvparti-comparison.pdf}
-\caption{SuperVenn analysis of BVParti baseline vs RL+LLM enhanced solving capability. The diagram shows 0 constraints solved exclusively by baseline, 17 constraints solved exclusively by RL+LLM enhancement, and 2 constraints solved by both methods. Total improvement: 2 → 19 (+17 constraints, 850.0\% relative improvement).}
-\label{fig:supervenn-bvparti}
-\end{figure}

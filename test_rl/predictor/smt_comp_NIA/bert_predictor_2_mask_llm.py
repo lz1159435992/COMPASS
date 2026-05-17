@@ -1,6 +1,7 @@
 import glob
 import json
 import os
+import sys
 
 import numpy as np
 import torch
@@ -9,6 +10,10 @@ import torch.nn.functional as F
 from torch import optim
 from torch.utils.data import DataLoader, TensorDataset, Subset
 from transformers import BertModel, BertTokenizer
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+import config
 
 from test_rl.test_script.utils import setup_logger
 from loguru import logger
@@ -254,7 +259,7 @@ def training():
     with open('QF_NIA_train.json', 'r') as file:
         train_dict = json.load(file)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []
@@ -307,7 +312,7 @@ def testing():
     with open('QF_NIA_test.json', 'r') as file:
         test_dict = json.load(file)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []

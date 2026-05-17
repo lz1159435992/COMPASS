@@ -39,7 +39,6 @@ DATA_DIRS = {
     'predictor': os.path.join(TEST_RL_ROOT, 'predictor'),
     'features': os.path.join(TEST_RL_ROOT, 'features'),
     'log': os.path.join(TEST_RL_ROOT, 'log'),
-    'archived': os.path.join(TEST_RL_ROOT, 'archived'),
 }
 
 # =============================================================================
@@ -81,10 +80,12 @@ MODEL_DIRS = {
 # =============================================================================
 
 # BVParti solver (for QF_BV theory)
-BVPARTI_HOME = os.environ.get('BVPARTI_HOME', '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync')
+# Use environment variable BVPARTI_HOME, or default to test_rl/AriParti_sync relative to repo root
+BVPARTI_HOME = os.environ.get('BVPARTI_HOME', os.path.join(TEST_RL_ROOT, 'AriParti_sync'))
 
 # AriParti solver (for QF_NIA theory)
-ARIPARTI_HOME = os.environ.get('ARIPARTI_HOME', '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync')
+# Use environment variable ARIPARTI_HOME, or default to test_rl/AriParti_sync relative to repo root
+ARIPARTI_HOME = os.environ.get('ARIPARTI_HOME', os.path.join(TEST_RL_ROOT, 'AriParti_sync'))
 
 # Solver paths configuration
 SOLVER_PATHS = {
@@ -248,6 +249,87 @@ def get_test_rl_path(*parts):
         get_test_rl_path('test_solve', 'NIA', 'NIA.json')
     """
     return os.path.join(TEST_RL_ROOT, *parts)
+
+
+# =============================================================================
+# Dataset Path Resolution (for normalized data files)
+# =============================================================================
+
+# Environment variables for dataset roots:
+#   SMTIMER_DATA_ROOT  - Root of SMTimer dataset (contains buzybox_angr.tar.gz/, gnu_angr.tar.gz/)
+#   QF_NIA_DATA_ROOT   - Root of QF_NIA dataset (contains LassoRanker/, VeryMax/, etc.)
+#   QF_LIA_DATA_ROOT   - Root of QF_LIA dataset
+#   QF_LRA_DATA_ROOT   - Root of QF_LRA dataset
+#   QF_NRA_DATA_ROOT   - Root of QF_NRA dataset
+
+DATASET_ROOTS = {
+    'smtimer': os.environ.get(
+        'SMTIMER_DATA_ROOT',
+        os.environ.get('SMT_CLOUD_DISK_PREFIX', '/tmp/cloud_disk')
+    ),
+    'qf_nia': os.environ.get(
+        'QF_NIA_DATA_ROOT',
+        os.path.join(os.path.expanduser('~'), 'Downloads', 'non-incremental_Hierarchy', 'non-incremental', 'QF_NIA')
+    ),
+    'qf_lia': os.environ.get(
+        'QF_LIA_DATA_ROOT',
+        os.path.join(os.path.expanduser('~'), 'Downloads', 'non-incremental_Hierarchy', 'non-incremental', 'QF_LIA')
+    ),
+    'qf_lra': os.environ.get(
+        'QF_LRA_DATA_ROOT',
+        os.path.join(os.path.expanduser('~'), 'Downloads', 'non-incremental_Hierarchy', 'non-incremental', 'QF_LRA')
+    ),
+    'qf_nra': os.environ.get(
+        'QF_NRA_DATA_ROOT',
+        os.path.join(os.path.expanduser('~'), 'Downloads', 'non-incremental_Hierarchy', 'non-incremental', 'QF_NRA')
+    ),
+}
+
+
+def resolve_data_path(relative_path, dataset='smtimer'):
+    """Resolve a relative data path to an absolute path.
+
+    Data files have been normalized to use relative paths (e.g.
+    'buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731').
+    This function resolves them back to absolute paths using
+    environment variables.
+
+    Args:
+        relative_path: Relative path from dataset root (e.g. key from JSON dict)
+        dataset: Dataset type ('smtimer', 'qf_nia', 'qf_lia', 'qf_lra', 'qf_nra')
+
+    Returns:
+        Absolute path to the SMT file
+
+    Example:
+        resolve_data_path('buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731')
+        # -> '/tmp/cloud_disk/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731'
+    """
+    base = DATASET_ROOTS.get(dataset, DATASET_ROOTS['smtimer'])
+    return os.path.join(base, relative_path)
+
+
+def resolve_data_path_auto(relative_path):
+    """Auto-detect dataset type and resolve to absolute path.
+
+    Args:
+        relative_path: Relative path from a dataset root
+
+    Returns:
+        Absolute path to the SMT file
+    """
+    if relative_path.startswith('LassoRanker/') or \
+       relative_path.startswith('20170427-VeryMax/') or \
+       relative_path.startswith('CAV_2009_benchmarks/') or \
+       relative_path.endswith('.smt2'):
+        return resolve_data_path(relative_path, 'qf_nia')
+    return resolve_data_path(relative_path, 'smtimer')
+
+
+def get_dataset_roots():
+    """Get all configured dataset roots for display."""
+    return {k: v for k, v in DATASET_ROOTS.items()}
+
 
 # =============================================================================
 # Validation Functions

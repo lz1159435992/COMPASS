@@ -1,9 +1,10 @@
 import os
 import json
 import re
+import config
 def merge_json_files():
     # 定义目标路径
-    target_path = '/home/<USER>/new_disk/QF_LRA'
+    target_path = os.environ.get('SMT_QF_LRA_DIR', os.path.join(config.TEST_RL_ROOT, 'QF_LRA'))
 
     # 初始化合并后的字典
     merged_dict = {}

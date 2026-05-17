@@ -12,6 +12,7 @@ from z3.z3 import parse_smt2_string, Solver as Z3_Solver, sat, unsat, unknown
 import multiprocessing
 from loguru import logger
 import sys
+import config
 
 class SolverResult:
     def __init__(self, solve_time, result, model):
@@ -407,7 +408,7 @@ def main():
                         default="mathsat5",
                       help="选择要使用的求解器 (默认: mathsat5)")
     parser.add_argument("--info-dict", type=str, required=False,
-                        default="/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt",
+                        default=config.get_external_file('info_dict_predictor'),
                       help="包含SMT问题文件路径的信息字典文件")
     parser.add_argument("--output", type=str,
                         default="mathsat5_smtimer_results_predictor.txt",

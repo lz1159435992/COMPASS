@@ -28,7 +28,7 @@ cvc5_process_QF_NIA/
 第一步是处理QF_NIA问题集并生成LLM embeddings：
 
 ```bash
-cd /home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
+cd /home/<USER>/PycharmProjects/Pearl/test_rl/qf_nia_experiments/cvc5_process_QF_NIA
 python test_group_get_dis_smt_comp_bert_embeding_single.py
 ```
 

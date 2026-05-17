@@ -20,6 +20,7 @@ import json
 from z3.z3 import parse_smt2_string, Solver as Z3_Solver, sat, unsat, unknown
 import multiprocessing
 import re
+import config
 
 class SolverResult:
     def __init__(self, solve_time, result, model):
@@ -326,7 +327,7 @@ def process_z3_file(args):
 
 def get_Z3_result():
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = list(info_dict.keys())
     solver_name = "z3"
@@ -360,7 +361,7 @@ def get_Z3_result():
 
 def get_CVC5_result():
     file_paths = []
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "CVC5"
@@ -778,7 +779,7 @@ def get_MathSAT_result_QF_LIA():
 def get_CVC5_result_all():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/sibyl_3/src/networks/info_dict_predictor.txt'
+    info_name = config.get_external_file('info_dict_predictor')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "CVC5"
@@ -837,7 +838,7 @@ def get_CVC5_result_all():
 def get_MathSAT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "MathSAT5"
@@ -893,7 +894,7 @@ def get_MathSAT_result():
 def get_OpenSMT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "OpenSMT"
@@ -949,7 +950,7 @@ def get_OpenSMT_result():
 def get_Yices_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "Yices"
@@ -1029,7 +1030,7 @@ if __name__ == "__main__":
     # get_Yices_result()
     # 运行测试用例
     # test_z3solver_basic_sat()
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     # # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
     #
     # info_dict = load_dictionary(info_name)
@@ -1040,7 +1041,7 @@ if __name__ == "__main__":
     #     print("请在file_paths中填写你的smt2文件路径进行测试。")
 
     # file_paths = []
-    # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    # with open(config.get_baseline_path('NIA'), 'r') as file:
     #     solve_dict = json.load(file)
     #
     # info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'

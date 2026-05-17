@@ -28,6 +28,6 @@ Results are saved to:
 ## Usage
 
 ```bash
-cd test_rl/test_cvc5/z3_process
+cd test_rl/smtimer_experiments/z3_process
 python run_predictor.py
 ```

@@ -419,10 +419,10 @@ def main():
     parser = argparse.ArgumentParser(description='分析info_dict与日志中的求解时间差异')
     parser.add_argument('info_dict_path', nargs='?', 
                         help='info_dict文件路径',
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt')
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')), 'test_rl', 'smtimer_experiments', 'cvc5_process', 'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'))
     parser.add_argument('log_dir', nargs='?',
                         help='日志目录路径',
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/log/run_2025-06-27_23-36-55')
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')), 'test_rl', 'smtimer_experiments', 'cvc5_process', 'log', 'run_2025-06-27_23-36-55'))
     parser.add_argument('--output', '-o', 
                         help='输出文件路径',
                         default='solver_time_analysis.json')

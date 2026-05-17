@@ -30,8 +30,8 @@ def test_solver(file_path):
     print(time_taken)
 if __name__ == '__main__':
     # test_solver('/home/nju/Downloads/smt/gnu_angr.tar.gz/single_test/seq/seq140268')
-    print(os.path.exists('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/smt_comp_features/QF_IDL'))
-    if not os.path.exists('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/smt_comp_features/QF_IDL'):
+    print(os.path.exists(os.path.join('test_solve', 'smt_comp_features', 'QF_IDL')))
+    if not os.path.exists(os.path.join('test_solve', 'smt_comp_features', 'QF_IDL')):
         # 如果目录不存在，则创建目录
-        os.makedirs('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/smt_comp_features/QF_IDL')
+        os.makedirs(os.path.join('test_solve', 'smt_comp_features', 'QF_IDL'))
     # with open(file_path, 'r') as file:

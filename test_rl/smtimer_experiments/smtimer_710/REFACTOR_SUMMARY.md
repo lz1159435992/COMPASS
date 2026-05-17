@@ -13,7 +13,7 @@
 ## 文件结构
 
 ```
-test_rl/test_cvc5/smtimer_710/
+test_rl/smtimer_experiments/smtimer_710/
 ├── main_bingxing_stimer.py          # 原始文件
 ├── smt_solver_cli.py                # 完整版命令行工具（包含Z3支持）
 ├── smt_solver_cli_simple.py         # 简化版命令行工具（不依赖Z3）

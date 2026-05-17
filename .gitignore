@@ -10,6 +10,9 @@ venv/
 env/
 .env/
 
+# Archived/deprecated files (removed from working tree, preserved in git history)
+test_rl/archived/
+
 # Large model files (>50MB) - local only
 *.pth
 archived/large_models/
@@ -20,6 +23,9 @@ archived/root_temp_files/NIA.json
 archived/development_files/venv/
 test_rl/archived/logs/*.log
 test_rl/archived/logs/**/*.log
+
+# Pre-computed feature caches (can be regenerated)
+test_rl/predictor/smt_comp_features/
 
 # Temporary files
 *.tmp

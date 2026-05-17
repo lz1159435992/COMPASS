@@ -50,7 +50,7 @@ pip install pearl-agent
 ### 基本用法
 ```bash
 cd /home/<USER>/PycharmProjects/Pearl
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
     --result_dict_path /path/to/SMTimer_z3_result_predictor.json \
     --info_dict_path /path/to/output_info_dict.txt \
@@ -84,7 +84,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 
 #### 使用BVParti求解器
 ```bash
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
     --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path info_dict_bvparti_results.txt \
@@ -94,9 +94,9 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 
 #### 使用Z3求解器进行对比
 ```bash
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py \
     --solver z3 \
-    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_predictor.json \
+    --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/cvc5_smtimer_results_predictor.json \
     --info_dict_path info_dict_z3_results.txt \
     --timeout 600
 ```
@@ -125,7 +125,7 @@ python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
 
 运行测试脚本验证安装：
 ```bash
-python test_rl/test_cvc5/bvparti_process/test_bvparti_predictor.py
+python test_rl/smtimer_experiments/bvparti_process/test_bvparti_predictor.py
 ```
 
 测试包括：

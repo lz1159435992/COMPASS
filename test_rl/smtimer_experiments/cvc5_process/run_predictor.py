@@ -44,7 +44,7 @@ from pearl.api.action_result import ActionResult
 from pearl.api.environment import Environment
 from pearl.utils.instantiations.spaces.discrete_action import DiscreteActionSpace
 from pearl.pearl_agent import PearlAgent
-from test_rl.test_cvc5.cvc5_process.test_group_get_dis_smt_comp_bert_embeding_single import convert_timeout_to_unknown
+from test_rl.smtimer_experiments.cvc5_process.test_group_get_dis_smt_comp_bert_embeding_single import convert_timeout_to_unknown
 
 from test_rl.test_script.utils import (
     parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict,
@@ -58,6 +58,7 @@ from test_rl.test_script.utils import (
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from train_predictor import EnhancedEightClassModel,SimpleClassifier
 from test_rl.test_script.online_learning_break import online_learning
+import config
 
 
 
@@ -1106,13 +1107,13 @@ def main():
     
     # 添加命令行参数
     parser.add_argument('--rl_dict_path', type=str, 
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='RL字典文件路径')
     parser.add_argument('--info_dict_path', type=str, 
                         default='info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0626.txt',
                         help='信息字典文件路径')
     parser.add_argument('--result_dict_path', type=str, 
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results_rl.json'),
                         help='结果字典文件路径')
     parser.add_argument('--binary_model_path', type=str,
                         default='models/binary_classifier.pth',

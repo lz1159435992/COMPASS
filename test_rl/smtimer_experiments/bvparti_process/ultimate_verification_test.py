@@ -10,9 +10,10 @@ import json
 import traceback
 import subprocess
 import tempfile
+import config
 
 # 添加路径
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+sys.path.append(config.REPO_ROOT)
 
 def test_argument_consistency():
     """测试命令行参数一致性"""
@@ -22,12 +23,12 @@ def test_argument_consistency():
         # 获取CVC5版本的help输出
         cvc5_help = subprocess.run([
             sys.executable, 'test_rl/test_cvc5/cvc5_process/run_predictor.py', '--help'
-        ], cwd='/home/<USER>/PycharmProjects/Pearl', capture_output=True, text=True, timeout=30)
+        ], cwd=config.REPO_ROOT, capture_output=True, text=True, timeout=30)
         
         # 获取BVParti版本的help输出
         bvparti_help = subprocess.run([
             sys.executable, 'test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py', '--help'
-        ], cwd='/home/<USER>/PycharmProjects/Pearl', capture_output=True, text=True, timeout=30)
+        ], cwd=config.REPO_ROOT, capture_output=True, text=True, timeout=30)
         
         if cvc5_help.returncode != 0:
             print(f"  ✗ CVC5版本help命令失败: {cvc5_help.stderr}")
@@ -197,10 +198,10 @@ def test_file_access_permissions():
     
     try:
         critical_files = [
-            '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json',
-            '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
-            '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/BVPartition-bin',
-            '/home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/STP-Parti-Bitwuzla-at-SMT-COMP-2025-build/solver/bitwuzla-0.8.0-bin'
+            os.path.join(config.BVPARTI_HOME, 'scripts', 'batch_output', 'bv_default', 'SMTimer_z3_result_rl.json'),
+            config.get_external_file('info_dict_rl'),
+            os.path.join(config.BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'BVPartition-bin'),
+            os.path.join(config.BVPARTI_HOME, 'STP-Parti-Bitwuzla-at-SMT-COMP-2025-build', 'solver', 'bitwuzla-0.8.0-bin')
         ]
         
         all_accessible = True

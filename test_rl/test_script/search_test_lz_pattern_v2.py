@@ -402,11 +402,11 @@ def normalize_smt_str(smtlib_str):
 
 if __name__ == '__main__':
     test_path = []
-    # directory = '/home/yy/Downloads/smt/buzybox_angr.tar.gz/single_test'
+    # directory = '/tmp/smt_data/smt/buzybox_angr.tar.gz/single_test'
     # test_path.append(directory)
-    # directory = '/home/yy/Downloads/smt/gnu_angr.tar.gz/single_test'
+    # directory = '/tmp/smt_data/smt/gnu_angr.tar.gz/single_test'
     # test_path.append(directory)
-    # directory = '/home/yy/Downloads/smt/gnu_KLEE/klee_bk/single_test'
+    # directory = '/tmp/smt_data/smt/gnu_KLEE/klee_bk/single_test'
     # test_path.append(directory)
     directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)

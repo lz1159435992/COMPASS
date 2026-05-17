@@ -176,12 +176,7 @@ class TestAgentWithPyTorch(unittest.TestCase):
 
     def test_with_linear_contextual(self) -> None:
         """
-<<<<<<< HEAD
-        This is an integration test_rl for ContextualBandit with
-=======
-        This is an integration test for ContextualBandit with
->>>>>>> acd8d5edab04f718ae531c81ff33cbadac0121b4
-        ContextualBanditLinearSyntheticEnvironment.
+        This is an integration test for ContextualBandit with        ContextualBanditLinearSyntheticEnvironment.
         """
         action_space = DiscreteActionSpace(
             actions=[torch.tensor([a]) for a in range(3)]
@@ -214,12 +209,7 @@ class TestAgentWithPyTorch(unittest.TestCase):
             assert isinstance(regret, torch.Tensor)
             regrets.append(regret.squeeze().item())
 
-<<<<<<< HEAD
-        # to test_rl learning ability of linear contextual bandits we check
-=======
-        # to test learning ability of linear contextual bandits we check
->>>>>>> acd8d5edab04f718ae531c81ff33cbadac0121b4
-        # that the regret is decreasing over learning steps
+        # to test learning ability of linear contextual bandits we check        # that the regret is decreasing over learning steps
         self.assertTrue(sum(regrets[10:]) >= sum(regrets[-10:]))
 
     def test_online_rl(self) -> None:
@@ -250,12 +240,7 @@ class TestAgentWithPyTorch(unittest.TestCase):
         # Because a contextual bandit environment is simply a regular Environment
         # with episodes lasting a single step, we can solve them with regular
         # RL algorithms such as tabular Q-learning.
-<<<<<<< HEAD
-        # This test_rl ensures that is true (that even a non-CB method works with the CB environment).
-=======
-        # This test ensures that is true (that even a non-CB method works with the CB environment).
->>>>>>> acd8d5edab04f718ae531c81ff33cbadac0121b4
-        # In practice, CB-specific algorithms will be used.
+        # This test ensures that is true (that even a non-CB method works with the CB environment).        # In practice, CB-specific algorithms will be used.
         agent = PearlAgent(
             policy_learner=TabularQLearning(exploration_rate=0.1, learning_rate=0.1)
         )

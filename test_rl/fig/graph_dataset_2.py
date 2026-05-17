@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plt
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 from test_rl.test_script.utils import load_dictionary
 from matplotlib.backends.backend_pdf import PdfPages
 
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver.txt')
+data_dict = load_dictionary(config.get_baseline_path(result_dict_z3solver))
 
 
 # 定义一个函数来绘制图表并保存为 PDF

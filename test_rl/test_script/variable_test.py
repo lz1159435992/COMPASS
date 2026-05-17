@@ -1,6 +1,7 @@
 import re
 from z3 import *
 import json
+import config
 variables = set()
 def visit(expr):
     if is_const(expr) and expr.decl().kind() == Z3_OP_UNINTERPRETED:
@@ -39,7 +40,7 @@ if __name__ == '__main__':
 
     # file_path = '/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead651389'
     # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who202348'
-    for dirpath, dirnames, filenames in os.walk('/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test'):
+    for dirpath, dirnames, filenames in os.walk(os.environ.get('SMT_DATA_BUZYBOX', '/tmp/smt_data/buzybox_angr.tar.gz/single_test')):
         for filename in filenames:
             # 构造完整的文件路径
             file_path = os.path.join(dirpath, filename)

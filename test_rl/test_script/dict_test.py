@@ -2,6 +2,7 @@ import json
 import os
 import time
 from z3 import *
+import config
 value_dict = {}
 result_dict = {}
 # 指定需要遍历的目录
@@ -56,7 +57,7 @@ def solve(filepath,timeout):
     print(f"result: {result}, time: {time_taken:.2f} value: {model},filepath:{filepath}")
 
 if __name__ == '__main__':
-    solve('/home/yy/Downloads/smt/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1159114',30000)
+    solve(os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/buzybox_angr.tar.gz/single_test/gnuzip/gunzip1159114'), 30000)
 
 
 

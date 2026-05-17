@@ -94,10 +94,6 @@ COMPASS/
 │   ├── predictor/                   # Predictor models and embeddings
 │   ├── common/                      # Shared modules
 │   ├── external_references/         # External dependency placeholders
-│   └── archived/                    # Archived files
-├── archived/                        # Project-level archived files
-├── paper/                           # Paper source code (LaTeX)
-├── docs/                            # Documentation
 ├── config.py                        # Centralized path configuration
 └── requirements.txt                 # Python dependencies
 ```
@@ -217,9 +213,14 @@ python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl_random_
 
 ### Training Predictors
 
+Predictor training scripts are located in each solver experiment directory:
+
 ```bash
-cd test_rl/test_overfit
-python train_smtimer_llm_predictors.py
+cd test_rl/smtimer_experiments/z3_process
+python train_predictor.py
+
+cd test_rl/qf_nia_experiments/z3_process_QF_NIA
+python train_predictor.py
 ```
 
 ### Variable Normalization
@@ -286,133 +287,68 @@ Some scripts referenced external files in the original codebase. For open-source
 
 If you encounter path errors, check `test_rl/external_references/README.md`.
 
-## Experimental Results
+## Reproducing Experimental Results
 
-> **Quick View**: Run `python scripts/show_results.py` to display all experimental results in formatted tables.
+All experimental results can be reproduced using the provided scripts and data files. Pre-computed result files (JSON format) with machine-independent relative path keys are included in the repository under `test_rl/smtimer_experiments/` and `test_rl/qf_nia_experiments/`.
 
-### RQ1: Effectiveness
-
-**Question**: How effectively does COMPASS improve the solving capability of diverse SMT solver architectures on hard satisfiable constraints?
-
-#### SMTimer Results (hard satisfiable subset)
-
-| Solver | Total | Baseline Solved | COMPASS Solved | Baseline Avg.Time(s) | COMPASS Avg.Time(s) | Retention(%) |
-|--------|-------|-----------------|----------------|----------------------|---------------------|--------------|
-| Z3 | 449 | 120 | 96 | 548.0 | 210.6 | 60.8 |
-| CVC5 | 1073 | 228 | 360 | 641.6 | 69.9 | 18.9 |
-| MathSAT | 1913 | 29 | 100 | 798.5 | 499.5 | 37.9 |
-| BVParti | 33 | 2 | 0 | 693.8 | - | 0.0 |
-
-#### SMT-COMP QF_NIA Results (hard satisfiable subset)
-
-| Solver | Total | Baseline Solved | COMPASS Solved | Baseline Avg.Time(s) | COMPASS Avg.Time(s) | Retention(%) |
-|--------|-------|-----------------|----------------|----------------------|---------------------|--------------|
-| Z3 | 2019 | 193 | 467 | 627.0 | 225.3 | 73.6 |
-| CVC5 | 4849 | 234 | 1419 | 612.7 | 252.9 | 65.0 |
-| MathSAT | 3598 | 345 | 505 | 617.8 | 230.4 | 83.5 |
-| AriParti | 1926 | 137 | 59 | 612.4 | 240.6 | 24.1 |
-
-**Answer**: COMPASS improves effectiveness for several major solver families, with the strongest gain on CVC5, which solves **506.4%** more QF_NIA instances. The benefits are less stable on partitioning-based backends (BVParti, AriParti).
-
-### RQ2: Component Analysis
-
-**Question**: How do RL-guided variable selection and LLM value proposal contribute to the overall effectiveness?
-
-#### LLM Ablation Study (SMTimer, Z3 backend, Total=449)
-
-| Model Variant | Solved | Success Rate(%) | Avg.Time(s) | Retention(%) |
-|---------------|--------|-----------------|-------------|--------------|
-| COMPASS (LLaMA 3.1 70B) | 96 | 21.4 | 210.6 | 60.8 |
-| COMPASS (LLaMA 3.3 70B) | 88 | 19.6 | 396.3 | 57.5 |
-| COMPASS (DeepSeek-R1 70B) | 67 | 14.9 | 566.3 | 44.2 |
-
-#### Component Ablation Study (SMTimer, Z3 backend, Total=449)
-
-| Method | Solved | Success Rate(%) | Avg.Time(s) |
-|--------|--------|-----------------|-------------|
-| Random+Random | 73 | 16.3 | 380.7 |
-| LLM only | 30 | 6.7 | 4.1 |
-| Random+LLM | 69 | 15.4 | 330.7 |
-| RL+Random | 89 | 19.8 | 411.7 |
-| **RL+LLM (COMPASS)** | **96** | **21.4** | **210.6** |
-
-**Answer**: Effectiveness is governed primarily by **RL-guided variable selection**. The LLM contributes modestly to coverage but significantly improves efficiency when paired with good variable choices.
-
-### RQ3: Parallel Portfolio Utility
-
-**Question**: Can COMPASS improve practical deployment performance when used as a parallel portfolio component?
-
-#### Parallel Portfolio Results (SMTimer: 43,914 instances)
-
-| Solver | Strategy | SAT Solved | Unknown | Total(h) | Total Red.(%) |
-|--------|----------|------------|---------|----------|---------------|
-| Z3 | Direct | 17,476 | 1,679 | 255.0 | - |
-| Z3 | Parallel | 17,521 | 1,634 | 259.6 | -1.8 |
-| CVC5 | Direct | 17,499 | 958 | 382.2 | - |
-| CVC5 | Parallel | 17,816 | 641 | 275.8 | **27.8** |
-| MathSAT | Direct | 18,449 | 1,995 | 741.4 | - |
-| MathSAT | Parallel | 18,538 | 1,906 | 723.2 | 2.5 |
-
-#### Parallel Portfolio Results (SMT-COMP QF_NIA: 10,043 instances)
-
-| Solver | Strategy | SAT Solved | Unknown | Total(h) | Total Red.(%) |
-|--------|----------|------------|---------|----------|---------------|
-| Z3 | Direct | 6,811 | 2,440 | 881.4 | - |
-| Z3 | Parallel | 7,135 | 2,116 | 778.7 | **11.7** |
-| CVC5 | Direct | 4,736 | 5,029 | 1,747.9 | - |
-| CVC5 | Parallel | 6,000 | 3,765 | 1,398.8 | **20.0** |
-| MathSAT | Direct | 6,127 | 3,567 | 1,291.5 | - |
-| MathSAT | Parallel | 6,344 | 3,350 | 1,200.8 | 7.0 |
-
-**Answer**: COMPASS is effective as a parallel portfolio component, reducing total time by **2.5%-27.8%** in five of six solver-dataset pairs.
-
-### View Results Script
-
-Display all experimental results using `scripts/show_results.py`:
+### Quick View
 
 ```bash
-# Show all RQ results (default: using paper data)
-python scripts/show_results.py
-
-# Show specific RQ (1, 2, or 3)
-python scripts/show_results.py --rq 1
-
-# Compute from actual project data files instead of paper data
+# Display all RQ results from project data files
 python scripts/show_results.py --compute
 
-# Save plots to PDF files (requires matplotlib)
-python scripts/show_results.py --save-plots
+# Show specific RQ (1, 2, or 3)
+python scripts/show_results.py --rq 1 --compute
 
-# Combine options
+# Save plots to PDF files (requires matplotlib)
 python scripts/show_results.py --compute --save-plots
 ```
 
-#### Command-line Options
+### Reproducing RQ1 (Effectiveness)
 
-| Option | Description |
-|--------|-------------|
-| `--rq N` | Show results for specific RQ (1, 2, or 3). Default: show all |
-| `--compute` | Compute statistics from actual project data files instead of using pre-computed paper data. Useful for verification or when re-running experiments. |
-| `--save-plots` | Generate and save visualization plots to PDF files (`RQ1_effectiveness.pdf`, `RQ2_component_ablation.pdf`, `RQ3_parallel_portfolio.pdf`). Requires `matplotlib` and `numpy`. |
+Run the solver-specific experiment scripts:
 
-### Data Sources
+```bash
+# SMTimer experiments (one per solver)
+cd test_rl/smtimer_experiments/z3_process && python run_predictor.py
+cd test_rl/smtimer_experiments/cvc5_process && python run_predictor.py
+cd test_rl/smtimer_experiments/mathsat5_process && python run_predictor.py
+cd test_rl/smtimer_experiments/bvparti_process && python run_bvparti_predictor.py
 
-The script can use two data sources:
+# QF_NIA experiments (one per solver)
+cd test_rl/qf_nia_experiments/z3_process_QF_NIA && python run_predictor.py
+cd test_rl/qf_nia_experiments/cvc5_process_QF_NIA && python run_predictor.py
+cd test_rl/qf_nia_experiments/mathsat5_process_QF_NIA && python run_predictor.py
+cd test_rl/qf_nia_experiments/ariparti_process_QF_NIA && python run_predictor.py
+```
 
-| Mode | Source | Description |
-|------|--------|-------------|
-| **Default** | `paper/eval.tex` | Pre-computed results from the paper (Tables 1-5). Always available and matches published results. |
-| **`--compute`** | Project data files | Raw experimental data files in the repository. Computes statistics on-the-fly. |
+Results are saved as JSON files (`*_smtimer_results.json`, `*_QF_NIA.json`) in each process directory.
 
-#### Data Files by RQ
+### Reproducing RQ2 (Component Analysis)
 
-| RQ | Paper Source | Project Data Files |
-|----|--------------|-------------------|
-| **RQ1** | Tables 1-2 | `test_rl/smtimer_experiments/*_smtimer_results.json` (baseline solver results)<br>`test_rl/qf_nia_experiments/*_QF_NIA.json` (QF_NIA results) |
-| **RQ2** | Tables 3-4 | `archived/analysis_outputs/New_RQ2_Component_Analysis/time_dict_*.txt` (ablation timing data) |
-| **RQ3** | Table 5 | `archived/analysis_outputs/New_RQ3_Routing_Analysis/simulate_parallel_*.py` (parallel portfolio simulation) |
+Run ablation studies by modifying the environment configuration:
 
-> **Note**: Project data files may be incomplete or located in `archived/` directories. The script falls back to paper data when files are unavailable.
+```bash
+# RL+LLM (full COMPASS) - default
+cd test_rl/smtimer_experiments/z3_process && python run_predictor.py
+
+# For other variants (LLM only, Random+LLM, etc.), modify env parameters
+# in the respective run_predictor.py or env_gai_6_*.py files.
+```
+
+### Reproducing RQ3 (Parallel Portfolio)
+
+```bash
+# Run parallel portfolio simulation
+cd test_rl/smtimer_experiments/predict_z3_process
+python simulate_parallel_portfolio.py
+```
+
+### View Results Script
+
+> **Quick View**: Run `python scripts/show_results.py` to display all experimental results in formatted tables.
+
+> **Note**: Run `python scripts/show_results.py --compute` to display all experimental results in formatted tables from the included data files.
 
 ## Datasets
 
@@ -423,11 +359,25 @@ The script can use two data sources:
 | **SMTimer** | Real-world SMT constraints from program analysis (Coreutils, BusyBox, angr, KLEE) | ~1,900 instances (hard sat subset varies by solver) |
 | **SMT-COMP QF_NIA** | Quantifier-Free Non-Linear Integer Arithmetic | ~3,200 instances (hard sat subset varies by solver) |
 
-### Data Location
+### Obtaining Original SMT2 Benchmark Files
 
-- **Baseline caches**: `test_rl/test_solve/`
-- **Predictor training data**: `test_rl/test_overfit/`
-- **Experiment results**: `test_rl/info_dict_*.txt`
+To run experiments from scratch, you need the original `.smt2` benchmark files. The repository includes pre-computed result files, but not the original benchmarks due to their large size.
+
+#### SMTimer Dataset
+
+SMTimer benchmarks are extracted from real-world program analysis artifacts (Coreutils, BusyBox, angr, KLEE).
+
+- **Source**: [Google Drive](https://drive.google.com/drive/folders/1fiYNM4EymKbAjBFGwInHQXXb2y5mJ15N?usp=sharing)
+- **Expected structure**: The tar.gz archives contain `single_test/<program>/<instance>` files
+- **Environment variable**: Set `SMTIMER_DATA_ROOT` to the directory containing the extracted archives, or use the default (`/tmp/cloud_disk`)
+
+#### QF_NIA Dataset (SMT-COMP)
+
+QF_NIA benchmarks are from the SMT Competition.
+
+- **Source**: Download from [SMT-COMP](https://smt-comp.github.io/) or use the non-incremental track
+- **Expected path**: `~/Downloads/non-incremental_Hierarchy/non-incremental/QF_NIA/`
+- **Environment variable**: Set `QF_NIA_DATA_ROOT` to override the default location
 
 ## Code Structure
 
@@ -465,7 +415,7 @@ The script can use two data sources:
 
 | Script | Purpose |
 |--------|---------|
-| `train_smtimer_llm_predictors.py` | Standalone overfitting tests / sanity checks for predictors |
+| *(No standalone predictor training script — use `solver_process/train_predictor.py`)* | Predictor training is integrated into each solver process |
 
 ## Contributing
 

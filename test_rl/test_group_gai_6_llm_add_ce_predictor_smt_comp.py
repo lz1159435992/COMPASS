@@ -1,8 +1,14 @@
 import ast
 import json
+import os
 import random
 import re
+import sys
 import time
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 from z3 import *
 
@@ -45,7 +51,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_smt_comp.txt', 'r') as file:
+    with open(config.get_baseline_path('info_dict_smt_comp'), 'r') as file:
         result_dict = json.load(file)
 
     for key, value in result_dict.items():

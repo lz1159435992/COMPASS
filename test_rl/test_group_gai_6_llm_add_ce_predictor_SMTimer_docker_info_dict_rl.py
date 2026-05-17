@@ -12,6 +12,10 @@ from loguru import logger
 from z3 import *
 from z3.z3 import parse_smt2_string, Solver
 
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 from pearl.policy_learners.sequential_decision_making.soft_actor_critic import SoftActorCritic
 # from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import BootstrapReplayBuffer
 from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import FIFOOffPolicyReplayBuffer
@@ -41,7 +45,7 @@ start = time.time()
 def test_group():
     setup_logger()
 
-    with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
+    with open(config.get_external_file('info_dict_rl'), 'r') as file:
         rl_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0107_pre_SMTimer_deepseek-r1:70b_1200s_info_dict_rl.txt'
@@ -54,7 +58,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict_bingxing.txt', 'r') as file:
+    with open(config.get_baseline_path('info_dict_bingxing'), 'r') as file:
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_normal_1103_llm_no_rl_direct_solve_docker_llama3.1:70b_1set.txt', 'r') as file:
     # with open('/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt', 'r') as file:
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_109_2_SMTimer.txt', 'r') as file:

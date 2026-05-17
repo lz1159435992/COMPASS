@@ -16,12 +16,13 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 # Import necessary components
-from test_rl.test_cvc5.predict_z3_process.run_advanced_predictor import (
+from test_rl.smtimer_experiments.predict_z3_process.run_advanced_predictor import (
     setup_logger, load_dictionary, get_solver, process_single_file_with_timeout,
     EnhancedEightClassModel, SimpleClassifier, Z3Solver, CVC5Solver, MathSAT5Solver
 )
 from test_rl.predictor.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.test_script.utils import normalize_smt_str
+import config
 
 
 class HybridScreeningStrategy:
@@ -453,7 +454,7 @@ def main():
     
     # 数据路径
     parser.add_argument('--source_constraints_path', type=str, 
-                        default='/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+                        default=config.get_external_file('info_dict_rl'),
                         help='Path to source constraints')
     parser.add_argument('--output_path', type=str,
                         default='rq5_hybrid_results.json',
@@ -461,9 +462,9 @@ def main():
     
     # 模型路径
     parser.add_argument('--binary_model_path', type=str, 
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth')
+                        default=os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_mask_best.pth'))
     parser.add_argument('--eight_class_model_path', type=str, 
-                        default='/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth')
+                        default=os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'predict_z3_process', 'models', 'bert_predictor_2_mask_best_model.pth'))
     
     # 求解器配置
     parser.add_argument('--solver', type=str, default='z3', choices=['z3', 'cvc5', 'mathsat'])

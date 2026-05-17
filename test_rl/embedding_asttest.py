@@ -8,10 +8,11 @@ import torch
 import numpy as np
 from torch.nn.parameter import Parameter
 from pearl.SMTimer.KNN_Predictor import Predictor
+import config
 
 predictor = Predictor('KNN')
 
-file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/arch/arch15998'
+file_path = os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/gnu_angr.tar.gz/single_test/arch/arch15998')
 with open(file_path, 'r') as file:
     # 读取文件所有内容到一个字符串
     smtlib_str = file.read()

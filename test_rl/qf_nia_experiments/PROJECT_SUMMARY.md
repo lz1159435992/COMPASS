@@ -2,12 +2,12 @@
 
 ## 项目概述
 
-本项目创建了一个完整的实验框架，用于使用CVC5求解器结合强化学习和大语言模型来求解QF_NIA（非线性整数算术）问题。项目仿照`test_rl/test_cvc5/cvc5_process`的结构，但专门针对QF_NIA逻辑进行了优化。
+本项目创建了一个完整的实验框架，用于使用CVC5求解器结合强化学习和大语言模型来求解QF_NIA（非线性整数算术）问题。项目仿照`test_rl/smtimer_experiments/cvc5_process`的结构，但专门针对QF_NIA逻辑进行了优化。
 
 ## 项目位置
 
 ```
-/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA/
+/home/<USER>/PycharmProjects/Pearl/test_rl/qf_nia_experiments/cvc5_process_QF_NIA/
 ```
 
 ## 完整文件列表
@@ -232,7 +232,7 @@ cvc5_process_QF_NIA/
 ### 快速开始（推荐）
 
 ```bash
-cd /home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/cvc5_process_QF_NIA
+cd /home/<USER>/PycharmProjects/Pearl/test_rl/qf_nia_experiments/cvc5_process_QF_NIA
 
 # 运行完整实验（处理10个文件进行测试）
 MAX_FILES=10 ./run_experiment.sh
@@ -359,7 +359,7 @@ analyze_solver_time.py
 ## 贡献和维护
 
 本项目是根据以下文件的分析和理解创建的：
-- `test_rl/test_cvc5/cvc5_process/*`
+- `test_rl/smtimer_experiments/cvc5_process/*`
 - `test_rl/env_gai_6_llm_add_ce_predictor_docker_llm_embed.py`
 - `test_rl/test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py`
 - `test_rl/predictor/smt_comp_QF_IDL/test_group_get_dis_smt_comp_llm.py`

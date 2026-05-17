@@ -22,6 +22,7 @@ from env import ConstraintSimplificationEnv_v3
 
 from test_code_bert_4 import CodeEmbedder
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string
+import config
 
 start = time.time()
 
@@ -63,7 +64,7 @@ def visit(expr):
 
 # file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/arch/arch15998'
 # file_path = '/home/nju/Downloads/smt/buzybox_angr.tar.gz/single_test/readahead/readahead651389'
-file_path = '/home/nju/Downloads/smt/gnu_angr.tar.gz/single_test/seq/seq143541'
+file_path = os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/gnu_angr.tar.gz/single_test/seq/seq143541')
 with open('time.txt', "a") as file:
     file.write(f"当前测试文件:{file_path}\n")
 with open(file_path, 'r') as file:

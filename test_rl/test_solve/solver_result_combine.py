@@ -1,6 +1,7 @@
 from test_rl.test_script.utils import load_dictionary
+import config
 
-info_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/info_dict.txt')
+info_dict = load_dictionary(os.path.join(config.TEST_RL_ROOT, 'test_solve', 'info_dict.txt'))
 print(len(info_dict))
 info_dict_bingxing = load_dictionary('/test_rl/test_solve/info_dict_bingxing.txt')
 print(len(info_dict_bingxing))

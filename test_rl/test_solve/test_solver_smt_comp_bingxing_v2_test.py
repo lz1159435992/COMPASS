@@ -1,8 +1,14 @@
 import json
 import os
+import sys
 from multiprocessing import Pool
 from z3 import *
 from z3.z3 import parse_smt2_string, Solver
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
+
 from test_rl.test_script.utils import solve_and_measure_time, model_to_dict, load_dictionary
 import re
 def process_file(file_path, info_dict, info_name, smtlib_str):
@@ -39,7 +45,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    NIA_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json')
+    NIA_dict = load_dictionary(config.get_baseline_path('NIA'))
     test_path = []
     directory = '/path/to/Downloads/non-incremental_Hierarchy/non-incremental'
     test_path.append(directory)

@@ -2,7 +2,7 @@
 
 ## 任务完成情况
 
-✅ **任务已完成** - 成功完善了 `/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py` 的实现，使其达到与 `cvc5_process/run_predictor.py` 相似的功能水平，但使用BVParti作为底层求解器。
+✅ **任务已完成** - 成功完善了 `/home/<USER>/PycharmProjects/Pearl/test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py` 的实现，使其达到与 `cvc5_process/run_predictor.py` 相似的功能水平，但使用BVParti作为底层求解器。
 
 ## 主要成就
 
@@ -32,7 +32,7 @@
 ## 文件结构
 
 ```
-test_rl/test_cvc5/bvparti_process/
+test_rl/smtimer_experiments/bvparti_process/
 ├── run_bvparti_predictor.py              # 主预测器文件 (1266行)
 ├── test_group_get_dis_smt_comp_bert_embeding_single.py  # 已修复的数据处理
 ├── test_bvparti_predictor.py             # 功能测试脚本
@@ -77,7 +77,7 @@ class ConstraintSimplificationEnv_test(Environment):
 
 ### 1. 功能测试
 ```bash
-python test_rl/test_cvc5/bvparti_process/test_bvparti_predictor.py
+python test_rl/smtimer_experiments/bvparti_process/test_bvparti_predictor.py
 ```
 **结果**: ✅ 4/4 测试通过
 - BVParti求解器功能
@@ -92,7 +92,7 @@ python test_rl/test_cvc5/bvparti_process/test_bvparti_predictor.py
 
 ### 3. 示例演示
 ```bash
-python test_rl/test_cvc5/bvparti_process/example_usage.py
+python test_rl/smtimer_experiments/bvparti_process/example_usage.py
 ```
 **结果**: ✅ 所有演示成功
 
@@ -100,7 +100,7 @@ python test_rl/test_cvc5/bvparti_process/example_usage.py
 
 ### 基本命令
 ```bash
-python test_rl/test_cvc5/bvparti_process/run_bvparti_predictor.py \
+python test_rl/smtimer_experiments/bvparti_process/run_bvparti_predictor.py \
     --solver bvparti \
     --result_dict_path /home/<USER>/PycharmProjects/Pearl/test_rl/AriParti_sync/scripts/batch_output/bv_default/SMTimer_z3_result_rl.json \
     --info_dict_path output_results.txt \

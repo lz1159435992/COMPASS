@@ -8,8 +8,13 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.utils.data import DataLoader, TensorDataset, Subset
 import glob
 import os
+import sys
 from loguru import logger
 from torch.cuda.amp import autocast, GradScaler
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+import config
 
 # 设置日志
 logger.add("training.log", level="INFO")
@@ -85,7 +90,7 @@ def train():
 
     with open('QF_NIA_train.json', 'r') as file:
         train_dict = json.load(file)
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []
@@ -187,7 +192,7 @@ def test():
 
     with open('QF_NIA_test.json', 'r') as file:
         test_dict = json.load(file)
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     features_list = []

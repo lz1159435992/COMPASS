@@ -1,5 +1,5 @@
 {
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6667828": [
+  "buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6667828": [
     "sat",
     339.431,
     1200000,
@@ -8,7 +8,7 @@
       "k!53565850": "47308239"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6665859": [
+  "buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6665859": [
     "sat",
     401.11,
     1200000,
@@ -17,547 +17,547 @@
       "k!53411050": "34480885"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1457448": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1457448": [
     "unknown",
     1200.09,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731": [
+  "buzybox_angr.tar.gz/single_test/udhcpc/udhcpc6673731": [
     "unknown",
     1200.166,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1279453": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1279453": [
     "unknown",
     1200.05,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1210212": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1210212": [
     "unknown",
     1200.065,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1477234": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1477234": [
     "unknown",
     1200.077,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1511861": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1511861": [
     "unknown",
     1200.074,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1170660": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1170660": [
     "unknown",
     1200.047,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1180553": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1180553": [
     "unknown",
     1200.627,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1185504": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1185504": [
     "unknown",
     1200.053,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1501963": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1501963": [
     "unknown",
     1200.083,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1363508": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1363508": [
     "unknown",
     1200.917,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1239887": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1239887": [
     "unknown",
     1200.054,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1111306": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1111306": [
     "unknown",
     1200.051,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1304150": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1304150": [
     "unknown",
     1200.058,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1175597": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1175597": [
     "unknown",
     1200.044,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1378334": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1378334": [
     "unknown",
     1200.074,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1427784": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1427784": [
     "unknown",
     1200.098,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1140979": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1140979": [
     "unknown",
     1200.477,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1472283": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1472283": [
     "unknown",
     1200.079,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1536565": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1536565": [
     "unknown",
     1200.092,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1442610": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1442610": [
     "unknown",
     1200.073,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1487115": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1487115": [
     "unknown",
     1201.067,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1432726": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1432726": [
     "unknown",
     1200.085,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1516806": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1516806": [
     "unknown",
     1200.103,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1531625": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1531625": [
     "unknown",
     1201.121,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1190446": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1190446": [
     "unknown",
     1200.543,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1155821": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1155821": [
     "unknown",
     1200.532,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1106358": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1106358": [
     "unknown",
     1200.05,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1299201": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1299201": [
     "unknown",
     1200.058,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1447559": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1447559": [
     "unknown",
     1201.181,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1407998": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1407998": [
     "unknown",
     1200.074,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1195380": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1195380": [
     "unknown",
     1200.056,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1412940": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1412940": [
     "unknown",
     1200.106,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1353611": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1353611": [
     "unknown",
     1200.087,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1403060": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1403060": [
     "unknown",
     1200.074,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1096465": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1096465": [
     "unknown",
     1200.447,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1284381": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1284381": [
     "unknown",
     1200.057,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1482183": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1482183": [
     "unknown",
     1200.082,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1234944": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1234944": [
     "unknown",
     1200.616,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1338770": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1338770": [
     "unknown",
     1200.06,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1254732": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1254732": [
     "unknown",
     1200.059,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1314036": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1314036": [
     "unknown",
     1200.07,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1462393": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1462393": [
     "unknown",
     1200.083,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1373393": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1373393": [
     "unknown",
     1200.958,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1215157": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1215157": [
     "unknown",
     1200.056,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1121208": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1121208": [
     "unknown",
     1200.035,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1506917": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1506917": [
     "unknown",
     1200.107,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1229995": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1229995": [
     "unknown",
     1200.049,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1422833": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1422833": [
     "unknown",
     1200.083,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/lsmod/lsmod1526680": [
+  "buzybox_angr.tar.gz/single_test/lsmod/lsmod1526680": [
     "unknown",
     1200.118,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead646947": [
+  "buzybox_angr.tar.gz/single_test/readahead/readahead646947": [
     "unknown",
     1200.015,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead647013": [
+  "buzybox_angr.tar.gz/single_test/readahead/readahead647013": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/readahead/readahead671140": [
+  "buzybox_angr.tar.gz/single_test/readahead/readahead671140": [
     "unknown",
     1200.014,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453754": [
+  "buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453754": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453745": [
+  "buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453745": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453817": [
+  "buzybox_angr.tar.gz/single_test/mkfs.ext/mkfs.ext21453817": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fsync/fsync846198": [
+  "buzybox_angr.tar.gz/single_test/fsync/fsync846198": [
     "unknown",
     1200.046,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fsync/fsync846135": [
+  "buzybox_angr.tar.gz/single_test/fsync/fsync846135": [
     "unknown",
     1200.013,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mt/mt733326": [
+  "buzybox_angr.tar.gz/single_test/mt/mt733326": [
     "unknown",
     1200.014,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mt/mt733254": [
+  "buzybox_angr.tar.gz/single_test/mt/mt733254": [
     "unknown",
     1200.008,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkdir/mkdir1346991": [
+  "buzybox_angr.tar.gz/single_test/mkdir/mkdir1346991": [
     "unknown",
     1200.013,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkdir/mkdir1347063": [
+  "buzybox_angr.tar.gz/single_test/mkdir/mkdir1347063": [
     "unknown",
     1200.031,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkdir/mkdir1347000": [
+  "buzybox_angr.tar.gz/single_test/mkdir/mkdir1347000": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999278": [
+  "buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999278": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999341": [
+  "buzybox_angr.tar.gz/single_test/fgconsole/fgconsole999341": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872949": [
+  "buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872949": [
     "unknown",
     1200.031,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig873021": [
+  "buzybox_angr.tar.gz/single_test/ifconfig/ifconfig873021": [
     "unknown",
     1200.011,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872958": [
+  "buzybox_angr.tar.gz/single_test/ifconfig/ifconfig872958": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/ifconfig/ifconfig873019": [
+  "buzybox_angr.tar.gz/single_test/ifconfig/ifconfig873019": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828811": [
+  "buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828811": [
     "unknown",
     1200.008,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828886": [
+  "buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828886": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828881": [
+  "buzybox_angr.tar.gz/single_test/rpm2cpio/rpm2cpio828881": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setpriv/setpriv1407616": [
+  "buzybox_angr.tar.gz/single_test/setpriv/setpriv1407616": [
     "unknown",
     1200.035,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setconsole/setconsole1166473": [
+  "buzybox_angr.tar.gz/single_test/setconsole/setconsole1166473": [
     "unknown",
     1200.007,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1103136": [
+  "buzybox_angr.tar.gz/single_test/fstrim/fstrim1103136": [
     "unsat",
     250.105,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/mkfs.vfat/mkfs.vfat1323131": [
+  "buzybox_angr.tar.gz/single_test/mkfs.vfat/mkfs.vfat1323131": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1109535": [
+  "buzybox_angr.tar.gz/single_test/setarch/setarch1109535": [
     "unknown",
     1200.011,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/setarch/setarch1109607": [
+  "buzybox_angr.tar.gz/single_test/setarch/setarch1109607": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1103139": [
+  "buzybox_angr.tar.gz/single_test/fstrim/fstrim1103139": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/buzybox_angr.tar.gz/single_test/fstrim/fstrim1103909": [
+  "buzybox_angr.tar.gz/single_test/fstrim/fstrim1103909": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who255008": [
+  "gnu_angr.tar.gz/single_test/who/who255008": [
     "unknown",
     1200.013,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who254686": [
+  "gnu_angr.tar.gz/single_test/who/who254686": [
     "unknown",
     1200.016,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/nice/nice39017": [
+  "gnu_angr.tar.gz/single_test/nice/nice39017": [
     "unknown",
     1200.098,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/nice/nice39663": [
+  "gnu_angr.tar.gz/single_test/nice/nice39663": [
     "unknown",
     1200.015,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/nice/nice37295": [
+  "gnu_angr.tar.gz/single_test/nice/nice37295": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/nice/nice32882": [
+  "gnu_angr.tar.gz/single_test/nice/nice32882": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/nice/nice38061": [
+  "gnu_angr.tar.gz/single_test/nice/nice38061": [
     "unknown",
     1200.113,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/basename/basename19689": [
+  "gnu_angr.tar.gz/single_test/basename/basename19689": [
     "unknown",
     1200.014,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/basename/basename22075": [
+  "gnu_angr.tar.gz/single_test/basename/basename22075": [
     "unknown",
     1200.011,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/basename/basename19244": [
+  "gnu_angr.tar.gz/single_test/basename/basename19244": [
     "unknown",
     1200.057,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall309854": [
+  "gnu_angr.tar.gz/single_test/ginstall/ginstall309854": [
     "sat",
     17.106,
     1200000,
@@ -566,19 +566,19 @@
       "unconstrained_ret_getpagesize_7037_64": "402063349"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/basename/basename19052": [
+  "gnu_angr.tar.gz/single_test/basename/basename19052": [
     "unknown",
     1200.048,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/basename/basename21802": [
+  "gnu_angr.tar.gz/single_test/basename/basename21802": [
     "unknown",
     1200.053,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall308856": [
+  "gnu_angr.tar.gz/single_test/ginstall/ginstall308856": [
     "sat",
     348.743,
     1200000,
@@ -586,133 +586,133 @@
       "mem_7fffffffffef838_7128_64": "1780751442441666592"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ginstall/ginstall308725": [
+  "gnu_angr.tar.gz/single_test/ginstall/ginstall308725": [
     "unknown",
     1207.85,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/fold/fold230668": [
+  "gnu_angr.tar.gz/single_test/fold/fold230668": [
     "unknown",
     1200.115,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/fold/fold153268": [
+  "gnu_angr.tar.gz/single_test/fold/fold153268": [
     "unknown",
     1200.377,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/uptime/uptime55312": [
+  "gnu_angr.tar.gz/single_test/uptime/uptime55312": [
     "unknown",
     1200.022,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/uptime/uptime56542": [
+  "gnu_angr.tar.gz/single_test/uptime/uptime56542": [
     "unknown",
     1200.02,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/uname/uname48647": [
+  "gnu_angr.tar.gz/single_test/uname/uname48647": [
     "unknown",
     1200.022,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/uname/uname48291": [
+  "gnu_angr.tar.gz/single_test/uname/uname48291": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/arch/arch25355": [
+  "gnu_angr.tar.gz/single_test/arch/arch25355": [
     "unknown",
     1200.017,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/arch/arch24613": [
+  "gnu_angr.tar.gz/single_test/arch/arch24613": [
     "unknown",
     1200.028,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/link/link36461": [
+  "gnu_angr.tar.gz/single_test/link/link36461": [
     "unknown",
     1200.108,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/link/link35823": [
+  "gnu_angr.tar.gz/single_test/link/link35823": [
     "unknown",
     1200.022,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/link/link37290": [
+  "gnu_angr.tar.gz/single_test/link/link37290": [
     "unknown",
     1200.112,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/link/link29962": [
+  "gnu_angr.tar.gz/single_test/link/link29962": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tsort/tsort29595": [
+  "gnu_angr.tar.gz/single_test/tsort/tsort29595": [
     "unknown",
     1200.15,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tsort/tsort29116": [
+  "gnu_angr.tar.gz/single_test/tsort/tsort29116": [
     "unknown",
     1200.169,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tsort/tsort25085": [
+  "gnu_angr.tar.gz/single_test/tsort/tsort25085": [
     "unknown",
     1200.128,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tsort/tsort24598": [
+  "gnu_angr.tar.gz/single_test/tsort/tsort24598": [
     "unknown",
     1200.113,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr150754": [
+  "gnu_angr.tar.gz/single_test/tr/tr150754": [
     "unknown",
     1200.03,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr148311": [
+  "gnu_angr.tar.gz/single_test/tr/tr148311": [
     "unknown",
     1200.043,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr136713": [
+  "gnu_angr.tar.gz/single_test/tr/tr136713": [
     "unknown",
     1200.046,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr124688": [
+  "gnu_angr.tar.gz/single_test/tr/tr124688": [
     "unknown",
     1200.052,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128942": [
+  "gnu_angr.tar.gz/single_test/seq/seq128942": [
     "sat",
     186.236,
     1200000,
@@ -738,7 +738,7 @@
       "strlen_1663_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147493": [
+  "gnu_angr.tar.gz/single_test/seq/seq147493": [
     "sat",
     235.52,
     1200000,
@@ -765,7 +765,7 @@
       "strlen_414_64": "39"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135098": [
+  "gnu_angr.tar.gz/single_test/seq/seq135098": [
     "sat",
     341.424,
     1200000,
@@ -789,7 +789,7 @@
       "strlen_414_64": "54"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123936": [
+  "gnu_angr.tar.gz/single_test/seq/seq123936": [
     "sat",
     283.322,
     1200000,
@@ -814,7 +814,7 @@
       "strlen_1663_64": "52"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97941": [
+  "gnu_angr.tar.gz/single_test/seq/seq97941": [
     "sat",
     27.795,
     1200000,
@@ -834,7 +834,7 @@
       "strlen_1225_64": "56"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143569": [
+  "gnu_angr.tar.gz/single_test/seq/seq143569": [
     "sat",
     62.229,
     1200000,
@@ -860,7 +860,7 @@
       "strlen_414_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140263": [
+  "gnu_angr.tar.gz/single_test/seq/seq140263": [
     "sat",
     154.006,
     1200000,
@@ -885,13 +885,13 @@
       "strlen_414_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tr/tr112801": [
+  "gnu_angr.tar.gz/single_test/tr/tr112801": [
     "unknown",
     1200.454,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123917": [
+  "gnu_angr.tar.gz/single_test/seq/seq123917": [
     "sat",
     105.253,
     1200000,
@@ -916,7 +916,7 @@
       "strlen_1663_64": "32"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq154526": [
+  "gnu_angr.tar.gz/single_test/seq/seq154526": [
     "sat",
     70.437,
     1200000,
@@ -947,7 +947,7 @@
       "unconstrained_ret_mbrtowc_1698_64": "611434597403837422"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133661": [
+  "gnu_angr.tar.gz/single_test/seq/seq133661": [
     "sat",
     1101.94,
     1200000,
@@ -974,7 +974,7 @@
       "strlen_1663_64": "58"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq112594": [
+  "gnu_angr.tar.gz/single_test/seq/seq112594": [
     "sat",
     442.092,
     1200000,
@@ -996,7 +996,7 @@
       "strlen_1663_64": "50"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128910": [
+  "gnu_angr.tar.gz/single_test/seq/seq128910": [
     "sat",
     114.19,
     1200000,
@@ -1022,7 +1022,7 @@
       "strlen_1663_64": "56"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119532": [
+  "gnu_angr.tar.gz/single_test/seq/seq119532": [
     "sat",
     52.824,
     1200000,
@@ -1046,13 +1046,13 @@
       "strlen_1663_64": "25"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123971": [
+  "gnu_angr.tar.gz/single_test/seq/seq123971": [
     "unknown",
     1200.216,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123962": [
+  "gnu_angr.tar.gz/single_test/seq/seq123962": [
     "sat",
     281.53,
     1200000,
@@ -1077,7 +1077,7 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147523": [
+  "gnu_angr.tar.gz/single_test/seq/seq147523": [
     "sat",
     320.564,
     1200000,
@@ -1104,7 +1104,7 @@
       "strlen_414_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128939": [
+  "gnu_angr.tar.gz/single_test/seq/seq128939": [
     "sat",
     681.366,
     1200000,
@@ -1130,7 +1130,7 @@
       "strlen_1663_64": "47"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143577": [
+  "gnu_angr.tar.gz/single_test/seq/seq143577": [
     "sat",
     513.935,
     1200000,
@@ -1156,7 +1156,7 @@
       "strlen_414_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123945": [
+  "gnu_angr.tar.gz/single_test/seq/seq123945": [
     "sat",
     142.673,
     1200000,
@@ -1181,7 +1181,7 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143566": [
+  "gnu_angr.tar.gz/single_test/seq/seq143566": [
     "sat",
     235.31,
     1200000,
@@ -1207,19 +1207,19 @@
       "strlen_414_64": "54"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140289": [
+  "gnu_angr.tar.gz/single_test/seq/seq140289": [
     "unknown",
     1200.208,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123968": [
+  "gnu_angr.tar.gz/single_test/seq/seq123968": [
     "unknown",
     1200.205,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143550": [
+  "gnu_angr.tar.gz/single_test/seq/seq143550": [
     "sat",
     66.361,
     1200000,
@@ -1245,7 +1245,7 @@
       "strlen_414_64": "38"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq152932": [
+  "gnu_angr.tar.gz/single_test/seq/seq152932": [
     "sat",
     329.757,
     1200000,
@@ -1273,37 +1273,37 @@
       "strlen_414_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq70322": [
+  "gnu_angr.tar.gz/single_test/seq/seq70322": [
     "unknown",
     1200.057,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq95270": [
+  "gnu_angr.tar.gz/single_test/seq/seq95270": [
     "unknown",
     1200.049,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97947": [
+  "gnu_angr.tar.gz/single_test/seq/seq97947": [
     "unknown",
     1201.816,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq57231": [
+  "gnu_angr.tar.gz/single_test/seq/seq57231": [
     "unknown",
     1200.061,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq95766": [
+  "gnu_angr.tar.gz/single_test/seq/seq95766": [
     "unknown",
     1201.173,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123953": [
+  "gnu_angr.tar.gz/single_test/seq/seq123953": [
     "sat",
     4.785,
     1200000,
@@ -1328,7 +1328,7 @@
       "strlen_1663_64": "37"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123963": [
+  "gnu_angr.tar.gz/single_test/seq/seq123963": [
     "sat",
     1083.703,
     1200000,
@@ -1353,13 +1353,13 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq92701": [
+  "gnu_angr.tar.gz/single_test/seq/seq92701": [
     "unknown",
     1201.762,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147517": [
+  "gnu_angr.tar.gz/single_test/seq/seq147517": [
     "sat",
     244.286,
     1200000,
@@ -1386,7 +1386,7 @@
       "strlen_414_64": "24"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147509": [
+  "gnu_angr.tar.gz/single_test/seq/seq147509": [
     "sat",
     322.775,
     1200000,
@@ -1413,13 +1413,13 @@
       "strlen_414_64": "29"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq135101": [
+  "gnu_angr.tar.gz/single_test/seq/seq135101": [
     "unknown",
     1200.186,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143576": [
+  "gnu_angr.tar.gz/single_test/seq/seq143576": [
     "sat",
     133.888,
     1200000,
@@ -1445,7 +1445,7 @@
       "strlen_414_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147512": [
+  "gnu_angr.tar.gz/single_test/seq/seq147512": [
     "sat",
     699.288,
     1200000,
@@ -1472,19 +1472,19 @@
       "strlen_414_64": "19"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq97946": [
+  "gnu_angr.tar.gz/single_test/seq/seq97946": [
     "unknown",
     1200.132,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147531": [
+  "gnu_angr.tar.gz/single_test/seq/seq147531": [
     "unknown",
     1200.197,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147510": [
+  "gnu_angr.tar.gz/single_test/seq/seq147510": [
     "sat",
     508.896,
     1200000,
@@ -1511,19 +1511,19 @@
       "strlen_414_64": "27"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq91027": [
+  "gnu_angr.tar.gz/single_test/seq/seq91027": [
     "unknown",
     1201.024,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140243": [
+  "gnu_angr.tar.gz/single_test/seq/seq140243": [
     "unknown",
     1200.076,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133615": [
+  "gnu_angr.tar.gz/single_test/seq/seq133615": [
     "sat",
     317.861,
     1200000,
@@ -1550,7 +1550,7 @@
       "strlen_1663_64": "30"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133612": [
+  "gnu_angr.tar.gz/single_test/seq/seq133612": [
     "sat",
     207.276,
     1200000,
@@ -1577,25 +1577,25 @@
       "strlen_1663_64": "27"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147536": [
+  "gnu_angr.tar.gz/single_test/seq/seq147536": [
     "unknown",
     1200.218,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147486": [
+  "gnu_angr.tar.gz/single_test/seq/seq147486": [
     "unknown",
     1200.065,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq89619": [
+  "gnu_angr.tar.gz/single_test/seq/seq89619": [
     "unknown",
     1200.117,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143541": [
+  "gnu_angr.tar.gz/single_test/seq/seq143541": [
     "sat",
     84.665,
     1200000,
@@ -1621,7 +1621,7 @@
       "strlen_414_64": "42"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147515": [
+  "gnu_angr.tar.gz/single_test/seq/seq147515": [
     "sat",
     779.84,
     1200000,
@@ -1648,7 +1648,7 @@
       "strlen_414_64": "50"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133613": [
+  "gnu_angr.tar.gz/single_test/seq/seq133613": [
     "sat",
     1157.828,
     1200000,
@@ -1675,7 +1675,7 @@
       "strlen_1663_64": "8"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143578": [
+  "gnu_angr.tar.gz/single_test/seq/seq143578": [
     "sat",
     501.599,
     1200000,
@@ -1701,7 +1701,7 @@
       "strlen_414_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133719": [
+  "gnu_angr.tar.gz/single_test/seq/seq133719": [
     "sat",
     742.379,
     1200000,
@@ -1728,61 +1728,61 @@
       "strlen_1663_64": "31"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq78796": [
+  "gnu_angr.tar.gz/single_test/seq/seq78796": [
     "unknown",
     1201.042,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq84743": [
+  "gnu_angr.tar.gz/single_test/seq/seq84743": [
     "unknown",
     1200.076,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140290": [
+  "gnu_angr.tar.gz/single_test/seq/seq140290": [
     "unknown",
     1202.63,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140287": [
+  "gnu_angr.tar.gz/single_test/seq/seq140287": [
     "unknown",
     1200.221,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq152931": [
+  "gnu_angr.tar.gz/single_test/seq/seq152931": [
     "unknown",
     1200.051,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq110808": [
+  "gnu_angr.tar.gz/single_test/seq/seq110808": [
     "unknown",
     1201.127,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108159": [
+  "gnu_angr.tar.gz/single_test/seq/seq108159": [
     "unknown",
     1200.135,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq79911": [
+  "gnu_angr.tar.gz/single_test/seq/seq79911": [
     "unknown",
     1200.044,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq76557": [
+  "gnu_angr.tar.gz/single_test/seq/seq76557": [
     "unknown",
     1200.428,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128897": [
+  "gnu_angr.tar.gz/single_test/seq/seq128897": [
     "sat",
     302.527,
     1200000,
@@ -1808,7 +1808,7 @@
       "strlen_1663_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147528": [
+  "gnu_angr.tar.gz/single_test/seq/seq147528": [
     "sat",
     383.66,
     1200000,
@@ -1835,19 +1835,19 @@
       "strlen_414_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133619": [
+  "gnu_angr.tar.gz/single_test/seq/seq133619": [
     "unknown",
     1200.068,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83563": [
+  "gnu_angr.tar.gz/single_test/seq/seq83563": [
     "unknown",
     1201.175,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133646": [
+  "gnu_angr.tar.gz/single_test/seq/seq133646": [
     "sat",
     782.64,
     1200000,
@@ -1874,7 +1874,7 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147511": [
+  "gnu_angr.tar.gz/single_test/seq/seq147511": [
     "sat",
     309.52,
     1200000,
@@ -1901,7 +1901,7 @@
       "strlen_414_64": "23"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133656": [
+  "gnu_angr.tar.gz/single_test/seq/seq133656": [
     "sat",
     506.095,
     1200000,
@@ -1928,31 +1928,31 @@
       "strlen_1663_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq51873": [
+  "gnu_angr.tar.gz/single_test/seq/seq51873": [
     "unknown",
     1200.181,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128944": [
+  "gnu_angr.tar.gz/single_test/seq/seq128944": [
     "unknown",
     1200.231,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143568": [
+  "gnu_angr.tar.gz/single_test/seq/seq143568": [
     "unknown",
     1200.17,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119553": [
+  "gnu_angr.tar.gz/single_test/seq/seq119553": [
     "unknown",
     1200.195,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128938": [
+  "gnu_angr.tar.gz/single_test/seq/seq128938": [
     "sat",
     134.867,
     1200000,
@@ -1978,13 +1978,13 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq108160": [
+  "gnu_angr.tar.gz/single_test/seq/seq108160": [
     "unknown",
     1201.86,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133629": [
+  "gnu_angr.tar.gz/single_test/seq/seq133629": [
     "sat",
     731.492,
     1200000,
@@ -2011,25 +2011,25 @@
       "strlen_1663_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq141765": [
+  "gnu_angr.tar.gz/single_test/seq/seq141765": [
     "unknown",
     1200.419,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq117719": [
+  "gnu_angr.tar.gz/single_test/seq/seq117719": [
     "unknown",
     1200.147,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq143585": [
+  "gnu_angr.tar.gz/single_test/seq/seq143585": [
     "unknown",
     1200.217,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116464": [
+  "gnu_angr.tar.gz/single_test/seq/seq116464": [
     "sat",
     84.715,
     1200000,
@@ -2052,19 +2052,19 @@
       "strlen_1663_64": "58"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133659": [
+  "gnu_angr.tar.gz/single_test/seq/seq133659": [
     "unknown",
     1200.198,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq121176": [
+  "gnu_angr.tar.gz/single_test/seq/seq121176": [
     "unknown",
     1200.152,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123955": [
+  "gnu_angr.tar.gz/single_test/seq/seq123955": [
     "sat",
     1184.052,
     1200000,
@@ -2089,31 +2089,31 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq155511": [
+  "gnu_angr.tar.gz/single_test/seq/seq155511": [
     "unknown",
     1200.887,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq83564": [
+  "gnu_angr.tar.gz/single_test/seq/seq83564": [
     "unknown",
     1201.156,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq140537": [
+  "gnu_angr.tar.gz/single_test/seq/seq140537": [
     "unknown",
     1200.103,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq141711": [
+  "gnu_angr.tar.gz/single_test/seq/seq141711": [
     "unknown",
     1200.389,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq116468": [
+  "gnu_angr.tar.gz/single_test/seq/seq116468": [
     "sat",
     429.841,
     1200000,
@@ -2136,7 +2136,7 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq128896": [
+  "gnu_angr.tar.gz/single_test/seq/seq128896": [
     "sat",
     55.597,
     1200000,
@@ -2162,7 +2162,7 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq123923": [
+  "gnu_angr.tar.gz/single_test/seq/seq123923": [
     "sat",
     547.846,
     1200000,
@@ -2187,7 +2187,7 @@
       "strlen_1663_64": "47"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147589": [
+  "gnu_angr.tar.gz/single_test/seq/seq147589": [
     "sat",
     104.472,
     1200000,
@@ -2214,7 +2214,7 @@
       "strlen_414_64": "56"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq124024": [
+  "gnu_angr.tar.gz/single_test/seq/seq124024": [
     "sat",
     94.005,
     1200000,
@@ -2239,19 +2239,19 @@
       "strlen_1663_64": "59"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq119554": [
+  "gnu_angr.tar.gz/single_test/seq/seq119554": [
     "unknown",
     1200.238,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133663": [
+  "gnu_angr.tar.gz/single_test/seq/seq133663": [
     "unknown",
     1200.262,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq147500": [
+  "gnu_angr.tar.gz/single_test/seq/seq147500": [
     "sat",
     357.289,
     1200000,
@@ -2278,25 +2278,25 @@
       "strlen_414_64": "57"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq141710": [
+  "gnu_angr.tar.gz/single_test/seq/seq141710": [
     "unknown",
     1200.052,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq133660": [
+  "gnu_angr.tar.gz/single_test/seq/seq133660": [
     "unknown",
     1200.214,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/seq/seq79291": [
+  "gnu_angr.tar.gz/single_test/seq/seq79291": [
     "unknown",
     1200.924,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr217198": [
+  "gnu_angr.tar.gz/single_test/expr/expr217198": [
     "sat",
     36.383,
     1200000,
@@ -2305,25 +2305,25 @@
       "unconstrained_ret_strtoimax_964_64": "12180061236"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mktemp/mktemp68729": [
+  "gnu_angr.tar.gz/single_test/mktemp/mktemp68729": [
     "unknown",
     1200.024,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mktemp/mktemp70107": [
+  "gnu_angr.tar.gz/single_test/mktemp/mktemp70107": [
     "unknown",
     1200.019,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mktemp/mktemp72695": [
+  "gnu_angr.tar.gz/single_test/mktemp/mktemp72695": [
     "unknown",
     1200.116,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277232": [
+  "gnu_angr.tar.gz/single_test/expr/expr277232": [
     "sat",
     298.058,
     1200000,
@@ -2332,7 +2332,7 @@
       "unconstrained_ret_strtoimax_1323_64": "18446744073709525068"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr225589": [
+  "gnu_angr.tar.gz/single_test/expr/expr225589": [
     "sat",
     490.343,
     1200000,
@@ -2341,19 +2341,19 @@
       "unconstrained_ret_strtoimax_964_64": "18446744073659908092"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr278325": [
+  "gnu_angr.tar.gz/single_test/expr/expr278325": [
     "unknown",
     1203.345,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr228934": [
+  "gnu_angr.tar.gz/single_test/expr/expr228934": [
     "unknown",
     1202.979,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr276430": [
+  "gnu_angr.tar.gz/single_test/expr/expr276430": [
     "sat",
     144.648,
     1200000,
@@ -2361,199 +2361,199 @@
       "unconstrained_ret_strtoimax_1323_64": "18446744073689628672"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr274909": [
+  "gnu_angr.tar.gz/single_test/expr/expr274909": [
     "unknown",
     1200.235,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr277231": [
+  "gnu_angr.tar.gz/single_test/expr/expr277231": [
     "unknown",
     1200.287,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expr/expr270722": [
+  "gnu_angr.tar.gz/single_test/expr/expr270722": [
     "unknown",
     1201.786,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand439103": [
+  "gnu_angr.tar.gz/single_test/expand/expand439103": [
     "unknown",
     1200.974,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand399276": [
+  "gnu_angr.tar.gz/single_test/expand/expand399276": [
     "unknown",
     1201.117,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand415535": [
+  "gnu_angr.tar.gz/single_test/expand/expand415535": [
     "unknown",
     1200.501,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand419008": [
+  "gnu_angr.tar.gz/single_test/expand/expand419008": [
     "unknown",
     1200.096,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand380025": [
+  "gnu_angr.tar.gz/single_test/expand/expand380025": [
     "unknown",
     1200.035,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand429238": [
+  "gnu_angr.tar.gz/single_test/expand/expand429238": [
     "unknown",
     1200.069,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand371319": [
+  "gnu_angr.tar.gz/single_test/expand/expand371319": [
     "unknown",
     1200.47,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand441451": [
+  "gnu_angr.tar.gz/single_test/expand/expand441451": [
     "unknown",
     1201.068,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand439104": [
+  "gnu_angr.tar.gz/single_test/expand/expand439104": [
     "unknown",
     1200.069,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand429872": [
+  "gnu_angr.tar.gz/single_test/expand/expand429872": [
     "unknown",
     1200.798,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand421225": [
+  "gnu_angr.tar.gz/single_test/expand/expand421225": [
     "unknown",
     1201.603,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand436124": [
+  "gnu_angr.tar.gz/single_test/expand/expand436124": [
     "unknown",
     1200.077,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand435353": [
+  "gnu_angr.tar.gz/single_test/expand/expand435353": [
     "unknown",
     1201.704,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand416308": [
+  "gnu_angr.tar.gz/single_test/expand/expand416308": [
     "unknown",
     1200.099,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand386513": [
+  "gnu_angr.tar.gz/single_test/expand/expand386513": [
     "unknown",
     1200.83,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand383024": [
+  "gnu_angr.tar.gz/single_test/expand/expand383024": [
     "unknown",
     1200.053,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand385895": [
+  "gnu_angr.tar.gz/single_test/expand/expand385895": [
     "unknown",
     1200.411,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand416939": [
+  "gnu_angr.tar.gz/single_test/expand/expand416939": [
     "unknown",
     1200.091,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand437661": [
+  "gnu_angr.tar.gz/single_test/expand/expand437661": [
     "unknown",
     1200.047,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand442352": [
+  "gnu_angr.tar.gz/single_test/expand/expand442352": [
     "unknown",
     1201.056,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand382273": [
+  "gnu_angr.tar.gz/single_test/expand/expand382273": [
     "unknown",
     1200.485,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand409464": [
+  "gnu_angr.tar.gz/single_test/expand/expand409464": [
     "unknown",
     1201.044,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand430773": [
+  "gnu_angr.tar.gz/single_test/expand/expand430773": [
     "unknown",
     1200.88,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand405449": [
+  "gnu_angr.tar.gz/single_test/expand/expand405449": [
     "unknown",
     1200.061,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand444516": [
+  "gnu_angr.tar.gz/single_test/expand/expand444516": [
     "unknown",
     1201.625,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand419771": [
+  "gnu_angr.tar.gz/single_test/expand/expand419771": [
     "unknown",
     1200.548,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/expand/expand406344": [
+  "gnu_angr.tar.gz/single_test/expand/expand406344": [
     "unknown",
     1200.435,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum66955": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum66955": [
     "unknown",
     1200.036,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80545": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum80545": [
     "unknown",
     1200.291,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91090": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91090": [
     "sat",
     70.334,
     1200000,
@@ -2571,7 +2571,7 @@
       "unconstrained_ret_fread_unlocked_3193_64": "10752344110347059202"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81343": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum81343": [
     "sat",
     228.84,
     1200000,
@@ -2594,13 +2594,13 @@
       "unconstrained_ret_fread_unlocked_3700_64": "0"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum47804": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum47804": [
     "unknown",
     1200.162,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76103": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum76103": [
     "sat",
     171.186,
     1200000,
@@ -2621,31 +2621,31 @@
       "unconstrained_ret_fread_unlocked_3577_64": "0"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73320": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum73320": [
     "unknown",
     1200.179,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79318": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum79318": [
     "unknown",
     1202.555,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum85606": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum85606": [
     "unknown",
     1200.029,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum45670": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum45670": [
     "unknown",
     1200.123,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum62441": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum62441": [
     "sat",
     48.192,
     1200000,
@@ -2663,7 +2663,7 @@
       "unconstrained_ret_fread_unlocked_3332_64": "11376132474165258245"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum89978": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum89978": [
     "sat",
     27.089,
     1200000,
@@ -2684,7 +2684,7 @@
       "unconstrained_ret_fread_unlocked_3187_64": "9552545540334624907"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91746": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91746": [
     "sat",
     15.629,
     1200000,
@@ -2703,7 +2703,7 @@
       "unconstrained_ret_fread_unlocked_3323_64": "6227072339957807013"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77460": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum77460": [
     "sat",
     5.551,
     1200000,
@@ -2725,25 +2725,25 @@
       "unconstrained_ret_fread_unlocked_3265_64": "14776845090962014198"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91094": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91094": [
     "unknown",
     1200.177,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum54493": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum54493": [
     "unknown",
     1200.139,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum86419": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum86419": [
     "unknown",
     1202.261,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87732": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum87732": [
     "sat",
     205.532,
     1200000,
@@ -2767,7 +2767,7 @@
       "unconstrained_ret_fread_unlocked_3805_64": "0"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78748": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum78748": [
     "sat",
     83.381,
     1200000,
@@ -2786,7 +2786,7 @@
       "unconstrained_ret_fread_unlocked_3187_64": "17369033148862143216"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77487": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum77487": [
     "sat",
     391.592,
     1200000,
@@ -2808,7 +2808,7 @@
       "unconstrained_ret_fread_unlocked_3265_64": "12573316098167930878"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum62440": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum62440": [
     "sat",
     171.621,
     1200000,
@@ -2826,13 +2826,13 @@
       "unconstrained_ret_fread_unlocked_3332_64": "8976447778377940484"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81360": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum81360": [
     "unknown",
     1200.225,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73318": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum73318": [
     "sat",
     165.294,
     1200000,
@@ -2850,19 +2850,19 @@
       "unconstrained_ret_fread_unlocked_3187_64": "13568248753304710274"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum78750": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum78750": [
     "unknown",
     1202.183,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum64668": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum64668": [
     "unknown",
     1200.017,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75109": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum75109": [
     "sat",
     76.503,
     1200000,
@@ -2882,43 +2882,43 @@
       "unconstrained_ret_fread_unlocked_3557_64": "7091180366178658990"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum30780": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum30780": [
     "unknown",
     1200.986,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum56887": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum56887": [
     "unknown",
     1200.156,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91975": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91975": [
     "unsat",
     0.421,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum28200": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum28200": [
     "unknown",
     1200.661,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum73850": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum73850": [
     "unknown",
     1200.05,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum34503": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum34503": [
     "unknown",
     1200.104,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum77485": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum77485": [
     "sat",
     97.732,
     1200000,
@@ -2940,61 +2940,61 @@
       "unconstrained_ret_fread_unlocked_3265_64": "4603661058874281825"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum90007": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum90007": [
     "unknown",
     1200.248,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum88946": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum88946": [
     "unknown",
     1200.036,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91758": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91758": [
     "unknown",
     1202.512,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum82520": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum82520": [
     "unknown",
     1200.032,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum59928": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum59928": [
     "unknown",
     1200.084,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76106": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum76106": [
     "unknown",
     1202.827,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum74508": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum74508": [
     "unknown",
     1200.208,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum86690": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum86690": [
     "unknown",
     1200.025,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum49681": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum49681": [
     "unknown",
     1200.096,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91756": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91756": [
     "sat",
     5.857,
     1200000,
@@ -3013,7 +3013,7 @@
       "unconstrained_ret_fread_unlocked_3323_64": "10451161744918183935"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum62438": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum62438": [
     "sat",
     60.207,
     1200000,
@@ -3031,7 +3031,7 @@
       "unconstrained_ret_fread_unlocked_3332_64": "5430039543486376307"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79315": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum79315": [
     "sat",
     8.136,
     1200000,
@@ -3051,19 +3051,19 @@
       "unconstrained_ret_fread_unlocked_2395_64": "9005447145503559833"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81494": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum81494": [
     "unknown",
     1200.229,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum43923": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum43923": [
     "unknown",
     1200.1,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum81337": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum81337": [
     "sat",
     147.388,
     1200000,
@@ -3086,13 +3086,13 @@
       "unconstrained_ret_fread_unlocked_3700_64": "0"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum68186": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum68186": [
     "unknown",
     1200.171,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum80543": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum80543": [
     "sat",
     45.845,
     1200000,
@@ -3113,7 +3113,7 @@
       "unconstrained_ret_fread_unlocked_2417_64": "6320168207405420545"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum76099": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum76099": [
     "sat",
     180.852,
     1200000,
@@ -3134,7 +3134,7 @@
       "unconstrained_ret_fread_unlocked_3577_64": "0"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum91085": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum91085": [
     "sat",
     7.65,
     1200000,
@@ -3152,13 +3152,13 @@
       "unconstrained_ret_fread_unlocked_3193_64": "6763902488270808829"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum87899": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum87899": [
     "unknown",
     1200.035,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84936": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum84936": [
     "sat",
     100.634,
     1200000,
@@ -3179,7 +3179,7 @@
       "unconstrained_ret_fread_unlocked_2395_64": "14843318242630372092"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum84949": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum84949": [
     "sat",
     7.354,
     1200000,
@@ -3200,7 +3200,7 @@
       "unconstrained_ret_fread_unlocked_2395_64": "4611050500706533376"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum75089": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum75089": [
     "sat",
     60.057,
     1200000,
@@ -3220,7 +3220,7 @@
       "unconstrained_ret_fread_unlocked_3557_64": "7001448924315688971"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum79286": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum79286": [
     "sat",
     151.138,
     1200000,
@@ -3240,115 +3240,115 @@
       "unconstrained_ret_fread_unlocked_2395_64": "3488010255453304304"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum61226": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum61226": [
     "unknown",
     1201.772,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sha1sum/sha1sum68834": [
+  "gnu_angr.tar.gz/single_test/sha1sum/sha1sum68834": [
     "unknown",
     1200.178,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot34627": [
+  "gnu_angr.tar.gz/single_test/chroot/chroot34627": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot29455": [
+  "gnu_angr.tar.gz/single_test/chroot/chroot29455": [
     "unknown",
     1200.168,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot32087": [
+  "gnu_angr.tar.gz/single_test/chroot/chroot32087": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chroot/chroot34091": [
+  "gnu_angr.tar.gz/single_test/chroot/chroot34091": [
     "unknown",
     1200.029,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/hostname/hostname26132": [
+  "gnu_angr.tar.gz/single_test/hostname/hostname26132": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/hostname/hostname25407": [
+  "gnu_angr.tar.gz/single_test/hostname/hostname25407": [
     "unknown",
     1200.035,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/hostname/hostname26334": [
+  "gnu_angr.tar.gz/single_test/hostname/hostname26334": [
     "unknown",
     1200.105,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid167548": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid167548": [
     "unsat",
     375.498,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/hostname/hostname21906": [
+  "gnu_angr.tar.gz/single_test/hostname/hostname21906": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid173450": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid173450": [
     "unknown",
     1200.097,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid209654": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid209654": [
     "unknown",
     1200.446,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146555": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid146555": [
     "unknown",
     1200.092,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid175701": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid175701": [
     "unknown",
     1200.081,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid196354": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid196354": [
     "unknown",
     1200.466,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid205698": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid205698": [
     "unknown",
     1200.075,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid219733": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid219733": [
     "unknown",
     1200.876,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197796": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid197796": [
     "sat",
     19.766,
     1200000,
@@ -3388,31 +3388,31 @@
       "strlen_1690_64": "35"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid217534": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid217534": [
     "unknown",
     1201.174,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid155312": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid155312": [
     "unknown",
     1200.906,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid198429": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid198429": [
     "unknown",
     1200.053,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid139538": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid139538": [
     "unknown",
     1200.034,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid140815": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid140815": [
     "sat",
     3.173,
     1200000,
@@ -3457,73 +3457,73 @@
       "num_bytes_935_64": "6"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid163664": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid163664": [
     "unknown",
     1200.085,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid161159": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid161159": [
     "unknown",
     1200.107,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid214047": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid214047": [
     "unknown",
     1200.824,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid196357": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid196357": [
     "unsat",
     364.102,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid210218": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid210218": [
     "unknown",
     1200.058,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid161160": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid161160": [
     "unknown",
     1200.122,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid134784": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid134784": [
     "unknown",
     1200.077,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224129": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid224129": [
     "unknown",
     1200.825,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid224485": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid224485": [
     "unknown",
     1201.558,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid197799": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid197799": [
     "unknown",
     1201.652,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid146552": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid146552": [
     "unknown",
     1200.5,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/ls/ls258156": [
+  "gnu_angr.tar.gz/single_test/ls/ls258156": [
     "sat",
     3.516,
     1200000,
@@ -3575,67 +3575,67 @@
       "strlen_7381_64": "35"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/setuidgid/setuidgid177726": [
+  "gnu_angr.tar.gz/single_test/setuidgid/setuidgid177726": [
     "unknown",
     1200.586,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/fmt/fmt710958": [
+  "gnu_angr.tar.gz/single_test/fmt/fmt710958": [
     "unknown",
     1200.024,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/factor/factor74956": [
+  "gnu_angr.tar.gz/single_test/factor/factor74956": [
     "unknown",
     1201.72,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/users/users39945": [
+  "gnu_angr.tar.gz/single_test/users/users39945": [
     "unknown",
     1200.142,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/id/id219438": [
+  "gnu_angr.tar.gz/single_test/id/id219438": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/id/id132674": [
+  "gnu_angr.tar.gz/single_test/id/id132674": [
     "unknown",
     1200.062,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky231102": [
+  "gnu_angr.tar.gz/single_test/pinky/pinky231102": [
     "unknown",
     1200.146,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky231980": [
+  "gnu_angr.tar.gz/single_test/pinky/pinky231980": [
     "unknown",
     1200.14,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/pinky/pinky232016": [
+  "gnu_angr.tar.gz/single_test/pinky/pinky232016": [
     "unknown",
     1200.121,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mknod/mknod239420": [
+  "gnu_angr.tar.gz/single_test/mknod/mknod239420": [
     "unknown",
     1200.137,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65364": [
+  "gnu_angr.tar.gz/single_test/date/date65364": [
     "sat",
     212.064,
     1200000,
@@ -3643,43 +3643,43 @@
       "tv_sec_2376_64": "9994242400865"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mknod/mknod130727": [
+  "gnu_angr.tar.gz/single_test/mknod/mknod130727": [
     "unknown",
     1200.04,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date166559": [
+  "gnu_angr.tar.gz/single_test/date/date166559": [
     "unknown",
     1200.011,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date156480": [
+  "gnu_angr.tar.gz/single_test/date/date156480": [
     "unknown",
     1200.021,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date131519": [
+  "gnu_angr.tar.gz/single_test/date/date131519": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date21786": [
+  "gnu_angr.tar.gz/single_test/date/date21786": [
     "unknown",
     1200.014,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date144840": [
+  "gnu_angr.tar.gz/single_test/date/date144840": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date47809": [
+  "gnu_angr.tar.gz/single_test/date/date47809": [
     "sat",
     228.902,
     1200000,
@@ -3687,13 +3687,13 @@
       "tv_sec_2121_64": "7230249543201"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date175289": [
+  "gnu_angr.tar.gz/single_test/date/date175289": [
     "unknown",
     1200.052,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date37744": [
+  "gnu_angr.tar.gz/single_test/date/date37744": [
     "sat",
     196.264,
     1200000,
@@ -3701,25 +3701,25 @@
       "unconstrained_ret_mktime_1990_64": "2254866480000"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date137979": [
+  "gnu_angr.tar.gz/single_test/date/date137979": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date76385": [
+  "gnu_angr.tar.gz/single_test/date/date76385": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date190314": [
+  "gnu_angr.tar.gz/single_test/date/date190314": [
     "unknown",
     1200.014,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date64639": [
+  "gnu_angr.tar.gz/single_test/date/date64639": [
     "sat",
     92.37,
     1200000,
@@ -3727,7 +3727,7 @@
       "tv_sec_2376_64": "18446744068401109775"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date22973": [
+  "gnu_angr.tar.gz/single_test/date/date22973": [
     "sat",
     55.649,
     1200000,
@@ -3735,7 +3735,7 @@
       "tv_sec_1798_64": "18446744067565547577"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date33969": [
+  "gnu_angr.tar.gz/single_test/date/date33969": [
     "sat",
     103.272,
     1200000,
@@ -3743,7 +3743,7 @@
       "unconstrained_ret_mktime_1990_64": "53687091315"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date91933": [
+  "gnu_angr.tar.gz/single_test/date/date91933": [
     "sat",
     101.26,
     1200000,
@@ -3751,13 +3751,13 @@
       "tv_sec_2674_64": "2776535583"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date166732": [
+  "gnu_angr.tar.gz/single_test/date/date166732": [
     "unknown",
     1200.029,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date47807": [
+  "gnu_angr.tar.gz/single_test/date/date47807": [
     "sat",
     171.288,
     1200000,
@@ -3765,13 +3765,13 @@
       "tv_sec_2121_64": "18446735494619573427"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date122167": [
+  "gnu_angr.tar.gz/single_test/date/date122167": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date23698": [
+  "gnu_angr.tar.gz/single_test/date/date23698": [
     "sat",
     164.821,
     1200000,
@@ -3779,7 +3779,7 @@
       "tv_sec_1798_64": "42949672962"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65944": [
+  "gnu_angr.tar.gz/single_test/date/date65944": [
     "sat",
     68.846,
     1200000,
@@ -3787,13 +3787,13 @@
       "tv_sec_2376_64": "1443002768394565169"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date37758": [
+  "gnu_angr.tar.gz/single_test/date/date37758": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date65941": [
+  "gnu_angr.tar.gz/single_test/date/date65941": [
     "sat",
     201.931,
     1200000,
@@ -3801,31 +3801,31 @@
       "tv_sec_2376_64": "18446654238363044406"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date117087": [
+  "gnu_angr.tar.gz/single_test/date/date117087": [
     "unknown",
     1200.015,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date131499": [
+  "gnu_angr.tar.gz/single_test/date/date131499": [
     "unknown",
     1200.044,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date128353": [
+  "gnu_angr.tar.gz/single_test/date/date128353": [
     "unknown",
     1200.009,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date145885": [
+  "gnu_angr.tar.gz/single_test/date/date145885": [
     "unknown",
     1200.017,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date92629": [
+  "gnu_angr.tar.gz/single_test/date/date92629": [
     "sat",
     424.922,
     1200000,
@@ -3833,13 +3833,13 @@
       "tv_sec_2674_64": "999768331200200"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date139318": [
+  "gnu_angr.tar.gz/single_test/date/date139318": [
     "unknown",
     1200.012,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head112929": [
+  "gnu_angr.tar.gz/single_test/head/head112929": [
     "sat",
     4.543,
     1200000,
@@ -3849,7 +3849,7 @@
       "unconstrained_ret_lseek_2962_64": "36028797018963907"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head52110": [
+  "gnu_angr.tar.gz/single_test/head/head52110": [
     "sat",
     180.794,
     1200000,
@@ -3858,7 +3858,7 @@
       "unconstrained_ret_lseek_1552_64": "89425508613545"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head53264": [
+  "gnu_angr.tar.gz/single_test/head/head53264": [
     "sat",
     200.837,
     1200000,
@@ -3867,7 +3867,7 @@
       "unconstrained_ret_lseek_1552_64": "615723827312492"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head50472": [
+  "gnu_angr.tar.gz/single_test/head/head50472": [
     "sat",
     163.33,
     1200000,
@@ -3876,7 +3876,7 @@
       "unconstrained_ret_lseek_1552_64": "66355217159"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head51801": [
+  "gnu_angr.tar.gz/single_test/head/head51801": [
     "sat",
     167.482,
     1200000,
@@ -3885,13 +3885,13 @@
       "unconstrained_ret_lseek_1552_64": "4941415527255"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date194063": [
+  "gnu_angr.tar.gz/single_test/date/date194063": [
     "unknown",
     1200.011,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/head/head51283": [
+  "gnu_angr.tar.gz/single_test/head/head51283": [
     "sat",
     140.476,
     1200000,
@@ -3900,163 +3900,163 @@
       "unconstrained_ret_lseek_1552_64": "838860808283"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/date/date161721": [
+  "gnu_angr.tar.gz/single_test/date/date161721": [
     "unknown",
     1200.01,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/test/test208139": [
+  "gnu_angr.tar.gz/single_test/test/test208139": [
     "unknown",
     1200.191,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/test/test130137": [
+  "gnu_angr.tar.gz/single_test/test/test130137": [
     "unknown",
     1200.018,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/test/test193616": [
+  "gnu_angr.tar.gz/single_test/test/test193616": [
     "unknown",
     1200.052,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mkfifo/mkfifo29622": [
+  "gnu_angr.tar.gz/single_test/mkfifo/mkfifo29622": [
     "unknown",
     1200.015,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mkfifo/mkfifo29997": [
+  "gnu_angr.tar.gz/single_test/mkfifo/mkfifo29997": [
     "unknown",
     1200.052,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mkfifo/mkfifo29811": [
+  "gnu_angr.tar.gz/single_test/mkfifo/mkfifo29811": [
     "unknown",
     1200.207,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mkfifo/mkfifo31343": [
+  "gnu_angr.tar.gz/single_test/mkfifo/mkfifo31343": [
     "unknown",
     1200.028,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/mkfifo/mkfifo31870": [
+  "gnu_angr.tar.gz/single_test/mkfifo/mkfifo31870": [
     "unknown",
     1200.176,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sleep/sleep27002": [
+  "gnu_angr.tar.gz/single_test/sleep/sleep27002": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/sleep/sleep23854": [
+  "gnu_angr.tar.gz/single_test/sleep/sleep23854": [
     "unknown",
     1200.02,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/unlink/unlink24743": [
+  "gnu_angr.tar.gz/single_test/unlink/unlink24743": [
     "unknown",
     1200.108,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/unlink/unlink25985": [
+  "gnu_angr.tar.gz/single_test/unlink/unlink25985": [
     "unknown",
     1200.024,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/unlink/unlink28988": [
+  "gnu_angr.tar.gz/single_test/unlink/unlink28988": [
     "unknown",
     1200.167,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/unlink/unlink24924": [
+  "gnu_angr.tar.gz/single_test/unlink/unlink24924": [
     "unknown",
     1200.102,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/md5sum/md5sum18121": [
+  "gnu_angr.tar.gz/single_test/md5sum/md5sum18121": [
     "unknown",
     1200.013,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/md5sum/md5sum23174": [
+  "gnu_angr.tar.gz/single_test/md5sum/md5sum23174": [
     "unknown",
     1200.045,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/readlink/readlink153147": [
+  "gnu_angr.tar.gz/single_test/readlink/readlink153147": [
     "unsat",
     487.485,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/readlink/readlink118550": [
+  "gnu_angr.tar.gz/single_test/readlink/readlink118550": [
     "unknown",
     1200.024,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/readlink/readlink156511": [
+  "gnu_angr.tar.gz/single_test/readlink/readlink156511": [
     "unknown",
     1200.017,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/readlink/readlink151890": [
+  "gnu_angr.tar.gz/single_test/readlink/readlink151890": [
     "unsat",
     931.857,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/readlink/readlink158702": [
+  "gnu_angr.tar.gz/single_test/readlink/readlink158702": [
     "unknown",
     1200.04,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty21899": [
+  "gnu_angr.tar.gz/single_test/tty/tty21899": [
     "unknown",
     1200.033,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty25069": [
+  "gnu_angr.tar.gz/single_test/tty/tty25069": [
     "unknown",
     1200.157,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty28728": [
+  "gnu_angr.tar.gz/single_test/tty/tty28728": [
     "unknown",
     1200.205,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty19927": [
+  "gnu_angr.tar.gz/single_test/tty/tty19927": [
     "unknown",
     1200.019,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175903": [
+  "gnu_angr.tar.gz/single_test/tail/tail175903": [
     "sat",
     159.558,
     1200000,
@@ -4065,7 +4065,7 @@
       "unconstrained_ret_lseek_4874_64": "10519924944283036699"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209955": [
+  "gnu_angr.tar.gz/single_test/tail/tail209955": [
     "sat",
     435.494,
     1200000,
@@ -4074,7 +4074,7 @@
       "unconstrained_ret_lseek_5705_64": "17965323142021521368"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151521": [
+  "gnu_angr.tar.gz/single_test/tail/tail151521": [
     "sat",
     201.171,
     1200000,
@@ -4083,19 +4083,19 @@
       "unconstrained_ret_lseek_4252_64": "18423661114859751585"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tty/tty25408": [
+  "gnu_angr.tar.gz/single_test/tty/tty25408": [
     "unknown",
     1200.031,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dir/dir475427": [
+  "gnu_angr.tar.gz/single_test/dir/dir475427": [
     "unknown",
     1200.03,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209178": [
+  "gnu_angr.tar.gz/single_test/tail/tail209178": [
     "sat",
     141.031,
     1200000,
@@ -4104,7 +4104,7 @@
       "unconstrained_ret_lseek_5705_64": "335546376392"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152129": [
+  "gnu_angr.tar.gz/single_test/tail/tail152129": [
     "sat",
     273.409,
     1200000,
@@ -4113,7 +4113,7 @@
       "unconstrained_ret_lseek_4252_64": "16138039467375152521"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209684": [
+  "gnu_angr.tar.gz/single_test/tail/tail209684": [
     "sat",
     289.416,
     1200000,
@@ -4122,7 +4122,7 @@
       "unconstrained_ret_lseek_5705_64": "18438154139115639777"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152083": [
+  "gnu_angr.tar.gz/single_test/tail/tail152083": [
     "sat",
     12.353,
     1200000,
@@ -4131,7 +4131,7 @@
       "unconstrained_ret_lseek_4252_64": "13767897685907471979"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175902": [
+  "gnu_angr.tar.gz/single_test/tail/tail175902": [
     "sat",
     225.452,
     1200000,
@@ -4140,13 +4140,13 @@
       "unconstrained_ret_lseek_4874_64": "18376375329531887614"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/rm/rm300038": [
+  "gnu_angr.tar.gz/single_test/rm/rm300038": [
     "unknown",
     1200.019,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151522": [
+  "gnu_angr.tar.gz/single_test/tail/tail151522": [
     "sat",
     97.912,
     1200000,
@@ -4155,7 +4155,7 @@
       "unconstrained_ret_lseek_4252_64": "16911944767277961716"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209626": [
+  "gnu_angr.tar.gz/single_test/tail/tail209626": [
     "sat",
     113.13,
     1200000,
@@ -4164,7 +4164,7 @@
       "unconstrained_ret_lseek_5705_64": "88633344058815"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail94436": [
+  "gnu_angr.tar.gz/single_test/tail/tail94436": [
     "sat",
     171.72,
     1200000,
@@ -4173,7 +4173,7 @@
       "unconstrained_ret_lseek_2766_64": "9349377544692"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209195": [
+  "gnu_angr.tar.gz/single_test/tail/tail209195": [
     "sat",
     203.591,
     1200000,
@@ -4182,7 +4182,7 @@
       "unconstrained_ret_lseek_5670_64": "18441375364485081734"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151419": [
+  "gnu_angr.tar.gz/single_test/tail/tail151419": [
     "sat",
     104.918,
     1200000,
@@ -4191,7 +4191,7 @@
       "unconstrained_ret_lseek_4252_64": "9223373761264015324"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail175904": [
+  "gnu_angr.tar.gz/single_test/tail/tail175904": [
     "sat",
     178.414,
     1200000,
@@ -4200,7 +4200,7 @@
       "unconstrained_ret_lseek_4874_64": "85898444787719266"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail210468": [
+  "gnu_angr.tar.gz/single_test/tail/tail210468": [
     "sat",
     430.905,
     1200000,
@@ -4209,7 +4209,7 @@
       "unconstrained_ret_lseek_5705_64": "15440266794729079520"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail151175": [
+  "gnu_angr.tar.gz/single_test/tail/tail151175": [
     "sat",
     335.506,
     1200000,
@@ -4218,7 +4218,7 @@
       "unconstrained_ret_lseek_4252_64": "18441628671246069540"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail186577": [
+  "gnu_angr.tar.gz/single_test/tail/tail186577": [
     "sat",
     217.751,
     1200000,
@@ -4227,7 +4227,7 @@
       "unconstrained_ret_lseek_5164_64": "5009274026052"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail152462": [
+  "gnu_angr.tar.gz/single_test/tail/tail152462": [
     "sat",
     389.089,
     1200000,
@@ -4236,7 +4236,7 @@
       "unconstrained_ret_lseek_4252_64": "17261306710654896810"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail199329": [
+  "gnu_angr.tar.gz/single_test/tail/tail199329": [
     "sat",
     177.188,
     1200000,
@@ -4245,7 +4245,7 @@
       "unconstrained_ret_lseek_5408_64": "23622353614601"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/tail/tail209646": [
+  "gnu_angr.tar.gz/single_test/tail/tail209646": [
     "sat",
     391.613,
     1200000,
@@ -4254,37 +4254,37 @@
       "unconstrained_ret_lseek_5670_64": "18035670857919858935"
     }
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chcon/chcon70761": [
+  "gnu_angr.tar.gz/single_test/chcon/chcon70761": [
     "unknown",
     1200.026,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chcon/chcon89081": [
+  "gnu_angr.tar.gz/single_test/chcon/chcon89081": [
     "unknown",
     1200.025,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/chcon/chcon79141": [
+  "gnu_angr.tar.gz/single_test/chcon/chcon79141": [
     "unknown",
     1200.027,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dirname/dirname22015": [
+  "gnu_angr.tar.gz/single_test/dirname/dirname22015": [
     "unknown",
     1200.019,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dirname/dirname25303": [
+  "gnu_angr.tar.gz/single_test/dirname/dirname25303": [
     "unknown",
     1200.015,
     1200000,
     "No model"
   ],
-  "/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/dirname/dirname26493": [
+  "gnu_angr.tar.gz/single_test/dirname/dirname26493": [
     "unknown",
     1200.134,
     1200000,

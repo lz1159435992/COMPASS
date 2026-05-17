@@ -1,6 +1,7 @@
 import json
 from z3 import *
-file_path = '/home/nju/Downloads/smt/gnu_angr.tar.gz/single_test/who/who53174'
+import config
+file_path = os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/gnu_angr.tar.gz/single_test/who/who53174')
 with open('time.txt', "a") as file:
     file.write(f"当前测试文件:{file_path}\n")
 with open(file_path, 'r') as file:

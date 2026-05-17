@@ -1,0 +1,16 @@
+# Placeholder for result_dict_time.txt
+# Replace with actual solver timing results.
+# Original: /home/<USER>/sibyl_3/src/networks/result_dict_time.txt
+#
+# Format: JSON dictionary mapping SMT file paths to timing data
+# {
+#     "/path/to/instance.smt2": {
+#         "solver": "z3",
+#         "time": 1.5,
+#         "result": "sat"
+#     },
+#     ...
+# }
+#
+# Referenced by:
+#   - test_rl/predictor/test_group_get_dis_smt_comp.py

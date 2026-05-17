@@ -135,7 +135,7 @@ def run_symexe(path, argv_size=8, withtime=True):
     # try:
     #     cfg_function_list = list(map(lambda x: cfg.kb.functions[x], cfg.kb.functions))
     #     cfg_function_list1 = list(filter(lambda x:not x.has_return, cfg_function_list))
-    #     with open("/home/lsc/lsc/core6_src_function.json", "r") as f:
+    #     with open(os.environ.get("CORE6_SRC_FUNCTION_JSON", "/tmp/core6_src_function.json"), "r") as f:
     #         data = f.read()
     #         fun_list = json.loads(data)
     #     cfg_function_list2 = list(filter(lambda x: x.name not in fun_list["function_list"], cfg_function_list1))
@@ -405,7 +405,7 @@ def draw_cfg(p, recorder):
             main_node = cfg.get_any_node(main_obj.linked_addr)
             print(networkx.dfs_tree(cfg.graph, main_node, depth_limit=10))
             try:
-                with open("/home/lsc/lsc/core6_src_function.json", "r") as f:
+                with open(os.environ.get("CORE6_SRC_FUNCTION_JSON", "/tmp/core6_src_function.json"), "r") as f:
                     data = f.read()
                     fun_list = json.loads(data)
                 own_node = list(filter(lambda x: x.name.split("+")[0] in fun_list['function_list'] if x.name else False, cfg.graph.nodes))

@@ -15,6 +15,10 @@ import time
 from z3 import *
 from z3.z3 import parse_smt2_string, Solver
 
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 from pearl.policy_learners.sequential_decision_making.soft_actor_critic import SoftActorCritic
 # from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import BootstrapReplayBuffer
 from pearl.replay_buffers.sequential_decision_making.bootstrap_replay_buffer import FIFOOffPolicyReplayBuffer
@@ -47,7 +51,7 @@ start = time.time()
 
 def test_group():
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     info_name = 'info_dict_gai_6_normal_0503_pre_llm_llama3.1:70b_1200s_QF_NIA.txt'
@@ -60,7 +64,7 @@ def test_group():
     else:
         info_dict = load_dictionary(info_name)
         print(f'文件已存在。')
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json', 'r') as file:
+    with open(config.get_baseline_path('QF_NIA_test'), 'r') as file:
 
         result_dict = json.load(file)
     #随机打乱
@@ -142,12 +146,12 @@ def test_group():
                         # device = torch.device("cpu")
                         # 更改了预测器
                         model = EnhancedClassifier()
-                        model_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth'  # 或者 'bert_predictor_mask_final.pth'
+                        model_path = os.path.join(config.get_model_dir('predictor'), 'smt_comp_NIA', 'QF_NIA_bert_predictor_mask_best_llm.pth')  # 或者 'bert_predictor_mask_final.pth'
                         state_dict = torch.load(model_path)
                         model.load_state_dict(state_dict)
                         model.eval()
                         model_time = EnhancedEightClassModelLargeInput()
-                        model_time.load_state_dict(torch.load('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth'))
+                        model_time.load_state_dict(torch.load(os.path.join(config.get_model_dir('predictor'), 'smt_comp_NIA', 'QF_NIA_bert_predictor_2_mask_best_model_llm.pth')))
                         model_time.eval()
                         env = ConstraintSimplificationEnv_test(embedder, assertions, model, model_time, smtlib_str,
                                                                file_path, var_dict, state)

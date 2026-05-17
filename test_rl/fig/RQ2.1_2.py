@@ -1,4 +1,8 @@
 import time
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
 import matplotlib.pyplot as plt
 from test_rl.test_script.utils import load_dictionary
@@ -101,7 +105,7 @@ def plot_solver_data_to_pdf(data, tool_name,path):
 
 # 为每个工具生成 PDF 文件
 # 解析数据字符串为字典
-data_dict = load_dictionary('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/result_dict_z3solver_300s.txt')
+data_dict = load_dictionary(config.get_baseline_path(result_dict_z3solver_300s))
 
 # # 调用函数为每个工具生成 PDF 文件
 # plot_solver_data_to_pdf(data_dict['buzybox_angr.tar.gz'], 'buzybox','Z3solver')

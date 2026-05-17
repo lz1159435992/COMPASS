@@ -6,7 +6,9 @@
 
 import sys
 import os
-sys.path.append('/home/<USER>/PycharmProjects/Pearl')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from test_rl.test_solve.test_solver_result import test_group_2_no_save_1207, test_group_cvc5_process_analysis
 
@@ -17,8 +19,14 @@ def demo_test_group_2_no_save_1207():
     print("=" * 80)
     
     # 文件路径
-    solve_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json'
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'
+    solve_name = os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results_rl.json')
+    info_name = os.path.join(
+        project_root,
+        'test_rl',
+        'smtimer_experiments',
+        'cvc5_process',
+        'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+    )
     
     # 方法1: 使用默认var_count路径
     print("方法1: 使用默认var_count路径")
@@ -34,7 +42,7 @@ def demo_test_group_2_no_save_1207():
     # 方法2: 使用自定义var_count路径
     print("方法2: 使用自定义var_count路径")
     print("-" * 40)
-    custom_var_count_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
+    custom_var_count_path = os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt')
     try:
         result_dict_2, time_dict_2, time_dict_2_2, info_dict_2 = test_group_2_no_save_1207(
             solve_name, info_name, custom_var_count_path
@@ -51,7 +59,13 @@ def demo_test_group_cvc5_process_analysis():
     print("=" * 80)
     
     # 文件路径
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt'
+    info_name = os.path.join(
+        project_root,
+        'test_rl',
+        'smtimer_experiments',
+        'cvc5_process',
+        'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+    )
     
     # 方法1: 使用默认var_count路径
     print("方法1: 使用默认var_count路径")
@@ -68,7 +82,7 @@ def demo_test_group_cvc5_process_analysis():
     # 方法2: 使用自定义var_count路径
     print("方法2: 使用自定义var_count路径")
     print("-" * 40)
-    custom_var_count_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
+    custom_var_count_path = os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt')
     try:
         result_dict_2, time_dict_2, time_dict_2_2, info_dict_2 = test_group_cvc5_process_analysis(
             info_name, custom_var_count_path
@@ -108,7 +122,7 @@ def compare_methods():
     print("-" * 40)
     print("• 用于筛选变量数量 > 5 的测试用例")
     print("• 支持使用不同的变量统计文件")
-    print("• 默认路径: /home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/var_count.txt")
+    print("• 默认路径: test_rl/test_solve/var_count.txt")
     print("• 可自定义路径，如: cvc5_smtimer_var_count.txt")
 
 def main():
@@ -118,9 +132,15 @@ def main():
     
     # 检查必要文件是否存在
     required_files = [
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_smtimer_results_rl.json',
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/cvc5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/cvc5_smtimer_var_count.txt'
+        os.path.join(project_root, 'test_rl', 'smtimer_experiments', 'cvc5_smtimer_results_rl.json'),
+        os.path.join(
+            project_root,
+            'test_rl',
+            'smtimer_experiments',
+            'cvc5_process',
+            'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_cvc5_0628.txt',
+        ),
+        os.path.join(project_root, 'test_rl', 'test_solve', 'cvc5_smtimer_var_count.txt'),
     ]
     
     missing_files = [f for f in required_files if not os.path.exists(f)]

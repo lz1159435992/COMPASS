@@ -1,5 +1,6 @@
 import json
 import random
+import sys
 
 import numpy as np
 import torch
@@ -10,6 +11,11 @@ from torch.utils.data import DataLoader, TensorDataset
 from torch.utils.data import Subset
 import glob
 import os
+
+# Repository configuration for portable paths
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+import config
+
 from test_rl.test_script.utils import parse_smt2_in_parts, process_smt_lib_string, fetch_data_as_dict, \
     solve_and_measure_time, model_to_dict, load_dictionary, extract_variables_from_smt2_content, normalize_variables, \
     normalize_smt_str, setup_logger
@@ -88,7 +94,7 @@ def train():
     with open('QF_NIA_train.json', 'r') as file:
         train_dict = json.load(file)
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
     # with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/embeding_QF_IDL.json', 'r') as file:
     #     embed_dict = json.load(file)
@@ -230,7 +236,7 @@ def train():
 def test():
     model = EnhancedClassifier()
 
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
 
     # 步骤3: 加载保存的状态字典
@@ -340,9 +346,9 @@ def test():
 
 def spilt_files():
     import random
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json', 'r') as file:
+    with open(os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'embeding_QF_NIA.json'), 'r') as file:
         result_dict = json.load(file)
-    with open('/home/<USER>/PycharmProjects/Pearl/test_rl/test_solve/NIA/NIA.json', 'r') as file:
+    with open(config.get_baseline_path('NIA'), 'r') as file:
         solve_dict = json.load(file)
     keys_to_delete = []
     for k, v in result_dict.items():

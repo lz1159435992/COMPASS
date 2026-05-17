@@ -16,6 +16,7 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 from rq5_hybrid_screening import HybridScreeningStrategy, main
+import config
 
 
 def run_small_experiment():
@@ -28,10 +29,10 @@ def run_small_experiment():
     
     # 实验参数
     args = type('Args', (), {
-        'source_constraints_path': '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt',
+        'source_constraints_path': config.get_external_file('info_dict_rl'),
         'output_path': 'rq5_small_experiment.json',
-        'binary_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_mask_best.pth',
-        'eight_class_model_path': '/home/<USER>/PycharmProjects/Pearl/test_rl/test_cvc5/predict_z3_process/models/bert_predictor_2_mask_best_model.pth',
+        'binary_model_path': os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'predict_z3_process', 'models', 'bert_predictor_mask_best.pth'),
+        'eight_class_model_path': os.path.join(config.TEST_RL_ROOT, 'test_cvc5', 'predict_z3_process', 'models', 'bert_predictor_2_mask_best_model.pth'),
         'solver': 'z3',
         'timeout': 1200,
         'num_samples': 20,  # 小规模测试

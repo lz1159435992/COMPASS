@@ -19,6 +19,10 @@ import os
 import json
 from z3.z3 import parse_smt2_string, Solver as Z3_Solver, sat, unsat, unknown
 import multiprocessing
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
 
 class SolverResult:
     def __init__(self, solve_time, result, model):
@@ -329,8 +333,8 @@ def get_Z3_result():
     info_dict = load_dictionary(info_name)
     file_paths = list(info_dict.keys())
     for i,e in enumerate(file_paths):
-        if '/home/<USER>/<CLOUD_DISK>/' in e:
-            file_paths[i] = file_paths[i].replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
+        if os.environ.get('SMT_CLOUD_DISK_PREFIX', '') and os.environ.get('SMT_CLOUD_DISK_PREFIX') in e:
+            file_paths[i] = config.resolve_data_path(file_paths[i], 'smtimer')
 
     solver_name = "z3"
     timeout = 1200  # 设置超时时间为1200秒
@@ -363,7 +367,7 @@ def get_Z3_result():
 
 def get_CVC5_result():
     file_paths = []
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
 
@@ -423,7 +427,7 @@ def get_CVC5_result():
 def get_CVC5_result_all():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/sibyl_3/src/networks/info_dict_rl.txt'
+    info_name = config.get_external_file('info_dict_rl')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "CVC5"
@@ -482,12 +486,12 @@ def get_CVC5_result_all():
 def get_MathSAT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/nju/constraint_solve_file/info_dict_rl.txt'
+    info_name = config.get_external_file('info_dict_rl')
     info_dict = load_dictionary(info_name)
     file_paths = list(info_dict.keys())
     for i,e in enumerate(file_paths):
-        if '/home/<USER>/<CLOUD_DISK>/' in e:
-            file_paths[i] = file_paths[i].replace('/home/<USER>/<CLOUD_DISK>/', '/home/nju/Downloads/')
+        if os.environ.get('SMT_CLOUD_DISK_PREFIX', '') and os.environ.get('SMT_CLOUD_DISK_PREFIX') in e:
+            file_paths[i] = config.resolve_data_path(file_paths[i], 'smtimer')
     solver_name = "MathSAT5"
     solver = MathSAT5Solver()
     timeout = 1200  # 设置超时时间为1200秒
@@ -541,7 +545,7 @@ def get_MathSAT_result():
 def get_OpenSMT_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "OpenSMT"
@@ -597,7 +601,7 @@ def get_OpenSMT_result():
 def get_Yices_result():
     file_paths = []
     setup_logger()
-    info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     info_dict = load_dictionary(info_name)
     file_paths = info_dict.keys()
     solver_name = "Yices"
@@ -667,7 +671,7 @@ if __name__ == "__main__":
     # get_Yices_result()
     # 运行测试用例
     # test_z3solver_basic_sat()
-    # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt'
+    # info_name = os.path.join(config.TEST_RL_ROOT, 'info_dict_gai_6_normal_1110_pre_SMTimer_llama3.1:70b_1200s_info_dict_rl.txt')
     # # info_name = '/home/<USER>/PycharmProjects/Pearl/test_rl/info_dict_gai_6_normal_1109_pre_SMTimer_llama3.1:70b_1200s.txt'
     #
     # info_dict = load_dictionary(info_name)

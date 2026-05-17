@@ -419,13 +419,13 @@ def main():
     parser = argparse.ArgumentParser(description='分析info_dict与日志中的求解时间差异')
     parser.add_argument('info_dict_path', nargs='?', 
                         help='info_dict文件路径',
-                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_mathsat5_0628.txt')
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'mathsat5_process', 'info_dict_SMTimer_llama3.1:70b_1200s_info_dict_rl_mathsat5_0628.txt'))
     parser.add_argument('log_dir', nargs='?',
                         help='日志目录路径',
-                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/log/run_2025-06-27_23-37-26')
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'mathsat5_process', 'log', 'run_2025-06-27_23-37-26'))
     parser.add_argument('--output', '-o', 
                         help='输出文件路径',
-                        default='/home/nju/PycharmProjects/Pearl/test_rl/test_cvc5/mathsat5_process/solver_time_analysis.json')
+                        default=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')), 'test_rl', 'smtimer_experiments', 'mathsat5_process', 'solver_time_analysis.json'))
     parser.add_argument('--update', '-u', action='store_true',
                         help='是否更新info_dict中的求解时间')
     parser.add_argument('--no-update', dest='update', action='store_false',

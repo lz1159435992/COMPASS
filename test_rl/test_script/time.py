@@ -5,6 +5,7 @@ from z3.z3 import Solver, parse_smt2_string,sat,unknown,unsat
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from z3 import *
+import config
 # def dfs_ast_for_vars(ast, var_names, visited, related_assertions_dict):
 #     """
 #     使用深度优先搜索（DFS）遍历AST，并检查是否包含给定的变量名列表中的任何一个变量名。
@@ -470,7 +471,7 @@ def extract_variables_from_smt2_content(content):
 
 
 print(time.time())
-file_path = '/home/<USER>/<CLOUD_DISK>/smt/gnu_angr.tar.gz/single_test/who/who86404'
+file_path = os.environ.get('TEST_SMT_FILE', '/tmp/smt_data/gnu_angr.tar.gz/single_test/who/who86404')
 with open('time.txt', "a") as file:
     file.write(f"当前测试文件:{file_path}\n")
 with open(file_path, 'r') as file:

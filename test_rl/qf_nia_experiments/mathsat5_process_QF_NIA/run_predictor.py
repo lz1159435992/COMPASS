@@ -3,11 +3,12 @@ import sys
 import json
 import time
 
-if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from loguru import logger
-from test_rl.test_QF_NIA.cvc5_process_QF_NIA import run_predictor as base_rp
+from test_rl.qf_nia_experiments.cvc5_process_QF_NIA import run_predictor as base_rp
 
 
 def load_config():
@@ -28,9 +29,9 @@ def _process_worker_mathsat(file_path, list1, embedding_path, shared_result, env
         import time as _time
         from z3.z3 import parse_smt2_string, Solver as Z3_Solver
         from pearl.utils.functional_utils.experimentation.set_seed import set_seed
-        from test_rl.test_QF_NIA.mathsat5_process_QF_NIA.train_predictor import EnhancedClassifier, EnhancedEightClassModelLargeInput
+        from test_rl.qf_nia_experiments.mathsat5_process_QF_NIA.train_predictor import EnhancedClassifier, EnhancedEightClassModelLargeInput
         from test_rl.test_script.utils import normalize_smt_str
-        from test_rl.test_QF_NIA.mathsat5_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
+        from test_rl.qf_nia_experiments.mathsat5_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
 
         if torch.cuda.is_available():
             torch.cuda.set_device(0)

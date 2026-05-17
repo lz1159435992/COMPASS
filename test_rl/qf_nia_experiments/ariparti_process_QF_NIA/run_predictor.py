@@ -8,8 +8,9 @@ import math
 from pathlib import Path
 
 # Ensure repo root on sys.path so that absolute package import works
-if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 # Ensure AriParti paths and binaries available
 try:
@@ -27,7 +28,8 @@ import project_bootstrap  # sets ARIPARTI sys.path/PATH
 from loguru import logger
 
 # Reuse the full experiment pipeline from cvc5 version
-from test_rl.test_QF_NIA.cvc5_process_QF_NIA import run_predictor as base_rp
+from test_rl.qf_nia_experiments.cvc5_process_QF_NIA import run_predictor as base_rp
+import config
 
 
 def load_config():
@@ -43,7 +45,7 @@ class AriPartiSolver:
     def __init__(self, cfg: dict):
         self.cfg = cfg or {}
         ariparti_cfg = self.cfg.get('ariparti', {})
-        home = ariparti_cfg.get('home') or os.environ.get('ARIPARTI_HOME') or '/home/<USER>/PycharmProjects/AriParti'
+        home = ariparti_cfg.get('home') or os.environ.get('ARIPARTI_HOME') or config.BVPARTI_HOME
         self.ariparti_home = home
         part_path = ariparti_cfg.get('partitioner_path', 'bin/partitioner')
         solver_path = ariparti_cfg.get('solver_path', 'bin/linux-prebuilt/base-solvers/cvc5-1.0.8')
@@ -131,9 +133,9 @@ def _process_worker_ariparti(file_path, list1, embedding_path, shared_result, en
         import traceback as _traceback
         from z3.z3 import parse_smt2_string, Solver as Z3_Solver
         from pearl.utils.functional_utils.experimentation.set_seed import set_seed
-        from test_rl.test_QF_NIA.ariparti_process_QF_NIA.train_predictor import EnhancedClassifier, EnhancedEightClassModelLargeInput
+        from test_rl.qf_nia_experiments.ariparti_process_QF_NIA.train_predictor import EnhancedClassifier, EnhancedEightClassModelLargeInput
         from test_rl.test_script.utils import normalize_smt_str
-        from test_rl.test_QF_NIA.ariparti_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
+        from test_rl.qf_nia_experiments.ariparti_process_QF_NIA.test_group_get_dis_smt_comp_bert_embeding_single import process_embeding
 
         # patch base get_solver in child (preserve original to avoid recursion)
         ariparti_solver_singleton = AriPartiSolver(config)

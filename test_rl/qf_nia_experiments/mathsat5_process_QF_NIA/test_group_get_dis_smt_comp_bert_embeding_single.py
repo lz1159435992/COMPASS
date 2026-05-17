@@ -20,8 +20,8 @@ from ollama import Client
 from loguru import logger
 
 # 添加项目路径
-if '/home/<USER>/PycharmProjects/Pearl' not in sys.path:
-    sys.path.insert(0, '/home/<USER>/PycharmProjects/Pearl')
+if config.REPO_ROOT not in sys.path:
+    sys.path.insert(0, config.REPO_ROOT)
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
 from test_rl.test_script.utils import (
     extract_variables_from_smt2_content,
@@ -30,6 +30,7 @@ from test_rl.test_script.utils import (
     timeout_handler,
     setup_logger,
 )
+import config
 
 
 def process_embeding(text, llm_host='http://172.29.7.221:32827', llm_model='llama3.1:70b'):
@@ -74,7 +75,7 @@ def test_group_bert_normalize_1by1_smt_name_2_QF_NIA():
     # 读取 MathSAT5 求解结果 JSON（用户指定路径）
     result_json_path = config.get('data', {}).get(
         'source',
-        '/home/<USER>/PycharmProjects/Pearl/test_rl/test_QF_NIA/mathsat5_QF_NIA.json',
+        os.path.join(config.TEST_RL_ROOT, 'test_QF_NIA', 'mathsat5_QF_NIA.json'),
     )
     with open(result_json_path, 'r') as file:
         result_dict = json.load(file)
@@ -83,7 +84,7 @@ def test_group_bert_normalize_1by1_smt_name_2_QF_NIA():
     result_dict = convert_timeout_to_unknown(result_dict)
 
     # 加载全局已有的embedding字典（从predictor目录）
-    global_embedding_file = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/embeding_QF_NIA.json'
+    global_embedding_file = os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'embeding_QF_NIA.json')
     if os.path.exists(global_embedding_file):
         with open(global_embedding_file, 'r') as file:
             global_embeding_dict = json.load(file)
@@ -290,8 +291,8 @@ def split_train_test_QF_NIA(embedding_dict_path=None):
     with open(embedding_dict_path, 'r') as file:
         embeding_dict = json.load(file)
 
-    original_train_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_train.json'
-    original_test_path = '/home/<USER>/PycharmProjects/Pearl/test_rl/predictor/smt_comp_NIA/QF_NIA_test.json'
+    original_train_path = os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_train.json')
+    original_test_path = os.path.join(config.TEST_RL_ROOT, 'predictor', 'smt_comp_NIA', 'QF_NIA_test.json')
 
     if os.path.exists(original_train_path) and os.path.exists(original_test_path):
         logger.info(f'读取原始训练/测试集划分')

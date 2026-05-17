@@ -350,6 +350,165 @@ python simulate_parallel_portfolio.py
 
 > **Note**: Run `python scripts/show_results.py --compute` to display all experimental results in formatted tables from the included data files.
 
+## Complete Workflow
+
+This section describes the end-to-end workflow for running COMPASS from scratch: collecting solver data, training predictors, and executing the RL+LLM pipeline.
+
+### Step 1: Collect Solver Ground Truth
+
+Before training predictors, you need baseline solver results (SAT/UNSAT labels and solving times) for your benchmark set.
+
+```python
+from z3 import *
+from test_rl.test_script.utils import solve_and_measure_time
+
+# Load an SMT2 constraint
+with open('path/to/constraint.smt2', 'r') as f:
+    smtlib_str = f.read()
+
+# Parse and solve
+assertions = parse_smt2_string(smtlib_str)
+solver = Solver()
+for a in assertions:
+    solver.add(a)
+
+result, model, time_taken = solve_and_measure_time(solver, timeout=600000)
+# result: sat/unsat/unknown
+# time_taken: solving time in seconds
+# model: variable assignment (if sat)
+```
+
+For batch processing, use the solver test scripts in `test_rl/test_solve/`. Results are saved as JSON/TXT files mapping benchmark identifiers to `[result, time, timeout, model_dict]`.
+
+### Step 2: Extract CodeBERT Embeddings
+
+Predictors use CodeBERT embeddings of the normalized SMT-LIB2 constraints as input features.
+
+```python
+from test_rl.bert_embedder_test import CodeEmbedder_normalize
+
+embedder = CodeEmbedder_normalize()
+
+# Normalize the constraint first
+from test_rl.test_script.utils import normalize_smt_str
+normalized, var_dict, constants = normalize_smt_str(smtlib_str)
+
+# Get embedding
+embedding = embedder.get_max_pooling_embedding(normalized)
+# embedding shape: (768,)
+```
+
+For batch feature extraction, the experiment scripts (`run_predictor.py`) automatically extract and cache embeddings to `features/` directories.
+
+### Step 3: Train Predictor Models
+
+COMPASS uses two predictors:
+
+| Predictor | Model File | Training Script | Input | Output |
+|-----------|-----------|-----------------|-------|--------|
+| Binary (SAT/UNSAT) | `bert_predictor_mask_best.pth` | `train_predictor.py --model_type binary` | CodeBERT embedding (768-d) | 0=sat, 1=unsat |
+| 8-Way Time | `bert_predictor_2_mask_best_model.pth` | `train_predictor.py --model_type eight_class` | CodeBERT embedding (768-d) | Time bin (0-7) |
+
+#### Training from Scratch
+
+```bash
+cd test_rl/smtimer_experiments/z3_process
+
+# 1. Prepare features and labels
+#    - features/: directory containing features_normal_*.npy files
+#    - labels.npy: binary SAT/UNSAT labels
+#    - time.npy: 8-way time classification labels
+
+# 2. Train binary predictor
+python train_predictor.py \
+    --model_type binary \
+    --features_dir features/ \
+    --labels_path labels.npy \
+    --save_path models/binary_classifier.pth
+
+# 3. Train 8-way time predictor
+python train_predictor.py \
+    --model_type eight_class \
+    --features_dir features/ \
+    --labels_path time.npy \
+    --save_path models/eight_class_model.pth
+```
+
+Each solver experiment directory (`test_rl/smtimer_experiments/*/`, `test_rl/qf_nia_experiments/*/`) contains its own `train_predictor.py` adapted to that benchmark/solver combination.
+
+#### Pre-trained Models
+
+Small model files (<50MB) are included in the repository. Large QF_NIA predictor models (>50MB) are excluded from git due to GitHub file size limits.
+
+| Model Set | Location | Size | Download |
+|-----------|----------|------|----------|
+| SMTimer predictors | `test_rl/smtimer_experiments/*/models/` | <1MB each | Included |
+| QF_NIA predictors | `test_rl/predictor/smt_comp_NIA/` | 75-103MB each | [Google Drive](<INSERT_LINK>) |
+
+To use pre-trained QF_NIA models, download and extract to `test_rl/predictor/smt_comp_NIA/`:
+
+```bash
+# After downloading QF_NIA_predictor_models.tar.gz
+tar -xzf QF_NIA_predictor_models.tar.gz -C /path/to/COMPASS
+```
+
+### Step 4: Run RL + LLM Experiments
+
+With predictors trained, execute the full COMPASS pipeline:
+
+```bash
+cd test_rl
+
+# SMTimer + Z3 (RQ1)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_info_dict_rl.py
+
+# QF_NIA + Z3 (RQ1)
+python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py
+```
+
+#### Environment Configuration
+
+The main experiment scripts load predictors from `config.py` paths. Ensure your model files are in the expected locations:
+
+```python
+# Binary predictor (SAT/UNSAT)
+test_rl/bert_predictor_mask_best.pth                    # SMTimer default
+test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth   # QF_NIA
+
+# Time predictor (8-way)
+test_rl/bert_predictor_2_mask_best_model.pth            # SMTimer default
+test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth  # QF_NIA
+```
+
+#### LLM Setup
+
+Experiments use Ollama for local LLM inference. The default models are:
+
+| Experiment | Default LLM |
+|------------|-------------|
+| SMTimer | `deepseek-r1:70b` |
+| QF_NIA | `llama3.1:70b` |
+
+Configure the LLM endpoint in the experiment script or via environment variables.
+
+### Workflow Summary
+
+```
+SMT2 Benchmarks
+       |
+       v
+[Solver Baseline] ---> labels.npy + time.npy
+       |
+       v
+[CodeBERT Embedding] ---> features/*.npy
+       |
+       v
+[Train Predictors] ---> binary_classifier.pth + eight_class_model.pth
+       |
+       v
+[RL + LLM Agent] ---> simplified constraints + improved solve times
+```
+
 ## Datasets
 
 ### Benchmarks Used

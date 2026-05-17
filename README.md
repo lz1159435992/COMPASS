@@ -443,7 +443,7 @@ Small model files (<50MB) are included in the repository. Large QF_NIA predictor
 | Model Set | Location | Size | Download |
 |-----------|----------|------|----------|
 | SMTimer predictors | `test_rl/smtimer_experiments/*/models/` | <1MB each | Included |
-| QF_NIA predictors | `test_rl/predictor/smt_comp_NIA/` | 75-103MB each | [Google Drive](<INSERT_LINK>) |
+| QF_NIA predictors | `test_rl/predictor/smt_comp_NIA/` | 75-103MB each | [Google Drive](https://drive.google.com/file/d/12pzzJ_qZThePu6_LOJMtK1MkJ3K5uyci/view?usp=sharing) |
 
 To use pre-trained QF_NIA models, download and extract to `test_rl/predictor/smt_comp_NIA/`:
 

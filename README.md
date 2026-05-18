@@ -75,7 +75,7 @@ Variables are renamed as `VAR1, VAR2, ...` based on descending structural import
 ### RL Training
 
 - **Algorithm**: Soft Actor-Critic (SAC)
-- **State**: Constraint embedding (CodeBERT) + history
+- **State**: Constraint embedding + history (768-d CodeBERT for SMTimer, 8192-d LLM for QF_NIA)
 - **Action**: Variable selection for simplification
 - **Reward**: Solver time improvement + predictor confidence
 
@@ -87,7 +87,7 @@ COMPASS/
 ├── test_rl/                         # COMPASS core code
 │   ├── smtimer_experiments/         # SMTimer benchmark experiments (multi-solver)
 │   ├── qf_nia_experiments/          # QF_NIA benchmark experiments
-│   ├── test_overfit/                # Predictor training scripts
+│   ├── test_overfit/                # Predictor model checkpoints
 │   ├── test_LLM/                    # LLM variable selection experiments
 │   ├── test_script/                 # Core utilities (variable normalization, etc.)
 │   ├── test_solve/                  # Baseline solver caches
@@ -380,9 +380,13 @@ result, model, time_taken = solve_and_measure_time(solver, timeout=600000)
 
 For batch processing, use the solver test scripts in `test_rl/test_solve/`. Results are saved as JSON/TXT files mapping benchmark identifiers to `[result, time, timeout, model_dict]`.
 
-### Step 2: Extract CodeBERT Embeddings
+### Step 2: Extract Constraint Embeddings
 
-Predictors use CodeBERT embeddings of the normalized SMT-LIB2 constraints as input features.
+COMPASS uses different embedding methods for each benchmark:
+
+#### SMTimer — CodeBERT Embeddings (768-d)
+
+SMTimer experiments use CodeBERT embeddings of the normalized SMT-LIB2 constraints.
 
 ```python
 from test_rl.bert_embedder_test import CodeEmbedder_normalize
@@ -398,16 +402,45 @@ embedding = embedder.get_max_pooling_embedding(normalized)
 # embedding shape: (768,)
 ```
 
+#### QF_NIA — LLM Embeddings (8192-d)
+
+QF_NIA experiments use LLM embeddings via Ollama (`llama3.1:70b`). The embedding dimension is 8192.
+
+```python
+from ollama import Client
+
+def process_embeding(text, llm_host='http://localhost:11434', llm_model='llama3.1:70b'):
+    client = Client(host=llm_host)
+    response = client.embeddings(model=llm_model, prompt=text, options={"temperature": 0})
+    return torch.tensor(response['embedding'])
+    # embedding shape: (8192,)
+
+# Normalize first, then get LLM embedding
+normalized, var_dict, constants = normalize_smt_str(smtlib_str)
+embedding = process_embeding(normalized)
+```
+
 For batch feature extraction, the experiment scripts (`run_predictor.py`) automatically extract and cache embeddings to `features/` directories.
 
 ### Step 3: Train Predictor Models
 
-COMPASS uses two predictors:
+COMPASS uses two predictors. The architecture differs by benchmark due to different embedding dimensions:
+
+**SMTimer Predictors (CodeBERT-based, 768-d input):**
 
 | Predictor | Model File | Training Script | Input | Output |
 |-----------|-----------|-----------------|-------|--------|
 | Binary (SAT/UNSAT) | `bert_predictor_mask_best.pth` | `train_predictor.py --model_type binary` | CodeBERT embedding (768-d) | 0=sat, 1=unsat |
 | 8-Way Time | `bert_predictor_2_mask_best_model.pth` | `train_predictor.py --model_type eight_class` | CodeBERT embedding (768-d) | Time bin (0-7) |
+
+**QF_NIA Predictors (LLM-based, 8192-d input):**
+
+| Predictor | Model File | Training Script | Input | Output |
+|-----------|-----------|-----------------|-------|--------|
+| Binary (SAT/UNSAT) | `QF_NIA_bert_predictor_mask_best_llm.pth` | `bert_predictor_mask_llm.py` | LLM embedding (8192-d) | 0=sat, 1=unsat |
+| 8-Way Time | `QF_NIA_bert_predictor_2_mask_best_model_llm.pth` | `bert_predictor_2_mask_llm.py` | LLM embedding (8192-d) | Time bin (0-7) |
+
+> **Note**: The `_llm` suffix on QF_NIA model files indicates they are trained on LLM embeddings (8192-d from `llama3.1:70b`), not CodeBERT embeddings. The QF_NIA RL agent uses `state_dim=8192` to match these embeddings.
 
 #### Training from Scratch
 
@@ -470,14 +503,22 @@ python test_group_gai_6_llm_add_ce_predictor_SMTimer_docker_QF_NIA.py
 
 The main experiment scripts load predictors from `config.py` paths. Ensure your model files are in the expected locations:
 
+**SMTimer (CodeBERT-based, 768-d input):**
 ```python
 # Binary predictor (SAT/UNSAT)
-test_rl/bert_predictor_mask_best.pth                    # SMTimer default
-test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth   # QF_NIA
+test_rl/bert_predictor_mask_best.pth          # SimpleClassifier(768→128→1)
 
 # Time predictor (8-way)
-test_rl/bert_predictor_2_mask_best_model.pth            # SMTimer default
-test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth  # QF_NIA
+test_rl/bert_predictor_2_mask_best_model.pth  # EnhancedEightClassModel(768→...→8)
+```
+
+**QF_NIA (LLM-based, 8192-d input):**
+```python
+# Binary predictor (SAT/UNSAT)
+test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_mask_best_llm.pth      # EnhancedClassifier(8192→...→1)
+
+# Time predictor (8-way)
+test_rl/predictor/smt_comp_NIA/QF_NIA_bert_predictor_2_mask_best_model_llm.pth  # EnhancedEightClassModelLargeInput(8192→...→8)
 ```
 
 #### LLM Setup
@@ -493,6 +534,8 @@ Configure the LLM endpoint in the experiment script or via environment variables
 
 ### Workflow Summary
 
+**SMTimer Pipeline:**
+
 ```
 SMT2 Benchmarks
        |
@@ -500,13 +543,31 @@ SMT2 Benchmarks
 [Solver Baseline] ---> labels.npy + time.npy
        |
        v
-[CodeBERT Embedding] ---> features/*.npy
+[CodeBERT Embedding (768-d)] ---> features/*.npy
        |
        v
-[Train Predictors] ---> binary_classifier.pth + eight_class_model.pth
+[Train Predictors (768-d input)] ---> binary_classifier.pth + eight_class_model.pth
        |
        v
-[RL + LLM Agent] ---> simplified constraints + improved solve times
+[RL + LLM Agent (state_dim=768)] ---> simplified constraints + improved solve times
+```
+
+**QF_NIA Pipeline:**
+
+```
+SMT2 Benchmarks
+       |
+       v
+[Solver Baseline] ---> labels.npy + time.npy
+       |
+       v
+[LLM Embedding via Ollama (8192-d)] ---> features/*.npy
+       |
+       v
+[Train Predictors (8192-d input)] ---> binary_classifier_llm.pth + eight_class_model_llm.pth
+       |
+       v
+[RL + LLM Agent (state_dim=8192)] ---> simplified constraints + improved solve times
 ```
 
 ## Datasets
@@ -545,10 +606,14 @@ QF_NIA benchmarks are from the SMT Competition.
 | Module | Location | Description |
 |--------|----------|-------------|
 | Variable Normalization | `test_rl/test_script/utils.py` | `normalize_smt_str()` function |
-| RL Environment | `test_rl/env_gai_6_llm_add_ce_predictor_docker.py` | COMPASS RL environment |
-| Binary Predictor | `test_rl/bert_predictor_mask.py` | SAT/UNSAT prediction |
-| Time Predictor | `test_rl/bert_predictor_2_mask.py` | 8-way time classification |
-| Embedding | `test_rl/embedding.py` | CodeBERT-based embedding |
+| RL Environment (SMTimer) | `test_rl/env_gai_6_llm_add_ce_predictor_docker.py` | COMPASS RL environment (state_dim=768) |
+| RL Environment (QF_NIA) | `test_rl/env_gai_6_llm_add_ce_predictor_docker_llm_embed.py` | COMPASS RL environment (state_dim=8192) |
+| Binary Predictor (SMTimer) | `test_rl/bert_predictor_mask.py` | SAT/UNSAT prediction (768-d input) |
+| Time Predictor (SMTimer) | `test_rl/bert_predictor_2_mask.py` | 8-way time classification (768-d input) |
+| Binary Predictor (QF_NIA) | `test_rl/predictor/smt_comp_NIA/bert_predictor_mask_llm.py` | SAT/UNSAT prediction (8192-d LLM input) |
+| Time Predictor (QF_NIA) | `test_rl/predictor/smt_comp_NIA/bert_predictor_2_mask_llm.py` | 8-way time classification (8192-d LLM input) |
+| CodeBERT Embedding | `test_rl/bert_embedder_test.py` | CodeBERT-based embedding (768-d, for SMTimer) |
+| LLM Embedding | `test_rl/qf_nia_experiments/*/test_group_get_dis_smt_comp_bert_embeding_single.py` | Ollama LLM embedding (8192-d, for QF_NIA) |
 
 ### Key Scripts
 
